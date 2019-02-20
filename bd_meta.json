@@ -1,0 +1,4730 @@
+{
+    "s-1": {
+        "auteur": "Alfred de Musset",
+        "date": "1830",
+        "titre sonnet": "Tristesse",
+        "titre recueil": "Poésies nouvelles"
+    },
+    "s-2": {
+        "auteur": "Alfred de Musset",
+        "date": "1830",
+        "titre sonnet": "Au Roi",
+        "titre recueil": "Poésies nouvelles"
+    },
+    "s-3": {
+        "auteur": "Alfred de Musset",
+        "date": "1830",
+        "titre sonnet": "A Alf. T",
+        "titre recueil": "Poésies nouvelles"
+    },
+    "s-4": {
+        "auteur": "Alfred de Musset",
+        "date": "1830",
+        "titre sonnet": "Le fils du Titien",
+        "titre recueil": "Poésies nouvelles"
+    },
+    "s-5": {
+        "auteur": "Alfred de Musset",
+        "date": "1830",
+        "titre sonnet": "Béatrice Donato",
+        "titre recueil": "Poésies nouvelles"
+    },
+    "s-6": {
+        "auteur": "Alfred de Musset",
+        "date": "1830",
+        "titre sonnet": "Jamais",
+        "titre recueil": "Poésies nouvelles"
+    },
+    "s-7": {
+        "auteur": "Alfred de Musset",
+        "date": "1830",
+        "titre sonnet": "Non, quand bien même",
+        "titre recueil": "Poésies nouvelles"
+    },
+    "s-8": {
+        "auteur": "Alfred de Musset",
+        "date": "1830",
+        "titre sonnet": "Marie",
+        "titre recueil": "Poésies nouvelles"
+    },
+    "s-9": {
+        "auteur": "Alfred de Musset",
+        "date": "1830",
+        "titre sonnet": "A Madame G",
+        "titre recueil": "Poésies nouvelles"
+    },
+    "s-10": {
+        "auteur": "Alfred de Musset",
+        "date": "1830",
+        "titre sonnet": "A M. V. H.",
+        "titre recueil": "Poésies nouvelles"
+    },
+    "s-11": {
+        "auteur": "Alfred de Musset",
+        "date": "1830",
+        "titre sonnet": "A M. A. T.",
+        "titre recueil": "Poésies nouvelles"
+    },
+    "s-12": {
+        "auteur": "Alfred de Musset",
+        "date": "1830",
+        "titre sonnet": "A Madame M.N",
+        "titre recueil": "Poésies nouvelles"
+    },
+    "s-13": {
+        "auteur": "Alfred de Musset",
+        "date": "1830",
+        "titre sonnet": "Sonnet au lecteur",
+        "titre recueil": "Poésies nouvelles"
+    },
+    "s-14": {
+        "auteur": "Alfred de Musset",
+        "date": "1830",
+        "titre sonnet": "Se voir le plus possible",
+        "titre recueil": "Poésies nouvelles"
+    },
+    "s-15": {
+        "auteur": "Alfred de Musset",
+        "date": "1888",
+        "titre sonnet": "A Madame ***",
+        "titre recueil": "Poésies posthumes"
+    },
+    "s-16": {
+        "auteur": "Alfred de Musset",
+        "date": "1888",
+        "titre sonnet": "Une promenade au Jardin des Plantes",
+        "titre recueil": "Poésies posthumes"
+    },
+    "s-17": {
+        "auteur": "Alfred de Musset",
+        "date": "1829",
+        "titre sonnet": "Au lecteur",
+        "titre recueil": "Premières poésies"
+    },
+    "s-18": {
+        "auteur": "Alfred de Musset",
+        "date": "1829",
+        "titre sonnet": "Des deux pièces qui suivent",
+        "titre recueil": "Premières poésies"
+    },
+    "s-19": {
+        "auteur": "Alfred de Musset",
+        "date": "1829",
+        "titre sonnet": "Que j'aime le premier frisson d'hiver",
+        "titre recueil": "Premières poésies"
+    },
+    "s-20": {
+        "auteur": "Alfred de Vigny",
+        "date": "Non renseignée",
+        "titre sonnet": "L'esprit parisien",
+        "titre recueil": "Non renseigné"
+    },
+    "s-21": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Alchimie de la douleur",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-22": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "A une dame créole",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-23": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Avec ses vêtements",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-24": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Bohémiens en voyage",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-25": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Brumes et pluies",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-26": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Causerie",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-27": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Correspondances",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-28": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "De profundis clamavi",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-29": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Duellum",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-30": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Horreur sympathique",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-31": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Je te donne ces vers",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-32": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "La beauté",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-33": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "La cloche fêlée",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-34": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "La géante",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-35": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "La muse malade",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-36": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "La mort des amants",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-37": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "La mort des pauvres",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-38": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "La muse vénale",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-39": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "La musique",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-40": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "La pipe",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-41": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "La vie antérieure",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-42": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Le cadre",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-43": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Le chat",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-44": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Le flambeau vivant",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-45": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Le guignon",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-46": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Le mauvais moine",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-47": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Le mort joyeux",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-48": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "L'aube spirituelle",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-49": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "L'ennemi",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-50": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Le parfum",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-51": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Le portrait",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-52": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Suite",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-53": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Le possédé",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-54": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Le revenant",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-55": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Le tonneau de la haine",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-56": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Les chats",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-57": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Les hiboux",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-58": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Les deux bonnes soeurs",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-59": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Les ténèbres",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-60": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "L'idéal",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-61": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Parfum exotique",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-62": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Que diras-tu ce soir",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-63": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Le Remords posthume",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-64": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Sed non satiata",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-65": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Suite",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-66": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Semper Eadem",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-67": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Sépulture d'un poète maudit",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-68": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Sisina",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-69": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Sonnet d'automne",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-70": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Tristesse de la lune",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-71": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Une gravure fantastique",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-72": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Une nuit que j'étais",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-73": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "La destruction",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-74": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "La fontaine de sang",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-75": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Les deux bonnes soeurs",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-76": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "La fin de la journée",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-77": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "La mort des amants",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-78": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "La mort des artistes",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-79": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "La mort des pauvres",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-80": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Le rêve d'un curieux",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-81": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Le vin des amants",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-82": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Le vin du solitaire",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-83": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "A une passante",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-84": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Les aveugles",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-85": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Le couché du soleil romantique",
+        "titre recueil": "Les FLeurs du mal"
+    },
+    "s-86": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "La lune offensée",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-87": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "La prière d'un païen",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-88": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Le couvercle",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-89": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Le gouffre",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-90": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Le rebelle",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-91": {
+        "auteur": "Charles Baudelaire",
+        "date": "1857",
+        "titre sonnet": "Recueillement",
+        "titre recueil": "Les Fleurs du mal"
+    },
+    "s-92": {
+        "auteur": "Charles Cros",
+        "date": "1873",
+        "titre sonnet": "La vie idéale",
+        "titre recueil": "Le Coffret de santal"
+    },
+    "s-93": {
+        "auteur": "Charles Cros",
+        "date": "1873",
+        "titre sonnet": "Aquarelle",
+        "titre recueil": "Le Coffret de santal"
+    },
+    "s-94": {
+        "auteur": "Charles Cros",
+        "date": "1873",
+        "titre sonnet": "Sonnet cabalistique",
+        "titre recueil": "Le Coffret de santal"
+    },
+    "s-95": {
+        "auteur": "Charles Cros",
+        "date": "1873",
+        "titre sonnet": "Sonnet d'Oaristys",
+        "titre recueil": "Le Coffret de santal"
+    },
+    "s-96": {
+        "auteur": "Charles Cros",
+        "date": "1873",
+        "titre sonnet": "A Madame N.",
+        "titre recueil": "Le Coffret de santal"
+    },
+    "s-97": {
+        "auteur": "Charles Cros",
+        "date": "1873",
+        "titre sonnet": "Croquis",
+        "titre recueil": "Le Coffret de santal"
+    },
+    "s-98": {
+        "auteur": "Charles Cros",
+        "date": "1873",
+        "titre sonnet": "A Mademoiselle S. de L.",
+        "titre recueil": "Le Coffret de santal"
+    },
+    "s-99": {
+        "auteur": "Charles Cros",
+        "date": "1873",
+        "titre sonnet": "Sur un éventail",
+        "titre recueil": "Le Coffret de santal"
+    },
+    "s-100": {
+        "auteur": "Charles Cros",
+        "date": "1873",
+        "titre sonnet": "Sonnet cabalistique",
+        "titre recueil": "Le Coffret de santal"
+    },
+    "s-101": {
+        "auteur": "Charles Cros",
+        "date": "1873",
+        "titre sonnet": "Sonnet astronomique",
+        "titre recueil": "Le Coffret de santal"
+    },
+    "s-102": {
+        "auteur": "Charles Cros",
+        "date": "1873",
+        "titre sonnet": "Sonnet madrigal",
+        "titre recueil": "Le Coffret de santal"
+    },
+    "s-103": {
+        "auteur": "Charles Cros",
+        "date": "1873",
+        "titre sonnet": "Soir éternel",
+        "titre recueil": "Le Coffret de santal"
+    },
+    "s-104": {
+        "auteur": "Charles Cros",
+        "date": "1873",
+        "titre sonnet": "A Madame Fanny A.P",
+        "titre recueil": "Le Coffret de santal"
+    },
+    "s-105": {
+        "auteur": "Charles Cros",
+        "date": "1873",
+        "titre sonnet": "Quand sur vos cheveux blonds",
+        "titre recueil": "Le Coffret de santal"
+    },
+    "s-106": {
+        "auteur": "Charles Cros",
+        "date": "1873",
+        "titre sonnet": "Révolte",
+        "titre recueil": "Le Coffret de santal"
+    },
+    "s-107": {
+        "auteur": "Charles Cros",
+        "date": "1873",
+        "titre sonnet": "A Madame de M.",
+        "titre recueil": "Le Coffret de santal"
+    },
+    "s-108": {
+        "auteur": "Charles Cros",
+        "date": "1873",
+        "titre sonnet": "A Madame S. C.",
+        "titre recueil": "Le Coffret de santal"
+    },
+    "s-109": {
+        "auteur": "Charles Cros",
+        "date": "1873",
+        "titre sonnet": "A Madame S. de F.",
+        "titre recueil": "Le Coffret de santal"
+    },
+    "s-110": {
+        "auteur": "Charles Cros",
+        "date": "1873",
+        "titre sonnet": "Scène d'atelier",
+        "titre recueil": "Le Coffret de santal"
+    },
+    "s-111": {
+        "auteur": "Charles Cros",
+        "date": "1873",
+        "titre sonnet": "A Mademoiselle Nelsy de S.",
+        "titre recueil": "Le Coffret de santal"
+    },
+    "s-112": {
+        "auteur": "Charles Cros",
+        "date": "1873",
+        "titre sonnet": "Don Juan",
+        "titre recueil": "Le Coffret de santal"
+    },
+    "s-113": {
+        "auteur": "Charles Cros",
+        "date": "1873",
+        "titre sonnet": "J'ai bâti dans ma fantaisie",
+        "titre recueil": "Le Coffret de santal"
+    },
+    "s-114": {
+        "auteur": "Charles Cros",
+        "date": "1873",
+        "titre sonnet": "Morale",
+        "titre recueil": "Le Coffret de santal"
+    },
+    "s-115": {
+        "auteur": "Charles Cros",
+        "date": "1873",
+        "titre sonnet": "Avenir",
+        "titre recueil": "Le Coffret de santal"
+    },
+    "s-116": {
+        "auteur": "Charles Cros",
+        "date": "1873",
+        "titre sonnet": "Memento",
+        "titre recueil": "Le Coffret de santal"
+    },
+    "s-117": {
+        "auteur": "Charles Cros",
+        "date": "1873",
+        "titre sonnet": "Tsigane",
+        "titre recueil": "Le Coffret de santal"
+    },
+    "s-118": {
+        "auteur": "Charles Cros",
+        "date": "1873",
+        "titre sonnet": "Délabrement",
+        "titre recueil": "Le Coffret de santal"
+    },
+    "s-119": {
+        "auteur": "Charles Cros",
+        "date": "1873",
+        "titre sonnet": "Sonnet métaphysique",
+        "titre recueil": "Le Coffret de santal"
+    },
+    "s-120": {
+        "auteur": "Charles Cros",
+        "date": "1873",
+        "titre sonnet": "Heures sereines",
+        "titre recueil": "Le Coffret de santal"
+    },
+    "s-121": {
+        "auteur": "Charles Cros",
+        "date": "1908",
+        "titre sonnet": "Banalité",
+        "titre recueil": "Le Collier de griffes"
+    },
+    "s-122": {
+        "auteur": "Charles Cros",
+        "date": "1908",
+        "titre sonnet": "Malgré tout",
+        "titre recueil": "Le Collier de griffes"
+    },
+    "s-123": {
+        "auteur": "Charles Cros",
+        "date": "1908",
+        "titre sonnet": "Banalité",
+        "titre recueil": "Le Collier de griffes"
+    },
+    "s-124": {
+        "auteur": "Charles Cros",
+        "date": "1908",
+        "titre sonnet": "Je sais faire des vers perpetuels",
+        "titre recueil": "Le Collier de griffes"
+    },
+    "s-125": {
+        "auteur": "Charles Cros",
+        "date": "1908",
+        "titre sonnet": "J'ai peur de la femme qui dort",
+        "titre recueil": "Le Collier de griffes"
+    },
+    "s-126": {
+        "auteur": "Charles Cros",
+        "date": "1908",
+        "titre sonnet": "Berceuse",
+        "titre recueil": "Le Collier de griffes"
+    },
+    "s-127": {
+        "auteur": "Charles Cros",
+        "date": "1908",
+        "titre sonnet": "Liberté",
+        "titre recueil": "Le Collier de griffes"
+    },
+    "s-128": {
+        "auteur": "Charles Cros",
+        "date": "1908",
+        "titre sonnet": "Galatée et Pygmalion",
+        "titre recueil": "Le Collier de griffes"
+    },
+    "s-129": {
+        "auteur": "Charles Cros",
+        "date": "1908",
+        "titre sonnet": "Il y a des moments",
+        "titre recueil": "Le Collier de griffes"
+    },
+    "s-130": {
+        "auteur": "Charles Cros",
+        "date": "1908",
+        "titre sonnet": "Je ne vous ferai pas de vers",
+        "titre recueil": "Le Collier de griffes"
+    },
+    "s-131": {
+        "auteur": "Charles Cros",
+        "date": "1908",
+        "titre sonnet": "Cueillette",
+        "titre recueil": "Le Collier de griffes"
+    },
+    "s-132": {
+        "auteur": "Charles Cros",
+        "date": "1908",
+        "titre sonnet": "Tableau de sainteté",
+        "titre recueil": "Le Collier de griffes"
+    },
+    "s-133": {
+        "auteur": "Charles Cros",
+        "date": "1908",
+        "titre sonnet": "Testaments",
+        "titre recueil": "Le Collier de griffes"
+    },
+    "s-134": {
+        "auteur": "Charles Cros",
+        "date": "1908",
+        "titre sonnet": "Almanach",
+        "titre recueil": "Le Collier de griffes"
+    },
+    "s-135": {
+        "auteur": "Charles Cros",
+        "date": "1908",
+        "titre sonnet": "Epoque perpétuelle",
+        "titre recueil": "Le Collier de griffes"
+    },
+    "s-136": {
+        "auteur": "Charles Cros",
+        "date": "1908",
+        "titre sonnet": "La robe de laine",
+        "titre recueil": "Le Collier de griffes"
+    },
+    "s-137": {
+        "auteur": "Charles Cros",
+        "date": "1908",
+        "titre sonnet": "Vent d'été",
+        "titre recueil": "Le Collier de griffes"
+    },
+    "s-138": {
+        "auteur": "Charles Cros",
+        "date": "1908",
+        "titre sonnet": "Quatorze vers à Victor Hugo",
+        "titre recueil": "Le Collier de griffes"
+    },
+    "s-139": {
+        "auteur": "Charles Cros",
+        "date": "1908",
+        "titre sonnet": "En cour d'assises",
+        "titre recueil": "Le Collier de griffes"
+    },
+    "s-140": {
+        "auteur": "Charles Cros",
+        "date": "1908",
+        "titre sonnet": "Dans la clairière",
+        "titre recueil": "Le Collier de griffes"
+    },
+    "s-141": {
+        "auteur": "Charles Cros",
+        "date": "1908",
+        "titre sonnet": "Les langues",
+        "titre recueil": "Le Collier de griffes"
+    },
+    "s-142": {
+        "auteur": "François Copée",
+        "date": "1887",
+        "titre sonnet": "Ruines du coeur",
+        "titre recueil": "Arrière-saison"
+    },
+    "s-143": {
+        "auteur": "François Copée",
+        "date": "1887",
+        "titre sonnet": "L'incorrigible",
+        "titre recueil": "Arrière-saison"
+    },
+    "s-144": {
+        "auteur": "François Copée",
+        "date": "1887",
+        "titre sonnet": "Retour",
+        "titre recueil": "Arrière-saison"
+    },
+    "s-145": {
+        "auteur": "François Copée",
+        "date": "1874",
+        "titre sonnet": "A Tolède",
+        "titre recueil": "Le Cahier rouge"
+    },
+    "s-146": {
+        "auteur": "François Copée",
+        "date": "1874",
+        "titre sonnet": "Matin d'octobre",
+        "titre recueil": "Le Cahier rouge"
+    },
+    "s-147": {
+        "auteur": "François Copée",
+        "date": "1874",
+        "titre sonnet": "Kabala",
+        "titre recueil": "Le Cahier rouge"
+    },
+    "s-148": {
+        "auteur": "François Copée",
+        "date": "1874",
+        "titre sonnet": "Désespérément",
+        "titre recueil": "Le Cahier rouge"
+    },
+    "s-149": {
+        "auteur": "François Copée",
+        "date": "1874",
+        "titre sonnet": "Le fils de Louis XI",
+        "titre recueil": "Le Cahier rouge"
+    },
+    "s-150": {
+        "auteur": "François Copée",
+        "date": "1874",
+        "titre sonnet": "Douleur bercée",
+        "titre recueil": "Le Cahier rouge"
+    },
+    "s-151": {
+        "auteur": "François Copée",
+        "date": "1874",
+        "titre sonnet": "Lutteurs forains",
+        "titre recueil": "Le Cahier rouge"
+    },
+    "s-152": {
+        "auteur": "François Copée",
+        "date": "1874",
+        "titre sonnet": "Au lion de Belfort",
+        "titre recueil": "Le Cahier rouge"
+    },
+    "s-153": {
+        "auteur": "François Copée",
+        "date": "1866",
+        "titre sonnet": "Solitude",
+        "titre recueil": "Le Reliquaire"
+    },
+    "s-154": {
+        "auteur": "François Copée",
+        "date": "1866",
+        "titre sonnet": "Le cabaret",
+        "titre recueil": "Le Reliquaire"
+    },
+    "s-155": {
+        "auteur": "François Copée",
+        "date": "1866",
+        "titre sonnet": "L'étape",
+        "titre recueil": "Le Reliquaire"
+    },
+    "s-156": {
+        "auteur": "François Copée",
+        "date": "1872",
+        "titre sonnet": "La soeur novice",
+        "titre recueil": "Les Humbles"
+    },
+    "s-157": {
+        "auteur": "François Copée",
+        "date": "1872",
+        "titre sonnet": "La famille du menuisier",
+        "titre recueil": "Les Humbles"
+    },
+    "s-158": {
+        "auteur": "François Copée",
+        "date": "1872",
+        "titre sonnet": "Le musée de marine",
+        "titre recueil": "Les Humbles"
+    },
+    "s-159": {
+        "auteur": "François Copée",
+        "date": "1872",
+        "titre sonnet": "Joujoux d'Allemagne",
+        "titre recueil": "Les Humbles"
+    },
+    "s-160": {
+        "auteur": "François Copée",
+        "date": "1878",
+        "titre sonnet": "Réponse",
+        "titre recueil": "L'Exilée"
+    },
+    "s-161": {
+        "auteur": "François Copée",
+        "date": "1878",
+        "titre sonnet": "Espoir timide",
+        "titre recueil": "L'Exilée"
+    },
+    "s-162": {
+        "auteur": "François Copée",
+        "date": "1878",
+        "titre sonnet": "Serment",
+        "titre recueil": "L'Exilée"
+    },
+    "s-163": {
+        "auteur": "François Copée",
+        "date": "1880",
+        "titre sonnet": "A une tulipe",
+        "titre recueil": "Poèmes divers"
+    },
+    "s-164": {
+        "auteur": "François Copée",
+        "date": "1880",
+        "titre sonnet": "Le feu follet",
+        "titre recueil": "Poèmes divers"
+    },
+    "s-165": {
+        "auteur": "François Copée",
+        "date": "1880",
+        "titre sonnet": "Ferrum est quod amant",
+        "titre recueil": "Poèmes divers"
+    },
+    "s-166": {
+        "auteur": "François Copée",
+        "date": "1880",
+        "titre sonnet": "Le lys",
+        "titre recueil": "Poèmes divers"
+    },
+    "s-167": {
+        "auteur": "François Copée",
+        "date": "1880",
+        "titre sonnet": "Le fils des armures",
+        "titre recueil": "Poèmes divers"
+    },
+    "s-168": {
+        "auteur": "Gérard de Nerval",
+        "date": "1854",
+        "titre sonnet": "El Desdichado",
+        "titre recueil": "Les Chimères"
+    },
+    "s-169": {
+        "auteur": "Gérard de Nerval",
+        "date": "1854",
+        "titre sonnet": "Myrtho",
+        "titre recueil": "Les Chimères"
+    },
+    "s-170": {
+        "auteur": "Gérard de Nerval",
+        "date": "1854",
+        "titre sonnet": "Horus",
+        "titre recueil": "Les Chimères"
+    },
+    "s-171": {
+        "auteur": "Gérard de Nerval",
+        "date": "1854",
+        "titre sonnet": "Antéros",
+        "titre recueil": "Les Chimères"
+    },
+    "s-172": {
+        "auteur": "Gérard de Nerval",
+        "date": "1854",
+        "titre sonnet": "Delfica",
+        "titre recueil": "Les Chimères"
+    },
+    "s-173": {
+        "auteur": "Gérard de Nerval",
+        "date": "1854",
+        "titre sonnet": "Artémis",
+        "titre recueil": "Les Chimères"
+    },
+    "s-174": {
+        "auteur": "Gérard de Nerval",
+        "date": "1854",
+        "titre sonnet": "Le Christ aux oliviers",
+        "titre recueil": "Les Chimères"
+    },
+    "s-175": {
+        "auteur": "Gérard de Nerval",
+        "date": "1854",
+        "titre sonnet": "Suite",
+        "titre recueil": "Les Chimères"
+    },
+    "s-176": {
+        "auteur": "Gérard de Nerval",
+        "date": "1854",
+        "titre sonnet": "Suite",
+        "titre recueil": "Les Chimères"
+    },
+    "s-177": {
+        "auteur": "Gérard de Nerval",
+        "date": "1854",
+        "titre sonnet": "Suite",
+        "titre recueil": "Les Chimères"
+    },
+    "s-178": {
+        "auteur": "Gérard de Nerval",
+        "date": "1854",
+        "titre sonnet": "Suite",
+        "titre recueil": "Les Chimères"
+    },
+    "s-179": {
+        "auteur": "Gérard de Nerval",
+        "date": "1854",
+        "titre sonnet": "Vers dorés",
+        "titre recueil": "Les Chimères"
+    },
+    "s-180": {
+        "auteur": "Gérard de Nerval",
+        "date": "1854",
+        "titre sonnet": "A Madame Sand",
+        "titre recueil": "Les Chimères"
+    },
+    "s-181": {
+        "auteur": "Gérard de Nerval",
+        "date": "1854",
+        "titre sonnet": "A Madame Aguado",
+        "titre recueil": "Les Chimères"
+    },
+    "s-182": {
+        "auteur": "Gérard de Nerval",
+        "date": "1854",
+        "titre sonnet": "A Hélène de Mecklembourg",
+        "titre recueil": "Les Chimères"
+    },
+    "s-183": {
+        "auteur": "Gérard de Nerval",
+        "date": "1854",
+        "titre sonnet": "La tête armée",
+        "titre recueil": "Les Chimères"
+    },
+    "s-184": {
+        "auteur": "Gérard de Nerval",
+        "date": "1877",
+        "titre sonnet": "Epitaphe",
+        "titre recueil": "Poésies diverses"
+    },
+    "s-185": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Artémis",
+        "titre recueil": "Les Trophées"
+    },
+    "s-186": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "La Chasse",
+        "titre recueil": "Les Trophées"
+    },
+    "s-187": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Nymphée",
+        "titre recueil": "Les Trophées"
+    },
+    "s-188": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Pan",
+        "titre recueil": "Les Trophées"
+    },
+    "s-189": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Le Bain des Nymphes",
+        "titre recueil": "Les Trophées"
+    },
+    "s-190": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Le Vase",
+        "titre recueil": "Les Trophées"
+    },
+    "s-191": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Ariane",
+        "titre recueil": "Les Trophées"
+    },
+    "s-192": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Bacchanale",
+        "titre recueil": "Les Trophées"
+    },
+    "s-193": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Le Réveil d'un Dieu",
+        "titre recueil": "Les Trophées"
+    },
+    "s-194": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "La Magicienne",
+        "titre recueil": "Les Trophées"
+    },
+    "s-195": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Sphinx",
+        "titre recueil": "Les Trophées"
+    },
+    "s-196": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Marsyas",
+        "titre recueil": "Les Trophées"
+    },
+    "s-197": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Le Chevrier",
+        "titre recueil": "Les Trophées"
+    },
+    "s-198": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Les Bergers",
+        "titre recueil": "Les Trophées"
+    },
+    "s-199": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Epigramme votive",
+        "titre recueil": "Les Trophées"
+    },
+    "s-200": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Epigramme funéraire",
+        "titre recueil": "Les Trophées"
+    },
+    "s-201": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Le Naufrage",
+        "titre recueil": "Les Trophées"
+    },
+    "s-202": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Le Laboureur",
+        "titre recueil": "Les Trophées"
+    },
+    "s-203": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "L'Esclave",
+        "titre recueil": "Les Trophées"
+    },
+    "s-204": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "La Prière du Mort",
+        "titre recueil": "Les Trophées"
+    },
+    "s-205": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "A Hermès Criophore",
+        "titre recueil": "Les Trophées"
+    },
+    "s-206": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "La Jeune Morte",
+        "titre recueil": "Les Trophées"
+    },
+    "s-207": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Regilla",
+        "titre recueil": "Les Trophées"
+    },
+    "s-208": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Le Coureur",
+        "titre recueil": "Les Trophées"
+    },
+    "s-209": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Le Cocher",
+        "titre recueil": "Les Trophées"
+    },
+    "s-210": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Sur l'Othrys",
+        "titre recueil": "Les Trophées"
+    },
+    "s-211": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "L'Oubli",
+        "titre recueil": "Les Trophées"
+    },
+    "s-212": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Némée",
+        "titre recueil": "Les Trophées"
+    },
+    "s-213": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Stymphale",
+        "titre recueil": "Les Trophées"
+    },
+    "s-214": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Nessus",
+        "titre recueil": "Les Trophées"
+    },
+    "s-215": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "La Centauresse",
+        "titre recueil": "Les Trophées"
+    },
+    "s-216": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Centaures et Lapithes",
+        "titre recueil": "Les Trophées"
+    },
+    "s-217": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Fuite de Centaures",
+        "titre recueil": "Les Trophées"
+    },
+    "s-218": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "La Naissance d'Aphrodite",
+        "titre recueil": "Les Trophées"
+    },
+    "s-219": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Jason et Médée",
+        "titre recueil": "Les Trophées"
+    },
+    "s-220": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Le Thermodon",
+        "titre recueil": "Les Trophées"
+    },
+    "s-221": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Andromède au Monstre",
+        "titre recueil": "Les Trophées"
+    },
+    "s-222": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Persée et Andromède",
+        "titre recueil": "Les Trophées"
+    },
+    "s-223": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Le Ravissement d'Andromède",
+        "titre recueil": "Les Trophées"
+    },
+    "s-224": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Médaille antique",
+        "titre recueil": "Les Trophées"
+    },
+    "s-225": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Les Funérailles",
+        "titre recueil": "Les Trophées"
+    },
+    "s-226": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Vendange",
+        "titre recueil": "Les Trophées"
+    },
+    "s-227": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "La Sieste",
+        "titre recueil": "Les Trophées"
+    },
+    "s-228": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Un Peintre",
+        "titre recueil": "Les Trophées"
+    },
+    "s-229": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Bretagne",
+        "titre recueil": "Les Trophées"
+    },
+    "s-230": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Floridum Mare",
+        "titre recueil": "Les Trophées"
+    },
+    "s-231": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Médaille",
+        "titre recueil": "Les Trophées"
+    },
+    "s-232": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Maris Stella",
+        "titre recueil": "Les Trophées"
+    },
+    "s-233": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Le Bain",
+        "titre recueil": "Les Trophées"
+    },
+    "s-234": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Blason Céleste",
+        "titre recueil": "Les Trophées"
+    },
+    "s-235": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Amor",
+        "titre recueil": "Les Trophées"
+    },
+    "s-236": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Mer montante",
+        "titre recueil": "Les Trophées"
+    },
+    "s-237": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Brise marine",
+        "titre recueil": "Les Trophées"
+    },
+    "s-238": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "La Conque",
+        "titre recueil": "Les Trophées"
+    },
+    "s-239": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Le Lit",
+        "titre recueil": "Les Trophées"
+    },
+    "s-240": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "La Mort de l'Aigle",
+        "titre recueil": "Les Trophées"
+    },
+    "s-241": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Plus Ultra",
+        "titre recueil": "Les Trophées"
+    },
+    "s-242": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "La Vie des Morts",
+        "titre recueil": "Les Trophées"
+    },
+    "s-243": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Au Tragédien E. Rossi",
+        "titre recueil": "Les Trophées"
+    },
+    "s-244": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Michel Ange",
+        "titre recueil": "Les Trophées"
+    },
+    "s-245": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Sur un Marbre brisé",
+        "titre recueil": "Les Trophées"
+    },
+    "s-246": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Vitrail",
+        "titre recueil": "Les Trophées"
+    },
+    "s-247": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Epiphanie",
+        "titre recueil": "Les Trophées"
+    },
+    "s-248": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Le Huchier de Nazareth",
+        "titre recueil": "Les Trophées"
+    },
+    "s-249": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "L'Estoc",
+        "titre recueil": "Les Trophées"
+    },
+    "s-250": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Médaille",
+        "titre recueil": "Les Trophées"
+    },
+    "s-251": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Suivant Pétrarque",
+        "titre recueil": "Les Trophées"
+    },
+    "s-252": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Sur le Livre des Amours de Pierre de Ronsard",
+        "titre recueil": "Les Trophées"
+    },
+    "s-253": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "La belle Viole",
+        "titre recueil": "Les Trophées"
+    },
+    "s-254": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Epitaphe",
+        "titre recueil": "Les Trophées"
+    },
+    "s-255": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Velin doré",
+        "titre recueil": "Les Trophées"
+    },
+    "s-256": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "La Dogaresse",
+        "titre recueil": "Les Trophées"
+    },
+    "s-257": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Sur le Pont-Vieux",
+        "titre recueil": "Les Trophées"
+    },
+    "s-258": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Le vieil Orfèvre",
+        "titre recueil": "Les Trophées"
+    },
+    "s-259": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "L'Epée",
+        "titre recueil": "Les Trophées"
+    },
+    "s-260": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "A Claudius Popelin",
+        "titre recueil": "Les Trophées"
+    },
+    "s-261": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Email",
+        "titre recueil": "Les Trophées"
+    },
+    "s-262": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Rêve d'Email",
+        "titre recueil": "Les Trophées"
+    },
+    "s-263": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Les Conquérants",
+        "titre recueil": "Les Trophées"
+    },
+    "s-264": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Jouvence",
+        "titre recueil": "Les Trophées"
+    },
+    "s-265": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Le Tombeau du Conquérant",
+        "titre recueil": "Les Trophées"
+    },
+    "s-266": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Carolo Quinto Imperante",
+        "titre recueil": "Les Trophées"
+    },
+    "s-267": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "L'Ancêtre",
+        "titre recueil": "Les Trophées"
+    },
+    "s-268": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "A un Fondateur de ville",
+        "titre recueil": "Les Trophées"
+    },
+    "s-269": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Au Même",
+        "titre recueil": "Les Trophées"
+    },
+    "s-270": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "A une Ville morte",
+        "titre recueil": "Les Trophées"
+    },
+    "s-271": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Midi. L'air brûle",
+        "titre recueil": "Les Trophées"
+    },
+    "s-272": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "La lune sur le Nil",
+        "titre recueil": "Les Trophées"
+    },
+    "s-273": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Et la foule grandit",
+        "titre recueil": "Les Trophées"
+    },
+    "s-274": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Le Prisonnier",
+        "titre recueil": "Les Trophées"
+    },
+    "s-275": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Le Samouraï",
+        "titre recueil": "Les Trophées"
+    },
+    "s-276": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "La Daïmio",
+        "titre recueil": "Les Trophées"
+    },
+    "s-277": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Fleurs de feu",
+        "titre recueil": "Les Trophées"
+    },
+    "s-278": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Fleur séculaire",
+        "titre recueil": "Les Trophées"
+    },
+    "s-279": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Le Récif de corail",
+        "titre recueil": "Les Trophées"
+    },
+    "s-280": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Pour le Vaisseau de Virgile",
+        "titre recueil": "Les Trophées"
+    },
+    "s-281": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Villula",
+        "titre recueil": "Les Trophées"
+    },
+    "s-282": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "La Flûte",
+        "titre recueil": "Les Trophées"
+    },
+    "s-283": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "A Sextius",
+        "titre recueil": "Les Trophées"
+    },
+    "s-284": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Le Trepidarium",
+        "titre recueil": "Les Trophées"
+    },
+    "s-285": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Tranquillus",
+        "titre recueil": "Les Trophées"
+    },
+    "s-286": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Lupercus",
+        "titre recueil": "Les Trophées"
+    },
+    "s-287": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "La Trebbia",
+        "titre recueil": "Les Trophées"
+    },
+    "s-288": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Après Cannes",
+        "titre recueil": "Les Trophées"
+    },
+    "s-289": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "A un Triomphateur",
+        "titre recueil": "Les Trophées"
+    },
+    "s-290": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "N'approche pas",
+        "titre recueil": "Les Trophées"
+    },
+    "s-291": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Respecte, Ô Voyageur",
+        "titre recueil": "Les Trophées"
+    },
+    "s-292": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Holà, maudits enfants!",
+        "titre recueil": "Les Trophées"
+    },
+    "s-293": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Entre donc",
+        "titre recueil": "Les Trophées"
+    },
+    "s-294": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Quel froid!",
+        "titre recueil": "Les Trophées"
+    },
+    "s-295": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Le Cydnus",
+        "titre recueil": "Les Trophées"
+    },
+    "s-296": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Soir de bataille",
+        "titre recueil": "Les Trophées"
+    },
+    "s-297": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Antoine et Cléopatre",
+        "titre recueil": "Les Trophées"
+    },
+    "s-298": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Le Voeu",
+        "titre recueil": "Les Trophées"
+    },
+    "s-299": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "La Source",
+        "titre recueil": "Les Trophées"
+    },
+    "s-300": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Le Dieu Hêtre",
+        "titre recueil": "Les Trophées"
+    },
+    "s-301": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "Aux Montagnes divines",
+        "titre recueil": "Les Trophées"
+    },
+    "s-302": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "L'Exilée",
+        "titre recueil": "Les Trophées"
+    },
+    "s-303": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1905",
+        "titre sonnet": "Les Rostres",
+        "titre recueil": "Revue des deux mondes"
+    },
+    "s-304": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1905",
+        "titre sonnet": "Hortorum Deus",
+        "titre recueil": "Revue des deux mondes"
+    },
+    "s-305": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1905",
+        "titre sonnet": "La Fileuse",
+        "titre recueil": "Revue des deux mondes"
+    },
+    "s-306": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1905",
+        "titre sonnet": "La Vision d'Ajax",
+        "titre recueil": "Revue des deux mondes"
+    },
+    "s-307": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1905",
+        "titre sonnet": "L'Enlèvement d'Antiope",
+        "titre recueil": "Revue des deux mondes"
+    },
+    "s-308": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1930",
+        "titre sonnet": "A André, Vicomte de Guerne",
+        "titre recueil": "Non renseigné"
+    },
+    "s-309": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1861-1862",
+        "titre sonnet": "La Mort d'Agamemnon",
+        "titre recueil": "Non renseigné"
+    },
+    "s-310": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1862",
+        "titre sonnet": "Hercule et Antée",
+        "titre recueil": "Non renseigné"
+    },
+    "s-311": {
+        "auteur": "José-Maria de Heredia",
+        "date": "1892",
+        "titre sonnet": "La Messe noire",
+        "titre recueil": "Non renseigné"
+    },
+    "s-312": {
+        "auteur": "Leconte de Lisle",
+        "date": "1895",
+        "titre sonnet": "L'Orient",
+        "titre recueil": "Derniers poèmes"
+    },
+    "s-313": {
+        "auteur": "Leconte de Lisle",
+        "date": "1862",
+        "titre sonnet": "L'Ecclésiaste",
+        "titre recueil": "Poèmes Barbares"
+    },
+    "s-314": {
+        "auteur": "Leconte de Lisle",
+        "date": "1862",
+        "titre sonnet": "Le Combat homérique",
+        "titre recueil": "Poèmes Barbares"
+    },
+    "s-315": {
+        "auteur": "Leconte de Lisle",
+        "date": "1862",
+        "titre sonnet": "Le Conseil du Fakir",
+        "titre recueil": "Poèmes Barbares"
+    },
+    "s-316": {
+        "auteur": "Leconte de Lisle",
+        "date": "1862",
+        "titre sonnet": "Suite",
+        "titre recueil": "Poèmes Barbares"
+    },
+    "s-317": {
+        "auteur": "Leconte de Lisle",
+        "date": "1862",
+        "titre sonnet": "Suite",
+        "titre recueil": "Poèmes Barbares"
+    },
+    "s-318": {
+        "auteur": "Leconte de Lisle",
+        "date": "1862",
+        "titre sonnet": "Suite",
+        "titre recueil": "Poèmes Barbares"
+    },
+    "s-319": {
+        "auteur": "Leconte de Lisle",
+        "date": "1862",
+        "titre sonnet": "Suite",
+        "titre recueil": "Poèmes Barbares"
+    },
+    "s-320": {
+        "auteur": "Leconte de Lisle",
+        "date": "1862",
+        "titre sonnet": "Suite",
+        "titre recueil": "Poèmes Barbares"
+    },
+    "s-321": {
+        "auteur": "Leconte de Lisle",
+        "date": "1862",
+        "titre sonnet": "Le Sommeil de Leïlah",
+        "titre recueil": "Poèmes Barbares"
+    },
+    "s-322": {
+        "auteur": "Leconte de Lisle",
+        "date": "1862",
+        "titre sonnet": "Les Montreurs",
+        "titre recueil": "Poèmes Barbares"
+    },
+    "s-323": {
+        "auteur": "Leconte de Lisle",
+        "date": "1862",
+        "titre sonnet": "La Mort d'un lion",
+        "titre recueil": "Poèmes Barbares"
+    },
+    "s-324": {
+        "auteur": "Leconte de Lisle",
+        "date": "1862",
+        "titre sonnet": "La Voeu suprême",
+        "titre recueil": "Poèmes Barbares"
+    },
+    "s-325": {
+        "auteur": "Leconte de Lisle",
+        "date": "1862",
+        "titre sonnet": "Aux Morts",
+        "titre recueil": "Poèmes Barbares"
+    },
+    "s-326": {
+        "auteur": "Leconte de Lisle",
+        "date": "1862",
+        "titre sonnet": "Aux modernes",
+        "titre recueil": "Poèmes Barbares"
+    },
+    "s-327": {
+        "auteur": "Leconte de Lisle",
+        "date": "1862",
+        "titre sonnet": "Fiat Nox",
+        "titre recueil": "Poèmes Barbares"
+    },
+    "s-328": {
+        "auteur": "Leconte de Lisle",
+        "date": "1862",
+        "titre sonnet": "La Mort du Soleil",
+        "titre recueil": "Poèmes Barbares"
+    },
+    "s-329": {
+        "auteur": "Leconte de Lisle",
+        "date": "1862",
+        "titre sonnet": "Paysage polaire",
+        "titre recueil": "Poèmes Barbares"
+    },
+    "s-330": {
+        "auteur": "Leconte de Lisle",
+        "date": "1855",
+        "titre sonnet": "Le Colibri",
+        "titre recueil": "Poèmes et Poésies"
+    },
+    "s-331": {
+        "auteur": "Leconte de Lisle",
+        "date": "1855",
+        "titre sonnet": "Les Bois, lavés par les rosées",
+        "titre recueil": "Poèmes et Poésies"
+    },
+    "s-332": {
+        "auteur": "Leconte de Lisle",
+        "date": "1855",
+        "titre sonnet": "Le Sacrifice",
+        "titre recueil": "Poèmes et Poésies"
+    },
+    "s-333": {
+        "auteur": "Leconte de Lisle",
+        "date": "1855",
+        "titre sonnet": "Les Oiseaux de proie",
+        "titre recueil": "Poèmes et Poésies"
+    },
+    "s-334": {
+        "auteur": "Leconte de Lisle",
+        "date": "1884",
+        "titre sonnet": "Le Parfum impérissable",
+        "titre recueil": "Poèmes tragiques"
+    },
+    "s-335": {
+        "auteur": "Leconte de Lisle",
+        "date": "1884",
+        "titre sonnet": "A un poète mort",
+        "titre recueil": "Poèmes tragiques"
+    },
+    "s-336": {
+        "auteur": "Stéphane Mallarmé",
+        "date": "1899",
+        "titre sonnet": "Salut",
+        "titre recueil": "Poésies"
+    },
+    "s-337": {
+        "auteur": "Stéphane Mallarmé",
+        "date": "1899",
+        "titre sonnet": "Renouveau",
+        "titre recueil": "Poésies"
+    },
+    "s-338": {
+        "auteur": "Stéphane Mallarmé",
+        "date": "1899",
+        "titre sonnet": "Remémoration d'amis belges",
+        "titre recueil": "Poésies"
+    },
+    "s-339": {
+        "auteur": "Stéphane Mallarmé",
+        "date": "1899",
+        "titre sonnet": "Le Tombeau de Charles Baudelaire",
+        "titre recueil": "Poésies"
+    },
+    "s-340": {
+        "auteur": "Stéphane Mallarmé",
+        "date": "1899",
+        "titre sonnet": "Tombeau",
+        "titre recueil": "Poésies"
+    },
+    "s-341": {
+        "auteur": "Stéphane Mallarmé",
+        "date": "1899",
+        "titre sonnet": "A la nue accablante tu",
+        "titre recueil": "Poésies"
+    },
+    "s-342": {
+        "auteur": "Stéphane Mallarmé",
+        "date": "1887",
+        "titre sonnet": "Placet futile",
+        "titre recueil": "La Revue Indépendante"
+    },
+    "s-343": {
+        "auteur": "Stéphane Mallarmé",
+        "date": "1887",
+        "titre sonnet": "Le Pitre châtié",
+        "titre recueil": "La Revue Indépendante"
+    },
+    "s-344": {
+        "auteur": "Stéphane Mallarmé",
+        "date": "1887",
+        "titre sonnet": "Angoisse",
+        "titre recueil": "La Revue Indépendante"
+    },
+    "s-345": {
+        "auteur": "Stéphane Mallarmé",
+        "date": "1887",
+        "titre sonnet": "Le Sonneur",
+        "titre recueil": "La Revue Indépendante"
+    },
+    "s-346": {
+        "auteur": "Stéphane Mallarmé",
+        "date": "1887",
+        "titre sonnet": "Tristesse d'été",
+        "titre recueil": "La Revue Indépendante"
+    },
+    "s-347": {
+        "auteur": "Stéphane Mallarmé",
+        "date": "1887",
+        "titre sonnet": "La vierge, le vivace",
+        "titre recueil": "La Revue Indépendante"
+    },
+    "s-348": {
+        "auteur": "Stéphane Mallarmé",
+        "date": "1887",
+        "titre sonnet": "Quand l'ombre menaça",
+        "titre recueil": "La Revue Indépendante"
+    },
+    "s-349": {
+        "auteur": "Stéphane Mallarmé",
+        "date": "1887",
+        "titre sonnet": "Victorieusement",
+        "titre recueil": "La Revue Indépendante"
+    },
+    "s-350": {
+        "auteur": "Stéphane Mallarmé",
+        "date": "1887",
+        "titre sonnet": "Ses purs ongles",
+        "titre recueil": "La Revue Indépendante"
+    },
+    "s-351": {
+        "auteur": "Stéphane Mallarmé",
+        "date": "1887",
+        "titre sonnet": "Tel qu'en lui-même",
+        "titre recueil": "La Revue Indépendante"
+    },
+    "s-352": {
+        "auteur": "Stéphane Mallarmé",
+        "date": "1887",
+        "titre sonnet": "Le silence déjà funèbre",
+        "titre recueil": "La Revue Indépendante"
+    },
+    "s-353": {
+        "auteur": "Stéphane Mallarmé",
+        "date": "1887",
+        "titre sonnet": "Mes bouqins refermés",
+        "titre recueil": "La Revue Indépendante"
+    },
+    "s-354": {
+        "auteur": "Stéphane Mallarmé",
+        "date": "1887",
+        "titre sonnet": "Quelle soie",
+        "titre recueil": "La Revue Indépendante"
+    },
+    "s-355": {
+        "auteur": "Stéphane Mallarmé",
+        "date": "1887",
+        "titre sonnet": "Tout orgueil",
+        "titre recueil": "La Revue Indépendante"
+    },
+    "s-356": {
+        "auteur": "Stéphane Mallarmé",
+        "date": "1887",
+        "titre sonnet": "Surgi de la croupe",
+        "titre recueil": "La Revue Indépendante"
+    },
+    "s-357": {
+        "auteur": "Stéphane Mallarmé",
+        "date": "1887",
+        "titre sonnet": "Une dentelle s'abolit",
+        "titre recueil": "La Revue Indépendante"
+    },
+    "s-358": {
+        "auteur": "Stéphane Mallarmé",
+        "date": "1887",
+        "titre sonnet": "M'introduire dans ton histoire",
+        "titre recueil": "La Revue Indépendante"
+    },
+    "s-359": {
+        "auteur": "Stéphane Mallarmé",
+        "date": "1887",
+        "titre sonnet": "Salut",
+        "titre recueil": "La Revue Indépendante"
+    },
+    "s-360": {
+        "auteur": "Stéphane Mallarmé",
+        "date": "1887",
+        "titre sonnet": "Renouveau",
+        "titre recueil": "La Revue Indépendante"
+    },
+    "s-361": {
+        "auteur": "Stéphane Mallarmé",
+        "date": "1887",
+        "titre sonnet": "Remémoration d'amis belges",
+        "titre recueil": "La Revue Indépendante"
+    },
+    "s-362": {
+        "auteur": "Stéphane Mallarmé",
+        "date": "1887",
+        "titre sonnet": "Le chevelure",
+        "titre recueil": "La Revue Indépendante"
+    },
+    "s-363": {
+        "auteur": "Stéphane Mallarmé",
+        "date": "1887",
+        "titre sonnet": "Eventail",
+        "titre recueil": "La Revue Indépendante"
+    },
+    "s-364": {
+        "auteur": "Stéphane Mallarmé",
+        "date": "1887",
+        "titre sonnet": "Sonnet",
+        "titre recueil": "La Revue Indépendante"
+    },
+    "s-365": {
+        "auteur": "Stéphane Mallarmé",
+        "date": "1887",
+        "titre sonnet": "Sonnet",
+        "titre recueil": "La Revue Indépendante"
+    },
+    "s-366": {
+        "auteur": "Paul Verlaine",
+        "date": "1866",
+        "titre sonnet": "Résignation",
+        "titre recueil": "Poèmes saturniens"
+    },
+    "s-367": {
+        "auteur": "Paul Verlaine",
+        "date": "1866",
+        "titre sonnet": "Nevermore",
+        "titre recueil": "Poèmes saturniens"
+    },
+    "s-368": {
+        "auteur": "Paul Verlaine",
+        "date": "1866",
+        "titre sonnet": "Après trois ans",
+        "titre recueil": "Poèmes saturniens"
+    },
+    "s-369": {
+        "auteur": "Paul Verlaine",
+        "date": "1866",
+        "titre sonnet": "Voeu",
+        "titre recueil": "Poèmes saturniens"
+    },
+    "s-370": {
+        "auteur": "Paul Verlaine",
+        "date": "1866",
+        "titre sonnet": "Lassitude",
+        "titre recueil": "Poèmes saturniens"
+    },
+    "s-371": {
+        "auteur": "Paul Verlaine",
+        "date": "1866",
+        "titre sonnet": "Mon rêve familier",
+        "titre recueil": "Poèmes saturniens"
+    },
+    "s-372": {
+        "auteur": "Paul Verlaine",
+        "date": "1866",
+        "titre sonnet": "A une femme",
+        "titre recueil": "Poèmes saturniens"
+    },
+    "s-373": {
+        "auteur": "Paul Verlaine",
+        "date": "1866",
+        "titre sonnet": "L'Angoisse",
+        "titre recueil": "Poèmes saturniens"
+    },
+    "s-374": {
+        "auteur": "Paul Verlaine",
+        "date": "1866",
+        "titre sonnet": "Femme et chatte",
+        "titre recueil": "Poèmes saturniens"
+    },
+    "s-375": {
+        "auteur": "Paul Verlaine",
+        "date": "1866",
+        "titre sonnet": "Une grande dame",
+        "titre recueil": "Poèmes saturniens"
+    },
+    "s-376": {
+        "auteur": "Paul Verlaine",
+        "date": "1866",
+        "titre sonnet": "Monsieur Prudhomme",
+        "titre recueil": "Poèmes saturniens"
+    },
+    "s-377": {
+        "auteur": "Paul Verlaine",
+        "date": "1866",
+        "titre sonnet": "Un Dahlia",
+        "titre recueil": "Poèmes saturniens"
+    },
+    "s-378": {
+        "auteur": "Paul Verlaine",
+        "date": "1881",
+        "titre sonnet": "Beauté des femmes",
+        "titre recueil": "Sagesse"
+    },
+    "s-379": {
+        "auteur": "Paul Verlaine",
+        "date": "1881",
+        "titre sonnet": "Ô vous",
+        "titre recueil": "Sagesse"
+    },
+    "s-380": {
+        "auteur": "Paul Verlaine",
+        "date": "1881",
+        "titre sonnet": "Les faux beaux jours",
+        "titre recueil": "Sagesse"
+    },
+    "s-381": {
+        "auteur": "Paul Verlaine",
+        "date": "1881",
+        "titre sonnet": "La vie humble",
+        "titre recueil": "Sagesse"
+    },
+    "s-382": {
+        "auteur": "Paul Verlaine",
+        "date": "1881",
+        "titre sonnet": "Sagesse d'un Louis Racine",
+        "titre recueil": "Sagesse"
+    },
+    "s-383": {
+        "auteur": "Paul Verlaine",
+        "date": "1881",
+        "titre sonnet": "Il fut gallican",
+        "titre recueil": "Sagesse"
+    },
+    "s-384": {
+        "auteur": "Paul Verlaine",
+        "date": "1881",
+        "titre sonnet": "Et j'ai revu l'enfant unique",
+        "titre recueil": "Sagesse"
+    },
+    "s-385": {
+        "auteur": "Paul Verlaine",
+        "date": "1881",
+        "titre sonnet": "Mon Dieu m'a dit",
+        "titre recueil": "Sagesse"
+    },
+    "s-386": {
+        "auteur": "Paul Verlaine",
+        "date": "1881",
+        "titre sonnet": "L'espoir luit comme un brin",
+        "titre recueil": "Sagesse"
+    },
+    "s-387": {
+        "auteur": "Paul Verlaine",
+        "date": "1881",
+        "titre sonnet": "Parfums, couleurs, lois",
+        "titre recueil": "Sagesse"
+    },
+    "s-388": {
+        "auteur": "Paul Verlaine",
+        "date": "1881",
+        "titre sonnet": "Le son du cor",
+        "titre recueil": "Sagesse"
+    },
+    "s-389": {
+        "auteur": "Paul Verlaine",
+        "date": "1881",
+        "titre sonnet": "La tristesse, langueur du corps humain",
+        "titre recueil": "Sagesse"
+    },
+    "s-390": {
+        "auteur": "Paul Verlaine",
+        "date": "1881",
+        "titre sonnet": "Sainte Thérèse",
+        "titre recueil": "Sagesse"
+    },
+    "s-391": {
+        "auteur": "Paul Verlaine",
+        "date": "1881",
+        "titre sonnet": "L'Idol",
+        "titre recueil": "Sagesse"
+    },
+    "s-392": {
+        "auteur": "Paul Verlaine",
+        "date": "1884",
+        "titre sonnet": "La Princesse Bérénice",
+        "titre recueil": "Jadis et Naguère"
+    },
+    "s-393": {
+        "auteur": "Paul Verlaine",
+        "date": "1884",
+        "titre sonnet": "Langueur",
+        "titre recueil": "Jadis et Naguère"
+    },
+    "s-394": {
+        "auteur": "Paul Verlaine",
+        "date": "1884",
+        "titre sonnet": "Le Poète et la Muse",
+        "titre recueil": "Jadis et Naguère"
+    },
+    "s-395": {
+        "auteur": "Paul Verlaine",
+        "date": "1884",
+        "titre sonnet": "L'Aube à l'envers",
+        "titre recueil": "Jadis et Naguère"
+    },
+    "s-396": {
+        "auteur": "Paul Verlaine",
+        "date": "1884",
+        "titre sonnet": "A la louange de Laure et de Pétrarque",
+        "titre recueil": "Jadis et Naguère"
+    },
+    "s-397": {
+        "auteur": "Paul Verlaine",
+        "date": "1884",
+        "titre sonnet": "Pierrot",
+        "titre recueil": "Jadis et Naguère"
+    },
+    "s-398": {
+        "auteur": "Paul Verlaine",
+        "date": "1884",
+        "titre sonnet": "Intérieur",
+        "titre recueil": "Jadis et Naguère"
+    },
+    "s-399": {
+        "auteur": "Paul Verlaine",
+        "date": "1884",
+        "titre sonnet": "A Horatio",
+        "titre recueil": "Jadis et Naguère"
+    },
+    "s-400": {
+        "auteur": "Paul Verlaine",
+        "date": "1884",
+        "titre sonnet": "Sonnet boiteux",
+        "titre recueil": "Jadis et Naguère"
+    },
+    "s-401": {
+        "auteur": "Paul Verlaine",
+        "date": "1884",
+        "titre sonnet": "Le Clown",
+        "titre recueil": "Jadis et Naguère"
+    },
+    "s-402": {
+        "auteur": "Paul Verlaine",
+        "date": "1884",
+        "titre sonnet": "Ecrits",
+        "titre recueil": "Jadis et Naguère"
+    },
+    "s-403": {
+        "auteur": "Paul Verlaine",
+        "date": "1884",
+        "titre sonnet": "Le Squelette",
+        "titre recueil": "Jadis et Naguère"
+    },
+    "s-404": {
+        "auteur": "Paul Verlaine",
+        "date": "1884",
+        "titre sonnet": "A Albert Merat",
+        "titre recueil": "Jadis et Naguère"
+    },
+    "s-405": {
+        "auteur": "Paul Verlaine",
+        "date": "1884",
+        "titre sonnet": "Le Pitre",
+        "titre recueil": "Jadis et Naguère"
+    },
+    "s-406": {
+        "auteur": "Paul Verlaine",
+        "date": "1884",
+        "titre sonnet": "Allégorie",
+        "titre recueil": "Jadis et Naguère"
+    },
+    "s-407": {
+        "auteur": "Paul Verlaine",
+        "date": "1884",
+        "titre sonnet": "L'Auberge",
+        "titre recueil": "Jadis et Naguère"
+    },
+    "s-408": {
+        "auteur": "Paul Verlaine",
+        "date": "1884",
+        "titre sonnet": "Circonspection",
+        "titre recueil": "Jadis et Naguère"
+    },
+    "s-409": {
+        "auteur": "Paul Verlaine",
+        "date": "1884",
+        "titre sonnet": "Vers pour être calomnié",
+        "titre recueil": "Jadis et Naguère"
+    },
+    "s-410": {
+        "auteur": "Paul Verlaine",
+        "date": "1884",
+        "titre sonnet": "Luxures",
+        "titre recueil": "Jadis et Naguère"
+    },
+    "s-411": {
+        "auteur": "Paul Verlaine",
+        "date": "1884",
+        "titre sonnet": "Vendanges",
+        "titre recueil": "Jadis et Naguère"
+    },
+    "s-412": {
+        "auteur": "Paul Verlaine",
+        "date": "1884",
+        "titre sonnet": "La Pucelle",
+        "titre recueil": "Jadis et Naguère"
+    },
+    "s-413": {
+        "auteur": "Paul Verlaine",
+        "date": "1888",
+        "titre sonnet": "A Louis II de Bavière",
+        "titre recueil": "Amour"
+    },
+    "s-414": {
+        "auteur": "Paul Verlaine",
+        "date": "1888",
+        "titre sonnet": "Parsifal",
+        "titre recueil": "Amour"
+    },
+    "s-415": {
+        "auteur": "Paul Verlaine",
+        "date": "1888",
+        "titre sonnet": "A Léon Valade",
+        "titre recueil": "Amour"
+    },
+    "s-416": {
+        "auteur": "Paul Verlaine",
+        "date": "1888",
+        "titre sonnet": "A Ernest Delahaye",
+        "titre recueil": "Amour"
+    },
+    "s-417": {
+        "auteur": "Paul Verlaine",
+        "date": "1888",
+        "titre sonnet": "A Emile Blémont",
+        "titre recueil": "Amour"
+    },
+    "s-418": {
+        "auteur": "Paul Verlaine",
+        "date": "1888",
+        "titre sonnet": "A Charles de Sivry",
+        "titre recueil": "Amour"
+    },
+    "s-419": {
+        "auteur": "Paul Verlaine",
+        "date": "1888",
+        "titre sonnet": "A Emmanuel Chabrier",
+        "titre recueil": "Amour"
+    },
+    "s-420": {
+        "auteur": "Paul Verlaine",
+        "date": "1888",
+        "titre sonnet": "A Edmond Thomas",
+        "titre recueil": "Amour"
+    },
+    "s-421": {
+        "auteur": "Paul Verlaine",
+        "date": "1888",
+        "titre sonnet": "A Charles Morice",
+        "titre recueil": "Amour"
+    },
+    "s-422": {
+        "auteur": "Paul Verlaine",
+        "date": "1888",
+        "titre sonnet": "A Maurice du Pleyssys",
+        "titre recueil": "Amour"
+    },
+    "s-423": {
+        "auteur": "Paul Verlaine",
+        "date": "1888",
+        "titre sonnet": "Suite",
+        "titre recueil": "Amour"
+    },
+    "s-424": {
+        "auteur": "Paul Verlaine",
+        "date": "1888",
+        "titre sonnet": "Le jour de la canonisation",
+        "titre recueil": "Amour"
+    },
+    "s-425": {
+        "auteur": "Paul Verlaine",
+        "date": "1888",
+        "titre sonnet": "Paraboles",
+        "titre recueil": "Amour"
+    },
+    "s-426": {
+        "auteur": "Paul Verlaine",
+        "date": "1888",
+        "titre sonnet": "Sonnet héroïque",
+        "titre recueil": "Amour"
+    },
+    "s-427": {
+        "auteur": "Paul Verlaine",
+        "date": "1888",
+        "titre sonnet": "Drapeau vrai",
+        "titre recueil": "Amour"
+    },
+    "s-428": {
+        "auteur": "Paul Verlaine",
+        "date": "1889",
+        "titre sonnet": "Pensionnaires",
+        "titre recueil": "Parallèlement"
+    },
+    "s-429": {
+        "auteur": "Paul Verlaine",
+        "date": "1889",
+        "titre sonnet": "Per amica silentia",
+        "titre recueil": "Parallèlement"
+    },
+    "s-430": {
+        "auteur": "Paul Verlaine",
+        "date": "1889",
+        "titre sonnet": "Printemps",
+        "titre recueil": "Parallèlement"
+    },
+    "s-431": {
+        "auteur": "Paul Verlaine",
+        "date": "1889",
+        "titre sonnet": "Eté",
+        "titre recueil": "Parallèlement"
+    },
+    "s-432": {
+        "auteur": "Paul Verlaine",
+        "date": "1889",
+        "titre sonnet": "Sapho",
+        "titre recueil": "Parallèlement"
+    },
+    "s-433": {
+        "auteur": "Paul Verlaine",
+        "date": "1889",
+        "titre sonnet": "Sur le balcon",
+        "titre recueil": "Parallèlement"
+    },
+    "s-434": {
+        "auteur": "Paul Verlaine",
+        "date": "1889",
+        "titre sonnet": "Explication",
+        "titre recueil": "Parallèlement"
+    },
+    "s-435": {
+        "auteur": "Paul Verlaine",
+        "date": "1889",
+        "titre sonnet": "Lombes",
+        "titre recueil": "Parallèlement"
+    },
+    "s-436": {
+        "auteur": "Paul Verlaine",
+        "date": "1889",
+        "titre sonnet": "Allégorie",
+        "titre recueil": "Parallèlement"
+    },
+    "s-437": {
+        "auteur": "Paul Verlaine",
+        "date": "1889",
+        "titre sonnet": "Le sonnet de l'homme au sable",
+        "titre recueil": "Parallèlement"
+    },
+    "s-438": {
+        "auteur": "Paul Verlaine",
+        "date": "1889",
+        "titre sonnet": "L'impudent",
+        "titre recueil": "Parallèlement"
+    },
+    "s-439": {
+        "auteur": "Paul Verlaine",
+        "date": "1891",
+        "titre sonnet": "L'incroyable, l'unique horreur de pardonner",
+        "titre recueil": "Bonheur"
+    },
+    "s-440": {
+        "auteur": "Paul Verlaine",
+        "date": "1891",
+        "titre sonnet": "Rompons!",
+        "titre recueil": "Bonheur"
+    },
+    "s-441": {
+        "auteur": "Paul Verlaine",
+        "date": "1891",
+        "titre sonnet": "Je voudrais, si ma vie était encore à faire",
+        "titre recueil": "Bonheur"
+    },
+    "s-442": {
+        "auteur": "Paul Verlaine",
+        "date": "1891",
+        "titre sonnet": "Suite",
+        "titre recueil": "Bonheur"
+    },
+    "s-443": {
+        "auteur": "Paul Verlaine",
+        "date": "1891",
+        "titre sonnet": "Suite",
+        "titre recueil": "Bonheur"
+    },
+    "s-444": {
+        "auteur": "Paul Verlaine",
+        "date": "1891",
+        "titre sonnet": "Vous m'avez demandé quelques vers",
+        "titre recueil": "Bonheur"
+    },
+    "s-445": {
+        "auteur": "Paul Verlaine",
+        "date": "1892",
+        "titre sonnet": "A Charles Baudelaire",
+        "titre recueil": "Liturgies intimes"
+    },
+    "s-446": {
+        "auteur": "Paul Verlaine",
+        "date": "1895",
+        "titre sonnet": "Bibliophilie",
+        "titre recueil": "Biblio-sonnets"
+    },
+    "s-447": {
+        "auteur": "Paul Verlaine",
+        "date": "1895",
+        "titre sonnet": "Bibliomanie",
+        "titre recueil": "Biblio-sonnets"
+    },
+    "s-448": {
+        "auteur": "Paul Verlaine",
+        "date": "1895",
+        "titre sonnet": "Bibliothèques",
+        "titre recueil": "Biblio-sonnets"
+    },
+    "s-449": {
+        "auteur": "Paul Verlaine",
+        "date": "1895",
+        "titre sonnet": "L'arrivée du catalogue",
+        "titre recueil": "Biblio-sonnets"
+    },
+    "s-450": {
+        "auteur": "Paul Verlaine",
+        "date": "1895",
+        "titre sonnet": "Edition originale contemporaine",
+        "titre recueil": "Biblio-sonnets"
+    },
+    "s-451": {
+        "auteur": "Paul Verlaine",
+        "date": "1895",
+        "titre sonnet": "Désappointement",
+        "titre recueil": "Biblio-sonnets"
+    },
+    "s-452": {
+        "auteur": "Paul Verlaine",
+        "date": "1895",
+        "titre sonnet": "Pauca mihi",
+        "titre recueil": "Biblio-sonnets"
+    },
+    "s-453": {
+        "auteur": "Paul Verlaine",
+        "date": "1895",
+        "titre sonnet": "Les quais",
+        "titre recueil": "Biblio-sonnets"
+    },
+    "s-454": {
+        "auteur": "Paul Verlaine",
+        "date": "1895",
+        "titre sonnet": "Bibliophobes",
+        "titre recueil": "Biblio-sonnets"
+    },
+    "s-455": {
+        "auteur": "Paul Verlaine",
+        "date": "1895",
+        "titre sonnet": "Suite",
+        "titre recueil": "Biblio-sonnets"
+    },
+    "s-456": {
+        "auteur": "Paul Verlaine",
+        "date": "1895",
+        "titre sonnet": "Bibliotaphe",
+        "titre recueil": "Biblio-sonnets"
+    },
+    "s-457": {
+        "auteur": "Paul Verlaine",
+        "date": "1895",
+        "titre sonnet": "Suite",
+        "titre recueil": "Biblio-sonnets"
+    },
+    "s-458": {
+        "auteur": "Paul Verlaine",
+        "date": "1895",
+        "titre sonnet": "Suite",
+        "titre recueil": "Biblio-sonnets"
+    },
+    "s-459": {
+        "auteur": "Paul Verlaine",
+        "date": "1896",
+        "titre sonnet": "Sonnet pour larmoyer",
+        "titre recueil": "Invectives"
+    },
+    "s-460": {
+        "auteur": "Paul Verlaine",
+        "date": "1896",
+        "titre sonnet": "Pour Moréas",
+        "titre recueil": "Invectives"
+    },
+    "s-461": {
+        "auteur": "Paul Verlaine",
+        "date": "1896",
+        "titre sonnet": "L'éternel sot",
+        "titre recueil": "Invectives"
+    },
+    "s-462": {
+        "auteur": "Paul Verlaine",
+        "date": "1896",
+        "titre sonnet": "A l'adresse d'aucuns",
+        "titre recueil": "Invectives"
+    },
+    "s-463": {
+        "auteur": "Paul Verlaine",
+        "date": "1896",
+        "titre sonnet": "Buste pour mairies",
+        "titre recueil": "Invectives"
+    },
+    "s-464": {
+        "auteur": "Paul Verlaine",
+        "date": "1896",
+        "titre sonnet": "Thomas Diafoirus",
+        "titre recueil": "Invectives"
+    },
+    "s-465": {
+        "auteur": "Paul Verlaine",
+        "date": "1896",
+        "titre sonnet": "Nébuleuses",
+        "titre recueil": "Invectives"
+    },
+    "s-466": {
+        "auteur": "Paul Verlaine",
+        "date": "1896",
+        "titre sonnet": "Ecrit pendant le siège de Paris",
+        "titre recueil": "Invectives"
+    },
+    "s-467": {
+        "auteur": "Paul Verlaine",
+        "date": "1896",
+        "titre sonnet": "Puero debetur reverentia",
+        "titre recueil": "Invectives"
+    },
+    "s-468": {
+        "auteur": "Paul Verlaine",
+        "date": "1896",
+        "titre sonnet": "A propos d'un procès intenté",
+        "titre recueil": "Invectives"
+    },
+    "s-469": {
+        "auteur": "Paul Verlaine",
+        "date": "1896",
+        "titre sonnet": "Pour dénoncer la Triplice",
+        "titre recueil": "Invectives"
+    },
+    "s-470": {
+        "auteur": "Paul Verlaine",
+        "date": "1896",
+        "titre sonnet": "A Marcel Schwob",
+        "titre recueil": "Invectives"
+    },
+    "s-471": {
+        "auteur": "Paul Verlaine",
+        "date": "1896",
+        "titre sonnet": "A Ernest Delahaye",
+        "titre recueil": "Invectives"
+    },
+    "s-472": {
+        "auteur": "Paul Verlaine",
+        "date": "1896",
+        "titre sonnet": "A Félicien Champsaur",
+        "titre recueil": "Invectives"
+    },
+    "s-473": {
+        "auteur": "Paul Verlaine",
+        "date": "1896",
+        "titre sonnet": "A Catulle Mendès",
+        "titre recueil": "Invectives"
+    },
+    "s-474": {
+        "auteur": "Paul Verlaine",
+        "date": "1896",
+        "titre sonnet": "A mon amie Eugénie",
+        "titre recueil": "Invectives"
+    },
+    "s-475": {
+        "auteur": "Paul Verlaine",
+        "date": "1896",
+        "titre sonnet": "Une folle entre dans ma vie",
+        "titre recueil": "Invectives"
+    },
+    "s-476": {
+        "auteur": "Paul Verlaine",
+        "date": "1896",
+        "titre sonnet": "Pour Mlle E... M...",
+        "titre recueil": "Invectives"
+    },
+    "s-477": {
+        "auteur": "Paul Verlaine",
+        "date": "1896",
+        "titre sonnet": "A la seule",
+        "titre recueil": "Invectives"
+    },
+    "s-478": {
+        "auteur": "Arthur Rimbaud",
+        "date": "1891",
+        "titre sonnet": "Voyelle",
+        "titre recueil": "Reliquaire"
+    },
+    "s-479": {
+        "auteur": "Arthur Rimbaud",
+        "date": "1891",
+        "titre sonnet": "Oraison du soir",
+        "titre recueil": "Reliquaire"
+    },
+    "s-480": {
+        "auteur": "Arthur Rimbaud",
+        "date": "1891",
+        "titre sonnet": "Vénus Anadyomène",
+        "titre recueil": "Reliquaire"
+    },
+    "s-481": {
+        "auteur": "Arthur Rimbaud",
+        "date": "1891",
+        "titre sonnet": "Mort",
+        "titre recueil": "Reliquaire"
+    },
+    "s-482": {
+        "auteur": "Arthur Rimbaud",
+        "date": "1891",
+        "titre sonnet": "Rages de Césars",
+        "titre recueil": "Reliquaire"
+    },
+    "s-483": {
+        "auteur": "Arthur Rimbaud",
+        "date": "1891",
+        "titre sonnet": "Le Mal",
+        "titre recueil": "Reliquaire"
+    },
+    "s-484": {
+        "auteur": "Arthur Rimbaud",
+        "date": "1891",
+        "titre sonnet": "Le Châtiment de Tartuffe",
+        "titre recueil": "Reliquaire"
+    },
+    "s-485": {
+        "auteur": "Arthur Rimbaud",
+        "date": "1891",
+        "titre sonnet": "Le Dormeur du Val",
+        "titre recueil": "Reliquaire"
+    },
+    "s-486": {
+        "auteur": "Arthur Rimbaud",
+        "date": "1891",
+        "titre sonnet": "Au Cabaret-Vert",
+        "titre recueil": "Reliquaire"
+    },
+    "s-487": {
+        "auteur": "Arthur Rimbaud",
+        "date": "1891",
+        "titre sonnet": "La Maline",
+        "titre recueil": "Reliquaire"
+    },
+    "s-488": {
+        "auteur": "Arthur Rimbaud",
+        "date": "1891",
+        "titre sonnet": "L'Eclatante Victoire de Sarrebruck",
+        "titre recueil": "Reliquaire"
+    },
+    "s-489": {
+        "auteur": "Arthur Rimbaud",
+        "date": "1891",
+        "titre sonnet": "Le Buffet",
+        "titre recueil": "Reliquaire"
+    },
+    "s-490": {
+        "auteur": "Arthur Rimbaud",
+        "date": "1891",
+        "titre sonnet": "Ma Bohême",
+        "titre recueil": "Reliquaire"
+    },
+    "s-491": {
+        "auteur": "Arthur Rimbaud",
+        "date": "1891",
+        "titre sonnet": "Poison perdu",
+        "titre recueil": "Reliquaire"
+    },
+    "s-492": {
+        "auteur": "Arthur Rimbaud",
+        "date": "1891",
+        "titre sonnet": "Rêvé pour l'Hiver",
+        "titre recueil": "Reliquaire"
+    },
+    "s-493": {
+        "auteur": "Arthur Rimbaud",
+        "date": "1891",
+        "titre sonnet": "Nos fesses ne sont pas les leurs",
+        "titre recueil": "Les Stupra"
+    },
+    "s-494": {
+        "auteur": "Arthur Rimbaud",
+        "date": "1891",
+        "titre sonnet": "Sonnet du Trou du Cul",
+        "titre recueil": "Les Stupra"
+    },
+    "s-495": {
+        "auteur": "Arthur Rimbaud",
+        "date": "1891",
+        "titre sonnet": "Les anciens animaux saillissaient",
+        "titre recueil": "Les Stupra"
+    },
+    "s-496": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1830",
+        "titre sonnet": "L'autre nuit",
+        "titre recueil": "Les Consolations"
+    },
+    "s-497": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1830",
+        "titre sonnet": "Sonnet, de Wordsworth",
+        "titre recueil": "Les Consolations"
+    },
+    "s-498": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1830",
+        "titre sonnet": "Sonnet, du même",
+        "titre recueil": "Les Consolations"
+    },
+    "s-499": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1830",
+        "titre sonnet": "A Boulanger",
+        "titre recueil": "Les Consolations"
+    },
+    "s-500": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1830",
+        "titre sonnet": "A Francfort-sur-le-Mein",
+        "titre recueil": "Les Consolations"
+    },
+    "s-501": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1830",
+        "titre sonnet": "A. V. H.",
+        "titre recueil": "Les Consolations"
+    },
+    "s-502": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1830",
+        "titre sonnet": "A Madame L.",
+        "titre recueil": "Les Consolations"
+    },
+    "s-503": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1837",
+        "titre sonnet": "Sainte Thérèse à Jésus crucifié",
+        "titre recueil": "Pensées d'août"
+    },
+    "s-504": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1837",
+        "titre sonnet": "A Madame",
+        "titre recueil": "Pensées d'août"
+    },
+    "s-505": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1837",
+        "titre sonnet": "Reposez-vous et remerciez",
+        "titre recueil": "Pensées d'août"
+    },
+    "s-506": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1837",
+        "titre sonnet": "La Cabane du Highlander",
+        "titre recueil": "Pensées d'août"
+    },
+    "s-507": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1837",
+        "titre sonnet": "Le Château de Bothwell",
+        "titre recueil": "Pensées d'août"
+    },
+    "s-508": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1837",
+        "titre sonnet": "A Madame la M. de C. ... Qui est à Dieppe",
+        "titre recueil": "Pensées d'août"
+    },
+    "s-509": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1837",
+        "titre sonnet": "A M. Roger d'A.",
+        "titre recueil": "Pensées d'août"
+    },
+    "s-510": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1837",
+        "titre sonnet": "A Madame G.",
+        "titre recueil": "Pensées d'août"
+    },
+    "s-511": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1837",
+        "titre sonnet": "A Madame M.",
+        "titre recueil": "Pensées d'août"
+    },
+    "s-512": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1837",
+        "titre sonnet": "A M. Justin Maurice",
+        "titre recueil": "Pensées d'août"
+    },
+    "s-513": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1837",
+        "titre sonnet": "Je cotoyais ce lac",
+        "titre recueil": "Pensées d'août"
+    },
+    "s-514": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1837",
+        "titre sonnet": "Mais dans l'autre moitié",
+        "titre recueil": "Pensées d'août"
+    },
+    "s-515": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1837",
+        "titre sonnet": "A Boulay-Paty",
+        "titre recueil": "Pensées d'août"
+    },
+    "s-516": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1837",
+        "titre sonnet": "A M. Paulin Limayrac",
+        "titre recueil": "Pensées d'août"
+    },
+    "s-517": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1837",
+        "titre sonnet": "A mon ami CH. Labitte",
+        "titre recueil": "Pensées d'août"
+    },
+    "s-518": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1863",
+        "titre sonnet": "De Ballaignes à Orbe",
+        "titre recueil": "Poésies complètes"
+    },
+    "s-519": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1863",
+        "titre sonnet": "De Ballaignes à Jougne",
+        "titre recueil": "Poésies complètes"
+    },
+    "s-520": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1863",
+        "titre sonnet": "En mars quand vient la bise",
+        "titre recueil": "Poésies complètes"
+    },
+    "s-521": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1863",
+        "titre sonnet": "Mais la bise a passé",
+        "titre recueil": "Poésies complètes"
+    },
+    "s-522": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1863",
+        "titre sonnet": "Et je songe au passé",
+        "titre recueil": "Poésies complètes"
+    },
+    "s-523": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1863",
+        "titre sonnet": "Traduit de Charles Lamb",
+        "titre recueil": "Poésies complètes"
+    },
+    "s-524": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1863",
+        "titre sonnet": "Ces jours derniers",
+        "titre recueil": "Poésies complètes"
+    },
+    "s-525": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1863",
+        "titre sonnet": "A Philothée",
+        "titre recueil": "Poésies complètes"
+    },
+    "s-526": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1863",
+        "titre sonnet": "A Madame *",
+        "titre recueil": "Poésies complètes"
+    },
+    "s-527": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1863",
+        "titre sonnet": "A la muse",
+        "titre recueil": "Poésies complètes"
+    },
+    "s-528": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1863",
+        "titre sonnet": "Réponse à Collombet",
+        "titre recueil": "Poésies complètes"
+    },
+    "s-529": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1863",
+        "titre sonnet": "Port-Royal des champs",
+        "titre recueil": "Poésies complètes"
+    },
+    "s-530": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1863",
+        "titre sonnet": "Réponse",
+        "titre recueil": "Poésies complètes"
+    },
+    "s-531": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1863",
+        "titre sonnet": "A Marmier",
+        "titre recueil": "Poésies complètes"
+    },
+    "s-532": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1863",
+        "titre sonnet": "Imité de Ruckert",
+        "titre recueil": "Poésies complètes"
+    },
+    "s-533": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1863",
+        "titre sonnet": "Imité de Bowles",
+        "titre recueil": "Poésies complètes"
+    },
+    "s-534": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1863",
+        "titre sonnet": "Imité de Justin Kerner",
+        "titre recueil": "Poésies complètes"
+    },
+    "s-535": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1863",
+        "titre sonnet": "Imité de Bowles",
+        "titre recueil": "Poésies complètes"
+    },
+    "s-536": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1863",
+        "titre sonnet": "Imité de Miss Caroline Bowles",
+        "titre recueil": "Poésies complètes"
+    },
+    "s-537": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1863",
+        "titre sonnet": "A Madame Desbordes-Valmore",
+        "titre recueil": "Poésies complètes"
+    },
+    "s-538": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1863",
+        "titre sonnet": "Le tombeau de Delille",
+        "titre recueil": "Poésies complètes"
+    },
+    "s-539": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1863",
+        "titre sonnet": "La jeunesse est passée",
+        "titre recueil": "Poésies complètes"
+    },
+    "s-540": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1863",
+        "titre sonnet": "Avignon m'apparaît",
+        "titre recueil": "Poésies complètes"
+    },
+    "s-541": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1863",
+        "titre sonnet": "A M. Alhonse Dulong",
+        "titre recueil": "Poésies complètes"
+    },
+    "s-542": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1863",
+        "titre sonnet": "Saint-Laurent-hors-des-murs",
+        "titre recueil": "Poésies complètes"
+    },
+    "s-543": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1863",
+        "titre sonnet": "J'ai vu le Pausilype",
+        "titre recueil": "Poésies complètes"
+    },
+    "s-544": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1863",
+        "titre sonnet": "Pardon chez Olivier",
+        "titre recueil": "Poésies complètes"
+    },
+    "s-545": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1863",
+        "titre sonnet": "Paix et douceur",
+        "titre recueil": "Poésies complètes"
+    },
+    "s-546": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1863",
+        "titre sonnet": "Traduit d'Uhland",
+        "titre recueil": "Poésies complètes"
+    },
+    "s-547": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1863",
+        "titre sonnet": "A Mademoiselle Frédérique",
+        "titre recueil": "Poésies complètes"
+    },
+    "s-548": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1863",
+        "titre sonnet": "A Mademoiselle Eliza",
+        "titre recueil": "Poésies complètes"
+    },
+    "s-549": {
+        "auteur": "Charles-Augustain Sainte-Beuve",
+        "date": "1863",
+        "titre sonnet": "Epilogue",
+        "titre recueil": "Poésies complètes"
+    },
+    "s-550": {
+        "auteur": "Sully Prudhomme",
+        "date": "1865",
+        "titre sonnet": "Il y a longtemps",
+        "titre recueil": "Stances et Poèmes"
+    },
+    "s-551": {
+        "auteur": "Sully Prudhomme",
+        "date": "1865",
+        "titre sonnet": "A une belle enfant",
+        "titre recueil": "Stances et Poèmes"
+    },
+    "s-552": {
+        "auteur": "Sully Prudhomme",
+        "date": "1865",
+        "titre sonnet": "La Puberté",
+        "titre recueil": "Stances et Poèmes"
+    },
+    "s-553": {
+        "auteur": "Sully Prudhomme",
+        "date": "1865",
+        "titre sonnet": "Devenir un portrait",
+        "titre recueil": "Stances et Poèmes"
+    },
+    "s-554": {
+        "auteur": "Sully Prudhomme",
+        "date": "1865",
+        "titre sonnet": "Sonnet",
+        "titre recueil": "Stances et Poèmes"
+    },
+    "s-555": {
+        "auteur": "Sully Prudhomme",
+        "date": "1865",
+        "titre sonnet": "A Madame A.G. de B.",
+        "titre recueil": "Stances et Poèmes"
+    },
+    "s-556": {
+        "auteur": "Sully Prudhomme",
+        "date": "1865",
+        "titre sonnet": "Sonnet",
+        "titre recueil": "Stances et Poèmes"
+    },
+    "s-557": {
+        "auteur": "Sully Prudhomme",
+        "date": "1865",
+        "titre sonnet": "Sonnet",
+        "titre recueil": "Stances et Poèmes"
+    },
+    "s-558": {
+        "auteur": "Sully Prudhomme",
+        "date": "1865",
+        "titre sonnet": "Rencontre",
+        "titre recueil": "Stances et Poèmes"
+    },
+    "s-559": {
+        "auteur": "Sully Prudhomme",
+        "date": "1865",
+        "titre sonnet": "A un trappiste",
+        "titre recueil": "Stances et Poèmes"
+    },
+    "s-560": {
+        "auteur": "Sully Prudhomme",
+        "date": "1865",
+        "titre sonnet": "Sonnet",
+        "titre recueil": "Stances et Poèmes"
+    },
+    "s-561": {
+        "auteur": "Sully Prudhomme",
+        "date": "1865",
+        "titre sonnet": "Le passé",
+        "titre recueil": "Stances et Poèmes"
+    },
+    "s-562": {
+        "auteur": "Sully Prudhomme",
+        "date": "1865",
+        "titre sonnet": "L'Ombre",
+        "titre recueil": "Stances et Poèmes"
+    },
+    "s-563": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "L'Inspiration",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-564": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "La Folle",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-565": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Envoi",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-566": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Les Danaïdes",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-567": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Conseil",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-568": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "La Note",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-569": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Inquiètude",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-570": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Trahison",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-571": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Profanation",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-572": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Au prodigue",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-573": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Les Blessures",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-574": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Fatalité",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-575": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Où vont-ils?",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-576": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "L'Art sauveur",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-577": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Sépulture",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-578": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Piété Hardie",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-579": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "La Prière",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-580": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Bonne mort",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-581": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "La Grande Ourse",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-582": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Cri perdu",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-583": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Tout ou rien",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-584": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "La Lutte",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-585": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Rouge ou noir",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-586": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Chez l'antiquaire",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-587": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Les Dieux",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-588": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Un Bonhomme",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-589": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Scrupule",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-590": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "La Confession",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-591": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Les Deux vertiges",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-592": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Doute",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-593": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Tombeau",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-594": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Repos",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-595": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Sieste",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-596": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Ether",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-597": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Sur l'eau",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-598": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Le Vent",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-599": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Hora Prima",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-600": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "A Kant",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-601": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "La Vie de loin",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-602": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Les Ailes",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-603": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Dernières vacances",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-604": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Fin du rêve",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-605": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Homo sum",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-606": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "La Patrie",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-607": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Un songe",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-608": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "L'Axe du monde",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-609": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "La Roue",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-610": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Le Fer",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-611": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Une damnée",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-612": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "L'Epée",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-613": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Aux conscrits",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-614": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Chagrin d'automne",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-615": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Dans l'abîme",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-616": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "En avant",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-617": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Réalisme",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-618": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Le Monde à nu",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-619": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Le Rendez-vous",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-620": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "Les Téméraires",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-621": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "La Joie",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-622": {
+        "auteur": "Sully Prudhomme",
+        "date": "1866",
+        "titre sonnet": "A Auguste Brachet",
+        "titre recueil": "Les Epreuves"
+    },
+    "s-623": {
+        "auteur": "Sully Prudhomme",
+        "date": "1869",
+        "titre sonnet": "A vingt ans",
+        "titre recueil": "Les Solitudes"
+    },
+    "s-624": {
+        "auteur": "Sully Prudhomme",
+        "date": "1869",
+        "titre sonnet": "La Grande Chartreuse",
+        "titre recueil": "Les Solitudes"
+    },
+    "s-625": {
+        "auteur": "Sully Prudhomme",
+        "date": "1869",
+        "titre sonnet": "Silence et nuit des bois",
+        "titre recueil": "Les Solitudes"
+    },
+    "s-626": {
+        "auteur": "Sully Prudhomme",
+        "date": "1869",
+        "titre sonnet": "De loin",
+        "titre recueil": "Les Solitudes"
+    },
+    "s-627": {
+        "auteur": "Sully Prudhomme",
+        "date": "1874",
+        "titre sonnet": "Qu'est-ce que la patrie?",
+        "titre recueil": "La France"
+    },
+    "s-628": {
+        "auteur": "Sully Prudhomme",
+        "date": "1874",
+        "titre sonnet": "Tous les vaincus",
+        "titre recueil": "La France"
+    },
+    "s-629": {
+        "auteur": "Sully Prudhomme",
+        "date": "1874",
+        "titre sonnet": "Les noms des vieux combats",
+        "titre recueil": "La France"
+    },
+    "s-630": {
+        "auteur": "Sully Prudhomme",
+        "date": "1874",
+        "titre sonnet": "Les races à déchoir",
+        "titre recueil": "La France"
+    },
+    "s-631": {
+        "auteur": "Sully Prudhomme",
+        "date": "1874",
+        "titre sonnet": "Grands morts",
+        "titre recueil": "La France"
+    },
+    "s-632": {
+        "auteur": "Sully Prudhomme",
+        "date": "1874",
+        "titre sonnet": "Tout le peuple passé",
+        "titre recueil": "La France"
+    },
+    "s-633": {
+        "auteur": "Sully Prudhomme",
+        "date": "1874",
+        "titre sonnet": "Comme un astre ébauché",
+        "titre recueil": "La France"
+    },
+    "s-634": {
+        "auteur": "Sully Prudhomme",
+        "date": "1874",
+        "titre sonnet": "S'il faut qu'un jour",
+        "titre recueil": "La France"
+    },
+    "s-635": {
+        "auteur": "Sully Prudhomme",
+        "date": "1874",
+        "titre sonnet": "Mais hélas",
+        "titre recueil": "La France"
+    },
+    "s-636": {
+        "auteur": "Sully Prudhomme",
+        "date": "1875",
+        "titre sonnet": "En ces temps",
+        "titre recueil": "Les Vaines Tendresse"
+    },
+    "s-637": {
+        "auteur": "Sully Prudhomme",
+        "date": "1875",
+        "titre sonnet": "Invitation à la valse",
+        "titre recueil": "Les Vaines Tendresse"
+    },
+    "s-638": {
+        "auteur": "Sully Prudhomme",
+        "date": "1875",
+        "titre sonnet": "La Coupe",
+        "titre recueil": "Les Vaines Tendresse"
+    },
+    "s-639": {
+        "auteur": "Sully Prudhomme",
+        "date": "1875",
+        "titre sonnet": "Silence",
+        "titre recueil": "Les Vaines Tendresse"
+    },
+    "s-640": {
+        "auteur": "Sully Prudhomme",
+        "date": "1875",
+        "titre sonnet": "Les Infidèles",
+        "titre recueil": "Les Vaines Tendresse"
+    },
+    "s-641": {
+        "auteur": "Sully Prudhomme",
+        "date": "1875",
+        "titre sonnet": "Juin",
+        "titre recueil": "Les Vaines Tendresse"
+    },
+    "s-642": {
+        "auteur": "Sully Prudhomme",
+        "date": "1875",
+        "titre sonnet": "La Volupté",
+        "titre recueil": "Les Vaines Tendresse"
+    },
+    "s-643": {
+        "auteur": "Sully Prudhomme",
+        "date": "1875",
+        "titre sonnet": "Les Deux Chutes",
+        "titre recueil": "Les Vaines Tendresse"
+    },
+    "s-644": {
+        "auteur": "Sully Prudhomme",
+        "date": "1875",
+        "titre sonnet": "L'Indifférence",
+        "titre recueil": "Les Vaines Tendresse"
+    },
+    "s-645": {
+        "auteur": "Sully Prudhomme",
+        "date": "1875",
+        "titre sonnet": "L'Art trahi",
+        "titre recueil": "Les Vaines Tendresse"
+    },
+    "s-646": {
+        "auteur": "Sully Prudhomme",
+        "date": "1875",
+        "titre sonnet": "Souhait",
+        "titre recueil": "Les Vaines Tendresse"
+    },
+    "s-647": {
+        "auteur": "Sully Prudhomme",
+        "date": "1875",
+        "titre sonnet": "Trop tard",
+        "titre recueil": "Les Vaines Tendresse"
+    },
+    "s-648": {
+        "auteur": "Sully Prudhomme",
+        "date": "1875",
+        "titre sonnet": "Les Amours terrestres",
+        "titre recueil": "Les Vaines Tendresse"
+    },
+    "s-649": {
+        "auteur": "Sully Prudhomme",
+        "date": "1875",
+        "titre sonnet": "L'Etranger",
+        "titre recueil": "Les Vaines Tendresse"
+    },
+    "s-650": {
+        "auteur": "Sully Prudhomme",
+        "date": "1875",
+        "titre sonnet": "Le Lit de Procuste",
+        "titre recueil": "Les Vaines Tendresse"
+    },
+    "s-651": {
+        "auteur": "Sully Prudhomme",
+        "date": "1875",
+        "titre sonnet": "Le Temps perdu",
+        "titre recueil": "Les Vaines Tendresse"
+    },
+    "s-652": {
+        "auteur": "Sully Prudhomme",
+        "date": "1875",
+        "titre sonnet": "Les Fils",
+        "titre recueil": "Les Vaines Tendresse"
+    },
+    "s-653": {
+        "auteur": "Sully Prudhomme",
+        "date": "1875",
+        "titre sonnet": "L'Automne",
+        "titre recueil": "Les Vaines Tendresse"
+    },
+    "s-654": {
+        "auteur": "Sully Prudhomme",
+        "date": "1875",
+        "titre sonnet": "A l'Océan",
+        "titre recueil": "Les Vaines Tendresse"
+    },
+    "s-655": {
+        "auteur": "Sully Prudhomme",
+        "date": "1875",
+        "titre sonnet": "A Ronsard",
+        "titre recueil": "Les Vaines Tendresse"
+    },
+    "s-656": {
+        "auteur": "Sully Prudhomme",
+        "date": "1875",
+        "titre sonnet": "A Théophile Gautier",
+        "titre recueil": "Les Vaines Tendresse"
+    },
+    "s-657": {
+        "auteur": "Sully Prudhomme",
+        "date": "1875",
+        "titre sonnet": "Aux Poètes futurs",
+        "titre recueil": "Les Vaines Tendresse"
+    },
+    "s-658": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "Le Fleuve",
+        "titre recueil": "Epaves"
+    },
+    "s-659": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "La Fontaine de Jouvence",
+        "titre recueil": "Epaves"
+    },
+    "s-660": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "Le premier Amour",
+        "titre recueil": "Epaves"
+    },
+    "s-661": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "Sereine Vengeance",
+        "titre recueil": "Epaves"
+    },
+    "s-662": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "Pitié tardive",
+        "titre recueil": "Epaves"
+    },
+    "s-663": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "La Beauté fait croire",
+        "titre recueil": "Epaves"
+    },
+    "s-664": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "Immortelle",
+        "titre recueil": "Epaves"
+    },
+    "s-665": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "Ah! Le cours de mes ans",
+        "titre recueil": "Epaves"
+    },
+    "s-666": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "Les Filles du Diable",
+        "titre recueil": "Epaves"
+    },
+    "s-667": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "La Jalousie",
+        "titre recueil": "Epaves"
+    },
+    "s-668": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "Secret d'Enfant",
+        "titre recueil": "Epaves"
+    },
+    "s-669": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "La Vénus de Milo",
+        "titre recueil": "Epaves"
+    },
+    "s-670": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "La Science",
+        "titre recueil": "Epaves"
+    },
+    "s-671": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "Science et Charité",
+        "titre recueil": "Epaves"
+    },
+    "s-672": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "La Création",
+        "titre recueil": "Epaves"
+    },
+    "s-673": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "L'Escrime",
+        "titre recueil": "Epaves"
+    },
+    "s-674": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "Muse adolescente",
+        "titre recueil": "Epaves"
+    },
+    "s-675": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "Le Grelot",
+        "titre recueil": "Epaves"
+    },
+    "s-676": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "La Jacinthe",
+        "titre recueil": "Epaves"
+    },
+    "s-677": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "La Charité en 1870",
+        "titre recueil": "Epaves"
+    },
+    "s-678": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "A Remy Belleau",
+        "titre recueil": "Epaves"
+    },
+    "s-679": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "A Alfred de Vigny",
+        "titre recueil": "Epaves"
+    },
+    "s-680": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "A Jacques Richard",
+        "titre recueil": "Epaves"
+    },
+    "s-681": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "A Marceline Desbordes-Valmore",
+        "titre recueil": "Epaves"
+    },
+    "s-682": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "Aux Mânes d'Albert Glatigny",
+        "titre recueil": "Epaves"
+    },
+    "s-683": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "A Théodore de Banville",
+        "titre recueil": "Epaves"
+    },
+    "s-684": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "A Leconte de Lisle",
+        "titre recueil": "Epaves"
+    },
+    "s-685": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "A Jean Aicard",
+        "titre recueil": "Epaves"
+    },
+    "s-686": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "A la Grèce",
+        "titre recueil": "Epaves"
+    },
+    "s-687": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "Préface d'un album",
+        "titre recueil": "Epaves"
+    },
+    "s-688": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "Aux Jeunes",
+        "titre recueil": "Epaves"
+    },
+    "s-689": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "Le Château de Vaux",
+        "titre recueil": "Epaves"
+    },
+    "s-690": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "A Sa Majesté Oscar II",
+        "titre recueil": "Epaves"
+    },
+    "s-691": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "A Vasco de Gama",
+        "titre recueil": "Epaves"
+    },
+    "s-692": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "A André Chenier",
+        "titre recueil": "Epaves"
+    },
+    "s-693": {
+        "auteur": "Sully Prudhomme",
+        "date": "1908",
+        "titre sonnet": "A un joeune Poète Boër",
+        "titre recueil": "Epaves"
+    },
+    "s-694": {
+        "auteur": "Théodore de Banville",
+        "date": "1843",
+        "titre sonnet": "Amours d'Elise",
+        "titre recueil": "Les Cariatides"
+    },
+    "s-695": {
+        "auteur": "Théodore de Banville",
+        "date": "1843",
+        "titre sonnet": "Amours d'Elise Suite",
+        "titre recueil": "Les Cariatides"
+    },
+    "s-696": {
+        "auteur": "Théodore de Banville",
+        "date": "1843",
+        "titre sonnet": "La Renaissance",
+        "titre recueil": "Les Cariatides"
+    },
+    "s-697": {
+        "auteur": "Théodore de Banville",
+        "date": "1843",
+        "titre sonnet": "La Déesse",
+        "titre recueil": "Les Cariatides"
+    },
+    "s-698": {
+        "auteur": "Théodore de Banville",
+        "date": "1843",
+        "titre sonnet": "Conseil",
+        "titre recueil": "Les Cariatides"
+    },
+    "s-699": {
+        "auteur": "Théodore de Banville",
+        "date": "1843",
+        "titre sonnet": "Sous bois",
+        "titre recueil": "Les Cariatides"
+    },
+    "s-700": {
+        "auteur": "Théodore de Banville",
+        "date": "1846",
+        "titre sonnet": "Sonnet sur une dame blonde",
+        "titre recueil": "Les Stalactiques"
+    },
+    "s-701": {
+        "auteur": "Théodore de Banville",
+        "date": "1875",
+        "titre sonnet": "La Satyresse",
+        "titre recueil": "Occidentales"
+    },
+    "s-702": {
+        "auteur": "Théodore de Banville",
+        "date": "1874",
+        "titre sonnet": "Les Princesses",
+        "titre recueil": "Les Princesses"
+    },
+    "s-703": {
+        "auteur": "Théodore de Banville",
+        "date": "1874",
+        "titre sonnet": "Semiramis",
+        "titre recueil": "Les Princesses"
+    },
+    "s-704": {
+        "auteur": "Théodore de Banville",
+        "date": "1874",
+        "titre sonnet": "Pasiphae",
+        "titre recueil": "Les Princesses"
+    },
+    "s-705": {
+        "auteur": "Théodore de Banville",
+        "date": "1874",
+        "titre sonnet": "Omphale",
+        "titre recueil": "Les Princesses"
+    },
+    "s-706": {
+        "auteur": "Théodore de Banville",
+        "date": "1874",
+        "titre sonnet": "Ariane",
+        "titre recueil": "Les Princesses"
+    },
+    "s-707": {
+        "auteur": "Théodore de Banville",
+        "date": "1874",
+        "titre sonnet": "Médée",
+        "titre recueil": "Les Princesses"
+    },
+    "s-708": {
+        "auteur": "Théodore de Banville",
+        "date": "1874",
+        "titre sonnet": "Thalestris",
+        "titre recueil": "Les Princesses"
+    },
+    "s-709": {
+        "auteur": "Théodore de Banville",
+        "date": "1874",
+        "titre sonnet": "Antiope",
+        "titre recueil": "Les Princesses"
+    },
+    "s-710": {
+        "auteur": "Théodore de Banville",
+        "date": "1874",
+        "titre sonnet": "Andromède",
+        "titre recueil": "Les Princesses"
+    },
+    "s-711": {
+        "auteur": "Théodore de Banville",
+        "date": "1874",
+        "titre sonnet": "Hélène",
+        "titre recueil": "Les Princesses"
+    },
+    "s-712": {
+        "auteur": "Théodore de Banville",
+        "date": "1874",
+        "titre sonnet": "La Reine de Saba",
+        "titre recueil": "Les Princesses"
+    },
+    "s-713": {
+        "auteur": "Théodore de Banville",
+        "date": "1874",
+        "titre sonnet": "Cléopatre",
+        "titre recueil": "Les Princesses"
+    },
+    "s-714": {
+        "auteur": "Théodore de Banville",
+        "date": "1874",
+        "titre sonnet": "Hérodiade",
+        "titre recueil": "Les Princesses"
+    },
+    "s-715": {
+        "auteur": "Théodore de Banville",
+        "date": "1874",
+        "titre sonnet": "Messaline",
+        "titre recueil": "Les Princesses"
+    },
+    "s-716": {
+        "auteur": "Théodore de Banville",
+        "date": "1874",
+        "titre sonnet": "Marguerite d'Ecosse",
+        "titre recueil": "Les Princesses"
+    },
+    "s-717": {
+        "auteur": "Théodore de Banville",
+        "date": "1874",
+        "titre sonnet": "Marie Stuart",
+        "titre recueil": "Les Princesses"
+    },
+    "s-718": {
+        "auteur": "Théodore de Banville",
+        "date": "1874",
+        "titre sonnet": "Marguerite de Navarre",
+        "titre recueil": "Les Princesses"
+    },
+    "s-719": {
+        "auteur": "Théodore de Banville",
+        "date": "1874",
+        "titre sonnet": "Lucrèce Borgia",
+        "titre recueil": "Les Princesses"
+    },
+    "s-720": {
+        "auteur": "Théodore de Banville",
+        "date": "1874",
+        "titre sonnet": "La Princesse de Lamballe",
+        "titre recueil": "Les Princesses"
+    },
+    "s-721": {
+        "auteur": "Théodore de Banville",
+        "date": "1874",
+        "titre sonnet": "Madame Tallien",
+        "titre recueil": "Les Princesses"
+    },
+    "s-722": {
+        "auteur": "Théodore de Banville",
+        "date": "1874",
+        "titre sonnet": "La Princesse Broghèse",
+        "titre recueil": "Les Princesses"
+    },
+    "s-723": {
+        "auteur": "Théodore de Banville",
+        "date": "1892",
+        "titre sonnet": "Eglé",
+        "titre recueil": "Dans la fournaise"
+    },
+    "s-724": {
+        "auteur": "Théodore de Banville",
+        "date": "1892",
+        "titre sonnet": "Duel",
+        "titre recueil": "Dans la fournaise"
+    },
+    "s-725": {
+        "auteur": "Théodore de Banville",
+        "date": "1892",
+        "titre sonnet": "L'Aurore et Céphale",
+        "titre recueil": "Dans la fournaise"
+    },
+    "s-726": {
+        "auteur": "Théodore de Banville",
+        "date": "1892",
+        "titre sonnet": "La Comédie",
+        "titre recueil": "Dans la fournaise"
+    },
+    "s-727": {
+        "auteur": "Théodore de Banville",
+        "date": "1892",
+        "titre sonnet": "A Mademoiselle Edmée",
+        "titre recueil": "Dans la fournaise"
+    },
+    "s-728": {
+        "auteur": "Théodore de Banville",
+        "date": "1892",
+        "titre sonnet": "Les Roses",
+        "titre recueil": "Dans la fournaise"
+    },
+    "s-729": {
+        "auteur": "Théophile Gautier",
+        "date": "1845",
+        "titre sonnet": "Sainte Casilda",
+        "titre recueil": "Espagna"
+    },
+    "s-730": {
+        "auteur": "Théophile Gautier",
+        "date": "1845",
+        "titre sonnet": "Perspective",
+        "titre recueil": "Espagna"
+    },
+    "s-731": {
+        "auteur": "Théophile Gautier",
+        "date": "1845",
+        "titre sonnet": "Adieux à la Poésie",
+        "titre recueil": "Espagna"
+    },
+    "s-732": {
+        "auteur": "Théophile Gautier",
+        "date": "1845",
+        "titre sonnet": "Sonnet",
+        "titre recueil": "Espagna"
+    },
+    "s-733": {
+        "auteur": "Théophile Gautier",
+        "date": "1838",
+        "titre sonnet": "La Caravane",
+        "titre recueil": "La Comédie de la Mort"
+    },
+    "s-734": {
+        "auteur": "Théophile Gautier",
+        "date": "1838",
+        "titre sonnet": "Versailles",
+        "titre recueil": "La Comédie de la Mort"
+    },
+    "s-735": {
+        "auteur": "Théophile Gautier",
+        "date": "1838",
+        "titre sonnet": "Destinée",
+        "titre recueil": "La Comédie de la Mort"
+    },
+    "s-736": {
+        "auteur": "Théophile Gautier",
+        "date": "1838",
+        "titre sonnet": "Sonnet",
+        "titre recueil": "La Comédie de la Mort"
+    },
+    "s-737": {
+        "auteur": "Théophile Gautier",
+        "date": "1838",
+        "titre sonnet": "A de beaux yeux",
+        "titre recueil": "La Comédie de la Mort"
+    },
+    "s-738": {
+        "auteur": "Théophile Gautier",
+        "date": "1838-1845",
+        "titre sonnet": "A des amis qui partaient",
+        "titre recueil": "Poésies complètes"
+    },
+    "s-739": {
+        "auteur": "Théophile Gautier",
+        "date": "1838-1845",
+        "titre sonnet": "Ambition",
+        "titre recueil": "Poésies complètes"
+    },
+    "s-740": {
+        "auteur": "Théophile Gautier",
+        "date": "1830-1832",
+        "titre sonnet": "Sonnet I",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-741": {
+        "auteur": "Théophile Gautier",
+        "date": "1830-1832",
+        "titre sonnet": "Sonnet II",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-742": {
+        "auteur": "Théophile Gautier",
+        "date": "1830-1832",
+        "titre sonnet": "Sonnet III",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-743": {
+        "auteur": "Théophile Gautier",
+        "date": "1830-1832",
+        "titre sonnet": "Sonnet IV",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-744": {
+        "auteur": "Théophile Gautier",
+        "date": "1830-1832",
+        "titre sonnet": "Sonnet V",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-745": {
+        "auteur": "Théophile Gautier",
+        "date": "1830-1832",
+        "titre sonnet": "Sonnet VI",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-746": {
+        "auteur": "Théophile Gautier",
+        "date": "1830-1832",
+        "titre sonnet": "Sonnet VII",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-747": {
+        "auteur": "Théophile Gautier",
+        "date": "1860",
+        "titre sonnet": "Sonnet-dédicace",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-748": {
+        "auteur": "Théophile Gautier",
+        "date": "1860",
+        "titre sonnet": "Mille chemins, un seul but",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-749": {
+        "auteur": "Théophile Gautier",
+        "date": "1860",
+        "titre sonnet": "Ne touchez pas au marbres",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-750": {
+        "auteur": "Théophile Gautier",
+        "date": "1860",
+        "titre sonnet": "Baiser rose, Baiser bleu",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-751": {
+        "auteur": "Théophile Gautier",
+        "date": "1860",
+        "titre sonnet": "La vraie Esthétique",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-752": {
+        "auteur": "Théophile Gautier",
+        "date": "1860",
+        "titre sonnet": "Bonbons et Pommes vertes",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-753": {
+        "auteur": "Théophile Gautier",
+        "date": "1860",
+        "titre sonnet": "Le Pied d'Atalante",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-754": {
+        "auteur": "Théophile Gautier",
+        "date": "1860",
+        "titre sonnet": "L'Etrenne du Poète",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-755": {
+        "auteur": "Théophile Gautier",
+        "date": "1860",
+        "titre sonnet": "Les Déesses posent",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-756": {
+        "auteur": "Théophile Gautier",
+        "date": "1860",
+        "titre sonnet": "D'après Vanutelli",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-757": {
+        "auteur": "Théophile Gautier",
+        "date": "1860",
+        "titre sonnet": "L'Egratignure",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-758": {
+        "auteur": "Théophile Gautier",
+        "date": "1860",
+        "titre sonnet": "La Mélodie et l'accompagnement",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-759": {
+        "auteur": "Théophile Gautier",
+        "date": "1860",
+        "titre sonnet": "La Robe pailletée",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-760": {
+        "auteur": "Théophile Gautier",
+        "date": "1860",
+        "titre sonnet": "Tulipe",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-761": {
+        "auteur": "Théophile Gautier",
+        "date": "1860",
+        "titre sonnet": "Parfois une Vénus",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-762": {
+        "auteur": "Théophile Gautier",
+        "date": "1860",
+        "titre sonnet": "Modes et chiffons",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-763": {
+        "auteur": "Théophile Gautier",
+        "date": "1860",
+        "titre sonnet": "A Marguerite (sonnet I)",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-764": {
+        "auteur": "Théophile Gautier",
+        "date": "1860",
+        "titre sonnet": "A Marguerite (sonnet II)",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-765": {
+        "auteur": "Théophile Gautier",
+        "date": "1860",
+        "titre sonnet": "L'Impassible",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-766": {
+        "auteur": "Théophile Gautier",
+        "date": "1860",
+        "titre sonnet": "A Claudius Popelin I",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-767": {
+        "auteur": "Théophile Gautier",
+        "date": "1860",
+        "titre sonnet": "A Ingres",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-768": {
+        "auteur": "Théophile Gautier",
+        "date": "1860",
+        "titre sonnet": "La Rose",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-769": {
+        "auteur": "Théophile Gautier",
+        "date": "1860",
+        "titre sonnet": "L'Hirondelle",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-770": {
+        "auteur": "Théophile Gautier",
+        "date": "1860",
+        "titre sonnet": "La Fumée",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-771": {
+        "auteur": "Théophile Gautier",
+        "date": "1860",
+        "titre sonnet": "Promenade hors des murs",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-772": {
+        "auteur": "Théophile Gautier",
+        "date": "1860",
+        "titre sonnet": "A Claudius Popelin II",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-773": {
+        "auteur": "Théophile Gautier",
+        "date": "1860",
+        "titre sonnet": "Sonnet",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-774": {
+        "auteur": "Théophile Gautier",
+        "date": "1860",
+        "titre sonnet": "Le Sonnet",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-775": {
+        "auteur": "Théophile Gautier",
+        "date": "1860",
+        "titre sonnet": "Sonnet",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-776": {
+        "auteur": "Théophile Gautier",
+        "date": "1860",
+        "titre sonnet": "Le Vingt-sept Mai",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-777": {
+        "auteur": "Théophile Gautier",
+        "date": "1860",
+        "titre sonnet": "Sonnet",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-778": {
+        "auteur": "Théophile Gautier",
+        "date": "1860",
+        "titre sonnet": "Après la bataille",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-779": {
+        "auteur": "Théophile Gautier",
+        "date": "1860",
+        "titre sonnet": "A Maxime du Camp",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-780": {
+        "auteur": "Théophile Gautier",
+        "date": "1860",
+        "titre sonnet": "Sonnet",
+        "titre recueil": "Oeuvres de Théophile Gautier"
+    },
+    "s-781": {
+        "auteur": "Théophile Gautier",
+        "date": "Non renseignée",
+        "titre sonnet": "A la Présidente",
+        "titre recueil": "Poésies libertines"
+    },
+    "s-782": {
+        "auteur": "Théophile Gautier",
+        "date": "Non renseignée",
+        "titre sonnet": "En quittant Tolède",
+        "titre recueil": "Poésies libertines"
+    },
+    "s-783": {
+        "auteur": "Théophile Gautier",
+        "date": "Non renseignée",
+        "titre sonnet": "A Maxime du Camp (version libertine)",
+        "titre recueil": "Poésies libertines"
+    },
+    "s-784": {
+        "auteur": "Théophile Gautier",
+        "date": "Non renseignée",
+        "titre sonnet": "Sonnet bouts-rimes",
+        "titre recueil": "Poésies libertines"
+    },
+    "s-785": {
+        "auteur": "Victor Hugo",
+        "date": "Non renseignée",
+        "titre sonnet": "I",
+        "titre recueil": "Oeuvres complètes"
+    },
+    "s-786": {
+        "auteur": "Victor Hugo",
+        "date": "Non renseignée",
+        "titre sonnet": "II",
+        "titre recueil": "Oeuvres complètes"
+    },
+    "s-787": {
+        "auteur": "Victor Hugo",
+        "date": "Non renseignée",
+        "titre sonnet": "III",
+        "titre recueil": "Oeuvres complètes"
+    },
+    "s-788": {
+        "auteur": "Victor Hugo",
+        "date": "1833",
+        "titre sonnet": "Le sonnet d'Arvers",
+        "titre recueil": "Mes heures perdues"
+    }
+}
