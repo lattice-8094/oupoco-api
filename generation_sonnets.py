@@ -2,9 +2,21 @@
 
 import random
 import pickle
+import json
 
-types_rimes = pickle.load(open('types_rimes.pickle', 'rb'))
-    
+#types_rimes = pickle.load(open('types_rimes.pickle', 'rb'))
+types_rimes = json.load(open('bd_rimes.json', 'r'))
+meta = json.load(open('bd_meta.json', 'r'))
+
+def __verse2meta__(verse):
+    """
+    @param: verse (dict {'texte':'', 'id':'', 'id_sonnet': ''})
+    """
+    res = dict()
+    res['text'] = verse['texte']
+    res['meta'] = meta[verse['id_sonnet']]
+    return res
+
 def generate(schema):    
     longueur = len(types_rimes)
     rimes = dict()
@@ -29,9 +41,11 @@ def generate(schema):
 
     sonnet = list()
     for stanza in schema:
+        generated_stanza = list()
         for letter in stanza:
-            sonnet.append(rimes[letter].pop())
-        sonnet.append('')
+            verse = rimes[letter].pop()
+            generated_stanza.append(__verse2meta__(verse))
+        sonnet.append(generated_stanza)
    
     return sonnet
 
@@ -39,8 +53,10 @@ def generate(schema):
 def main():
     schema=(('A', 'B', 'B', 'A'), ('A', 'B', 'B', 'A'), ('C', 'C', 'D'), ('E', 'D', 'E'))
     sonnet = generate(schema)
-    for l in sonnet:
-        print(l)
+    for st in sonnet:
+        for verse in st:
+            print(verse['text'])
+        print()
 
 if __name__ == "__main__":
     main()
