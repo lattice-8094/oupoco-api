@@ -4,14 +4,25 @@ import generation_sonnets
 import datetime
 
 from flask import Flask
+from flask import jsonify, request
+
 app = Flask(__name__)
 
-from flask import jsonify
+schemas = {
+    'sonnet_sicilien':('ABAB','ABAB','CDE','CDE'),
+    'sonnet_petrarquien':('ABBA','ABBA','CDE','CDE'),
+    'sonnet_marotique':('ABBA','ABBA','CCD','EED'),
+    'sonnet_francais':('ABBA','ABBA','CCD','EDE'),
+    'sonnet_queneau':('ABAB','ABAB','CCD','EDE')
+    }
 
-
-@app.route("/new")
+@app.route("/new",  methods=['GET'])
 def new():
-    sonnet = generation_sonnets.generate()
+    param_schema = request.args.get('schema', None)
+    if param_schema in schemas:
+        sonnet = generation_sonnets.generate(schemas[param_schema])
+    else:
+        sonnet = generation_sonnets.generate()
     sonnet_text = list()
     for st in sonnet:
         for verse in st:
@@ -20,8 +31,13 @@ def new():
     res = {'text': sonnet_text, 'date': get_date_time()}
     return jsonify(res)
 
-@app.route("/new-html")
+@app.route("/new-html",  methods=['GET'])
 def new_html():
+    param_schema = request.args.get('schema', None)
+    if param_schema in schemas:
+        sonnet = generation_sonnets.generate(schemas[param_schema])
+    else:
+        sonnet = generation_sonnets.generate()
     sonnet = generation_sonnets.generate()
     sonnet_html = '<div id="sonnet">'
     for st in sonnet:

@@ -23,7 +23,7 @@ def __verse2txtmeta__(verse):
     res['meta'] = meta[verse['id_sonnet']]
     return res
 
-def generate(schema):    
+def generate(schema=('ABAB','ABAB','CCD','EDE')):    
     longueur = len(types_rimes)
     rimes = dict()
 
@@ -57,15 +57,14 @@ def generate(schema):
 
 
 def main():
-    schema=dict()
-    schema= {
+    schemas = {
     'sonnet_sicilien':('ABAB','ABAB','CDE','CDE'),
     'sonnet_petrarquien':('ABBA','ABBA','CDE','CDE'),
     'sonnet_marotique':('ABBA','ABBA','CCD','EED'),
     'sonnet_francais':('ABBA','ABBA','CCD','EDE'),
     'sonnet_queneau':('ABAB','ABAB','CCD','EDE')
     }
-    sonnet = generate(schema['sonnet_queneau'])
+    sonnet = generate(schemas['sonnet_sicilien'])
     for st in sonnet:
         for verse in st:
             print(verse['text'])
