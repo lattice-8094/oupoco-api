@@ -4,20 +4,26 @@ import random
 import pickle
 import json
 
-#types_rimes = pickle.load(open('types_rimes.pickle', 'rb'))
 types_rimes = json.load(open('bd_rimes.json', 'r'))
 meta = json.load(open('bd_meta.json', 'r'))
 
-def __verse2meta__(verse):
+def __verse2txtmeta__(verse):
     """
-    @param: verse (dict {'texte':'', 'id':'', 'id_sonnet': ''})
+    Turn a verse (dict bd_rimes.json) into a txtmeta dict 
+    with a call to bd_meta.json to retrieve the appropriate meta
+    Args:
+        verse: dict {'texte':'', 'id':'', 'id_sonnet': ''} from bd_rimes.json
+    Returns:
+        A Dict with 'txt' and 'meta' keys {'txt':'', meta:''}
+        'meta' value is a Dict
+        { "auteur": "", "date": "", "titre sonnet": "", "titre recueil": ""}
     """
     res = dict()
     res['text'] = verse['texte']
     res['meta'] = meta[verse['id_sonnet']]
     return res
 
-def generate(schema):    
+def generate(schema=('ABBA', 'ABBA', 'CCD', 'EDE')):    
     longueur = len(types_rimes)
     rimes = dict()
 
@@ -44,14 +50,14 @@ def generate(schema):
         generated_stanza = list()
         for letter in stanza:
             verse = rimes[letter].pop()
-            generated_stanza.append(__verse2meta__(verse))
+            generated_stanza.append(__verse2txtmeta__(verse))
         sonnet.append(generated_stanza)
    
     return sonnet
 
 
 def main():
-    schema=(('A', 'B', 'B', 'A'), ('A', 'B', 'B', 'A'), ('C', 'C', 'D'), ('E', 'D', 'E'))
+    schema=('ABBA', 'ABBA', 'CCD', 'EDE')
     sonnet = generate(schema)
     for st in sonnet:
         for verse in st:

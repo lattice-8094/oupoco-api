@@ -11,12 +11,10 @@ from flask import jsonify
 
 @app.route("/new")
 def new():
-    schema=(('A', 'B', 'B', 'A'), ('A', 'B', 'B', 'A'), ('C', 'C', 'D'), ('E', 'D', 'E'))
-    sonnet = generation_sonnets.generate(schema)
+    sonnet = generation_sonnets.generate()
     sonnet_text = list()
     for st in sonnet:
         for verse in st:
-            meta = "{} {} {}".format(verse['meta']['auteur'], verse['meta']['date'], verse['meta']['titre sonnet'])
             sonnet_text.append({'text': verse['text'], 'meta': format_meta(verse['meta'])})
         sonnet_text.append({'text': "\n", 'meta': ''})
     res = {'text': sonnet_text, 'date': get_date_time()}
@@ -24,8 +22,7 @@ def new():
 
 @app.route("/new-html")
 def new_html():
-    schema=(('A', 'B', 'B', 'A'), ('A', 'B', 'B', 'A'), ('C', 'C', 'D'), ('E', 'D', 'E'))
-    sonnet = generation_sonnets.generate(schema)
+    sonnet = generation_sonnets.generate()
     sonnet_html = '<div id="sonnet">'
     for st in sonnet:
         sonnet_html += "<p>"
