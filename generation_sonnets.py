@@ -23,8 +23,60 @@ def __verse2txtmeta__(verse):
     res['meta'] = meta[verse['id_sonnet']]
     return res
 
-def generate(schema=('ABAB','ABAB','CCD','EDE')):    
-    longueur = len(types_rimes)
+def paramdate(cle):
+    erreur=[]
+    for sonnet in meta:
+        date=meta[sonnet]['date']
+        if date=='Non renseignée':
+            erreur.append(sonnet)
+
+    dico_date=dict()
+    for sonnet in meta:
+        if sonnet not in erreur:
+            dico_date[sonnet]=meta.get(sonnet) 
+
+    intervalle_1=list()
+    intervalle_2=list()
+    intervalle_3=list()
+    intervalle_4=list()
+    intervalle_5=list()
+    intervalle_6=list()
+    dico_intervalle=dict()
+    for key in dico_date:
+        if dico_date[key]['date'] > '1800' and dico_date[key]['date'] <= '1830':
+            intervalle_1.append(key)
+        if dico_date[key]['date'] > '1830' and dico_date[key]['date'] <= '1850':
+            intervalle_2.append(key)
+        if dico_date[key]['date'] > '1850' and dico_date[key]['date'] <= '1870':
+            intervalle_3.append(key)
+        if dico_date[key]['date'] > '1870' and dico_date[key]['date'] <= '1890':
+            intervalle_4.append(key)
+        if dico_date[key]['date'] > '1890' and dico_date[key]['date'] <= '1900':
+            intervalle_5.append(key)
+        if dico_date[key]['date'] > '1900' and dico_date[key]['date'] <= '1950':
+            intervalle_6.append(key)
+
+
+    dico_intervalle={
+        '1800-1830':intervalle_1,
+        '1831-1850':intervalle_2,
+        '1851-1870':intervalle_3,
+        '1871-1890':intervalle_4,
+        '1891-1900':intervalle_5,
+        '1901-1950':intervalle_6}
+
+    choix_final=list()
+    choix_date = list()
+    for sousListe in types_rimes:
+        choix_date=[data for data in sousListe if data['id_sonnet'] in dico_intervalle[cle]]
+        if len(choix_date)>0:
+            choix_final.append(choix_date)
+    
+    return choix_final
+
+def generate(schema=('ABAB','ABAB','CCD','EDE')):
+    contrainte_date=paramdate('1831-1850')    
+    longueur = len(contrainte_date)
     rimes = dict()
 
     while True :
