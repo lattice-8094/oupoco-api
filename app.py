@@ -65,7 +65,6 @@ class NewHtml(Resource):
             sonnet = generation_sonnets.generate(schemas[param_schema])
         else:
             sonnet = generation_sonnets.generate()
-        sonnet = generation_sonnets.generate()
         sonnet_html = '<div id="sonnet">'
         for st in sonnet:
             sonnet_html += "<p>"
