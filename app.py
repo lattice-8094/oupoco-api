@@ -2,6 +2,7 @@
 
 import generation_sonnets
 import datetime
+import json
 
 from flask import Flask
 from flask_restplus import Api, Resource
@@ -9,7 +10,9 @@ from flask_restplus import Api, Resource
 from flask import jsonify, request
 
 app = Flask(__name__)
-api = Api(app)
+api = Api(app, version='0.9', title="API du projet Oupoco", description="API de test pour la mise en place du site web")
+
+bd_meta = 'bd_meta.json'
 
 schemas = {
     'sonnet_sicilien':('ABAB','ABAB','CDE','CDE'),
@@ -20,11 +23,25 @@ schemas = {
     }
 
 
+@api.route('/schemas')
+class Schemas(Resource):
+    def get(self):
+        """ Returns the list of available schemas """
+        return jsonify(schemas)
+
+@api.route('/authors')
+class Authors(Resource):
+    def get(self):
+        """ Returns the list of authors in the database """
+        meta = json.load(open(bd_meta))
+        authors = set([meta[s]['auteur'] for s in meta])
+        return jsonify(list(authors))
+
 @api.route("/new")
 @api.doc(params={'schema': 'The name of a schema (i.e. sonnet_francais)'})
 class New(Resource):
-    @api.doc(id='Returns a new sonnet in JSON')
     def get(self):
+        """ Returns a new sonnet in JSON"""
         param_schema = request.args.get('schema', None)
         if param_schema in schemas:
             sonnet = generation_sonnets.generate(schemas[param_schema])
@@ -41,8 +58,8 @@ class New(Resource):
 @api.route("/new-html")
 @api.doc(params={'schema': 'The name of a schema (i.e. sonnet_francais)'})
 class NewHtml(Resource):
-    @api.doc('Returns a new sonnet in HTML')
     def get(self):
+        """ Returns a new sonnet in HTML """
         param_schema = request.args.get('schema', None)
         if param_schema in schemas:
             sonnet = generation_sonnets.generate(schemas[param_schema])
