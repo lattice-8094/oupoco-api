@@ -35,10 +35,10 @@ def new():
 def new_html():
     param_schema = request.args.get('schema', None)
     if param_schema in schemas:
+        print('coucou', schemas[param_schema])
         sonnet = generation_sonnets.generate(schemas[param_schema])
     else:
         sonnet = generation_sonnets.generate()
-    sonnet = generation_sonnets.generate()
     sonnet_html = '<div id="sonnet">'
     for st in sonnet:
         sonnet_html += "<p>"
