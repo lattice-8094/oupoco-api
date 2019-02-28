@@ -10,7 +10,8 @@ RUN pip install -r requirements.txt
 
 COPY app.py /code/app.py
 COPY generation_sonnets.py /code/generation_sonnets.py
-COPY types_rimes.pickle /code/types_rimes.pickle
+COPY bd_meta.json /code/bd_meta.json
+COPY bd_rimes.json /code/bd_rimes.json
 COPY wsgi.py /code/wsgi.py
 COPY docker-entrypoint.sh /code/docker-entrypoint.sh
 RUN ["chmod", "+x", "/code/docker-entrypoint.sh"]
