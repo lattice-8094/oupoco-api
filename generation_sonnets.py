@@ -74,13 +74,11 @@ def paramdate(cle):
     
     return choix_final
 
-def generate(date='all', schema=('ABAB','ABAB','CCD','EDE')):
+def generate(date='None', schema=('ABAB','ABAB','CCD','EDE')):
     rimes = dict()
-
-    if date == 'all':
-        all_rimes = types_rimes
-        longueur = len(all_rimes)
-    else:
+    all_rimes = types_rimes
+    longueur = len(all_rimes)
+    if date:
         contrainte_date = paramdate(date)  
         longueur = len(contrainte_date)
         all_rimes = contrainte_date
