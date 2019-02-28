@@ -74,7 +74,24 @@ def paramdate(cle):
     
     return choix_final
 
-def generate(date='all', schema=('ABAB','ABAB','CCD','EDE')):
+def paramauteur(auteur):
+
+    liste_choix=list()
+    for sonnet in meta:
+        for i in auteur: 
+            if meta[sonnet]['auteur']== i:
+                liste_choix.append(sonnet)
+
+    choix_rimes=list()
+    choix_final=list()
+    for sousListe in types_rimes:
+        choix_rimes=[data for data in sousListe if data['id_sonnet'] in liste_choix]
+        if len(choix_rimes)>0:
+            choix_final.append(choix_rimes)
+    
+    return choix_final
+
+def generate(auteur='all', date='all', schema=('ABAB','ABAB','CCD','EDE')):
     rimes = dict()
 
     if date == 'all':
@@ -84,6 +101,14 @@ def generate(date='all', schema=('ABAB','ABAB','CCD','EDE')):
         contrainte_date = paramdate(date)  
         longueur = len(contrainte_date)
         all_rimes = contrainte_date
+
+    if auteur== 'all':
+        all_rimes = types_rimes
+        longueur = len(all_rimes)
+    else:
+        contrainte_auteur == paramauteur(['Charles Baudelaire','Alfred de Vigny','José-Maria de Heredia'])
+        longueur= len(contrainte_auteur)
+        all_rime = contrainte_auteur
 
     while True :
         try :
