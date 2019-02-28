@@ -55,26 +55,24 @@ class New(Resource):
         res = {'text': sonnet_text, 'date': get_date_time()}
         return jsonify(res)
 
-@api.route("/new-html")
-@api.doc(params={'schema': 'The name of a schema (i.e. sonnet_francais)'})
-class NewHtml(Resource):
-    def get(self):
-        """ Returns a new sonnet in HTML """
-        param_schema = request.args.get('schema', None)
-        if param_schema in schemas:
-            sonnet = generation_sonnets.generate(schemas[param_schema])
-        else:
-            sonnet = generation_sonnets.generate()
+@app.route("/new-html")
+def newHtml():
+    """ Returns a new sonnet in HTML """
+    param_schema = request.args.get('schema', None)
+    if param_schema in schemas:
+        sonnet = generation_sonnets.generate(schemas[param_schema])
+    else:
         sonnet = generation_sonnets.generate()
-        sonnet_html = '<div id="sonnet">'
-        for st in sonnet:
-            sonnet_html += "<p>"
-            for verse in st:
-                sonnet_html += f"<span title='{format_meta(verse['meta'])}'>{verse['text']}</span><br/>"
-            sonnet_html += "</p>"
-        sonnet_html += '</div>'
-        date = f"<small>{get_date_time()}</small>"
-        return sonnet_html+date
+    sonnet = generation_sonnets.generate()
+    sonnet_html = '<div id="sonnet">'
+    for st in sonnet:
+        sonnet_html += "<p>"
+        for verse in st:
+            sonnet_html += f"<span title='{format_meta(verse['meta'])}'>{verse['text']}</span><br/>"
+        sonnet_html += "</p>"
+    sonnet_html += '</div>'
+    date = f"<small>{get_date_time()}</small>"
+    return sonnet_html+date
 
 def get_date_time():
     now = datetime.datetime.now()
