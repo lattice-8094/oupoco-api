@@ -74,24 +74,30 @@ def paramdate(cle):
     
     return choix_final
 
-def generate(schema=('ABAB','ABAB','CCD','EDE')):
-    contrainte_date=paramdate('1831-1850')    
-    longueur = len(contrainte_date)
+def generate(date='all', schema=('ABAB','ABAB','CCD','EDE')):
     rimes = dict()
+
+    if date == 'all':
+        all_rimes = types_rimes
+        longueur = len(all_rimes)
+    else:
+        contrainte_date = paramdate(date)  
+        longueur = len(contrainte_date)
+        all_rimes = contrainte_date
 
     while True :
         try :
             choix_rimes=random.sample(range(longueur), 5)
-            indexes_A=random.sample(range(len(types_rimes[choix_rimes[0]])), 4)
-            rimes['A'] = [types_rimes[choix_rimes[0]][index] for index in indexes_A]
-            indexes_B=random.sample(range(len(types_rimes[choix_rimes[1]])), 4)
-            rimes['B'] = [types_rimes[choix_rimes[1]][index] for index in indexes_B]
-            indexes_C=random.sample(range(len(types_rimes[choix_rimes[2]])), 2)
-            rimes['C'] = [types_rimes[choix_rimes[2]][index] for index in indexes_C]
-            indexes_D=random.sample(range(len(types_rimes[choix_rimes[3]])), 2)
-            rimes['D'] = [types_rimes[choix_rimes[3]][index] for index in indexes_D]
-            indexes_E=random.sample(range(len(types_rimes[choix_rimes[4]])), 2)
-            rimes['E'] = [types_rimes[choix_rimes[4]][index] for index in indexes_E]
+            indexes_A=random.sample(range(len(all_rimes[choix_rimes[0]])), 4)
+            rimes['A'] = [all_rimes[choix_rimes[0]][index] for index in indexes_A]
+            indexes_B=random.sample(range(len(all_rimes[choix_rimes[1]])), 4)
+            rimes['B'] = [all_rimes[choix_rimes[1]][index] for index in indexes_B]
+            indexes_C=random.sample(range(len(all_rimes[choix_rimes[2]])), 2)
+            rimes['C'] = [all_rimes[choix_rimes[2]][index] for index in indexes_C]
+            indexes_D=random.sample(range(len(all_rimes[choix_rimes[3]])), 2)
+            rimes['D'] = [all_rimes[choix_rimes[3]][index] for index in indexes_D]
+            indexes_E=random.sample(range(len(all_rimes[choix_rimes[4]])), 2)
+            rimes['E'] = [all_rimes[choix_rimes[4]][index] for index in indexes_E]
             break
 
         except :
@@ -116,7 +122,7 @@ def main():
     'sonnet_francais':('ABBA','ABBA','CCD','EDE'),
     'sonnet_queneau':('ABAB','ABAB','CCD','EDE')
     }
-    sonnet = generate(schemas['sonnet_sicilien'])
+    sonnet = generate(date='1800-1830', schema=('ABBA','ABBA','CCD','EDE'))
     for st in sonnet:
         for verse in st:
             print(verse['text'])
