@@ -71,11 +71,6 @@ def new_html():
     else:
         sonnet = generation_sonnets.generate(authors=param_authors, date=param_date)
 
-    if param_schema in schemas:
-        sonnet = generation_sonnets.generate(date=param_date, schema=schemas[param_schema])
-    else:
-        sonnet = generation_sonnets.generate(date=param_date)
-
     sonnet_html = '<div id="sonnet">'
     for st in sonnet:
         sonnet_html += "<p>"
