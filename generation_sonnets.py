@@ -23,7 +23,7 @@ def __verse2txtmeta__(verse):
     res['meta'] = meta[verse['id_sonnet']]
     return res
 
-def paramdate(cle):
+def paramdate(rimes, cle):
     erreur=[]
     for sonnet in meta:
         date=meta[sonnet]['date']
@@ -67,58 +67,61 @@ def paramdate(cle):
 
     choix_final=list()
     choix_date = list()
-    for sousListe in types_rimes:
+    for sousListe in rimes:
         choix_date=[data for data in sousListe if data['id_sonnet'] in dico_intervalle[cle]]
         if len(choix_date)>0:
             choix_final.append(choix_date)
     
     return choix_final
 
-def paramauteur(auteur):
-
-    liste_choix=list()
-    for sonnet in meta:
-        for i in auteur: 
-            if meta[sonnet]['auteur']== i:
-                liste_choix.append(sonnet)
+def filter_by_authors(rimes, authors):
+    """
+    Find and return the rimes written by the given authors in the given rimes 
+    Args:
+        rimes: a list of rimes, each rime is a list of verses, each verse is a dict (texte, id, id_sonnet)
+        authors: a list of authors
+    Returns:
+        a list of list. Same structure as the arg rimes but filtered by authors
+    """
+    liste_choix = [id_sonnet for id_sonnet in meta if meta[id_sonnet]['auteur'] in authors]
+    # liste_choix=list()
+    # for sonnet in meta:
+    #     for i in auteurs: 
+    #         if meta[sonnet]['auteur']== i:
+    #             liste_choix.append(sonnet)
 
     choix_rimes=list()
     choix_final=list()
-    for sousListe in types_rimes:
-        choix_rimes=[data for data in sousListe if data['id_sonnet'] in liste_choix]
-        if len(choix_rimes)>0:
-            choix_final.append(choix_rimes)
-    
+    for rime in rimes:
+        choix_rimes = [verse for verse in rime if verse['id_sonnet'] in liste_choix]
+        if len(choix_rimes) > 0:
+            choix_final.append(choix_rimes)   
     return choix_final
 
-def generate(auteur='None',date='None', schema=('ABAB','ABAB','CCD','EDE')):
-    rimes = dict()
+def generate(auteur='None', date='None', schema=('ABAB','ABAB','CCD','EDE')):
     all_rimes = types_rimes
-    longueur = len(all_rimes)
     if date:
-        contrainte_date = paramdate(date)  
-        longueur = len(contrainte_date) 
+        contrainte_date = paramdate(all_rimes, date)  
         all_rimes = contrainte_date
-
     if auteur: 
-        contrainte_auteur = paramauteur(auteur)
-        longueur = len(contrainte_date)
-        all_rime = contrainte_auteur
+        contrainte_auteur = filter_by_authors(all_rimes, auteur)
+        all_rimes = contrainte_auteur
+    longueur = len(all_rimes)
 
-
+    schema_rimes = dict()
     while True :
         try :
             choix_rimes=random.sample(range(longueur), 5)
             indexes_A=random.sample(range(len(all_rimes[choix_rimes[0]])), 4)
-            rimes['A'] = [all_rimes[choix_rimes[0]][index] for index in indexes_A]
+            schema_rimes['A'] = [all_rimes[choix_rimes[0]][index] for index in indexes_A]
             indexes_B=random.sample(range(len(all_rimes[choix_rimes[1]])), 4)
-            rimes['B'] = [all_rimes[choix_rimes[1]][index] for index in indexes_B]
+            schema_rimes['B'] = [all_rimes[choix_rimes[1]][index] for index in indexes_B]
             indexes_C=random.sample(range(len(all_rimes[choix_rimes[2]])), 2)
-            rimes['C'] = [all_rimes[choix_rimes[2]][index] for index in indexes_C]
+            schema_rimes['C'] = [all_rimes[choix_rimes[2]][index] for index in indexes_C]
             indexes_D=random.sample(range(len(all_rimes[choix_rimes[3]])), 2)
-            rimes['D'] = [all_rimes[choix_rimes[3]][index] for index in indexes_D]
+            schema_rimes['D'] = [all_rimes[choix_rimes[3]][index] for index in indexes_D]
             indexes_E=random.sample(range(len(all_rimes[choix_rimes[4]])), 2)
-            rimes['E'] = [all_rimes[choix_rimes[4]][index] for index in indexes_E]
+            schema_rimes['E'] = [all_rimes[choix_rimes[4]][index] for index in indexes_E]
             break
 
         except :
@@ -128,7 +131,7 @@ def generate(auteur='None',date='None', schema=('ABAB','ABAB','CCD','EDE')):
     for stanza in schema:
         generated_stanza = list()
         for letter in stanza:
-            verse = rimes[letter].pop()
+            verse = schema_rimes[letter].pop()
             generated_stanza.append(__verse2txtmeta__(verse))
         sonnet.append(generated_stanza)
    
@@ -146,7 +149,7 @@ def main():
     sonnet = generate(auteur=['Charles Baudelaire','Paul Verlaine', 'Sully Prudhomme'], date='1851-1870', schema=('ABBA','ABBA','CCD','EDE'))
     for st in sonnet:
         for verse in st:
-            print(verse['text'])
+            print(verse['text'], verse['meta'])
         print()
 
 if __name__ == "__main__":
