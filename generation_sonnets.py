@@ -74,14 +74,37 @@ def paramdate(cle):
     
     return choix_final
 
-def generate(date='None', schema=('ABAB','ABAB','CCD','EDE')):
+def paramauteur(auteur):
+
+    liste_choix=list()
+    for sonnet in meta:
+        for i in auteur: 
+            if meta[sonnet]['auteur']== i:
+                liste_choix.append(sonnet)
+
+    choix_rimes=list()
+    choix_final=list()
+    for sousListe in types_rimes:
+        choix_rimes=[data for data in sousListe if data['id_sonnet'] in liste_choix]
+        if len(choix_rimes)>0:
+            choix_final.append(choix_rimes)
+    
+    return choix_final
+
+def generate(auteur='None',date='None', schema=('ABAB','ABAB','CCD','EDE')):
     rimes = dict()
     all_rimes = types_rimes
     longueur = len(all_rimes)
     if date:
         contrainte_date = paramdate(date)  
-        longueur = len(contrainte_date)	
-	all_rimes = contrainte_date
+        longueur = len(contrainte_date) 
+        all_rimes = contrainte_date
+
+    if auteur: 
+        contrainte_auteur = paramauteur(auteur)
+        longueur = len(contrainte_date)
+        all_rime = contrainte_auteur
+
 
     while True :
         try :
@@ -120,7 +143,7 @@ def main():
     'sonnet_francais':('ABBA','ABBA','CCD','EDE'),
     'sonnet_queneau':('ABAB','ABAB','CCD','EDE')
     }
-    sonnet = generate(date='1800-1830', schema=('ABBA','ABBA','CCD','EDE'))
+    sonnet = generate(auteur=['Charles Baudelaire','Paul Verlaine', 'Sully Prudhomme'], date='1851-1870', schema=('ABBA','ABBA','CCD','EDE'))
     for st in sonnet:
         for verse in st:
             print(verse['text'])
