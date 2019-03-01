@@ -115,8 +115,9 @@ def generate(authors='None', date='None', schema=('ABAB','ABAB','CCD','EDE')):
         try :
             choix_rimes = random.sample(range(longueur), len(schema_letters))
             for i, letter in enumerate(schema_letters):
-                indexes = random.sample(range(len(all_rimes[choix_rimes[i]])), schema_letters[letter])
-                schema_rimes[letter] = [all_rimes[choix_rimes[i]][index] for index in indexes]
+                current_rime = all_rimes[choix_rimes[i]]
+                indexes = random.sample(range(len(current_rime)), schema_letters[letter])
+                schema_rimes[letter] = [current_rime[index] for index in indexes]
             break
         except :
             continue
