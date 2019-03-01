@@ -3,6 +3,7 @@
 import random
 import pickle
 import json
+from collections import Counter
 
 types_rimes = json.load(open('bd_rimes.json', 'r'))
 meta = json.load(open('bd_meta.json', 'r'))
@@ -109,21 +110,14 @@ def generate(authors='None', date='None', schema=('ABAB','ABAB','CCD','EDE')):
     longueur = len(all_rimes)
 
     schema_rimes = dict()
+    schema_letters = Counter(''.join(schema))
     while True :
         try :
-            choix_rimes=random.sample(range(longueur), 5)
-            indexes_A=random.sample(range(len(all_rimes[choix_rimes[0]])), 4)
-            schema_rimes['A'] = [all_rimes[choix_rimes[0]][index] for index in indexes_A]
-            indexes_B=random.sample(range(len(all_rimes[choix_rimes[1]])), 4)
-            schema_rimes['B'] = [all_rimes[choix_rimes[1]][index] for index in indexes_B]
-            indexes_C=random.sample(range(len(all_rimes[choix_rimes[2]])), 2)
-            schema_rimes['C'] = [all_rimes[choix_rimes[2]][index] for index in indexes_C]
-            indexes_D=random.sample(range(len(all_rimes[choix_rimes[3]])), 2)
-            schema_rimes['D'] = [all_rimes[choix_rimes[3]][index] for index in indexes_D]
-            indexes_E=random.sample(range(len(all_rimes[choix_rimes[4]])), 2)
-            schema_rimes['E'] = [all_rimes[choix_rimes[4]][index] for index in indexes_E]
+            choix_rimes = random.sample(range(longueur), len(schema_letters))
+            for i, letter in enumerate(schema_letters):
+                indexes = random.sample(range(len(all_rimes[choix_rimes[i]])), schema_letters[letter])
+                schema_rimes[letter] = [all_rimes[choix_rimes[i]][index] for index in indexes]
             break
-
         except :
             continue
 
@@ -146,7 +140,7 @@ def main():
     'sonnet_francais':('ABBA','ABBA','CCD','EDE'),
     'sonnet_queneau':('ABAB','ABAB','CCD','EDE')
     }
-    sonnet = generate(authors=['Charles Baudelaire','Paul Verlaine', 'Sully Prudhomme'], date='1851-1870', schema=('ABBA','ABBA','CCD','EDE'))
+    sonnet = generate(authors=['Charles Baudelaire','Paul Verlaine', 'Sully Prudhomme'], date='1851-1870', schema=('ABBA','ABBA','EFG','HIJ'))
     for st in sonnet:
         for verse in st:
             print(verse['text'], verse['meta'])
