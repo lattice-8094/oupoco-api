@@ -98,13 +98,13 @@ def filter_by_authors(rimes, authors):
             choix_final.append(choix_rimes)   
     return choix_final
 
-def generate(auteur='None', date='None', schema=('ABAB','ABAB','CCD','EDE')):
+def generate(authors='None', date='None', schema=('ABAB','ABAB','CCD','EDE')):
     all_rimes = types_rimes
     if date:
         contrainte_date = paramdate(all_rimes, date)  
         all_rimes = contrainte_date
-    if auteur: 
-        contrainte_auteur = filter_by_authors(all_rimes, auteur)
+    if authors: 
+        contrainte_auteur = filter_by_authors(all_rimes, authors)
         all_rimes = contrainte_auteur
     longueur = len(all_rimes)
 
@@ -146,7 +146,7 @@ def main():
     'sonnet_francais':('ABBA','ABBA','CCD','EDE'),
     'sonnet_queneau':('ABAB','ABAB','CCD','EDE')
     }
-    sonnet = generate(auteur=['Charles Baudelaire','Paul Verlaine', 'Sully Prudhomme'], date='1851-1870', schema=('ABBA','ABBA','CCD','EDE'))
+    sonnet = generate(authors=['Charles Baudelaire','Paul Verlaine', 'Sully Prudhomme'], date='1851-1870', schema=('ABBA','ABBA','CCD','EDE'))
     for st in sonnet:
         for verse in st:
             print(verse['text'], verse['meta'])

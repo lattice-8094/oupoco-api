@@ -38,17 +38,18 @@ class Authors(Resource):
         return jsonify(list(authors))
 
 @api.route("/new")
-@api.doc(params={'date': 'Date interval', 'schema': 'The name of a schema (i.e. sonnet_francais)'})
+@api.doc(params={'authors': 'list of selected authors', 'date': 'Date interval', 'schema': 'The name of a schema (i.e. sonnet_francais)'})
 class New(Resource):
     def get(self):
-        """ Returns a new sonnet in JSON"""
+        """ Returns a new sonnet in JSON """
         param_schema = request.args.get('schema', None)
         param_date = request.args.get('date', None)
+        param_authors = request.args.get('authors', None)
 
         if param_schema in schemas:
-            sonnet = generation_sonnets.generate(date=param_date, schema=schemas[param_schema])
+            sonnet = generation_sonnets.generate(authors=param_authors, date=param_date, schema=schemas[param_schema])
         else:
-            sonnet = generation_sonnets.generate(date=param_date)
+            sonnet = generation_sonnets.generate(authors=param_authors, date=param_date)
 
         sonnet_text = list()
         for st in sonnet:
@@ -63,6 +64,12 @@ def new_html():
     """ Returns a new sonnet in HTML """
     param_schema = request.args.get('schema', None)
     param_date = request.args.get('date', None)
+    param_authors = request.args.get('authors', None)
+
+    if param_schema in schemas:
+        sonnet = generation_sonnets.generate(authors=param_authors, date=param_date, schema=schemas[param_schema])
+    else:
+        sonnet = generation_sonnets.generate(authors=param_authors, date=param_date)
 
     if param_schema in schemas:
         sonnet = generation_sonnets.generate(date=param_date, schema=schemas[param_schema])
