@@ -110,6 +110,8 @@ def generate(authors='None', date='None', schema=('ABAB','ABAB','CCD','EDE')):
     longueur = len(all_rimes)
 
     schema_rimes = dict()
+    # ('ABAB','ABAB','CCD','EDE') -> Counter({'A': 4, 'B': 4, 'C': 2, 'D': 2, 'E': 2})
+    # le décompte de chaque lettre permet un traitement générique des schémas
     schema_letters = Counter(''.join(schema))
     while True :
         try :
