@@ -113,6 +113,8 @@ def generate(authors='None', date='None', schema=('ABAB','ABAB','CCD','EDE')):
     # ('ABAB','ABAB','CCD','EDE') -> Counter({'A': 4, 'B': 4, 'C': 2, 'D': 2, 'E': 2})
     # le décompte de chaque lettre permet un traitement générique des schémas
     schema_letters = Counter(''.join(schema))
+    if longueur < len(schema_letters):
+        return None
     while True :
         try :
             choix_rimes = random.sample(range(longueur), len(schema_letters))
@@ -149,7 +151,7 @@ def main():
     'sonnet_spencerien':('ABAB','BCBC','CDCD','EE'),
     'sonnet_irrationnel':('AAB','C','BAAB','C','CDCCD')
     }
-    sonnet = generate(authors=['Charles Baudelaire','Paul Verlaine', 'Sully Prudhomme'], date='1851-1870', schema=(schemas['sonnet_shakespearien']))
+    sonnet = generate(authors=['Charles Baudelaire','Paul Verlaine', 'Sully Prudhomme'], date='1800-1830', schema=(schemas['sonnet_shakespearien']))
     for st in sonnet:
         for verse in st:
             print(verse['text'])

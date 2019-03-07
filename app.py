@@ -5,7 +5,7 @@ import datetime
 import json
 
 from flask import Flask
-from flask_restplus import Api, Resource
+from flask_restplus import Api, Resource, reqparse
 
 from flask import jsonify, request
 
@@ -13,15 +13,24 @@ app = Flask(__name__)
 api = Api(app, version='0.9', title="API du projet Oupoco", description="API de test pour la mise en place du site web")
 
 bd_meta = 'bd_meta.json'
+meta = json.load(open(bd_meta))
+authors = set([meta[s]['auteur'] for s in meta])
 
 schemas = {
-    'sonnet_sicilien':('ABAB','ABAB','CDE','CDE'),
-    'sonnet_petrarquien':('ABBA','ABBA','CDE','CDE'),
+    'sonnet_sicilien1':('ABAB','ABAB','CDE','CDE'),
+    'sonnet_sicilien2':('ABAB','ABAB','CDC','CDC'),
+    'sonnet_petrarquien1':('ABBA','ABBA','CDE','CDE'),
+    'sonnet_petrarquien2':('ABBA','ABBA','CDC','DCD'),
+    'sonnet_petrarquien3':('ABBA','ABBA','CDE','DCE'),
     'sonnet_marotique':('ABBA','ABBA','CCD','EED'),
     'sonnet_francais':('ABBA','ABBA','CCD','EDE'),
-    'sonnet_queneau':('ABAB','ABAB','CCD','EDE')
+    'sonnet_queneau':('ABAB','ABAB','CCD','EDE'),
+    'sonnet_shakespearien':('ABAB','CDCD','EFEF','GG'),
+    'sonnet_spencerien':('ABAB','BCBC','CDCD','EE'),
+    'sonnet_irrationnel':('AAB','C','BAAB','C','CDCCD')
     }
 
+dates = ('1800-1830', '1831-1850', '1851-1870', '1871-1890', '1891-1900', '1901-1950')
 
 @api.route('/schemas')
 class Schemas(Resource):
@@ -33,24 +42,31 @@ class Schemas(Resource):
 class Authors(Resource):
     def get(self):
         """ Returns the list of authors in the database """
-        meta = json.load(open(bd_meta))
-        authors = set([meta[s]['auteur'] for s in meta])
         return jsonify(list(authors))
 
+new_parser = reqparse.RequestParser()
+new_parser.add_argument('schema', type=str, choices=tuple(schemas.keys()))
+new_parser.add_argument('authors', type=str, choices=tuple(authors), action='append')
+new_parser.add_argument('date', type=str, choices=dates)
+
 @api.route("/new")
-@api.doc(params={'authors': 'list of selected authors', 'date': 'Date interval', 'schema': 'The name of a schema (i.e. sonnet_francais)'})
 class New(Resource):
+    @api.expect(new_parser)
     def get(self):
         """ Returns a new sonnet in JSON """
-        param_schema = request.args.get('schema', None)
-        param_date = request.args.get('date', None)
-        param_authors = request.args.get('authors', None)
+        args = new_parser.parse_args()
+        param_schema = args.get('schema', None)
+        param_date = args.get('date', None)
+        param_authors = args.get('authors', None)
+        print(param_authors)
 
         if param_schema in schemas:
             sonnet = generation_sonnets.generate(authors=param_authors, date=param_date, schema=schemas[param_schema])
         else:
             sonnet = generation_sonnets.generate(authors=param_authors, date=param_date)
 
+        if sonnet is None:
+            return ""
         sonnet_text = list()
         for st in sonnet:
             for verse in st:
@@ -62,15 +78,18 @@ class New(Resource):
 @app.route("/new-html")
 def new_html():
     """ Returns a new sonnet in HTML """
-    param_schema = request.args.get('schema', None)
-    param_date = request.args.get('date', None)
-    param_authors = request.args.get('authors', None)
+    args = new_parser.parse_args()
+    param_schema = args.get('schema', None)
+    param_date = args.get('date', None)
+    param_authors = args.get('authors', None)
 
     if param_schema in schemas:
         sonnet = generation_sonnets.generate(authors=param_authors, date=param_date, schema=schemas[param_schema])
     else:
         sonnet = generation_sonnets.generate(authors=param_authors, date=param_date)
 
+    if sonnet is None: 
+            return ""
     sonnet_html = '<div id="sonnet">'
     for st in sonnet:
         sonnet_html += "<p>"
