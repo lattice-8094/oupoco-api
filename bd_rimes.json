@@ -5798,6 +5798,31 @@
             "texte": "Qu’on dirait le tableau fait d’après l’aquarelle!",
             "id": "s-756-4-3",
             "id_sonnet": "s-756"
+        },
+        {
+            "texte": "À l'austère devoir pieusement fidèle,",
+            "id": "s-788-4-1",
+            "id_sonnet": "s-788"
+        },
+        {
+            "texte": "Elle dira, lisant ces vers tout remplis d'elle :",
+            "id": "s-788-4-2",
+            "id_sonnet": "s-788"
+        },
+        {
+            "texte": "Un galant sans argent est un oiseau sans aile.",
+            "id": "s-787-3-1",
+            "id_sonnet": "s-787"
+        },
+        {
+            "texte": "Jamais tu n’atteindras jusqu’à cette donzelle. »",
+            "id": "s-787-3-3",
+            "id_sonnet": "s-787"
+        },
+        {
+            "texte": "Mais vous avez cent fois raison, mademoiselle !",
+            "id": "s-787-4-2",
+            "id_sonnet": "s-787"
         }
     ],
     [
@@ -13043,7 +13068,6 @@
             "id": "s-344-4-1",
             "id_sonnet": "s-344"
         },
-        "en lui envoyant «sagesse»",
         {
             "texte": "On le reprend, ce livre en sa toute jeunesse,",
             "id": "s-446-3-1",
@@ -17391,6 +17415,16 @@
             "texte": "Je vous désobéis pour la première fois!",
             "id": "s-752-4-3",
             "id_sonnet": "s-752"
+        },
+        {
+            "texte": "Ce murmure d'amour élevé sur ses pas ;",
+            "id": "s-788-3-3",
+            "id_sonnet": "s-788"
+        },
+        {
+            "texte": "« Quelle est donc cette femme ? » et ne comprendra pas.",
+            "id": "s-788-4-3",
+            "id_sonnet": "s-788"
         }
     ],
     [
@@ -18033,6 +18067,21 @@
             "texte": "Par où vous attaquer? je ne sais, je l’avoue;",
             "id": "s-752-4-1",
             "id_sonnet": "s-752"
+        },
+        {
+            "texte": "Elle est trop haut pour toi. Les poètes sont fous.",
+            "id": "s-787-3-2",
+            "id_sonnet": "s-787"
+        },
+        {
+            "texte": "Et je dis à l’étoile, à l’étoile aux yeux doux :",
+            "id": "s-787-4-1",
+            "id_sonnet": "s-787"
+        },
+        {
+            "texte": "Et je ferais bien mieux d’être amoureux de vous.",
+            "id": "s-787-4-3",
+            "id_sonnet": "s-787"
         }
     ],
     [
@@ -21334,6 +21383,26 @@
             "texte": "Vous seriez dans une chaumière",
             "id": "s-755-4-2",
             "id_sonnet": "s-755"
+        },
+        {
+            "texte": "Mon âme a son secret, ma vie a son mystère :",
+            "id": "s-788-1-1",
+            "id_sonnet": "s-788"
+        },
+        {
+            "texte": "Le mal est sans espoir, aussi j'ai dû le taire,",
+            "id": "s-788-1-3",
+            "id_sonnet": "s-788"
+        },
+        {
+            "texte": "Toujours à ses côtés, et pourtant solitaire,",
+            "id": "s-788-2-2",
+            "id_sonnet": "s-788"
+        },
+        {
+            "texte": "Et j'aurai jusqu'au bout fait mon temps sur la terre,",
+            "id": "s-788-2-3",
+            "id_sonnet": "s-788"
         }
     ],
     [
@@ -24991,6 +25060,16 @@
             "texte": "Tais-lui que sa présence est douce,",
             "id": "s-639-4-2",
             "id_sonnet": "s-639"
+        },
+        {
+            "texte": "Et je vous offre, Églé, giletière étonnée,",
+            "id": "s-786-4-1",
+            "id_sonnet": "s-786"
+        },
+        {
+            "texte": "Tout ce qu’une âme, hélas, vers l’infini tournée,",
+            "id": "s-786-4-2",
+            "id_sonnet": "s-786"
         }
     ],
     [
@@ -28905,6 +28984,41 @@
             "texte": "Tout cela simplement veut dire: M A R G U E R I T E!",
             "id": "s-764-4-3",
             "id_sonnet": "s-764"
+        },
+        {
+            "texte": "Quand vous passez, les yeux baissés sous votre mante ;",
+            "id": "s-785-3-2",
+            "id_sonnet": "s-785"
+        },
+        {
+            "texte": "Je ne vous cache pas que vous êtes charmante,",
+            "id": "s-785-4-2",
+            "id_sonnet": "s-785"
+        },
+        {
+            "texte": "Je ne vous cache pas que vous êtes charmante ;",
+            "id": "s-786-1-2",
+            "id_sonnet": "s-786"
+        },
+        {
+            "texte": "Soit ; mais vous comprenez que ce qui me tourmente,",
+            "id": "s-786-1-3",
+            "id_sonnet": "s-786"
+        },
+        {
+            "texte": "Pour Tircis sans le sou Philis est peu clémente,",
+            "id": "s-786-2-2",
+            "id_sonnet": "s-786"
+        },
+        {
+            "texte": "Et l’amant dédoré n’éblouit point l’amante ;",
+            "id": "s-786-2-3",
+            "id_sonnet": "s-786"
+        },
+        {
+            "texte": "Les cèdres, et les pins sur l’auguste Érymanthe;",
+            "id": "s-785-4-1",
+            "id_sonnet": "s-785"
         }
     ],
     [
@@ -33095,6 +33209,36 @@
             "texte": "Mab et Titania semblaient à votre insu",
             "id": "s-759-2-3",
             "id_sonnet": "s-759"
+        },
+        {
+            "texte": "Un amour éternel en un moment conçu.",
+            "id": "s-788-1-2",
+            "id_sonnet": "s-788"
+        },
+        {
+            "texte": "Et celle qui l'a fait n'en a jamais rien su.",
+            "id": "s-788-1-4",
+            "id_sonnet": "s-788"
+        },
+        {
+            "texte": "Hélas ! j'aurai passé près d'elle inaperçu,",
+            "id": "s-788-2-1",
+            "id_sonnet": "s-788"
+        },
+        {
+            "texte": "N'osant rien demander et n'ayant rien reçu.",
+            "id": "s-788-2-4",
+            "id_sonnet": "s-788"
+        },
+        {
+            "texte": "Car l’ange n’est complet que lorsqu’il est déchu ;",
+            "id": "s-786-3-3",
+            "id_sonnet": "s-786"
+        },
+        {
+            "texte": "Mêle de rêverie aux rondeurs d’un fichu.",
+            "id": "s-786-4-3",
+            "id_sonnet": "s-786"
         }
     ],
     [
@@ -37076,6 +37220,41 @@
             "texte": "«Ô trop heureux reflets, s’ils savaient leur bonheur!»",
             "id": "s-750-4-3",
             "id_sonnet": "s-750"
+        },
+        {
+            "texte": "Ainsi palpiteraient les grecs et les hébreux,",
+            "id": "s-785-3-1",
+            "id_sonnet": "s-785"
+        },
+        {
+            "texte": "Ainsi frissonneraient sur l’Horeb ténébreux",
+            "id": "s-785-3-3",
+            "id_sonnet": "s-785"
+        },
+        {
+            "texte": "Je ne vous cache pas que je suis amoureux.",
+            "id": "s-785-4-3",
+            "id_sonnet": "s-785"
+        },
+        {
+            "texte": "Je ne vous cache pas que je suis amoureux,",
+            "id": "s-786-1-1",
+            "id_sonnet": "s-786"
+        },
+        {
+            "texte": "C’est, ayant le coeur plein, d’avoir le gousset creux.",
+            "id": "s-786-1-4",
+            "id_sonnet": "s-786"
+        },
+        {
+            "texte": "On fuit le pauvre ainsi qu’on fuyait le lépreux ;",
+            "id": "s-786-2-1",
+            "id_sonnet": "s-786"
+        },
+        {
+            "texte": "Il sied d’être Rothschild avant d’être Saint-Preux.",
+            "id": "s-786-2-4",
+            "id_sonnet": "s-786"
         }
     ],
     [
@@ -40007,6 +40186,26 @@
             "texte": "Être Napoléon, être plus grand encore !",
             "id": "s-739-2-4",
             "id_sonnet": "s-739"
+        },
+        {
+            "texte": "Fille de mon portier! l’Érymanthe sonore,",
+            "id": "s-785-1-1",
+            "id_sonnet": "s-785"
+        },
+        {
+            "texte": "Inclinerait son cèdre altier qu’un peuple adore ;",
+            "id": "s-785-1-4",
+            "id_sonnet": "s-785"
+        },
+        {
+            "texte": "Songeraient ; et les grecs, dans le temple d’Aglaure",
+            "id": "s-785-2-2",
+            "id_sonnet": "s-785"
+        },
+        {
+            "texte": "Diraient en vous voyant: Salut, déesse Aurore !",
+            "id": "s-785-2-4",
+            "id_sonnet": "s-785"
         }
     ],
     [
@@ -47638,6 +47837,16 @@
             "texte": "De la fraîche palette est le ton le plus tendre.",
             "id": "s-768-4-3",
             "id_sonnet": "s-768"
+        },
+        {
+            "texte": "Pour elle, quoique Dieu l'ait faite douce et tendre,",
+            "id": "s-788-3-1",
+            "id_sonnet": "s-788"
+        },
+        {
+            "texte": "Elle ira son chemin, distraite, et sans entendre",
+            "id": "s-788-3-2",
+            "id_sonnet": "s-788"
         }
     ],
     [
@@ -48500,6 +48709,16 @@
             "texte": "Votre paleur nacrée en incarnat se change.",
             "id": "s-743-2-4",
             "id_sonnet": "s-743"
+        },
+        {
+            "texte": "N’importe, je m’obstine ; et j’ai l’audace étrange",
+            "id": "s-786-3-1",
+            "id_sonnet": "s-786"
+        },
+        {
+            "texte": "D’être pauvre et d’aimer, et je vous veux, bel ange ;",
+            "id": "s-786-3-2",
+            "id_sonnet": "s-786"
         }
     ],
     [
@@ -53449,6 +53668,26 @@
             "texte": "Amis qui m’écoutez, faites votre entendement large,",
             "id": "s-437-3-2",
             "id_sonnet": "s-437"
+        },
+        {
+            "texte": "Une étoile du ciel me parlait ; cette vierge",
+            "id": "s-787-1-1",
+            "id_sonnet": "s-787"
+        },
+        {
+            "texte": "Jusqu’à la blonde Églé, fille de ton concierge.",
+            "id": "s-787-1-4",
+            "id_sonnet": "s-787"
+        },
+        {
+            "texte": "Des rêves de velours sous ses rideaux de serge.",
+            "id": "s-787-2-2",
+            "id_sonnet": "s-787"
+        },
+        {
+            "texte": "Tu perds ton temps. Maigris, fais des vers, brûle un cierge,",
+            "id": "s-787-2-3",
+            "id_sonnet": "s-787"
         }
     ],
     [
@@ -54567,9 +54806,7 @@
             "id_sonnet": "s-375"
         }
     ],
-    [
-        "POUR Mlle E… M…"
-    ],
+    [],
     [
         {
             "texte": "Dis mot, ni surtout ne te tais!",
@@ -54580,6 +54817,26 @@
             "texte": "Je te salue, enfant qui rêvais et chantais,",
             "id": "s-693-1-1",
             "id_sonnet": "s-693"
+        },
+        {
+            "texte": "J’ai ri de tes sonnets d’hier où tu montais",
+            "id": "s-787-1-3",
+            "id_sonnet": "s-787"
+        },
+        {
+            "texte": "« Églé fait - j’en pourrais jaser, mais je me tais -",
+            "id": "s-787-2-1",
+            "id_sonnet": "s-787"
+        },
+        {
+            "texte": "Chante-la ; ce sera comme si tu chantais.",
+            "id": "s-787-2-4",
+            "id_sonnet": "s-787"
+        },
+        {
+            "texte": "Disait: « Ô descendant crotté des Colletets,",
+            "id": "s-787-1-2",
+            "id_sonnet": "s-787"
         }
     ],
     [

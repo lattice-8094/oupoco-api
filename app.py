@@ -9,17 +9,65 @@ from flask_restplus import Api, Resource
 
 from flask import jsonify, request
 
+# http://flask.pocoo.org/snippets/35/
+class ReverseProxied(object):
+    '''Wrap the application in this middleware and configure the
+    front-end server to add these headers, to let you quietly bind
+    this to a URL other than / and to an HTTP scheme that is
+    different than what is used locally.
+    In nginx:
+    ::
+        location /myprefix {
+            proxy_pass http://192.168.0.1:5001;
+            proxy_set_header Host $host;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header X-Scheme $scheme;
+            proxy_set_header X-Script-Name /myprefix;
+        }
+    In Apache:
+    ::
+        <Location /myprefix>
+            ProxyPass http://192.168.0.1:5001
+            ProxyPassReverse http://192.168.0.1:5001
+            RequestHeader set X-Script-Name /myprefix
+        </Location>
+    :param wsgi_app: the WSGI application
+    Inspired by: http://flask.pocoo.org/snippets/35/
+    '''
+    def __init__(self, app):
+        self.app = app
+
+    def __call__(self, environ, start_response):
+        script_name = environ.get('HTTP_X_SCRIPT_NAME', '')
+        if script_name:
+            environ['SCRIPT_NAME'] = script_name
+            path_info = environ['PATH_INFO']
+            if path_info.startswith(script_name):
+                environ['PATH_INFO'] = path_info[len(script_name):]
+
+        scheme = environ.get('HTTP_X_SCHEME', '')
+        if scheme:
+            environ['wsgi.url_scheme'] = scheme
+        return self.app(environ, start_response)
+
 app = Flask(__name__)
+app.wsgi_app = ReverseProxied(app.wsgi_app)
 api = Api(app, version='0.9', title="API du projet Oupoco", description="API de test pour la mise en place du site web")
 
 bd_meta = 'bd_meta.json'
 
 schemas = {
-    'sonnet_sicilien':('ABAB','ABAB','CDE','CDE'),
-    'sonnet_petrarquien':('ABBA','ABBA','CDE','CDE'),
+    'sonnet_sicilien1':('ABAB','ABAB','CDE','CDE'),
+    'sonnet_sicilien2':('ABAB','ABAB','CDC','CDC'),
+    'sonnet_petrarquien1':('ABBA','ABBA','CDE','CDE'),
+    'sonnet_petrarquien2':('ABBA','ABBA','CDC','DCD'),
+    'sonnet_petrarquien3':('ABBA','ABBA','CDE','DCE'),
     'sonnet_marotique':('ABBA','ABBA','CCD','EED'),
     'sonnet_francais':('ABBA','ABBA','CCD','EDE'),
-    'sonnet_queneau':('ABAB','ABAB','CCD','EDE')
+    'sonnet_queneau':('ABAB','ABAB','CCD','EDE'),
+    'sonnet_shakespearien':('ABAB','CDCD','EFEF','GG'),
+    'sonnet_spencerien':('ABAB','BCBC','CDCD','EE'),
+    'sonnet_irrationnel':('AAB','C','BAAB','C','CDCCD')
     }
 
 
@@ -38,15 +86,19 @@ class Authors(Resource):
         return jsonify(list(authors))
 
 @api.route("/new")
-@api.doc(params={'schema': 'The name of a schema (i.e. sonnet_francais)'})
+@api.doc(params={'authors': 'list of selected authors', 'date': 'Date interval', 'schema': 'The name of a schema (i.e. sonnet_francais)'})
 class New(Resource):
     def get(self):
-        """ Returns a new sonnet in JSON"""
+        """ Returns a new sonnet in JSON """
         param_schema = request.args.get('schema', None)
+        param_date = request.args.get('date', None)
+        param_authors = request.args.get('authors', None)
+
         if param_schema in schemas:
-            sonnet = generation_sonnets.generate(schemas[param_schema])
+            sonnet = generation_sonnets.generate(authors=param_authors, date=param_date, schema=schemas[param_schema])
         else:
-            sonnet = generation_sonnets.generate()
+            sonnet = generation_sonnets.generate(authors=param_authors, date=param_date)
+
         sonnet_text = list()
         for st in sonnet:
             for verse in st:
@@ -56,14 +108,17 @@ class New(Resource):
         return jsonify(res)
 
 @app.route("/new-html")
-def newHtml():
+def new_html():
     """ Returns a new sonnet in HTML """
     param_schema = request.args.get('schema', None)
+    param_date = request.args.get('date', None)
+    param_authors = request.args.get('authors', None)
+
     if param_schema in schemas:
-        sonnet = generation_sonnets.generate(schemas[param_schema])
+        sonnet = generation_sonnets.generate(authors=param_authors, date=param_date, schema=schemas[param_schema])
     else:
-        sonnet = generation_sonnets.generate()
-    sonnet = generation_sonnets.generate()
+        sonnet = generation_sonnets.generate(authors=param_authors, date=param_date)
+
     sonnet_html = '<div id="sonnet">'
     for st in sonnet:
         sonnet_html += "<p>"

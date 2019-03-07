@@ -3,6 +3,7 @@
 import random
 import pickle
 import json
+from collections import Counter
 
 types_rimes = json.load(open('bd_rimes.json', 'r'))
 meta = json.load(open('bd_meta.json', 'r'))
@@ -23,25 +24,103 @@ def __verse2txtmeta__(verse):
     res['meta'] = meta[verse['id_sonnet']]
     return res
 
-def generate(schema=('ABAB','ABAB','CCD','EDE')):    
-    longueur = len(types_rimes)
-    rimes = dict()
+def paramdate(rimes, cle):
+    erreur=[]
+    for sonnet in meta:
+        date=meta[sonnet]['date']
+        if date=='Non renseignée':
+            erreur.append(sonnet)
 
+    dico_date=dict()
+    for sonnet in meta:
+        if sonnet not in erreur:
+            dico_date[sonnet]=meta.get(sonnet) 
+
+    intervalle_1=list()
+    intervalle_2=list()
+    intervalle_3=list()
+    intervalle_4=list()
+    intervalle_5=list()
+    intervalle_6=list()
+    dico_intervalle=dict()
+    for key in dico_date:
+        if dico_date[key]['date'] > '1800' and dico_date[key]['date'] <= '1830':
+            intervalle_1.append(key)
+        if dico_date[key]['date'] > '1830' and dico_date[key]['date'] <= '1850':
+            intervalle_2.append(key)
+        if dico_date[key]['date'] > '1850' and dico_date[key]['date'] <= '1870':
+            intervalle_3.append(key)
+        if dico_date[key]['date'] > '1870' and dico_date[key]['date'] <= '1890':
+            intervalle_4.append(key)
+        if dico_date[key]['date'] > '1890' and dico_date[key]['date'] <= '1900':
+            intervalle_5.append(key)
+        if dico_date[key]['date'] > '1900' and dico_date[key]['date'] <= '1950':
+            intervalle_6.append(key)
+
+
+    dico_intervalle={
+        '1800-1830':intervalle_1,
+        '1831-1850':intervalle_2,
+        '1851-1870':intervalle_3,
+        '1871-1890':intervalle_4,
+        '1891-1900':intervalle_5,
+        '1901-1950':intervalle_6}
+
+    choix_final=list()
+    choix_date = list()
+    for sousListe in rimes:
+        choix_date=[data for data in sousListe if data['id_sonnet'] in dico_intervalle[cle]]
+        if len(choix_date)>0:
+            choix_final.append(choix_date)
+    
+    return choix_final
+
+def filter_by_authors(rimes, authors):
+    """
+    Find and return the rimes written by the given authors in the given rimes 
+    Args:
+        rimes: a list of rimes, each rime is a list of verses, each verse is a dict (texte, id, id_sonnet)
+        authors: a list of authors
+    Returns:
+        a list of list. Same structure as the arg rimes but filtered by authors
+    """
+    liste_choix = [id_sonnet for id_sonnet in meta if meta[id_sonnet]['auteur'] in authors]
+    # liste_choix=list()
+    # for sonnet in meta:
+    #     for i in auteurs: 
+    #         if meta[sonnet]['auteur']== i:
+    #             liste_choix.append(sonnet)
+
+    choix_rimes=list()
+    choix_final=list()
+    for rime in rimes:
+        choix_rimes = [verse for verse in rime if verse['id_sonnet'] in liste_choix]
+        if len(choix_rimes) > 0:
+            choix_final.append(choix_rimes)   
+    return choix_final
+
+def generate(authors='None', date='None', schema=('ABAB','ABAB','CCD','EDE')):
+    all_rimes = types_rimes
+    if date:
+        contrainte_date = paramdate(all_rimes, date)  
+        all_rimes = contrainte_date
+    if authors: 
+        contrainte_auteur = filter_by_authors(all_rimes, authors)
+        all_rimes = contrainte_auteur
+    longueur = len(all_rimes)
+
+    schema_rimes = dict()
+    # ('ABAB','ABAB','CCD','EDE') -> Counter({'A': 4, 'B': 4, 'C': 2, 'D': 2, 'E': 2})
+    # le décompte de chaque lettre permet un traitement générique des schémas
+    schema_letters = Counter(''.join(schema))
     while True :
         try :
-            choix_rimes=random.sample(range(longueur), 5)
-            indexes_A=random.sample(range(len(types_rimes[choix_rimes[0]])), 4)
-            rimes['A'] = [types_rimes[choix_rimes[0]][index] for index in indexes_A]
-            indexes_B=random.sample(range(len(types_rimes[choix_rimes[1]])), 4)
-            rimes['B'] = [types_rimes[choix_rimes[1]][index] for index in indexes_B]
-            indexes_C=random.sample(range(len(types_rimes[choix_rimes[2]])), 2)
-            rimes['C'] = [types_rimes[choix_rimes[2]][index] for index in indexes_C]
-            indexes_D=random.sample(range(len(types_rimes[choix_rimes[3]])), 2)
-            rimes['D'] = [types_rimes[choix_rimes[3]][index] for index in indexes_D]
-            indexes_E=random.sample(range(len(types_rimes[choix_rimes[4]])), 2)
-            rimes['E'] = [types_rimes[choix_rimes[4]][index] for index in indexes_E]
+            choix_rimes = random.sample(range(longueur), len(schema_letters))
+            for i, letter in enumerate(schema_letters):
+                current_rime = all_rimes[choix_rimes[i]]
+                indexes = random.sample(range(len(current_rime)), schema_letters[letter])
+                schema_rimes[letter] = [current_rime[index] for index in indexes]
             break
-
         except :
             continue
 
@@ -49,7 +128,7 @@ def generate(schema=('ABAB','ABAB','CCD','EDE')):
     for stanza in schema:
         generated_stanza = list()
         for letter in stanza:
-            verse = rimes[letter].pop()
+            verse = schema_rimes[letter].pop()
             generated_stanza.append(__verse2txtmeta__(verse))
         sonnet.append(generated_stanza)
    
@@ -58,13 +137,19 @@ def generate(schema=('ABAB','ABAB','CCD','EDE')):
 
 def main():
     schemas = {
-    'sonnet_sicilien':('ABAB','ABAB','CDE','CDE'),
-    'sonnet_petrarquien':('ABBA','ABBA','CDE','CDE'),
+    'sonnet_sicilien1':('ABAB','ABAB','CDE','CDE'),
+    'sonnet_sicilien2':('ABAB','ABAB','CDC','CDC'),
+    'sonnet_petrarquien1':('ABBA','ABBA','CDE','CDE'),
+    'sonnet_petrarquien2':('ABBA','ABBA','CDC','DCD'),
+    'sonnet_petrarquien3':('ABBA','ABBA','CDE','DCE'),
     'sonnet_marotique':('ABBA','ABBA','CCD','EED'),
     'sonnet_francais':('ABBA','ABBA','CCD','EDE'),
-    'sonnet_queneau':('ABAB','ABAB','CCD','EDE')
+    'sonnet_queneau':('ABAB','ABAB','CCD','EDE'),
+    'sonnet_shakespearien':('ABAB','CDCD','EFEF','GG'),
+    'sonnet_spencerien':('ABAB','BCBC','CDCD','EE'),
+    'sonnet_irrationnel':('AAB','C','BAAB','C','CDCCD')
     }
-    sonnet = generate(schemas['sonnet_sicilien'])
+    sonnet = generate(authors=['Charles Baudelaire','Paul Verlaine', 'Sully Prudhomme'], date='1851-1870', schema=(schemas['sonnet_shakespearien']))
     for st in sonnet:
         for verse in st:
             print(verse['text'])
