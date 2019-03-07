@@ -44,6 +44,13 @@ class Authors(Resource):
         """ Returns the list of authors in the database """
         return jsonify(list(authors))
 
+@api.route('/dates')
+class Schemas(Resource):
+    def get(self):
+        """ Returns the list of available dates """
+        return jsonify(dates)
+
+
 new_parser = reqparse.RequestParser()
 new_parser.add_argument('schema', type=str, choices=tuple(schemas.keys()))
 new_parser.add_argument('authors', type=str, choices=tuple(authors), action='append')
