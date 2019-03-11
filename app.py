@@ -87,7 +87,7 @@ class Authors(Resource):
         return jsonify(list(authors))
 
 @api.route('/dates')
-class Schemas(Resource):
+class Dates(Resource):
     def get(self):
         """ Returns the list of available dates """
         return jsonify(dates)
