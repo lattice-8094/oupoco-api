@@ -99,7 +99,14 @@ def filter_by_authors(rimes, authors):
             choix_final.append(choix_rimes)   
     return choix_final
 
-def cpt_rhyme_position(id):
+def cpt_verse_position(id):
+    """
+    computes and returns the verse position thanks to the 'id' param
+    Args:
+        id: a string with the sonnet id, the stanza number (1 to 4), the verse position in stanza
+    Returns:
+        the verse position in sonnet (int)
+    """
     pos_sonnet = 0
     (s, id_s, id_st, pos_st) = id.split("-")
     if id_st == "1":
@@ -120,19 +127,16 @@ def generate_order(schema, rimes):
     schema_letters = Counter(schema_str)
     while True:
         try:
+            # pick rhymes in rhymes db (4 letters in schema -> 4 rhymes)
             choix_rimes = random.sample(range(len(rimes)), len(schema_letters))
+            # organise the chosen rhymes in a dict indexed by letters
             choix_rimes_letter = {letter: rimes[choix_rimes[i]] for i, letter in enumerate(schema_letters)}
             schema_rimes = defaultdict(list)
             for i, letter in enumerate(schema_str, 1):
-                #print(i, choix_rimes_letter[letter][0]['texte'])
-                rimes_letter_position = [rime for rime in choix_rimes_letter[letter] if cpt_rhyme_position(rime['id']) == i]
+                # order constraint: in the given rhymes list, pick only the ones with the right position
+                rimes_letter_position = [rime for rime in choix_rimes_letter[letter] if cpt_verse_position(rime['id']) == i]
                 current_verse = random.sample(rimes_letter_position, 1)[0]
-                #print(current_verse)
-                #current_rime = all_rimes[choix_rimes[i]]
-                #indexes = random.sample(
-                #    range(len(current_rime)), schema_letters[letter])
-                schema_rimes[letter].append(current_verse)
-                                        
+                schema_rimes[letter].append(current_verse)                                        
             break
         except Exception as ex:
             template = "An exception of type {0} occurred. Arguments:\n{1!r}"
