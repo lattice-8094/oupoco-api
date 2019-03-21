@@ -3,7 +3,7 @@
 import random
 import pickle
 import json
-from collections import Counter
+from collections import Counter, defaultdict
 
 types_rimes = json.load(open('bd_rimes.json', 'r'))
 meta = json.load(open('bd_meta.json', 'r'))
@@ -99,7 +99,59 @@ def filter_by_authors(rimes, authors):
             choix_final.append(choix_rimes)   
     return choix_final
 
-def generate(authors='None', date='None', schema=('ABAB','ABAB','CCD','EDE')):
+def cpt_rhyme_position(id):
+    pos_sonnet = 0
+    (s, id_s, id_st, pos_st) = id.split("-")
+    if id_st == "1":
+        pos_sonnet = int(pos_st)
+    elif id_st == "2":
+        pos_sonnet = int(pos_st) + 4
+    elif id_st == "3":
+        pos_sonnet = int(pos_st) + 8
+    elif id_st == "4":
+        pos_sonnet = int(pos_st) + 11
+    return pos_sonnet
+
+def generate_order(schema, rimes):
+    sonnet = ""
+    schema_str = ""
+    for stanza in schema:
+        schema_str += stanza
+    schema_letters = Counter(schema_str)
+    while True:
+        try:
+            choix_rimes = random.sample(range(len(rimes)), len(schema_letters))
+            choix_rimes_letter = {letter: rimes[choix_rimes[i]] for i, letter in enumerate(schema_letters)}
+            schema_rimes = defaultdict(list)
+            for i, letter in enumerate(schema_str, 1):
+                #print(i, choix_rimes_letter[letter][0]['texte'])
+                rimes_letter_position = [rime for rime in choix_rimes_letter[letter] if cpt_rhyme_position(rime['id']) == i]
+                current_verse = random.sample(rimes_letter_position, 1)[0]
+                #print(current_verse)
+                #current_rime = all_rimes[choix_rimes[i]]
+                #indexes = random.sample(
+                #    range(len(current_rime)), schema_letters[letter])
+                schema_rimes[letter].append(current_verse)
+                                        
+            break
+        except Exception as ex:
+            template = "An exception of type {0} occurred. Arguments:\n{1!r}"
+            message = template.format(type(ex).__name__, ex.args)
+            print(message)
+            continue
+    
+    sonnet = list()
+    for stanza in schema:
+        generated_stanza = list()
+        for letter in stanza:
+            verse = schema_rimes[letter].pop(0)
+            generated_stanza.append(verse)
+            #generated_stanza.append(__verse2txtmeta__(verse))
+        sonnet.append(generated_stanza)
+
+    return sonnet
+
+def generate(order=False, authors='', date='', schema=('ABAB','ABAB','CCD','EDE')):
     all_rimes = types_rimes
     if date:
         contrainte_date = paramdate(all_rimes, date)  
@@ -108,6 +160,10 @@ def generate(authors='None', date='None', schema=('ABAB','ABAB','CCD','EDE')):
         contrainte_auteur = filter_by_authors(all_rimes, authors)
         all_rimes = contrainte_auteur
     longueur = len(all_rimes)
+
+    if order:
+        sonnet = generate_order(schema, all_rimes)
+        return sonnet
 
     schema_rimes = dict()
     # ('ABAB','ABAB','CCD','EDE') -> Counter({'A': 4, 'B': 4, 'C': 2, 'D': 2, 'E': 2})
@@ -151,10 +207,11 @@ def main():
     'sonnet_spencerien':('ABAB','BCBC','CDCD','EE'),
     'sonnet_irrationnel':('AAB','C','BAAB','C','CDCCD')
     }
-    sonnet = generate(authors=['Charles Baudelaire','Paul Verlaine', 'Sully Prudhomme'], date='1800-1830', schema=(schemas['sonnet_shakespearien']))
+    #sonnet = generate(authors=['Charles Baudelaire','Paul Verlaine', 'Sully Prudhomme'], date='1800-1830', schema=(schemas['sonnet_shakespearien']))
+    sonnet = generate(order=True)
     for st in sonnet:
         for verse in st:
-            print(verse['text'])
+            print(verse['texte'], verse['id'])
         print()
 
 if __name__ == "__main__":
