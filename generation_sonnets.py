@@ -107,16 +107,14 @@ def cpt_verse_position(id):
     Returns:
         the verse position in sonnet (int)
     """
-    pos_sonnet = 0
-    (s, id_s, id_st, pos_st) = id.split("-")
-    if id_st == "1":
-        pos_sonnet = int(pos_st)
-    elif id_st == "2":
-        pos_sonnet = int(pos_st) + 4
+    (id_st, pos_st) = id.split("-")[-2:]
+    pos_sonnet = int(pos_st)
+    if id_st == "2":
+        pos_sonnet += 4
     elif id_st == "3":
-        pos_sonnet = int(pos_st) + 8
+        pos_sonnet += 8
     elif id_st == "4":
-        pos_sonnet = int(pos_st) + 11
+        pos_sonnet += 11
     return pos_sonnet
 
 def generate_order(schema, rimes):
