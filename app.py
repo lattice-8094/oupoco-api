@@ -9,6 +9,11 @@ from flask_restplus import Api, Resource, reqparse
 
 from flask import jsonify, request
 
+import logging
+logger = logging.getLogger(__name__)
+import logging.config
+logging.config.fileConfig('./logging.conf')
+
 # http://flask.pocoo.org/snippets/35/
 class ReverseProxied(object):
     '''Wrap the application in this middleware and configure the

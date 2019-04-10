@@ -5,6 +5,9 @@ import pickle
 import json
 from collections import Counter, defaultdict
 
+import logging
+logger = logging.getLogger(__name__)
+
 types_rimes = json.load(open('bd_rimes.json', 'r'))
 meta = json.load(open('bd_meta.json', 'r'))
 
@@ -137,9 +140,9 @@ def generate_order(schema, rimes):
                 schema_rimes[letter].append(current_verse)                                        
             break
         except Exception as ex:
-            template = "An exception of type {0} occurred. Arguments:\n{1!r}"
+            template = "An exception of type {0} occurred. Arguments: {1!r}"
             message = template.format(type(ex).__name__, ex.args)
-            #print(message)
+            logging.info(message)
             continue
     
     sonnet = list()
@@ -163,16 +166,17 @@ def generate(order=False, authors='', date='', schema=('ABAB','ABAB','CCD','EDE'
         all_rimes = contrainte_auteur
     longueur = len(all_rimes)
 
-    if order:
-        sonnet = generate_order(schema, all_rimes)
-        return sonnet
-
     schema_rimes = dict()
     # ('ABAB','ABAB','CCD','EDE') -> Counter({'A': 4, 'B': 4, 'C': 2, 'D': 2, 'E': 2})
     # le décompte de chaque lettre permet un traitement générique des schémas
     schema_letters = Counter(''.join(schema))
     if longueur < len(schema_letters):
         return None
+
+    if order:
+        sonnet = generate_order(schema, all_rimes)
+        return sonnet
+    
     while True :
         try :
             choix_rimes = random.sample(range(longueur), len(schema_letters))
@@ -181,7 +185,10 @@ def generate(order=False, authors='', date='', schema=('ABAB','ABAB','CCD','EDE'
                 indexes = random.sample(range(len(current_rime)), schema_letters[letter])
                 schema_rimes[letter] = [current_rime[index] for index in indexes]
             break
-        except :
+        except Exception as ex:
+            template = "An exception of type {0} occurred. Arguments:\n{1!r}"
+            message = template.format(type(ex).__name__, ex.args)
+            logging.info(message)
             continue
 
     sonnet = list()
@@ -210,11 +217,17 @@ def main():
     'sonnet_irrationnel':('AAB','C','BAAB','C','CDCCD')
     }
     #sonnet = generate(authors=['Charles Baudelaire','Paul Verlaine', 'Sully Prudhomme'], date='1800-1830', schema=(schemas['sonnet_shakespearien']))
-    sonnet = generate(order=True)
-    for st in sonnet:
-        for verse in st:
-            print(verse['texte'], verse['id'])
-        print()
+    sonnet = generate(order=True, schema=(schemas['sonnet_shakespearien']))
+    if sonnet:
+        for st in sonnet:
+            for verse in st:
+                print(verse)
+                #print(verse['text'], verse['id'])
+            print()
+    else:
+        print('Nope')
 
 if __name__ == "__main__":
+    import logging.config
+    logging.config.fileConfig('./logging.conf')
     main()
