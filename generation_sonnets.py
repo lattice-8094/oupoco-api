@@ -139,7 +139,7 @@ def generate_order(schema, rimes):
         except Exception as ex:
             template = "An exception of type {0} occurred. Arguments:\n{1!r}"
             message = template.format(type(ex).__name__, ex.args)
-            print(message)
+            #print(message)
             continue
     
     sonnet = list()
@@ -147,8 +147,8 @@ def generate_order(schema, rimes):
         generated_stanza = list()
         for letter in stanza:
             verse = schema_rimes[letter].pop(0)
-            generated_stanza.append(verse)
-            #generated_stanza.append(__verse2txtmeta__(verse))
+            #generated_stanza.append(verse)
+            generated_stanza.append(__verse2txtmeta__(verse))
         sonnet.append(generated_stanza)
 
     return sonnet

@@ -55,6 +55,7 @@ new_parser = reqparse.RequestParser()
 new_parser.add_argument('schema', type=str, choices=tuple(schemas.keys()))
 new_parser.add_argument('authors', type=str, choices=tuple(authors), action='append')
 new_parser.add_argument('date', type=str, choices=dates)
+new_parser.add_argument('order', type=bool)
 
 @api.route("/new")
 class New(Resource):
@@ -65,12 +66,12 @@ class New(Resource):
         param_schema = args.get('schema', None)
         param_date = args.get('date', None)
         param_authors = args.get('authors', None)
-        print(param_authors)
+        param_order = args.get('order', False)
 
         if param_schema in schemas:
-            sonnet = generation_sonnets.generate(authors=param_authors, date=param_date, schema=schemas[param_schema])
+            sonnet = generation_sonnets.generate(authors=param_authors, date=param_date, schema=schemas[param_schema], order=param_order)
         else:
-            sonnet = generation_sonnets.generate(authors=param_authors, date=param_date)
+            sonnet = generation_sonnets.generate(authors=param_authors, date=param_date, order=param_order)
 
         if sonnet is None:
             return ""
@@ -89,11 +90,13 @@ def new_html():
     param_schema = args.get('schema', None)
     param_date = args.get('date', None)
     param_authors = args.get('authors', None)
+    param_order = args.get('order', False)
+
 
     if param_schema in schemas:
-        sonnet = generation_sonnets.generate(authors=param_authors, date=param_date, schema=schemas[param_schema])
+        sonnet = generation_sonnets.generate(authors=param_authors, date=param_date, schema=schemas[param_schema], order=param_order)
     else:
-        sonnet = generation_sonnets.generate(authors=param_authors, date=param_date)
+        sonnet = generation_sonnets.generate(authors=param_authors, date=param_date, order=param_order)
 
     if sonnet is None: 
             return ""
