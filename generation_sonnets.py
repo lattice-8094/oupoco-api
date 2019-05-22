@@ -156,7 +156,7 @@ def generate_order(schema, rimes):
 
     return sonnet
 
-def generate(order=False, authors='', date='', schema=('ABAB','ABAB','CCD','EDE')):
+def generate(order=True, authors='', date='', schema=('ABAB','ABAB','CCD','EDE')):
     all_rimes = types_rimes
     if date:
         contrainte_date = paramdate(all_rimes, date)  

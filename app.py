@@ -113,7 +113,7 @@ class New(Resource):
         param_schema = args.get('schema', None)
         param_date = args.get('date', None)
         param_authors = args.get('authors', None)
-        param_order = args.get('order', False)
+        param_order = args.get('order', True)
 
         if param_schema in schemas:
             sonnet = generation_sonnets.generate(authors=param_authors, date=param_date, schema=schemas[param_schema], order=param_order)
