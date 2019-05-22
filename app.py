@@ -102,7 +102,7 @@ new_parser = reqparse.RequestParser()
 new_parser.add_argument('schema', type=str, choices=tuple(schemas.keys()))
 new_parser.add_argument('authors', type=str, choices=tuple(authors), action='append')
 new_parser.add_argument('date', type=str, choices=dates)
-new_parser.add_argument('order', type=bool)
+new_parser.add_argument('order', type=bool, default=True)
 
 @api.route("/new")
 class New(Resource):
