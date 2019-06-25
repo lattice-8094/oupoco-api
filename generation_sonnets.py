@@ -91,6 +91,18 @@ def paramdate(rimes, cle):
     
     return choix_final
 
+def filter_by_theme(rimes, theme):
+    liste_choix = [id_sonnet for id_sonnet in meta if meta[id_sonnet]['thème'] in theme]
+    
+    choix_rimes=list()
+    choix_final=list()
+    for rime in rimes:
+        choix_rimes = [verse for verse in rime if verse['id_sonnet'] in liste_choix]
+        if len(choix_rimes) > 0:
+            choix_final.append(choix_rimes)
+            
+    return choix_final
+
 def filter_by_authors(rimes, authors):
     """
     Find and return the rimes written by the given authors in the given rimes 
@@ -169,7 +181,7 @@ def generate_order(schema, rimes):
 
     return sonnet
 
-def generate(order=True, authors='', date='', schema=('ABAB','ABAB','CCD','EDE')):
+def generate(order=True, authors='', date='', schema=('ABAB','ABAB','CCD','EDE'), themes=''):
     """
     Heart of the module, generate a new sonnet based on the desired constraints
     Args:
@@ -187,6 +199,9 @@ def generate(order=True, authors='', date='', schema=('ABAB','ABAB','CCD','EDE')
     if authors: 
         contrainte_auteur = filter_by_authors(all_rimes, authors)
         all_rimes = contrainte_auteur
+    if theme:
+        contrainte_theme = filter_by_theme(all_rimes,themes)
+        all_rimes = contrainte_theme
     longueur = len(all_rimes)
 
     schema_rimes = dict()
@@ -241,7 +256,7 @@ def generate_random_schema(graphic_difference=True):
     return(rendered_sonnet)
 
 def main():
-    sonnet = generate(order=True, schema=(schemas['sonnet_shakespearien']))
+    sonnet = generate(order=True, schema=(schemas['sonnet_shakespearien']), themes=['Mort'])
     if sonnet:
         for st in sonnet:
             for verse in st:
