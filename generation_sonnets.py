@@ -199,7 +199,7 @@ def generate(order=True, authors='', date='', schema=('ABAB','ABAB','CCD','EDE')
     if authors: 
         contrainte_auteur = filter_by_authors(all_rimes, authors)
         all_rimes = contrainte_auteur
-    if theme:
+    if themes:
         contrainte_theme = filter_by_theme(all_rimes,themes)
         all_rimes = contrainte_theme
     longueur = len(all_rimes)
