@@ -62,6 +62,7 @@ api = Api(app, version='0.9', title="API du projet Oupoco", description="API de
 bd_meta = 'bd_meta.json'
 meta = json.load(open(bd_meta))
 authors = set([meta[s]['auteur'] for s in meta])
+themes = set(meta[s]['thème'] for s in meta)
 
 schemas = {
     'sonnet_sicilien1':('ABAB','ABAB','CDE','CDE'),
@@ -97,12 +98,19 @@ class Dates(Resource):
         """ Returns the list of available dates """
         return jsonify(dates)
 
+@api.route('/themes')
+class Themes(Resource):
+    def get(self):
+        """ Returns the list of available themes """
+        return jsonify(list(themes))
+
 
 new_parser = reqparse.RequestParser()
 new_parser.add_argument('schema', type=str, choices=tuple(schemas.keys()))
 new_parser.add_argument('authors', type=str, choices=tuple(authors), action='append')
 new_parser.add_argument('date', type=str, choices=dates)
 new_parser.add_argument('order', type=bool, default=True)
+new_parser.add_argument('themes', type=str, choices=tuple(themes), action='append')
 
 @api.route("/new")
 class New(Resource):
@@ -114,6 +122,7 @@ class New(Resource):
         param_date = args.get('date', None)
         param_authors = args.get('authors', None)
         param_order = args.get('order', True)
+        param_themes = args.get('themes', None)
 
         if param_schema in schemas:
             sonnet = generation_sonnets.generate(authors=param_authors, date=param_date, schema=schemas[param_schema], order=param_order)

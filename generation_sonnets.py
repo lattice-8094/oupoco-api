@@ -10,6 +10,19 @@ logger = logging.getLogger(__name__)
 
 types_rimes = json.load(open('bd_rimes.json', 'r'))
 meta = json.load(open('bd_meta.json', 'r'))
+schemas = {
+    'sonnet_sicilien1':('ABAB','ABAB','CDE','CDE'),
+    'sonnet_sicilien2':('ABAB','ABAB','CDC','CDC'),
+    'sonnet_petrarquien1':('ABBA','ABBA','CDE','CDE'),
+    'sonnet_petrarquien2':('ABBA','ABBA','CDC','DCD'),
+    'sonnet_petrarquien3':('ABBA','ABBA','CDE','DCE'),
+    'sonnet_marotique':('ABBA','ABBA','CCD','EED'),
+    'sonnet_francais':('ABBA','ABBA','CCD','EDE'),
+    'sonnet_queneau':('ABAB','ABAB','CCD','EDE'),
+    'sonnet_shakespearien':('ABAB','CDCD','EFEF','GG'),
+    'sonnet_spencerien':('ABAB','BCBC','CDCD','EE'),
+    'sonnet_irrationnel':('AAB','C','BAAB','C','CDCCD')
+    }
 
 def __verse2txtmeta__(verse):
     """
@@ -76,6 +89,26 @@ def paramdate(rimes, cle):
         if len(choix_date)>0:
             choix_final.append(choix_date)
     
+    return choix_final
+
+def filter_by_theme(rimes, theme):
+    """
+    Find and return the rimes categorized by the given theme or themes in the given rimes 
+    Args:
+        rimes: a list of rimes, each rime is a list of verses, each verse is a dict (texte, id, id_sonnet)
+        themes: a list of themes
+    Returns:
+        a list of list. Same structure as the arg rimes but filtered by themes
+    """
+    liste_choix = [id_sonnet for id_sonnet in meta if meta[id_sonnet]['thème'] in theme]
+    
+    choix_rimes=list()
+    choix_final=list()
+    for rime in rimes:
+        choix_rimes = [verse for verse in rime if verse['id_sonnet'] in liste_choix]
+        if len(choix_rimes) > 0:
+            choix_final.append(choix_rimes)
+            
     return choix_final
 
 def filter_by_authors(rimes, authors):
@@ -156,7 +189,17 @@ def generate_order(schema, rimes):
 
     return sonnet
 
-def generate(order=True, authors='', date='', schema=('ABAB','ABAB','CCD','EDE')):
+def generate(order=True, authors='', date='', schema=('ABAB','ABAB','CCD','EDE'), themes=''):
+    """
+    Heart of the module, generate a new sonnet based on the desired constraints
+    Args:
+        order (boolean): wether the verses have to be placed in the same order as in the original sonnets
+        authors (list): reduce the database to the desired authors
+        date (string): reduce the database to the desired date intervall
+        schema (tuple): the verses schema
+    Returns:
+        the sonnet as a list of list (stanza ) of dict (verse)
+    """
     all_rimes = types_rimes
     if date:
         contrainte_date = paramdate(all_rimes, date)  
@@ -164,6 +207,9 @@ def generate(order=True, authors='', date='', schema=('ABAB','ABAB','CCD','EDE')
     if authors: 
         contrainte_auteur = filter_by_authors(all_rimes, authors)
         all_rimes = contrainte_auteur
+    if themes:
+        contrainte_theme = filter_by_theme(all_rimes,themes)
+        all_rimes = contrainte_theme
     longueur = len(all_rimes)
 
     schema_rimes = dict()
@@ -201,23 +247,24 @@ def generate(order=True, authors='', date='', schema=('ABAB','ABAB','CCD','EDE')
    
     return sonnet
 
+def generate_random_schema(graphic_difference=True):
+    if graphic_difference:
+        # seulement les schémas avec des rendus graphiques différents
+        random_schema = random.choice(['sonnet_francais', 'sonnet_shakespearien', 'sonnet_irrationnel'])
+    else:
+        # tous les schémas
+        random_schema = random.choice(list(schemas.keys()))
+    sonnet = generate(order=True, schema=schemas[random_schema])
+    rendered_sonnet = ""
+    for st in sonnet:
+        for verse in st:
+            rendered_sonnet += verse['text']
+            rendered_sonnet += "\n"
+        rendered_sonnet += "\n"
+    return(rendered_sonnet)
 
 def main():
-    schemas = {
-    'sonnet_sicilien1':('ABAB','ABAB','CDE','CDE'),
-    'sonnet_sicilien2':('ABAB','ABAB','CDC','CDC'),
-    'sonnet_petrarquien1':('ABBA','ABBA','CDE','CDE'),
-    'sonnet_petrarquien2':('ABBA','ABBA','CDC','DCD'),
-    'sonnet_petrarquien3':('ABBA','ABBA','CDE','DCE'),
-    'sonnet_marotique':('ABBA','ABBA','CCD','EED'),
-    'sonnet_francais':('ABBA','ABBA','CCD','EDE'),
-    'sonnet_queneau':('ABAB','ABAB','CCD','EDE'),
-    'sonnet_shakespearien':('ABAB','CDCD','EFEF','GG'),
-    'sonnet_spencerien':('ABAB','BCBC','CDCD','EE'),
-    'sonnet_irrationnel':('AAB','C','BAAB','C','CDCCD')
-    }
-    #sonnet = generate(authors=['Charles Baudelaire','Paul Verlaine', 'Sully Prudhomme'], date='1800-1830', schema=(schemas['sonnet_shakespearien']))
-    sonnet = generate(order=True, schema=(schemas['sonnet_shakespearien']))
+    sonnet = generate(order=True, schema=(schemas['sonnet_shakespearien']), themes=['Spirituel'])
     if sonnet:
         for st in sonnet:
             for verse in st:
