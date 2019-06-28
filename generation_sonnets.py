@@ -92,6 +92,14 @@ def paramdate(rimes, cle):
     return choix_final
 
 def filter_by_theme(rimes, theme):
+    """
+    Find and return the rimes categorized by the given theme or themes in the given rimes 
+    Args:
+        rimes: a list of rimes, each rime is a list of verses, each verse is a dict (texte, id, id_sonnet)
+        themes: a list of themes
+    Returns:
+        a list of list. Same structure as the arg rimes but filtered by themes
+    """
     liste_choix = [id_sonnet for id_sonnet in meta if meta[id_sonnet]['thème'] in theme]
     
     choix_rimes=list()
@@ -256,7 +264,7 @@ def generate_random_schema(graphic_difference=True):
     return(rendered_sonnet)
 
 def main():
-    sonnet = generate(order=True, schema=(schemas['sonnet_shakespearien']), themes=['Mort'])
+    sonnet = generate(order=True, schema=(schemas['sonnet_shakespearien']), themes=['Spirituel'])
     if sonnet:
         for st in sonnet:
             for verse in st:
