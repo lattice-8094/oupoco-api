@@ -129,15 +129,17 @@ class New(Resource):
         else:
             sonnet = generation_sonnets.generate(authors=param_authors, date=param_date, order=param_order, themes=param_themes)
 
-        if sonnet is None:
-            return ""
-        sonnet_text = list()
-        for st in sonnet:
-            for verse in st:
-                sonnet_text.append({'text': verse['text'], 'meta': format_meta(verse['meta'])})
-            sonnet_text.append({'text': "\n", 'meta': ''})
-        res = {'text': sonnet_text, 'date': get_date_time()}
-        return jsonify(res)
+        if sonnet:
+            sonnet_text = list()
+            for st in sonnet:
+                for verse in st:
+                    sonnet_text.append({'text': verse['text'], 'meta': format_meta(verse['meta'])})
+                sonnet_text.append({'text': "\n", 'meta': ''})
+            res = {'text': sonnet_text, 'date': get_date_time()}
+            return jsonify(res)
+        else:
+            res = {'error': "Génération impossible, veuillez modifier vos paramètres", 'date': get_date_time()}
+            return jsonify(res)
 
 @app.route("/new-html")
 def new_html():
