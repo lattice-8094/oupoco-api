@@ -101,7 +101,9 @@ def filter_by_theme(rimes, theme):
         a list of list. Same structure as the arg rimes but filtered by themes
     """
     liste_choix = [id_sonnet for id_sonnet in meta if meta[id_sonnet]['thème'] in theme]
-    
+    if len(liste_choix) < 6:
+        return list()
+
     choix_rimes=list()
     choix_final=list()
     for rime in rimes:
@@ -127,8 +129,12 @@ def filter_by_authors(rimes, authors):
     #         if meta[sonnet]['auteur']== i:
     #             liste_choix.append(sonnet)
 
+    if len(liste_choix) < 6:
+        return list()
+
     choix_rimes=list()
     choix_final=list()
+
     for rime in rimes:
         choix_rimes = [verse for verse in rime if verse['id_sonnet'] in liste_choix]
         if len(choix_rimes) > 0:
