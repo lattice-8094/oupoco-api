@@ -23,6 +23,7 @@ schemas = {
     'sonnet_spencerien':('ABAB','BCBC','CDCD','EE'),
     'sonnet_irrationnel':('AAB','C','BAAB','C','CDCCD')
     }
+sonnets_min_len = 6
 
 def __verse2txtmeta__(verse):
     """
@@ -101,7 +102,7 @@ def filter_by_theme(rimes, theme):
         a list of list. Same structure as the arg rimes but filtered by themes
     """
     liste_choix = [id_sonnet for id_sonnet in meta if meta[id_sonnet]['thème'] in theme]
-    if len(liste_choix) < 6:
+    if len(liste_choix) < sonnets_min_len:
         return list()
 
     choix_rimes=list()
@@ -129,7 +130,7 @@ def filter_by_authors(rimes, authors):
     #         if meta[sonnet]['auteur']== i:
     #             liste_choix.append(sonnet)
 
-    if len(liste_choix) < 6:
+    if len(liste_choix) < sonnets_min_len:
         return list()
 
     choix_rimes=list()
