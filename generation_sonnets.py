@@ -114,33 +114,41 @@ def filter_by_theme(rimes, theme):
             
     return choix_final
 
-def filter_by_authors(rimes, authors):
+def filter_by_authors(rhymes, authors):
     """
-    Find and return the rimes written by the given authors in the given rimes 
+    Find and return the rhymes written by the given authors in the given rhymes 
     Args:
-        rimes: a list of rimes, each rime is a list of verses, each verse is a dict (texte, id, id_sonnet)
+        rhymes: a list of rhymes, each rhyme is a list of verses, each verse is a dict (texte, id, id_sonnet)
         authors: a list of authors
     Returns:
-        a list of list. Same structure as the arg rimes but filtered by authors
+        a list of list. Same structure as the arg rhymes but filtered by authors
     """
-    liste_choix = [id_sonnet for id_sonnet in meta if meta[id_sonnet]['auteur'] in authors]
-    # liste_choix=list()
-    # for sonnet in meta:
-    #     for i in auteurs: 
-    #         if meta[sonnet]['auteur']== i:
-    #             liste_choix.append(sonnet)
+    authors_sonnets = []
+    for author in authors:
+        author_sonnets = [id_sonnet for id_sonnet in meta if meta[id_sonnet]['auteur'] == author]
+        authors_sonnets.append(author_sonnets)
+    
+    choix_rimes = []
+    choix_final = []
 
-    if len(liste_choix) < sonnets_min_len:
-        return list()
-
-    choix_rimes=list()
-    choix_final=list()
-
-    for rime in rimes:
-        choix_rimes = [verse for verse in rime if verse['id_sonnet'] in liste_choix]
+    for rhyme in rhymes:
+        choix_rimes = [verse for verse in rhyme if is_in_all_lists(verse['id_sonnet'], authors_sonnets)]
         if len(choix_rimes) > 0:
             choix_final.append(choix_rimes)   
+    
+    if len(choix_final) < sonnets_min_len:
+        return list()
+    
     return choix_final
+
+def is_in_all_lists(item, lists):
+    """
+    Checks wether a given item is in all the lists (list of lists)
+    """
+    for l in lists:
+        if not(item in l):
+            return False
+    return True
 
 def cpt_verse_position(id):
     """
