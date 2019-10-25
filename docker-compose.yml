@@ -1,0 +1,6 @@
+version: '2'
+services:
+ oupoco_rss:
+  image: oupoco_rss
+  ports:
+    - "8103:8000"
