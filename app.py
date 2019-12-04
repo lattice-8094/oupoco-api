@@ -12,7 +12,7 @@ from flask import jsonify, request
 import logging
 logger = logging.getLogger(__name__)
 import logging.config
-logging.config.fileConfig('/code/logging.conf')
+logging.config.fileConfig('./logging.conf')
 
 # http://flask.pocoo.org/snippets/35/
 class ReverseProxied(object):
@@ -140,7 +140,6 @@ class New(Resource):
         else:
             res = {'error': "Génération impossible, veuillez modifier vos paramètres", 'date': get_date_time()}
             return jsonify(res)
-
 @app.route("/new-html")
 def new_html():
     """ Returns a new sonnet in HTML """

@@ -129,11 +129,13 @@ def filter_by_authors(rimes, authors):
     #     for i in auteurs: 
     #         if meta[sonnet]['auteur']== i:
     #             liste_choix.append(sonnet)
+
     if len(liste_choix) < sonnets_min_len:
         return list()
-        
+
     choix_rimes=list()
     choix_final=list()
+
     for rime in rimes:
         choix_rimes = [verse for verse in rime if verse['id_sonnet'] in liste_choix]
         if len(choix_rimes) > 0:
@@ -281,5 +283,5 @@ def main():
 
 if __name__ == "__main__":
     import logging.config
-    logging.config.fileConfig('/code/logging.conf')
+    logging.config.fileConfig('./logging.conf')
     main()
