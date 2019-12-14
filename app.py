@@ -134,7 +134,6 @@ class Themes(Resource):
         args = themes_parser.parse_args()
         param_authors = args.get("authors", None)
         param_dates = args.get("dates", None)
-        param_dates = None
         return jsonify(list(generation_sonnets.get_themes(authors=param_authors, dates=param_dates)))
 
 

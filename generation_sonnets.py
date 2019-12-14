@@ -61,10 +61,15 @@ def __compute_constraints__(constraints):
     else:
         for i, field in enumerate(constraints):
             if field == 'date':
-                start, end = [int(val) for val in constraints[field].split('-')]
+                clause += '('
                 if i != 0:
                     clause += "& "
-                clause += f"({field} >= {start}) & (date <= {end}) "
+                for j, interval in enumerate(constraints[field]):
+                    start, end = [int(val) for val in interval.split('-')]
+                    if j != 0:
+                        clause += "or "
+                    clause += f"({field} >= {start}) & ({field} <= {end}) "
+                clause += ') '
             else: 
                 # the constraint value is a list, we use 'isin'
                 if i != 0:
@@ -72,19 +77,58 @@ def __compute_constraints__(constraints):
                 clause += f"({field}.isin({constraints[field]})) "
     return clause
 
-def get_authors(date="", themes=[]):
+def __dates_to_intervals__(dates_list, intervals=dates):
+    """
+    Turn the given dates list into a set of intervals
+    Args:
+        - dates_list (list): list of dates
+        - intervals (set): set of date intervals
+    Returns:
+        - set of date intervals
+    """
+    res = set()
+    for date in dates_list:
+        for begin, end in [interval.split('-') for interval in intervals]:
+            if  date >= int(begin) and date <= int(end):
+                res.add(f"{begin}-{end}")
+    return res
+
+def get_dates(authors=[], themes=[]):
+    """
+    Query the db, returns the list of dates
+    according to the given args
+    Args:
+        - authors: list of str
+        - themes: list of str
+    Returns:
+        - list of dates intervals in the oupoco db
+    """
+    constraints = {}
+    if themes:
+        constraints['thème'] = themes
+    if authors:
+        constraints['auteur'] = authors
+    my_query = __compute_constraints__(constraints)
+    if my_query:
+        df = meta.query(my_query)
+        res = __dates_to_intervals__(set(df['date']))
+    else:
+        res = dates
+    return res
+
+def get_authors(dates=[], themes=[]):
     """
     Query the db, returns the list of authors
     according to the given args
     Args:
-        - date: (str) date (start-end)
-        - themes: list of str
+        - dates (list):  list of dates intervals (start-end)
+        - themes (list): list of str
     Returns:
         - list of authors in the oupoco db
     """
     constraints = {}
-    if date:
-        constraints['date'] = date
+    if dates:
+        constraints['date'] = dates
     if themes:
         constraints['thème'] = themes
     my_query = __compute_constraints__(constraints)
@@ -95,19 +139,19 @@ def get_authors(date="", themes=[]):
         res = set(meta.auteur)
     return res
 
-def get_themes(date="", authors=[]):
+def get_themes(dates=[], authors=[]):
     """
     Query the db, returns the list of themes
     according to the given args
     Args:
-        - date: (str) date (start-end)
-        - authors: list of str
+        - date (list): list of dates intervals (start-end)
+        - authors (list): list of str
     Returns:
         - list of themes in the oupoco db
     """
     constraints = {}
-    if date:
-        constraints['date'] = date
+    if dates:
+        constraints['date'] = dates
     if authors:
         constraints['auteur'] = authors
     my_query = __compute_constraints__(constraints)
@@ -119,57 +163,34 @@ def get_themes(date="", authors=[]):
         res = set(meta.thème)
     return res
 
+def filter_by_dates(dates_intervals, rhymes):
+    """
+    Find and return the rhymes published in the given dates in the given rhymes 
+    Args:
+        dates_intervals: a list of dates intervals
+        rhymes: a list of ryhmes dict, each rhymes dict is itself a dict (rhyme: list of verses), each verse is a dict (text, id, id_sonnet)
+    Returns:
+        a list of dicts. Same structure as the rhymes but filtered by dates
+    """
+    sonnets = []
+    for dates_interval in dates_intervals:
+        start, end = dates_interval.split('-')
+        df = meta.query(f"(date >= {int(start)}) & (date <= {int(end)})")
+        sonnets.extend(df.index)
+    #print(len(sonnets))
+    if len(sonnets) < sonnets_min_len:
+        return list()
 
-def paramdate(rimes, cle):
-    erreur=[]
-    for id_sonnet in meta.index:
-        date = meta.loc[id_sonnet]['date']
-        if date == 'Non renseignée':
-            erreur.append(sonnet)
-
-    dico_date = dict()
-    for id_sonnet in meta.index:
-        if id_sonnet not in erreur:
-            dico_date[id_sonnet] = dict(meta.loc[id_sonnet])
-
-    intervalle_1=list()
-    intervalle_2=list()
-    intervalle_3=list()
-    intervalle_4=list()
-    intervalle_5=list()
-    intervalle_6=list()
-    dico_intervalle=dict()
-    for key in dico_date:
-        if dico_date[key]['date'] > '1800' and dico_date[key]['date'] <= '1830':
-            intervalle_1.append(key)
-        if dico_date[key]['date'] > '1830' and dico_date[key]['date'] <= '1850':
-            intervalle_2.append(key)
-        if dico_date[key]['date'] > '1850' and dico_date[key]['date'] <= '1870':
-            intervalle_3.append(key)
-        if dico_date[key]['date'] > '1870' and dico_date[key]['date'] <= '1890':
-            intervalle_4.append(key)
-        if dico_date[key]['date'] > '1890' and dico_date[key]['date'] <= '1900':
-            intervalle_5.append(key)
-        if dico_date[key]['date'] > '1900' and dico_date[key]['date'] <= '1950':
-            intervalle_6.append(key)
-
-
-    dico_intervalle={
-        '1800-1830':intervalle_1,
-        '1831-1850':intervalle_2,
-        '1851-1870':intervalle_3,
-        '1871-1890':intervalle_4,
-        '1891-1900':intervalle_5,
-        '1901-1950':intervalle_6}
-
-    choix_final=list()
-    choix_date = list()
-    for sousListe in rimes:
-        choix_date=[data for data in sousListe if data['id_sonnet'] in dico_intervalle[cle]]
-        if len(choix_date)>0:
-            choix_final.append(choix_date)
-    
-    return choix_final
+    res = []
+    # for each rhyme type (if rimes riches and suffisantes selected for instance)
+    for rhymes_t in rhymes:
+        rhymes_dates_d = {}
+        for rhyme_sound, items in rhymes_t.items():
+            verses = [verse for verse in items if verse['id_sonnet'] in sonnets]
+            if len(verses) > 0:
+                rhymes_dates_d[rhyme_sound] = verses
+        res.append(rhymes_dates_d)
+    return res
 
 def filter_by_theme(themes, rhymes):
     """
@@ -181,7 +202,6 @@ def filter_by_theme(themes, rhymes):
         a list of dicts. Same structure as the rhymes but filtered by themes
     """
     sonnets = [id_sonnet for id_sonnet in meta.index if meta.loc[id_sonnet]['thème'] in themes]
-    print(len(sonnets))
     if len(sonnets) < sonnets_min_len:
         return list()
 
@@ -206,12 +226,10 @@ def filter_by_authors(authors, rhymes):
         a list of dicts. Same structure as the rhymmes but filtered by authors
     """
     sonnets = [id_sonnet for id_sonnet in meta.index if meta.loc[id_sonnet]['auteur'] in authors]
-
     if len(sonnets) < sonnets_min_len:
         return list()
 
     res = []
-
     # for each rhyme type (if rimes riches and suffisantes selected for instance)
     for rhymes_t in rhymes:
         rhymes_authors_d = {}
@@ -306,13 +324,13 @@ def generate_order(schema, rhymes):
 
     return sonnet
 
-def generate(order=True, authors='', date='', schema=('ABAB','ABAB','CCD','EDE'), themes='', quality='1'):
+def generate(order=True, authors='', dates='', schema=('ABAB','ABAB','CCD','EDE'), themes='', quality='1'):
     """
     Heart of the module, generate a new sonnet based on the desired constraints
     Args:
         order (boolean): wether the verses have to be placed in the same order as in the original sonnets
         authors (list): reduce the database to the desired authors
-        date (string): reduce the database to the desired date intervall
+        dates (list): reduce the database to the desired dates intervals
         schema (tuple): the verses schema
         quality (str): quality of the rhyme. Except a value between 1 and 5.
                 1: rimes pauvres, 2: rimes pauvres et suffisantes, 3: rimes suffisantes, 4: rimes suffisantes et rimes riches, 5: rimes riches
@@ -321,9 +339,8 @@ def generate(order=True, authors='', date='', schema=('ABAB','ABAB','CCD','EDE')
     """
     rhymes_quality = {'1':[rhymes_1], '2':[rhymes_1, rhymes_2], '3':[rhymes_2], '4':[rhymes_2, rhymes_3], '5':[rhymes_3]}
     rhymes = rhymes_quality[quality]
-    #if date:
-    #    contrainte_date = paramdate(all_rhymes, date)  
-    #    all_rhymes = contrainte_date
+    if dates:
+        rhymes = filter_by_dates(dates, rhymes)
     if authors: 
         rhymes = filter_by_authors(authors, rhymes)
     if themes:
@@ -338,6 +355,10 @@ def generate(order=True, authors='', date='', schema=('ABAB','ABAB','CCD','EDE')
     if nb_rhymes < len(schema_letters):
         logger.info("Nombre de rimes disponibles : {}, nombre de rimes nécessaires {}", nb_rhymes, len(schema_letters))
         return None
+
+    # hack sale pour les rimes riches
+    if quality == '4' or quality == '5':
+        order = False
 
     if order:
         sonnet = generate_order(schema, rhymes)
