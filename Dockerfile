@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM python:3.7
 MAINTAINER Clément Plancq <clement.plancq@ens.fr>
 #RUN apt-get -y update && apt-get install -y python3 python3-pip libmysqlclient-dev
 
