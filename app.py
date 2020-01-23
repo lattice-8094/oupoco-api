@@ -106,7 +106,10 @@ class Authors(Resource):
         args = authors_parser.parse_args()
         param_dates = args.get("dates", None)
         param_themes = args.get("themes", None)
-        return jsonify(list(generation_sonnets.get_authors(dates=param_dates, themes=param_themes)))
+        all_authors = generation_sonnets.get_authors()
+        filtered_authors = generation_sonnets.get_authors(dates=param_dates, themes=param_themes)
+        res = __active_values__(all_authors, filtered_authors)
+        return jsonify(res)
 
 dates_parser = reqparse.RequestParser()
 dates_parser.add_argument("authors", type=str, choices=tuple(authors), action="append")
@@ -120,7 +123,10 @@ class Dates(Resource):
         args = dates_parser.parse_args()
         param_authors = args.get("authors", None)
         param_themes = args.get("themes", None)
-        return jsonify(list(generation_sonnets.get_dates(authors=param_authors, themes=param_themes)))
+        all_dates = generation_sonnets.get_dates()
+        filtered_dates = generation_sonnets.get_dates(authors=param_authors, themes=param_themes)
+        res = __active_values__(all_dates, filtered_dates)
+        return jsonify(res)
 
 themes_parser = reqparse.RequestParser()
 themes_parser.add_argument("dates", type=str, choices=tuple(dates), action="append")
@@ -134,8 +140,10 @@ class Themes(Resource):
         args = themes_parser.parse_args()
         param_authors = args.get("authors", None)
         param_dates = args.get("dates", None)
-        return jsonify(list(generation_sonnets.get_themes(authors=param_authors, dates=param_dates)))
-
+        all_themes = generation_sonnets.get_themes()
+        filtered_themes = generation_sonnets.get_themes(authors=param_authors, dates=param_dates)
+        res = __active_values__(all_themes, filtered_themes)
+        return jsonify(res)
 
 new_parser = reqparse.RequestParser()
 new_parser.add_argument("schema", type=str, choices=tuple(schemas.keys()))
@@ -248,3 +256,20 @@ def get_date_time():
 def format_meta(meta):
     return "{} {} {}".format(meta["auteur"], meta["date"], meta["titre sonnet"])
 
+def __active_values__(all_values, filtered_values):
+    """
+    Return a list of dict, one per item in all_values,
+    set the 'active' to yes if the item is in filtered_values, no otherwise
+    Args:
+        - all_values (list):  list of str
+        - filtered_values (list): list of str
+    Returns:
+        - list of dict [{'value': 'foo', 'active': 'yes}, {'value': 'bar', 'active': 'no'}]
+    """
+    res = []
+    for item in all_values:
+        if item in filtered_values:
+            res.append({'value': item, 'active': 'yes'})
+        else:
+            res.append({'value': item, 'active': 'no'})
+    return res
