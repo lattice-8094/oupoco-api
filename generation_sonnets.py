@@ -89,7 +89,7 @@ def __dates_to_intervals__(dates_list, intervals=dates):
     res = set()
     for date in dates_list:
         for begin, end in [interval.split('-') for interval in intervals]:
-            if  date >= int(begin) and date <= int(end):
+            if  int(date) >= int(begin) and int(date) <= int(end):
                 res.add(f"{begin}-{end}")
     return res
 
