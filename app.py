@@ -107,6 +107,7 @@ class Authors(Resource):
         param_dates = args.get("dates", None)
         param_themes = args.get("themes", None)
         all_authors = generation_sonnets.get_authors()
+        all_authors = sorted(all_authors, key=lambda author: author.split(' ')[-1])
         filtered_authors = generation_sonnets.get_authors(dates=param_dates, themes=param_themes)
         res = __active_values__(all_authors, filtered_authors)
         return jsonify(res)

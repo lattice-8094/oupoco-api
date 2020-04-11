@@ -260,9 +260,9 @@ def cpt_verse_position(id):
 
 def generate_order(schema, rhymes):
     """
-    Generate a random sonnet where each verse in randomly picked among verses of 
+    Generate a random sonnet where each verse is randomly picked among verses of 
     the appropriate position
-    For each letter of the given schema, random choose a rhyme type and in the
+    For each letter of the given schema, random choose a rhyme type and verses in the
     chosen rhyme type.
     Args:
         schema (tuple): the verses schema
@@ -299,7 +299,7 @@ def generate_order(schema, rhymes):
                 else:
                     selected_rhymes.append(random_rhyme)
                     letter_random_rhymes[letter] = rhymes_t[random_rhyme]
-                    letter_random_rhymes_2[letter] = random_rhyme
+                    letter_random_rhymes_2[letter] = random_rhyme # for debug only
             # Random pick a verse of the appropriate rhyme and the appropriate position
             for i, letter in enumerate(schema_str, 1):
                 verses_in_position = [verse for verse in letter_random_rhymes[letter] if cpt_verse_position(verse['id']) == i]
