@@ -44,7 +44,7 @@ def __get_last_word__(sentence):
         last = words[-1]
     else:
         last = words[-2]
-    last = re.sub(r"^l'",'', last, re.U)
+    last = re.sub(r"^.'",'', last, re.U)
     last = re.sub(r'\W','', last, re.U)
     return last
 
