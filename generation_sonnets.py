@@ -6,11 +6,12 @@ import json
 import pandas
 import sys
 import loguru
+import re
 from collections import Counter, defaultdict
 
 from loguru import logger
-#logger.add(sys.stderr, format="{time} {level} {message}", level="INFO")
-logger.add(sys.stderr, format="{time} {level} {message}", level="DEBUG")
+logger.add(sys.stderr, format="{time} {level} {message}", level="INFO")
+#logger.add(sys.stderr, format="{time} {level} {message}", level="DEBUG")
 
 #types_rimes = json.load(open('bd_rimes.json', 'r'))
 rhymes_1 = json.load(open('rhymes_1.json', 'r'))
@@ -33,6 +34,18 @@ schemas = {
     }
 dates = ('1800-1830', '1831-1850', '1851-1870', '1871-1890', '1891-1900', '1901-1950')
 sonnets_min_len = 3
+
+def __get_last_word__(sentence):
+    """
+    Returns the last word of a sentence
+    """
+    words = sentence.split(' ')
+    if re.search(r'[a-z]', words[-1]):
+        last = words[-1]
+    else:
+        last = words[-2]
+    last = re.sub(r'\W','', last, re.U)
+    return last
 
 def __verse2txtmeta__(verse):
     """
@@ -258,72 +271,6 @@ def cpt_verse_position(id):
         pos_sonnet += 11
     return pos_sonnet
 
-def generate_order(schema, rhymes):
-    """
-    Generate a random sonnet where each verse is randomly picked among verses of 
-    the appropriate position
-    For each letter of the given schema, random choose a rhyme type and verses in the
-    chosen rhyme type.
-    Args:
-        schema (tuple): the verses schema
-        rhymes (dict): a list of ryhmes dict, each rhymes dict is itself a dict (rhyme: list of verses), each verse is a dict (text, id, id_sonnet)
-    Returns:
-        the sonnet as a list of list (stanza ) of dict (verse)
-    """
-    schema_letters = Counter(''.join(schema))
-    schema_str = ''.join(schema)
-    letter_rhymes_t = dict()
-
-    # the type of rhymes for each letter of the schema
-    # to be sure that each type is represented, we allow one letter to each type
-    for rhymes_t, random_letter in zip(rhymes, random.sample(list(schema_letters.keys()), len(rhymes))):
-        letter_rhymes_t[random_letter] = rhymes_t
-    # the remaining letters are randomly chosen
-    for letter in schema_letters:
-        if not(letter in letter_rhymes_t):
-            letter_rhymes_t[letter] = random.choice(rhymes)
-    
-    while True :
-        selected_rhymes = []
-        schema_rhymes = defaultdict(list)
-        try :
-            letter_random_rhymes = {}
-            letter_random_rhymes_2 = {}
-            # Random pick a rhyme for each letter of the schema
-            for letter in schema_letters:
-                rhymes_t = letter_rhymes_t[letter]
-                random_rhyme = random.choice(list(rhymes_t.keys()))
-                logger.debug("chosen rhyme for letter {} : {}", letter, random_rhyme)
-                if random_rhyme in selected_rhymes:
-                    raise Exception("All rhymes are to be different in a sonnet")
-                else:
-                    selected_rhymes.append(random_rhyme)
-                    letter_random_rhymes[letter] = rhymes_t[random_rhyme]
-                    letter_random_rhymes_2[letter] = random_rhyme # for debug only
-            # Random pick a verse of the appropriate rhyme and the appropriate position
-            for i, letter in enumerate(schema_str, 1):
-                verses_in_position = [verse for verse in letter_random_rhymes[letter] if cpt_verse_position(verse['id']) == i]
-                logger.debug("{} vers de la rime {} en position {}", len(verses_in_position), letter_random_rhymes_2[letter], i)
-                current_verse = random.choice(verses_in_position)
-                schema_rhymes[letter].append(current_verse)    
-            break
-        except Exception as ex:
-            template = "An exception of type {0} occurred. Arguments:\n{1!r}"
-            message = template.format(type(ex).__name__, ex.args)
-            logger.info(message)
-            continue
-    
-    sonnet = list()
-    for stanza in schema:
-        generated_stanza = list()
-        for letter in stanza:
-            verse = schema_rhymes[letter].pop(0)
-            #generated_stanza.append(verse)
-            generated_stanza.append(__verse2txtmeta__(verse))
-        sonnet.append(generated_stanza)
-
-    return sonnet
-
 def generate(order=True, authors='', dates='', schema=('ABAB','ABAB','CCD','EDE'), themes='', quality='1'):
     """
     Heart of the module, generate a new sonnet based on the desired constraints
@@ -360,22 +307,18 @@ def generate(order=True, authors='', dates='', schema=('ABAB','ABAB','CCD','EDE'
     if quality == '4' or quality == '5':
         order = False
 
-    if order:
-        sonnet = generate_order(schema, rhymes)
-        return sonnet
-    
-    random_rhymes = generate_random_rhymes(schema, rhymes)
+    random_rhymes = generate_random_rhymes(schema, rhymes, order)
     sonnet = list()
     for stanza in schema:
         generated_stanza = list()
         for letter in stanza:
-            verse = random_rhymes[letter].pop()
+            verse = random_rhymes[letter].pop(0)
             generated_stanza.append(__verse2txtmeta__(verse))
         sonnet.append(generated_stanza)
    
     return sonnet
 
-def generate_random_rhymes(schema, rhymes):
+def generate_random_rhymes(schema, rhymes, order=True):
     """
     For each letter of the given schema, random choose a rhyme type and in the
     chosen rhyme type, random select the appropriate number of verses.
@@ -383,15 +326,16 @@ def generate_random_rhymes(schema, rhymes):
     Args:
         schema (tuple): the verses schema
         rhymes (dict): a list of ryhmes dict, each rhymes dict is itself a dict (rhyme: list of verses), each verse is a dict (text, id, id_sonnet)
+        order (boolean): wether the verses have to be placed in the same order as in the original sonnets
     Returns:
-
+        a dict of list: the letters of the schema as keys, list of randomly picked verses as values
     """
     schema_letters = Counter(''.join(schema))
-    schema_rhymes = dict()
+    schema_str = ''.join(schema)
     letter_rhymes_t = dict()
 
     # the type of rhymes for each letter of the schema
-    # to be sure that each type is represented, we allow one letter to each type
+    # to be sure that each type is represented, we allocate one letter to each type
     for rhymes_t, random_letter in zip(rhymes, random.sample(list(schema_letters.keys()), len(rhymes))):
         letter_rhymes_t[random_letter] = rhymes_t
     # the remaining letters are randomly chosen
@@ -399,9 +343,12 @@ def generate_random_rhymes(schema, rhymes):
         if not(letter in letter_rhymes_t):
             letter_rhymes_t[letter] = random.choice(rhymes)
     
-    while True :
+    while True:
         selected_rhymes = []
+        schema_rhymes = defaultdict(list)
         try :
+            letter_random_rhymes = {}
+            letter_random_rhymes_2 = {}
             # Random pick a rhyme for each letter of the schema
             for letter in schema_letters:
                 nb_verses = schema_letters[letter]
@@ -412,9 +359,19 @@ def generate_random_rhymes(schema, rhymes):
                     raise Exception("All rhymes have to be different in a sonnet")
                 else:
                     selected_rhymes.append(random_rhyme)
-                    # Pick n random verses from the current rhyme
-                    random_verses = random.sample(rhymes_t[random_rhyme], nb_verses)
-                    schema_rhymes[letter] = random_verses
+                    letter_random_rhymes[letter] = rhymes_t[random_rhyme]
+                    letter_random_rhymes_2[letter] = random_rhyme # for debug only
+            # Random pick a verse of the appropriate rhyme 
+            for i, letter in enumerate(schema_str, 1):
+                if order:
+                    verses_in_position = [verse for verse in letter_random_rhymes[letter] if cpt_verse_position(verse['id']) == i]
+                    logger.debug("{} vers de la rime {} en position {}", len(verses_in_position), letter_random_rhymes_2[letter], i)
+                    current_verse = random.choice(verses_in_position)
+                else:
+                    current_verse = random.choice(letter_random_rhymes[letter])
+                if __get_last_word__(current_verse['text']) in [__get_last_word__(verse['text']) for verse in schema_rhymes[letter]]:
+                    raise Exception(f"Same word cannot be repeated in a rhyme {__get_last_word__(current_verse['text'])}")
+                schema_rhymes[letter].append(current_verse)  
             break
         except Exception as ex:
             template = "An exception of type {0} occurred. Arguments:\n{1!r}"
