@@ -75,17 +75,17 @@ authors = generation_sonnets.get_authors()
 themes = generation_sonnets.get_themes()
 dates = generation_sonnets.get_dates()
 schemas = {
-    "sonnet_sicilien1": ("ABAB", "ABAB", "CDE", "CDE"),
-    "sonnet_sicilien2": ("ABAB", "ABAB", "CDC", "CDC"),
-    "sonnet_petrarquien1": ("ABBA", "ABBA", "CDE", "CDE"),
-    "sonnet_petrarquien2": ("ABBA", "ABBA", "CDC", "DCD"),
-    "sonnet_petrarquien3": ("ABBA", "ABBA", "CDE", "DCE"),
-    "sonnet_marotique": ("ABBA", "ABBA", "CCD", "EED"),
-    "sonnet_francais": ("ABBA", "ABBA", "CCD", "EDE"),
-    "sonnet_queneau": ("ABAB", "ABAB", "CCD", "EDE"),
-    "sonnet_shakespearien": ("ABAB", "CDCD", "EFEF", "GG"),
-    "sonnet_spencerien": ("ABAB", "BCBC", "CDCD", "EE"),
-    "sonnet_irrationnel": ("AAB", "C", "BAAB", "C", "CDCCD"),
+    "sicilien1": ("ABAB", "ABAB", "CDE", "CDE"),
+    "sicilien2": ("ABAB", "ABAB", "CDC", "CDC"),
+    "petrarquien1": ("ABBA", "ABBA", "CDE", "CDE"),
+    "petrarquien2": ("ABBA", "ABBA", "CDC", "DCD"),
+    "petrarquien3": ("ABBA", "ABBA", "CDE", "DCE"),
+    "marotique": ("ABBA", "ABBA", "CCD", "EED"),
+    "francais": ("ABBA", "ABBA", "CCD", "EDE"),
+    "queneau": ("ABAB", "ABAB", "CCD", "EDE"),
+    "shakespearien": ("ABAB", "CDCD", "EFEF", "GG"),
+    "spencerien": ("ABAB", "BCBC", "CDCD", "EE"),
+    "irrationnel": ("AAB", "C", "BAAB", "C", "CDCCD"),
 }
 
 @api.route("/schemas")
@@ -107,6 +107,7 @@ class Authors(Resource):
         param_dates = args.get("dates", None)
         param_themes = args.get("themes", None)
         all_authors = generation_sonnets.get_authors()
+        all_authors = sorted(all_authors, key=lambda author: author.split(' ')[-1])
         filtered_authors = generation_sonnets.get_authors(dates=param_dates, themes=param_themes)
         res = __active_values__(all_authors, filtered_authors)
         return jsonify(res)

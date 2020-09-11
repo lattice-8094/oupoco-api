@@ -19,5 +19,5 @@ def test_date_authors():
     checks that uncompatible constraints returns None
     """
     authors=['Charles Baudelaire']
-    date='1800-1830'
-    assert generation_sonnets.generate(authors=authors, date=date) == None
+    dates=['1800-1830']
+    assert generation_sonnets.generate(authors=authors, dates=dates) == None
