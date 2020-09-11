@@ -441,7 +441,7 @@ def generate_random_schema(graphic_difference=True):
     return(rendered_sonnet)
 
 def main():
-    sonnet = generate(order=False, schema=(schemas['sonnet_francais']), themes=['Beauté', 'Mort'], quality='5')
+    sonnet = generate(order=False, schema=(schemas['sonnet_francais']), quality='5')
     if sonnet:
         for st in sonnet:
             for verse in st:
