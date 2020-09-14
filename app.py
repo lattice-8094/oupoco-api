@@ -125,9 +125,9 @@ class New(Resource):
         param_themes = args.get('themes', None)
 
         if param_schema in schemas:
-            sonnet = generation_sonnets.generate(authors=param_authors, date=param_date, schema=schemas[param_schema], order=param_order, themes=param_themes)
+            sonnet = generation_sonnets.generate(authors=param_authors, dates=param_date, schema=schemas[param_schema], order=param_order, themes=param_themes)
         else:
-            sonnet = generation_sonnets.generate(authors=param_authors, date=param_date, order=param_order, themes=param_themes)
+            sonnet = generation_sonnets.generate(authors=param_authors, dates=param_date, order=param_order, themes=param_themes)
 
         if sonnet:
             sonnet_text = list()
