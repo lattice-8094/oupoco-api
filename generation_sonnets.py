@@ -305,8 +305,8 @@ def generate(order=True, authors='', dates='', schema=('ABAB','ABAB','CCD','EDE'
         return None
 
     # hack sale pour les rimes riches
-    if quality == '4' or quality == '5':
-        order = False
+    #if quality == '4' or quality == '5':
+    #    order = False
 
     random_rhymes = generate_random_rhymes(schema, rhymes, order)
     sonnet = list()
