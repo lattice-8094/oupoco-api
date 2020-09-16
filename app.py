@@ -65,7 +65,7 @@ api = Api(
     app,
     version="0.9",
     title="API du projet Oupoco",
-    description="API de test pour la mise en place du site web",
+    description="API pour la mise en place du site web",
 )
 
 bd_meta = "bd_meta.json"
