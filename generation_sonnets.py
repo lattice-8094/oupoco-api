@@ -272,6 +272,69 @@ def cpt_verse_position(id):
         pos_sonnet += 11
     return pos_sonnet
 
+def get_rhymes_for_stats(order=True, authors='', dates='', schema=('ABAB','ABAB','CCD','EDE'), themes='', quality='1'):
+    """
+    For stats purpose, returns a dict of rhymes/verses   based on then given constraints
+    """
+    rhymes_quality = {'1':[rhymes_1], '2':[rhymes_1, rhymes_2], '3':[rhymes_2], '4':[rhymes_2, rhymes_3], '5':[rhymes_3]}
+    rhymes = rhymes_quality[quality]
+    if dates:
+        rhymes = filter_by_dates(dates, rhymes)
+    if authors: 
+        rhymes = filter_by_authors(authors, rhymes)
+    if themes:
+        rhymes = filter_by_theme(themes, rhymes)
+    nb_rhymes = sum([len(rhyme_t.keys()) for rhyme_t in rhymes])
+
+    # ('ABAB','ABAB','CCD','EDE') -> Counter({'A': 4, 'B': 4, 'C': 2, 'D': 2, 'E': 2})
+    # le décompte de chaque lettre permet un traitement générique des schémas
+    schema_letters = Counter(''.join(schema))
+    # si moins de rimes dispos que de rimes nécessaires dans le schéma
+    if nb_rhymes < len(schema_letters):
+        logger.info("Nombre de rimes disponibles : {}, nombre de rimes nécessaires {}", nb_rhymes, len(schema_letters))
+        return None
+
+    # hack sale pour les rimes riches
+    if quality == '4' or quality == '5':
+        order = False
+
+    schema_letters = Counter(''.join(schema))
+    schema_str = ''.join(schema)
+    letter_rhymes_t = dict()
+
+    # the type of rhymes for each letter of the schema
+    # to be sure that each type is represented, we allocate one letter to each type
+    for rhymes_t, random_letter in zip(rhymes, random.sample(list(schema_letters.keys()), len(rhymes))):
+        letter_rhymes_t[random_letter] = rhymes_t
+    # the remaining letters are randomly chosen
+    for letter in schema_letters:
+        if not(letter in letter_rhymes_t):
+            letter_rhymes_t[letter] = random.choice(rhymes)
+
+    while True:
+        selected_rhymes = {}
+        try :
+            # Random pick a rhyme for each letter of the schema
+            for i, letter in enumerate(schema_letters, 1):
+                rhymes_t = letter_rhymes_t[letter]
+                random_rhyme = random.choice(list(rhymes_t.keys()))
+                logger.debug("chosen rhyme for letter {} : {}", letter, random_rhyme)
+                if random_rhyme in selected_rhymes:
+                    raise Exception("All rhymes have to be different in a sonnet")
+                else:
+                    if order:
+                        selected_rhymes[random_rhyme] = [verse for verse in rhymes_t[random_rhyme] if cpt_verse_position(verse['id']) == i]
+                    else:
+                        selected_rhymes = rhymes_t[random_rhyme]
+            break
+        except Exception as ex:
+            template = "An exception of type {0} occurred. Arguments:\n{1!r}"
+            message = template.format(type(ex).__name__, ex.args)
+            logger.info(message)
+            continue
+
+    return selected_rhymes
+
 def generate(order=True, authors='', dates='', schema=('ABAB','ABAB','CCD','EDE'), themes='', quality='1'):
     """
     Heart of the module, generate a new sonnet based on the desired constraints
