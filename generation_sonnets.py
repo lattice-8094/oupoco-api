@@ -19,6 +19,7 @@ rhymes_2 = json.load(open('rhymes_2.json', 'r'))
 rhymes_3 = json.load(open('rhymes_3.json', 'r'))
 
 meta = pandas.read_json(open('bd_meta.json'), orient='index')
+
 schemas = {
     'sonnet_sicilien1':('ABAB','ABAB','CDE','CDE'),
     'sonnet_sicilien2':('ABAB','ABAB','CDC','CDC'),
@@ -96,7 +97,7 @@ def __dates_to_intervals__(dates_list, intervals=dates):
     Turn the given dates list into a set of intervals
     Args:
         - dates_list (list): list of dates
-        - intervals (set): set of date intervals
+        - intervals (set): set of date intervals
     Returns:
         - set of date intervals
     """
@@ -135,7 +136,7 @@ def get_authors(dates=[], themes=[]):
     Query the db, returns the list of authors
     according to the given args
     Args:
-        - dates (list):  list of dates intervals (start-end)
+        - dates (list):  list of dates intervals (start-end)
         - themes (list): list of str
     Returns:
         - list of authors in the oupoco db
@@ -158,7 +159,7 @@ def get_themes(dates=[], authors=[]):
     Query the db, returns the list of themes
     according to the given args
     Args:
-        - date (list): list of dates intervals (start-end)
+        - date (list): list of dates intervals (start-end)
         - authors (list): list of str
     Returns:
         - list of themes in the oupoco db
@@ -278,25 +279,38 @@ def get_rhymes_for_stats(order=True, authors='', dates='', schema=('ABAB','ABAB'
     """
     rhymes_quality = {'1':[rhymes_1], '2':[rhymes_1, rhymes_2], '3':[rhymes_2], '4':[rhymes_2, rhymes_3], '5':[rhymes_3]}
     rhymes = rhymes_quality[quality]
+
     if dates:
         rhymes = filter_by_dates(dates, rhymes)
+        selectDates = meta['dates'].isin(dates)
     if authors: 
         rhymes = filter_by_authors(authors, rhymes)
+        selectMeta = meta[meta['auteur'].isin(authors)]
     if themes:
         rhymes = filter_by_theme(themes, rhymes)
+        selectThemes = meta['themes'].isin(themes)
+
     nb_rhymes = sum([len(rhyme_t.keys()) for rhyme_t in rhymes])
+
+    # A Faire !!!!
+    #selectMeta = meta[selectAuteurs & selectThemes]
+    #selectMeta=meta[meta['themes'].isin(themes) & meta['auteur'].isin(authors)]
 
     # ('ABAB','ABAB','CCD','EDE') -> Counter({'A': 4, 'B': 4, 'C': 2, 'D': 2, 'E': 2})
     # le décompte de chaque lettre permet un traitement générique des schémas
     schema_letters = Counter(''.join(schema))
     # si moins de rimes dispos que de rimes nécessaires dans le schéma
     if nb_rhymes < len(schema_letters):
-        logger.info("Nombre de rimes disponibles : {}, nombre de rimes nécessaires {}", nb_rhymes, len(schema_letters))
+        logger.info("Nombre de rimes disponibles : {}, nombre de rimes nécessaires {}", nb_rhymes, len(schema_letters))
         return None
 
     # hack sale pour les rimes riches
     if quality == '4' or quality == '5':
         order = False
+
+    random_rhymes = generate_random_rhymes(schema, rhymes, order)
+    
+    # ci-après copier/coller = reprise et modif de : generate_random_rhymes
 
     schema_letters = Counter(''.join(schema))
     schema_str = ''.join(schema)
@@ -312,20 +326,43 @@ def get_rhymes_for_stats(order=True, authors='', dates='', schema=('ABAB','ABAB'
             letter_rhymes_t[letter] = random.choice(rhymes)
 
     while True:
-        selected_rhymes = {}
+        selected_rhymes = []
+        schema_rhymes = defaultdict(list)
         try :
+            letter_random_rhymes = {}
+            letter_random_rhymes_2 = {}
             # Random pick a rhyme for each letter of the schema
-            for i, letter in enumerate(schema_letters, 1):
+            for letter in schema_letters:
+                nb_verses = schema_letters[letter]
                 rhymes_t = letter_rhymes_t[letter]
                 random_rhyme = random.choice(list(rhymes_t.keys()))
-                logger.debug("chosen rhyme for letter {} : {}", letter, random_rhyme)
+                logger.debug("chosen rhyme for letter {} : {}", letter, random_rhyme)
                 if random_rhyme in selected_rhymes:
                     raise Exception("All rhymes have to be different in a sonnet")
                 else:
-                    if order:
-                        selected_rhymes[random_rhyme] = [verse for verse in rhymes_t[random_rhyme] if cpt_verse_position(verse['id']) == i]
-                    else:
-                        selected_rhymes = rhymes_t[random_rhyme]
+                    selected_rhymes.append(random_rhyme)
+                    letter_random_rhymes[letter] = rhymes_t[random_rhyme]
+                    letter_random_rhymes_2[letter] = random_rhyme # for debug only
+            # Random pick a verse of the appropriate rhyme 
+            list_verses_in_position = list()
+            dico_verses_in_position = dict()
+            for i, letter in enumerate(schema_str, 1):
+                if order:
+                    verses_in_position = [verse for verse in letter_random_rhymes[letter] if cpt_verse_position(verse['id']) == i]
+                    list_verses_in_position.append(verses_in_position)
+                    dico_verses_in_position[i] = verses_in_position
+                    logger.debug("{} vers de la rime {} en position {}", len(verses_in_position), letter_random_rhymes_2[letter], i)
+                    current_verse = random.choice(verses_in_position)
+                else:
+                    current_verse = random.choice(letter_random_rhymes[letter])
+                    if not dico_verses_in_position is True:
+                        dico_verses_in_position[0] = letter_random_rhymes[letter]
+                    else :
+                        dico_verses_in_position[0].append(letter_random_rhymes[letter])
+
+                if __get_last_word__(current_verse['text']) in [__get_last_word__(verse['text']) for verse in schema_rhymes[letter]]:
+                    raise Exception(f"Same word cannot be repeated in a rhyme {__get_last_word__(current_verse['text'])}")
+                schema_rhymes[letter].append(current_verse)  
             break
         except Exception as ex:
             template = "An exception of type {0} occurred. Arguments:\n{1!r}"
@@ -333,18 +370,21 @@ def get_rhymes_for_stats(order=True, authors='', dates='', schema=('ABAB','ABAB'
             logger.info(message)
             continue
 
-    return selected_rhymes
+    #return list_verses_in_position
+    return dico_verses_in_position, schema
+    #return dico_verses_in_position, selectMeta, schema
+    
 
 def generate(order=True, authors='', dates='', schema=('ABAB','ABAB','CCD','EDE'), themes='', quality='1'):
     """
     Heart of the module, generate a new sonnet based on the desired constraints
     Args:
-        order (boolean): wether the verses have to be placed in the same order as in the original sonnets
+        order (boolean): wether the verses have to be placed in the same order as in the original sonnets
         authors (list): reduce the database to the desired authors
         dates (list): reduce the database to the desired dates intervals
-        schema (tuple): the verses schema
+        schema (tuple): the verses schema
         quality (str): quality of the rhyme. Except a value between 1 and 5.
-                1: rimes pauvres, 2: rimes pauvres et suffisantes, 3: rimes suffisantes, 4: rimes suffisantes et rimes riches, 5: rimes riches
+                1: rimes pauvres, 2: rimes pauvres et suffisantes, 3: rimes suffisantes, 4: rimes suffisantes et rimes riches, 5: rimes riches
     Returns:
         the sonnet as a list of list (stanza ) of dict (verse)
     """
@@ -364,7 +404,7 @@ def generate(order=True, authors='', dates='', schema=('ABAB','ABAB','CCD','EDE'
     schema_letters = Counter(''.join(schema))
     # si moins de rimes dispos que de rimes nécessaires dans le schéma
     if nb_rhymes < len(schema_letters):
-        logger.info("Nombre de rimes disponibles : {}, nombre de rimes nécessaires {}", nb_rhymes, len(schema_letters))
+        logger.info("Nombre de rimes disponibles : {}, nombre de rimes nécessaires {}", nb_rhymes, len(schema_letters))
         return None
 
     # hack sale pour les rimes riches
@@ -388,11 +428,11 @@ def generate_random_rhymes(schema, rhymes, order=True):
     chosen rhyme type, random select the appropriate number of verses.
     Raise an OupocoException if the number of verses is inadequate.
     Args:
-        schema (tuple): the verses schema
+        schema (tuple): the verses schema
         rhymes (dict): a list of ryhmes dict, each rhymes dict is itself a dict (rhyme: list of verses), each verse is a dict (text, id, id_sonnet)
-        order (boolean): wether the verses have to be placed in the same order as in the original sonnets
+        order (boolean): wether the verses have to be placed in the same order as in the original sonnets
     Returns:
-        a dict of list: the letters of the schema as keys, list of randomly picked verses as values
+        a dict of list: the letters of the schema as keys, list of randomly picked verses as values
     """
     schema_letters = Counter(''.join(schema))
     schema_str = ''.join(schema)
@@ -418,7 +458,7 @@ def generate_random_rhymes(schema, rhymes, order=True):
                 nb_verses = schema_letters[letter]
                 rhymes_t = letter_rhymes_t[letter]
                 random_rhyme = random.choice(list(rhymes_t.keys()))
-                logger.debug("chosen rhyme for letter {} : {}", letter, random_rhyme)
+                logger.debug("chosen rhyme for letter {} : {}", letter, random_rhyme)
                 if random_rhyme in selected_rhymes:
                     raise Exception("All rhymes have to be different in a sonnet")
                 else:
