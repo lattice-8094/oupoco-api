@@ -280,21 +280,21 @@ def get_rhymes_for_stats(order=True, authors='', dates='', schema=('ABAB','ABAB'
     rhymes_quality = {'1':[rhymes_1], '2':[rhymes_1, rhymes_2], '3':[rhymes_2], '4':[rhymes_2, rhymes_3], '5':[rhymes_3]}
     rhymes = rhymes_quality[quality]
 
+    # reduire le tableau des meta au données sélectionnées
+    # créer une colonne index contenant les réf au sonnet (le d a une nouvelle indexation, int)
+    metaUtil=meta.reset_index()
     if dates:
         rhymes = filter_by_dates(dates, rhymes)
-        selectDates = meta['dates'].isin(dates)
-    if authors: 
+        # TODO
+        #metaUtil=metaUtil[metaUtil['dates'].isin(dates)]
+    if authors:
         rhymes = filter_by_authors(authors, rhymes)
-        selectMeta = meta[meta['auteur'].isin(authors)]
+        metaUtil=metaUtil[metaUtil['auteur'].isin(authors)]
     if themes:
         rhymes = filter_by_theme(themes, rhymes)
-        selectThemes = meta['themes'].isin(themes)
-
+        metaUtil=metaUtil[metaUtil['thème'].isin(themes)]
+        
     nb_rhymes = sum([len(rhyme_t.keys()) for rhyme_t in rhymes])
-
-    # A Faire !!!!
-    #selectMeta = meta[selectAuteurs & selectThemes]
-    #selectMeta=meta[meta['themes'].isin(themes) & meta['auteur'].isin(authors)]
 
     # ('ABAB','ABAB','CCD','EDE') -> Counter({'A': 4, 'B': 4, 'C': 2, 'D': 2, 'E': 2})
     # le décompte de chaque lettre permet un traitement générique des schémas
@@ -371,7 +371,7 @@ def get_rhymes_for_stats(order=True, authors='', dates='', schema=('ABAB','ABAB'
             continue
 
     #return list_verses_in_position
-    return dico_verses_in_position, schema
+    return dico_verses_in_position, schema, metaUtil, meta
     #return dico_verses_in_position, selectMeta, schema
     
 
