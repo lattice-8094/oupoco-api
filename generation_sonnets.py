@@ -283,17 +283,21 @@ def get_rhymes_for_stats(order=True, authors='', dates='', schema=('ABAB','ABAB'
     # reduire le tableau des meta au données sélectionnées
     # créer une colonne index contenant les réf au sonnet (le d a une nouvelle indexation, int)
     metaUtil=meta.reset_index()
-    if dates:
-        rhymes = filter_by_dates(dates, rhymes)
-        # TODO
-        #metaUtil=metaUtil[metaUtil['dates'].isin(dates)]
     if authors:
         rhymes = filter_by_authors(authors, rhymes)
         metaUtil=metaUtil[metaUtil['auteur'].isin(authors)]
     if themes:
         rhymes = filter_by_theme(themes, rhymes)
         metaUtil=metaUtil[metaUtil['thème'].isin(themes)]
-        
+    if dates:
+        rhymes = filter_by_dates(dates, rhymes)
+        lstOfDate = list()
+        for dates_i in dates:
+             s, e = dates_i.split('-')
+             for i in range(int(s),int(e)):
+                lstOfDate.append(str(i))
+        metaUtil=metaUtil[metaUtil['date'].isin(lstOfDate)]
+
     nb_rhymes = sum([len(rhyme_t.keys()) for rhyme_t in rhymes])
 
     # ('ABAB','ABAB','CCD','EDE') -> Counter({'A': 4, 'B': 4, 'C': 2, 'D': 2, 'E': 2})
@@ -373,7 +377,6 @@ def get_rhymes_for_stats(order=True, authors='', dates='', schema=('ABAB','ABAB'
     #return list_verses_in_position
     return dico_verses_in_position, schema, metaUtil, meta
     #return dico_verses_in_position, selectMeta, schema
-    
 
 def generate(order=True, authors='', dates='', schema=('ABAB','ABAB','CCD','EDE'), themes='', quality='1'):
     """

@@ -93,21 +93,21 @@ def messageGrdNb(int):
 # à matcher avec themes par exemple :
 #authors=['François Coppée','Théodore de Banville'] 
 # TODO : pb - parfois pas de Hugo (si les 3 demandés) / parfois pas l'1 des 2 (si que Coppée et Banville)
-authors=['François Coppée','Théodore de Banville','Victor Hugo']
-#authors=['Alfred de Musset']
+#authors=['François Coppée','Théodore de Banville','Victor Hugo']
+authors=['José Maria de Heredia','Leconte de Lisle']
 
-#themes=''
-themes=['Amour','Nature']
+themes=''
+#themes=['Amour','Nature']
 
-dates=''
-#dates='1831-1850'
+#dates=''
+# ... Baudelaire
+#dates=['1851-1870']
+# ... José-Maria de Heredia / lecomte de Lisle
+dates=['1851-1870','1891-1900']
 
 resultat, schema, metaUtil, meta = generation_sonnets.get_rhymes_for_stats(authors=authors,themes=themes,dates=dates,quality='3')
 
-# rappel de ce que contient meta :
-# print(meta)
-
-print("===== rapartition globale des critères / nombre de sonnets ===")
+print("===== répartition globale des critères / nombre de sonnets ===")
 # print(metaUtil)
 if authors or themes or dates:
 	varSelec = list()
@@ -116,11 +116,10 @@ if authors or themes or dates:
 	if themes:
 		varSelec.append("thème")
 	if dates:
+		#print(dates)
 		varSelec.append("date")
-	#print(metaUtil.groupby(['auteur','date','thème'])['index'].count())
+	# print(metaUtil.groupby(['auteur','date','thème'])['index'].count())
 	print(metaUtil.groupby(varSelec)['index'].count())
-#print(metaUtil.groupby(['auteur','thème','index'])['index'].count())
-#print(resultat)
 
 # 2 méthodes de visualisation des metaUtil : GLOB (tout en 1 dico) / PAR_TYPE (1df par type de metaUtil)
 # GLOB l'ensemble des metaUtil données
@@ -139,7 +138,8 @@ for rimePlace, listeRime in resultat.items():
 	# PAR_TYPE
 	lstAuteur=list()
 	lstTheme=list()
-	
+	lstDate=list()
+	# liste des critères pas place dans le sonnet
 	for dic in listeRime:
 
 		for line in metaUtil.itertuples():
@@ -154,6 +154,14 @@ for rimePlace, listeRime in resultat.items():
 					dicMeta['thème']=line.thème
 					# PAR_TYPE
 					lstTheme.append(line.thème)
+				# rapporter la date à un interval
+				if dates:
+					tempLst=list()
+					tempLst.append(line.date)
+					test = generation_sonnets.__dates_to_intervals__(tempLst, intervals=dates)
+					for W in test:
+						if W not in lstDate:
+							lstDate.append(W)
 
 				listParPlace.append(dicMeta)
 
@@ -174,16 +182,24 @@ for rimePlace, listeRime in resultat.items():
 		# sortie : [ {auteur:nbOcc,auteur2:nbOcc}, {....}, ...] => 14 dico dans la liste
 		listeThemeSonnet.append(histTheme)
 
+	if dates:
+		histDate = {}
+		for d in lstDate:
+		    histDate[d] = histDate.get(d, 0) + 1
+		# sortie : [ {auteur:nbOcc,auteur2:nbOcc}, {....}, ...] => 14 dico dans la liste
+		listeDateSonnet.append(histDate)
+
 	cptMetaPlace[rimePlace] = listParPlace
 
 	cptRimePlace.append(len(resultat[rimePlace]))
 
-print("#### meta ###")
+
+print("#### meta ###")
 
 # TODO alléger -> ? faire une fonction pour mutualiser le traitement des 3 critères 
 
 if authors and len(authors)>1:
-	print("## AUTEURS ##\ndataframe : ")
+	print("## AUTEURS ##\ndataframe : ")
 
 	dfAuteur = pandas.DataFrame(listeAuteurSonnet)
 	# transposer le df (inverser col et ligne)
@@ -220,10 +236,10 @@ if authors and len(authors)>1:
 
 #str(n for n in range(0,len(critereAuthors)))
 
-print("## THEME ##\ndataframe : ")
-
 if themes and len(themes)>1:
 	
+	print("## THEME ##\ndataframe : ")
+
 	dfTheme = pandas.DataFrame(listeThemeSonnet)
 	# transposer le df (inverser col et ligne)
 	dfTheme_T=dfTheme.T
@@ -251,6 +267,38 @@ if themes and len(themes)>1:
 
 	print(messageTheme)
 
+#if dates and len(dates)>1:
+if dates and len(lstDate)==1:
+
+	print("## DATE ##\ndataframe : ")
+
+	dfDate = pandas.DataFrame(listeDateSonnet)
+	# transposer le df (inverser col et ligne)
+	dfDate_T=dfDate.T
+	print(dfDate_T)
+
+	print(" Respect du critère dans les comptes : ")
+	messageDate=""
+	if compare(dates,list(dfDate_T.index.values)) == False:
+		messageDate= "!!! Ensemble de sonnets sans " + str(", ".join(noIntersection_2_listes(dates,list(dfDate_T.index.values))))
+
+	else:
+		critereDates = dates
+		for index, nb_noNull in dfDate_T.notnull().sum().items():
+			if nb_noNull == 1:
+				for i, value in dfDate_T[index].items():
+					if np.isfinite(value) == True:
+						if i in critereDates :
+							del critereDates[critereDates.index(i)]
+
+		if not(critereDates):
+			messageDate="Dans chacun des sonnets possibles, au moins un vers dans le créneau temps demandé."
+		else:
+			messageDate="Dans chacun des sonnets possibles, certains sonnets hors créneau temps demandé : " + str(", ".join(critereDates))
+			# TODO calculer le nb de sonnets en moins
+
+	print(messageDate)
+
 print("===== schema ===")
 print(schema)
 
@@ -260,7 +308,7 @@ print (cptRimePlace)
 nbSonnets=multLst(cptRimePlace)
 print (messageGrdNb(nbSonnets))
 
-#### CAS QUI NE NOUS INTERESSE PAS POUR L INSTANT
+#### CAS QUI NE NOUS INTERESSE PAS POUR L INSTANT
 # # quand nécessaire -> décommenter tout ce qui suit
 # print("===== rimes déplacées ===")
 
