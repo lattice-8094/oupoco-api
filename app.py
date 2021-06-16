@@ -3,6 +3,7 @@
 import generation_sonnets
 import datetime
 import json
+from collections import Counter
 
 from flask import Flask
 from flask_restplus import Api, Resource, reqparse
@@ -90,7 +91,15 @@ class Schemas(Resource):
 class Authors(Resource):
     def get(self):
         """ Returns the list of authors in the database """
-        return jsonify(list(authors))
+        c_authors = Counter([meta[s]['auteur'] for s in meta])
+        return jsonify([f"{author} ({occ})" for author, occ in c_authors.most_common()])
+
+@api.route('/authors-form')
+class AuthorsForm(Resource):
+    def get(self):
+        """ Returns a list of selected authors in the form (20 most common) """
+        c_authors = Counter([meta[s]['auteur'] for s in meta])
+        return jsonify([f"{author} ({occ})" for author, occ in c_authors.most_common(20)])
 
 @api.route('/dates')
 class Dates(Resource):

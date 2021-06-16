@@ -10,6 +10,7 @@ import re
 from collections import Counter, defaultdict
 
 from loguru import logger
+logger.remove()
 logger.add(sys.stderr, format="{time} {level} {message}", level="INFO")
 #logger.add(sys.stderr, format="{time} {level} {message}", level="DEBUG")
 
@@ -62,6 +63,7 @@ def __verse2txtmeta__(verse):
     res = dict()
     res['text'] = verse['text']
     res['meta'] = dict(meta.loc[verse['id_sonnet']])
+    res['meta']['id'] = verse['id']
     return res
 
 def __compute_constraints__(constraints):
@@ -305,8 +307,8 @@ def generate(order=True, authors='', dates='', schema=('ABAB','ABAB','CCD','EDE'
         return None
 
     # hack sale pour les rimes riches
-    if quality == '4' or quality == '5':
-        order = False
+    #if quality == '4' or quality == '5':
+    #    order = False
 
     random_rhymes = generate_random_rhymes(schema, rhymes, order)
     sonnet = list()
@@ -399,7 +401,7 @@ def generate_random_schema(graphic_difference=True):
     return(rendered_sonnet)
 
 def main():
-    sonnet = generate(order=False, schema=(schemas['sonnet_francais']), themes=['Beauté', 'Mort'], quality='3')
+    sonnet = generate(order=True, schema=(schemas['sonnet_francais']), quality='3')
     if sonnet:
         for st in sonnet:
             for verse in st:
