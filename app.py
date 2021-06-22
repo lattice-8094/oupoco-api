@@ -3,6 +3,7 @@
 import generation_sonnets
 import datetime
 import json
+from collections import Counter
 
 from flask import Flask
 from flask_restplus import Api, Resource, reqparse
@@ -90,7 +91,15 @@ class Schemas(Resource):
 class Authors(Resource):
     def get(self):
         """ Returns the list of authors in the database """
-        return jsonify(list(authors))
+        c_authors = Counter([meta[s]['auteur'] for s in meta])
+        return jsonify([f"{author} ({occ})" for author, occ in c_authors.most_common()])
+
+@api.route('/authors-form')
+class AuthorsForm(Resource):
+    def get(self):
+        """ Returns a list of selected authors in the form (20 most common) """
+        c_authors = Counter([meta[s]['auteur'] for s in meta])
+        return jsonify([f"{author} ({occ})" for author, occ in c_authors.most_common(20)])
 
 @api.route('/dates')
 class Dates(Resource):
@@ -125,9 +134,9 @@ class New(Resource):
         param_themes = args.get('themes', None)
 
         if param_schema in schemas:
-            sonnet = generation_sonnets.generate(authors=param_authors, date=param_date, schema=schemas[param_schema], order=param_order, themes=param_themes)
+            sonnet = generation_sonnets.generate(authors=param_authors, dates=param_date, schema=schemas[param_schema], order=param_order, themes=param_themes)
         else:
-            sonnet = generation_sonnets.generate(authors=param_authors, date=param_date, order=param_order, themes=param_themes)
+            sonnet = generation_sonnets.generate(authors=param_authors, dates=param_date, order=param_order, themes=param_themes)
 
         if sonnet:
             sonnet_text = list()

@@ -3,13 +3,23 @@
 import random
 import pickle
 import json
+import pandas
+import sys
+import loguru
+import re
 from collections import Counter, defaultdict
 
-import logging
-logger = logging.getLogger(__name__)
+from loguru import logger
+logger.remove()
+logger.add(sys.stderr, format="{time} {level} {message}", level="INFO")
+#logger.add(sys.stderr, format="{time} {level} {message}", level="DEBUG")
 
-types_rimes = json.load(open('bd_rimes.json', 'r'))
-meta = json.load(open('bd_meta.json', 'r'))
+#types_rimes = json.load(open('bd_rimes.json', 'r'))
+rhymes_1 = json.load(open('rhymes_1.json', 'r'))
+rhymes_2 = json.load(open('rhymes_2.json', 'r'))
+rhymes_3 = json.load(open('rhymes_3.json', 'r'))
+
+meta = pandas.read_json(open('bd_meta.json'), orient='index')
 schemas = {
     'sonnet_sicilien1':('ABAB','ABAB','CDE','CDE'),
     'sonnet_sicilien2':('ABAB','ABAB','CDC','CDC'),
@@ -23,12 +33,26 @@ schemas = {
     'sonnet_spencerien':('ABAB','BCBC','CDCD','EE'),
     'sonnet_irrationnel':('AAB','C','BAAB','C','CDCCD')
     }
-sonnets_min_len = 6
+dates = ('1800-1830', '1831-1850', '1851-1870', '1871-1890', '1891-1900', '1901-1950')
+sonnets_min_len = 3
+
+def __get_last_word__(sentence):
+    """
+    Returns the last word of a sentence
+    """
+    words = sentence.split(' ')
+    if re.search(r'[a-z]', words[-1]):
+        last = words[-1]
+    else:
+        last = words[-2]
+    last = re.sub(r"^.'",'', last, re.U)
+    last = re.sub(r'\W','', last, re.U)
+    return last
 
 def __verse2txtmeta__(verse):
     """
     Turn a verse (dict bd_rimes.json) into a txtmeta dict 
-    with a call to bd_meta.json to retrieve the appropriate meta
+    with a call to meta df to retrieve the appropriate meta
     Args:
         verse: dict {'texte':'', 'id':'', 'id_sonnet': ''} from bd_rimes.json
     Returns:
@@ -37,118 +61,200 @@ def __verse2txtmeta__(verse):
         { "auteur": "", "date": "", "titre sonnet": "", "titre recueil": ""}
     """
     res = dict()
-    res['text'] = verse['texte']
-    res['meta'] = meta[verse['id_sonnet']]
+    res['text'] = verse['text']
+    res['meta'] = dict(meta.loc[verse['id_sonnet']])
+    res['meta']['id'] = verse['id']
     return res
 
-def paramdate(rimes, cle):
-    erreur=[]
-    for sonnet in meta:
-        date=meta[sonnet]['date']
-        if date=='Non renseignée':
-            erreur.append(sonnet)
-
-    dico_date=dict()
-    for sonnet in meta:
-        if sonnet not in erreur:
-            dico_date[sonnet]=meta.get(sonnet) 
-
-    intervalle_1=list()
-    intervalle_2=list()
-    intervalle_3=list()
-    intervalle_4=list()
-    intervalle_5=list()
-    intervalle_6=list()
-    dico_intervalle=dict()
-    for key in dico_date:
-        if dico_date[key]['date'] > '1800' and dico_date[key]['date'] <= '1830':
-            intervalle_1.append(key)
-        if dico_date[key]['date'] > '1830' and dico_date[key]['date'] <= '1850':
-            intervalle_2.append(key)
-        if dico_date[key]['date'] > '1850' and dico_date[key]['date'] <= '1870':
-            intervalle_3.append(key)
-        if dico_date[key]['date'] > '1870' and dico_date[key]['date'] <= '1890':
-            intervalle_4.append(key)
-        if dico_date[key]['date'] > '1890' and dico_date[key]['date'] <= '1900':
-            intervalle_5.append(key)
-        if dico_date[key]['date'] > '1900' and dico_date[key]['date'] <= '1950':
-            intervalle_6.append(key)
-
-
-    dico_intervalle={
-        '1800-1830':intervalle_1,
-        '1831-1850':intervalle_2,
-        '1851-1870':intervalle_3,
-        '1871-1890':intervalle_4,
-        '1891-1900':intervalle_5,
-        '1901-1950':intervalle_6}
-
-    choix_final=list()
-    choix_date = list()
-    for sousListe in rimes:
-        choix_date=[data for data in sousListe if data['id_sonnet'] in dico_intervalle[cle]]
-        if len(choix_date)>0:
-            choix_final.append(choix_date)
-    
-    return choix_final
-
-def filter_by_theme(rimes, theme):
+def __compute_constraints__(constraints):
     """
-    Find and return the rimes categorized by the given theme or themes in the given rimes 
     Args:
-        rimes: a list of rimes, each rime is a list of verses, each verse is a dict (texte, id, id_sonnet)
-        themes: a list of themes
-    Returns:
-        a list of list. Same structure as the arg rimes but filtered by themes
+        - constraints: dict of field: list of values (list)
     """
-    liste_choix = [id_sonnet for id_sonnet in meta if meta[id_sonnet]['thème'] in theme]
-    if len(liste_choix) < sonnets_min_len:
+    clause = ""
+    if not(constraints):
+        return ""
+    else:
+        for i, field in enumerate(constraints):
+            if field == 'date':
+                clause += '('
+                if i != 0:
+                    clause += "& "
+                for j, interval in enumerate(constraints[field]):
+                    start, end = [int(val) for val in interval.split('-')]
+                    if j != 0:
+                        clause += "or "
+                    clause += f"({field} >= {start}) & ({field} <= {end}) "
+                clause += ') '
+            else: 
+                # the constraint value is a list, we use 'isin'
+                if i != 0:
+                    clause += "& "
+                clause += f"({field}.isin({constraints[field]})) "
+    return clause
+
+def __dates_to_intervals__(dates_list, intervals=dates):
+    """
+    Turn the given dates list into a set of intervals
+    Args:
+        - dates_list (list): list of dates
+        - intervals (set): set of date intervals
+    Returns:
+        - set of date intervals
+    """
+    res = set()
+    for date in dates_list:
+        for begin, end in [interval.split('-') for interval in intervals]:
+            if  int(date) >= int(begin) and date <= int(end):
+                res.add(f"{begin}-{end}")
+    return res
+
+def get_dates(authors=[], themes=[]):
+    """
+    Query the db, returns the list of dates
+    according to the given args
+    Args:
+        - authors: list of str
+        - themes: list of str
+    Returns:
+        - list of dates intervals in the oupoco db
+    """
+    constraints = {}
+    if themes:
+        constraints['thème'] = themes
+    if authors:
+        constraints['auteur'] = authors
+    my_query = __compute_constraints__(constraints)
+    if my_query:
+        df = meta.query(my_query)
+        res = __dates_to_intervals__(set(df['date']))
+    else:
+        res = dates
+    return res
+
+def get_authors(dates=[], themes=[]):
+    """
+    Query the db, returns the list of authors
+    according to the given args
+    Args:
+        - dates (list):  list of dates intervals (start-end)
+        - themes (list): list of str
+    Returns:
+        - list of authors in the oupoco db
+    """
+    constraints = {}
+    if dates:
+        constraints['date'] = dates
+    if themes:
+        constraints['thème'] = themes
+    my_query = __compute_constraints__(constraints)
+    if my_query:
+        df = meta.query(my_query)
+        res = set(df['auteur'])
+    else:
+        res = set(meta.auteur)
+    return res
+
+def get_themes(dates=[], authors=[]):
+    """
+    Query the db, returns the list of themes
+    according to the given args
+    Args:
+        - date (list): list of dates intervals (start-end)
+        - authors (list): list of str
+    Returns:
+        - list of themes in the oupoco db
+    """
+    constraints = {}
+    if dates:
+        constraints['date'] = dates
+    if authors:
+        constraints['auteur'] = authors
+    my_query = __compute_constraints__(constraints)
+
+    if my_query:
+        df = meta.query(my_query)
+        res = set(df['thème'])
+    else:
+        res = set(meta.thème)
+    return res
+
+def filter_by_dates(dates_intervals, rhymes):
+    """
+    Find and return the rhymes published in the given dates in the given rhymes 
+    Args:
+        dates_intervals: a list of dates intervals
+        rhymes: a list of ryhmes dict, each rhymes dict is itself a dict (rhyme: list of verses), each verse is a dict (text, id, id_sonnet)
+    Returns:
+        a list of dicts. Same structure as the rhymes but filtered by dates
+    """
+    sonnets = []
+    for dates_interval in dates_intervals:
+        start, end = dates_interval.split('-')
+        df = meta.query(f"(date >= {int(start)}) & (date <= {int(end)})")
+        sonnets.extend(df.index)
+    #print(len(sonnets))
+    if len(sonnets) < sonnets_min_len:
         return list()
 
-    choix_rimes=list()
-    choix_final=list()
-    for rime in rimes:
-        choix_rimes = [verse for verse in rime if verse['id_sonnet'] in liste_choix]
-        if len(choix_rimes) > 0:
-            choix_final.append(choix_rimes)
-            
-    return choix_final
+    res = []
+    # for each rhyme type (if rimes riches and suffisantes selected for instance)
+    for rhymes_t in rhymes:
+        rhymes_dates_d = {}
+        for rhyme_sound, items in rhymes_t.items():
+            verses = [verse for verse in items if verse['id_sonnet'] in sonnets]
+            if len(verses) > 0:
+                rhymes_dates_d[rhyme_sound] = verses
+        res.append(rhymes_dates_d)
+    return res
 
-def filter_by_authors(rhymes, authors):
+def filter_by_theme(themes, rhymes):
+    """
+    Find and return the rhymes categorized by the given theme or themes in the given rhymes 
+    Args:
+        themes: a list of themes
+        rhymes: a list of ryhmes dict, each rhymes dict is itself a dict (rhyme: list of verses), each verse is a dict (text, id, id_sonnet)
+    Returns:
+        a list of dicts. Same structure as the rhymes but filtered by themes
+    """
+    sonnets = [id_sonnet for id_sonnet in meta.index if meta.loc[id_sonnet]['thème'] in themes]
+    if len(sonnets) < sonnets_min_len:
+        return list()
+
+    res = []
+    # for each rhyme type (if rimes riches and suffisantes selected for instance)
+    for rhymes_t in rhymes:
+        rhymes_themes_d = {}
+        for rhyme_sound, items in rhymes_t.items():
+            verses = [verse for verse in items if verse['id_sonnet'] in sonnets]
+            if len(verses) > 0:
+                rhymes_themes_d[rhyme_sound] = verses
+        res.append(rhymes_themes_d)
+    return res
+
+def filter_by_authors(authors, rhymes):
     """
     Find and return the rhymes written by the given authors in the given rhymes 
     Args:
-        rhymes: a list of rhymes, each rhyme is a list of verses, each verse is a dict (texte, id, id_sonnet)
         authors: a list of authors
+        rhymes: a list of ryhmes dict, each rhymes dict is itself a dict (rhyme: list of verses), each verse is a dict (text, id, id_sonnet)
     Returns:
-        a list of list. Same structure as the arg rhymes but filtered by authors
+        a list of dicts. Same structure as the rhymmes but filtered by authors
     """
-    authors_sonnets = []
-    for author in authors:
-        author_sonnets = [id_sonnet for id_sonnet in meta if meta[id_sonnet]['auteur'] == author]
-        authors_sonnets.append(author_sonnets)
-    
-    choix_rimes = []
-    choix_final = []
-
-    for rhyme in rhymes:
-        choix_rimes = [verse for verse in rhyme if is_in_all_lists(verse['id_sonnet'], authors_sonnets)]
-        if len(choix_rimes) > 0:
-            choix_final.append(choix_rimes)   
-    
-    if len(choix_final) < sonnets_min_len:
+    sonnets = [id_sonnet for id_sonnet in meta.index if meta.loc[id_sonnet]['auteur'] in authors]
+    if len(sonnets) < sonnets_min_len:
         return list()
-    
-    return choix_final
 
-def is_in_all_lists(item, lists):
-    """
-    Checks wether a given item is in all the lists (list of lists)
-    """
-    for l in lists:
-        if not(item in l):
-            return False
-    return True
+    res = []
+    # for each rhyme type (if rimes riches and suffisantes selected for instance)
+    for rhymes_t in rhymes:
+        rhymes_authors_d = {}
+        for rhyme_sound, items in rhymes_t.items():
+            verses = [verse for verse in items if verse['id_sonnet'] in sonnets]
+            if len(verses) > 0:
+                rhymes_authors_d[rhyme_sound] = verses
+        res.append(rhymes_authors_d)
+    return res
 
 def cpt_verse_position(id):
     """
@@ -168,99 +274,115 @@ def cpt_verse_position(id):
         pos_sonnet += 11
     return pos_sonnet
 
-def generate_order(schema, rimes):
-    sonnet = ""
-    schema_str = ""
-    for stanza in schema:
-        schema_str += stanza
-    schema_letters = Counter(schema_str)
-    while True:
-        try:
-            # pick rhymes in rhymes db (4 letters in schema -> 4 rhymes)
-            choix_rimes = random.sample(range(len(rimes)), len(schema_letters))
-            # organise the chosen rhymes in a dict indexed by letters
-            choix_rimes_letter = {letter: rimes[choix_rimes[i]] for i, letter in enumerate(schema_letters)}
-            schema_rimes = defaultdict(list)
-            for i, letter in enumerate(schema_str, 1):
-                # order constraint: in the given rhymes list, pick only the ones with the right position
-                rimes_letter_position = [rime for rime in choix_rimes_letter[letter] if cpt_verse_position(rime['id']) == i]
-                current_verse = random.sample(rimes_letter_position, 1)[0]
-                schema_rimes[letter].append(current_verse)                                        
-            break
-        except Exception as ex:
-            template = "An exception of type {0} occurred. Arguments: {1!r}"
-            message = template.format(type(ex).__name__, ex.args)
-            logging.info(message)
-            continue
-    
-    sonnet = list()
-    for stanza in schema:
-        generated_stanza = list()
-        for letter in stanza:
-            verse = schema_rimes[letter].pop(0)
-            #generated_stanza.append(verse)
-            generated_stanza.append(__verse2txtmeta__(verse))
-        sonnet.append(generated_stanza)
-
-    return sonnet
-
-def generate(order=True, authors='', date='', schema=('ABAB','ABAB','CCD','EDE'), themes=''):
+def generate(order=True, authors='', dates='', schema=('ABAB','ABAB','CCD','EDE'), themes='', quality='1'):
     """
     Heart of the module, generate a new sonnet based on the desired constraints
     Args:
         order (boolean): wether the verses have to be placed in the same order as in the original sonnets
         authors (list): reduce the database to the desired authors
-        date (string): reduce the database to the desired date intervall
+        dates (list): reduce the database to the desired dates intervals
         schema (tuple): the verses schema
+        quality (str): quality of the rhyme. Except a value between 1 and 5.
+                1: rimes pauvres, 2: rimes pauvres et suffisantes, 3: rimes suffisantes, 4: rimes suffisantes et rimes riches, 5: rimes riches
     Returns:
         the sonnet as a list of list (stanza ) of dict (verse)
     """
-    all_rimes = types_rimes
-    if date:
-        contrainte_date = paramdate(all_rimes, date)  
-        all_rimes = contrainte_date
+    rhymes_quality = {'1':[rhymes_1], '2':[rhymes_1, rhymes_2], '3':[rhymes_2], '4':[rhymes_2, rhymes_3], '5':[rhymes_3]}
+    rhymes = rhymes_quality[quality]
+    if dates:
+        rhymes = filter_by_dates(dates, rhymes)
     if authors: 
-        contrainte_auteur = filter_by_authors(all_rimes, authors)
-        all_rimes = contrainte_auteur
+        rhymes = filter_by_authors(authors, rhymes)
     if themes:
-        contrainte_theme = filter_by_theme(all_rimes,themes)
-        all_rimes = contrainte_theme
-    longueur = len(all_rimes)
+        rhymes = filter_by_theme(themes, rhymes)
+    nb_rhymes = sum([len(rhyme_t.keys()) for rhyme_t in rhymes])
 
-    schema_rimes = dict()
+    random_rhymes = dict()
     # ('ABAB','ABAB','CCD','EDE') -> Counter({'A': 4, 'B': 4, 'C': 2, 'D': 2, 'E': 2})
     # le décompte de chaque lettre permet un traitement générique des schémas
     schema_letters = Counter(''.join(schema))
-    if longueur < len(schema_letters):
+    # si moins de rimes dispos que de rimes nécessaires dans le schéma
+    if nb_rhymes < len(schema_letters):
+        logger.info("Nombre de rimes disponibles : {}, nombre de rimes nécessaires {}", nb_rhymes, len(schema_letters))
         return None
 
-    if order:
-        sonnet = generate_order(schema, all_rimes)
-        return sonnet
-    
-    while True :
-        try :
-            choix_rimes = random.sample(range(longueur), len(schema_letters))
-            for i, letter in enumerate(schema_letters):
-                current_rime = all_rimes[choix_rimes[i]]
-                indexes = random.sample(range(len(current_rime)), schema_letters[letter])
-                schema_rimes[letter] = [current_rime[index] for index in indexes]
-            break
-        except Exception as ex:
-            template = "An exception of type {0} occurred. Arguments:\n{1!r}"
-            message = template.format(type(ex).__name__, ex.args)
-            logging.info(message)
-            continue
+    # hack sale pour les rimes riches
+    #if quality == '4' or quality == '5':
+    #    order = False
 
+    random_rhymes = generate_random_rhymes(schema, rhymes, order)
     sonnet = list()
     for stanza in schema:
         generated_stanza = list()
         for letter in stanza:
-            verse = schema_rimes[letter].pop()
+            verse = random_rhymes[letter].pop(0)
             generated_stanza.append(__verse2txtmeta__(verse))
         sonnet.append(generated_stanza)
    
     return sonnet
+
+def generate_random_rhymes(schema, rhymes, order=True):
+    """
+    For each letter of the given schema, random choose a rhyme type and in the
+    chosen rhyme type, random select the appropriate number of verses.
+    Raise an OupocoException if the number of verses is inadequate.
+    Args:
+        schema (tuple): the verses schema
+        rhymes (dict): a list of ryhmes dict, each rhymes dict is itself a dict (rhyme: list of verses), each verse is a dict (text, id, id_sonnet)
+        order (boolean): wether the verses have to be placed in the same order as in the original sonnets
+    Returns:
+        a dict of list: the letters of the schema as keys, list of randomly picked verses as values
+    """
+    schema_letters = Counter(''.join(schema))
+    schema_str = ''.join(schema)
+    letter_rhymes_t = dict()
+
+    # the type of rhymes for each letter of the schema
+    # to be sure that each type is represented, we allocate one letter to each type
+    for rhymes_t, random_letter in zip(rhymes, random.sample(list(schema_letters.keys()), len(rhymes))):
+        letter_rhymes_t[random_letter] = rhymes_t
+    # the remaining letters are randomly chosen
+    for letter in schema_letters:
+        if not(letter in letter_rhymes_t):
+            letter_rhymes_t[letter] = random.choice(rhymes)
+    
+    while True:
+        selected_rhymes = []
+        schema_rhymes = defaultdict(list)
+        try :
+            letter_random_rhymes = {}
+            letter_random_rhymes_2 = {}
+            # Random pick a rhyme for each letter of the schema
+            for letter in schema_letters:
+                nb_verses = schema_letters[letter]
+                rhymes_t = letter_rhymes_t[letter]
+                random_rhyme = random.choice(list(rhymes_t.keys()))
+                logger.debug("chosen rhyme for letter {} : {}", letter, random_rhyme)
+                if random_rhyme in selected_rhymes:
+                    raise Exception("All rhymes have to be different in a sonnet")
+                else:
+                    selected_rhymes.append(random_rhyme)
+                    letter_random_rhymes[letter] = rhymes_t[random_rhyme]
+                    letter_random_rhymes_2[letter] = random_rhyme # for debug only
+            # Random pick a verse of the appropriate rhyme 
+            for i, letter in enumerate(schema_str, 1):
+                if order:
+                    verses_in_position = [verse for verse in letter_random_rhymes[letter] if cpt_verse_position(verse['id']) == i]
+                    logger.debug("{} vers de la rime {} en position {}", len(verses_in_position), letter_random_rhymes_2[letter], i)
+                    current_verse = random.choice(verses_in_position)
+                else:
+                    current_verse = random.choice(letter_random_rhymes[letter])
+                if __get_last_word__(current_verse['text']) in [__get_last_word__(verse['text']) for verse in schema_rhymes[letter]]:
+                    raise Exception(f"Same word cannot be repeated in a rhyme {__get_last_word__(current_verse['text'])}")
+                schema_rhymes[letter].append(current_verse)  
+            break
+        except Exception as ex:
+            template = "An exception of type {0} occurred. Arguments:\n{1!r}"
+            message = template.format(type(ex).__name__, ex.args)
+            logger.info(message)
+            continue
+
+    return schema_rhymes
 
 def generate_random_schema(graphic_difference=True):
     if graphic_difference:
@@ -279,7 +401,7 @@ def generate_random_schema(graphic_difference=True):
     return(rendered_sonnet)
 
 def main():
-    sonnet = generate(order=True, schema=(schemas['sonnet_shakespearien']), themes=['Spirituel'])
+    sonnet = generate(order=True, schema=(schemas['sonnet_francais']), quality='3')
     if sonnet:
         for st in sonnet:
             for verse in st:
@@ -290,6 +412,4 @@ def main():
         print('Nope')
 
 if __name__ == "__main__":
-    import logging.config
-    logging.config.fileConfig('./logging.conf')
     main()
