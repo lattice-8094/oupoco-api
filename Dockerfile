@@ -1,6 +1,6 @@
 FROM python:3.7
 
-LABEL maintainer=clement.plancq@ens.fr
+#LABEL maintainer=clement.plancq@ens.fr
 
 RUN mkdir /code
 RUN mkdir /code/rss

@@ -8,6 +8,8 @@ import time
 import datetime
 import pytz
 import re
+import requests
+from lxml import etree
 from feedgen.feed import FeedGenerator
 import generation_sonnets
 
@@ -24,6 +26,20 @@ def write_rss_feed(rss_str, rss_file=RSS_FILE):
     rss_str = re.sub(r"<atom:link.+?>", "", rss_str)
     with open(rss_file, 'w') as out:
         out.write(rss_str)
+
+def restart():
+    """
+    start a new rss file
+    """
+    fg = FeedGenerator()
+    fg.title('Oupoco feed')
+    fg.subtitle('Une strophe par minute, un sonnet toutes les 5 minutes')
+    fg.link( href='https://apps.lattice.cnrs.fr/oupoco_rss/rss.xml', rel='self' )
+    fg.language('fr')
+    fg.lastBuildDate(timezone.localize(datetime.datetime.now()))
+    rssfeed = fg.rss_str(pretty=True)
+    write_rss_feed(rssfeed)
+
 
 def job():
     schema=('ABAB','ABAB','CCD','EDE')
@@ -51,7 +67,7 @@ def job():
 fg = FeedGenerator()
 fg.title('Oupoco feed')
 fg.subtitle('Une strophe par minute, un sonnet toutes les 5 minutes')
-fg.link( href='http://apps.lattice.cnrs.fr/oupoco-rss/rss.xml', rel='self' )
+fg.link( href='https://apps.lattice.cnrs.fr/oupoco_rss/rss.xml', rel='self' )
 fg.language('fr')
 fg.lastBuildDate(timezone.localize(datetime.datetime.now()))
 rssfeed = fg.rss_str(pretty=True)
@@ -59,10 +75,10 @@ write_rss_feed(rssfeed)
 
 
 schedule.every(5).minutes.do(job)
+schedule.every().monday.do(restart)
 #schedule.every().hour.do(job)
 #schedule.every().day.at("10:30").do(job)
 #schedule.every(5).to(10).minutes.do(job)
-#schedule.every().monday.do(job)
 #schedule.every().wednesday.at("13:15").do(job)
 #schedule.every().minute.at(":17").do(job)
 
