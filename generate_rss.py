@@ -13,7 +13,7 @@ import json
 from feedgen.feed import FeedGenerator
 
 RSS_FILE = "rss/rss.xml"
-OUPOCO_CALL = "http://oupoco_api/new"
+OUPOCO_CALL = "http://oupoco_api:8000/new"
 timezone = pytz.timezone("Europe/Paris")
 
 
