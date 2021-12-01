@@ -773,15 +773,6 @@
         "origine": "s",
         "femme": "non"
     },
-    "s-92": {
-        "auteur": "Charles Cros",
-        "date": "1873",
-        "titre sonnet": "La vie idéale",
-        "titre recueil": "Le Coffret de santal",
-        "thème": "",
-        "origine": "s",
-        "femme": "non"
-    },
     "s-93": {
         "auteur": "Charles Cros",
         "date": "1873",
@@ -4121,15 +4112,6 @@
         "origine": "s",
         "femme": "non"
     },
-    "s-469": {
-        "auteur": "Paul Verlaine",
-        "date": "1896",
-        "titre sonnet": "Pour dénoncer la Triplice",
-        "titre recueil": "Invectives",
-        "thème": "",
-        "origine": "s",
-        "femme": "non"
-    },
     "s-470": {
         "auteur": "Paul Verlaine",
         "date": "1896",
@@ -5809,15 +5791,6 @@
         "date": "1875",
         "titre sonnet": "Aux Poètes futurs",
         "titre recueil": "Les Vaines Tendresse",
-        "thème": "",
-        "origine": "s",
-        "femme": "non"
-    },
-    "s-658": {
-        "auteur": "Sully Prudhomme",
-        "date": "1908",
-        "titre sonnet": "Le Fleuve",
-        "titre recueil": "Epaves",
         "thème": "",
         "origine": "s",
         "femme": "non"
@@ -9953,69 +9926,6 @@
         "origine": "bnf",
         "femme": "non"
     },
-    "bnf-424": {
-        "auteur": "Leconte de Lisle",
-        "date": "1862",
-        "titre sonnet": "",
-        "titre recueil": "Poèmes barbaresÉdition définitive, revue et considérablement augmentée",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-425": {
-        "auteur": "Leconte de Lisle",
-        "date": "1862",
-        "titre sonnet": "",
-        "titre recueil": "Poèmes barbaresÉdition définitive, revue et considérablement augmentée",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-426": {
-        "auteur": "Leconte de Lisle",
-        "date": "1855",
-        "titre sonnet": "",
-        "titre recueil": "Poèmes barbaresÉdition définitive, revue et considérablement augmentée",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-427": {
-        "auteur": "Leconte de Lisle",
-        "date": "1862",
-        "titre sonnet": "",
-        "titre recueil": "Poèmes barbaresÉdition définitive, revue et considérablement augmentée",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-428": {
-        "auteur": "Leconte de Lisle",
-        "date": "1862",
-        "titre sonnet": "",
-        "titre recueil": "Poèmes barbaresÉdition définitive, revue et considérablement augmentée",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-429": {
-        "auteur": "Leconte de Lisle",
-        "date": "1872",
-        "titre sonnet": "",
-        "titre recueil": "Poèmes barbaresÉdition définitive, revue et considérablement augmentée",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-430": {
-        "auteur": "Leconte de Lisle",
-        "date": "1878",
-        "titre sonnet": "",
-        "titre recueil": "Poèmes barbaresÉdition définitive, revue et considérablement augmentée",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
     "bnf-432": {
         "auteur": "Alfred de Montvaillant",
         "date": "1880",
@@ -10178,24 +10088,6 @@
         "origine": "bnf",
         "femme": "non"
     },
-    "bnf-471": {
-        "auteur": "Théodore de Banville",
-        "date": "1842",
-        "titre sonnet": "",
-        "titre recueil": "Oeuvres de Théodore de Banville",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-472": {
-        "auteur": "Théodore de Banville",
-        "date": "1842",
-        "titre sonnet": "",
-        "titre recueil": "Oeuvres de Théodore de Banville",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
     "bnf-473": {
         "auteur": "Théodore de Banville",
         "date": "1869",
@@ -10245,15 +10137,6 @@
         "auteur": "Charles Bernard",
         "date": "1892",
         "titre sonnet": "L'anneau",
-        "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-479": {
-        "auteur": "Émile Blémont",
-        "date": "1870",
-        "titre sonnet": "",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
         "thème": "",
         "origine": "bnf",
@@ -17261,33 +17144,6 @@
         "origine": "bnf",
         "femme": "non"
     },
-    "bnf-1357": {
-        "auteur": "Alfred de Musset",
-        "date": "1850",
-        "titre sonnet": "",
-        "titre recueil": "Le livre des sonnets : dix dizains de sonnets choisis  [Histoire du sonnet]",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-1358": {
-        "auteur": "Théophile Gautier",
-        "date": "1839",
-        "titre sonnet": "",
-        "titre recueil": "Le livre des sonnets : dix dizains de sonnets choisis  [Histoire du sonnet]",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-1359": {
-        "auteur": "Théophile Gautier",
-        "date": "1866",
-        "titre sonnet": "L'Impassible",
-        "titre recueil": "Le livre des sonnets : dix dizains de sonnets choisis  [Histoire du sonnet]",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
     "bnf-1360": {
         "auteur": "Ferdinand de Gramont",
         "date": "1840",
@@ -17315,64 +17171,10 @@
         "origine": "bnf",
         "femme": "non"
     },
-    "bnf-1363": {
-        "auteur": "Leconte de Lisle",
-        "date": "1862",
-        "titre sonnet": "",
-        "titre recueil": "Le livre des sonnets : dix dizains de sonnets choisis  [Histoire du sonnet]",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-1364": {
-        "auteur": "Leconte de Lisle",
-        "date": "1862",
-        "titre sonnet": "",
-        "titre recueil": "Le livre des sonnets : dix dizains de sonnets choisis  [Histoire du sonnet]",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-1365": {
-        "auteur": "Charles Baudelaire",
-        "date": "1841",
-        "titre sonnet": "",
-        "titre recueil": "Le livre des sonnets : dix dizains de sonnets choisis  [Histoire du sonnet]",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-1366": {
-        "auteur": "Charles Baudelaire",
-        "date": "1847",
-        "titre sonnet": "",
-        "titre recueil": "Le livre des sonnets : dix dizains de sonnets choisis  [Histoire du sonnet]",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-1367": {
-        "auteur": "Charles Baudelaire",
-        "date": "1857",
-        "titre sonnet": "",
-        "titre recueil": "Le livre des sonnets : dix dizains de sonnets choisis  [Histoire du sonnet]",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
     "bnf-1368": {
         "auteur": "Théodore de Banville",
         "date": "1847",
         "titre sonnet": "La Nuit",
-        "titre recueil": "Le livre des sonnets : dix dizains de sonnets choisis  [Histoire du sonnet]",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-1369": {
-        "auteur": "Théodore de Banville",
-        "date": "1854",
-        "titre sonnet": "",
         "titre recueil": "Le livre des sonnets : dix dizains de sonnets choisis  [Histoire du sonnet]",
         "thème": "",
         "origine": "bnf",
@@ -17409,60 +17211,6 @@
         "auteur": "Catulle Mendès",
         "date": "1866",
         "titre sonnet": "L'absente",
-        "titre recueil": "Le livre des sonnets : dix dizains de sonnets choisis  [Histoire du sonnet]",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-1374": {
-        "auteur": "Sully Prudhomme",
-        "date": "1866",
-        "titre sonnet": "",
-        "titre recueil": "Le livre des sonnets : dix dizains de sonnets choisis  [Histoire du sonnet]",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-1375": {
-        "auteur": "Sully Prudhomme",
-        "date": "1866",
-        "titre sonnet": "",
-        "titre recueil": "Le livre des sonnets : dix dizains de sonnets choisis  [Histoire du sonnet]",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-1376": {
-        "auteur": "Sully Prudhomme",
-        "date": "1869",
-        "titre sonnet": "",
-        "titre recueil": "Le livre des sonnets : dix dizains de sonnets choisis  [Histoire du sonnet]",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-1377": {
-        "auteur": "François Coppée",
-        "date": "1869",
-        "titre sonnet": "",
-        "titre recueil": "Le livre des sonnets : dix dizains de sonnets choisis  [Histoire du sonnet]",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-1378": {
-        "auteur": "François Coppée",
-        "date": "1872",
-        "titre sonnet": "",
-        "titre recueil": "Le livre des sonnets : dix dizains de sonnets choisis  [Histoire du sonnet]",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-1379": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1893",
-        "titre sonnet": "",
         "titre recueil": "Le livre des sonnets : dix dizains de sonnets choisis  [Histoire du sonnet]",
         "thème": "",
         "origine": "bnf",
@@ -18980,60 +18728,6 @@
         "origine": "bnf",
         "femme": "non"
     },
-    "bnf-1572": {
-        "auteur": "Alfred de Musset",
-        "date": "1852",
-        "titre sonnet": "",
-        "titre recueil": "Poésies nouvelles de Alfred de Musset : 1836-1852",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-1573": {
-        "auteur": "Alfred de Musset",
-        "date": "1838",
-        "titre sonnet": "",
-        "titre recueil": "Poésies nouvelles de Alfred de Musset : 1836-1852",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-1574": {
-        "auteur": "Alfred de Musset",
-        "date": "1839",
-        "titre sonnet": "",
-        "titre recueil": "Poésies nouvelles de Alfred de Musset : 1836-1852",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-1575": {
-        "auteur": "Alfred de Musset",
-        "date": "1839",
-        "titre sonnet": "",
-        "titre recueil": "Poésies nouvelles de Alfred de Musset : 1836-1852",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-1576": {
-        "auteur": "Alfred de Musset",
-        "date": "1840",
-        "titre sonnet": "",
-        "titre recueil": "Poésies nouvelles de Alfred de Musset : 1836-1852",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-1577": {
-        "auteur": "Alfred de Musset",
-        "date": "1843",
-        "titre sonnet": "",
-        "titre recueil": "Poésies nouvelles de Alfred de Musset : 1836-1852",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
     "bnf-1578": {
         "auteur": "Alfred de Musset",
         "date": "1852",
@@ -19138,33 +18832,6 @@
         "date": "1868",
         "titre sonnet": "Matin",
         "titre recueil": "Littérature contemporaine     Volume 12 / publiées par Évariste Carrance",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-1590": {
-        "auteur": "Alfred de Musset",
-        "date": "1907",
-        "titre sonnet": "",
-        "titre recueil": "Premières poésies : 1829-1835",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-1591": {
-        "auteur": "Alfred de Musset",
-        "date": "1829",
-        "titre sonnet": "",
-        "titre recueil": "Premières poésies : 1829-1835",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-1592": {
-        "auteur": "Alfred de Musset",
-        "date": "1829",
-        "titre sonnet": "",
-        "titre recueil": "Premières poésies : 1829-1835",
         "thème": "",
         "origine": "bnf",
         "femme": "non"
@@ -19358,15 +19025,6 @@
         "origine": "bnf",
         "femme": "non"
     },
-    "bnf-1628": {
-        "auteur": "Édouard Gressin",
-        "date": "1890",
-        "titre sonnet": "",
-        "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
     "bnf-1629": {
         "auteur": "A  Grospas",
         "date": "1890",
@@ -19380,15 +19038,6 @@
         "auteur": "Léon Hély",
         "date": "1890",
         "titre sonnet": "Aux sceptiques",
-        "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-1631": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1890",
-        "titre sonnet": "",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
         "thème": "",
         "origine": "bnf",
@@ -19705,15 +19354,6 @@
         "date": "1894",
         "titre sonnet": "Musique funèbre",
         "titre recueil": "A la musique : sonnets",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-1671": {
-        "auteur": "François de Malherbe",
-        "date": "1698",
-        "titre sonnet": "",
-        "titre recueil": "Oeuvres choisies de Régnier, Malherbe, Racan et Maynard, accompagnées de notices littéraires / édition revue, corrigée avec soin et adaptée à l'usage de la jeunesse, par l'abbé Cruice",
         "thème": "",
         "origine": "bnf",
         "femme": "non"
@@ -21275,15 +20915,6 @@
         "origine": "bnf",
         "femme": "non"
     },
-    "bnf-1907": {
-        "auteur": "Maurice Trubert",
-        "date": "1895",
-        "titre sonnet": "",
-        "titre recueil": "Rêves et réalités",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
     "bnf-1908": {
         "auteur": "Maurice Trubert",
         "date": "1895",
@@ -21554,15 +21185,6 @@
         "origine": "bnf",
         "femme": "non"
     },
-    "bnf-1945": {
-        "auteur": "Charles Baudelaire",
-        "date": "1847",
-        "titre sonnet": "",
-        "titre recueil": "Sonnets curieux et sonnets célèbres : étude anthologique & didactique, suivie de sonnets inédits",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
     "bnf-1955": {
         "auteur": "Antoni Deschamps",
         "date": "1829",
@@ -21576,15 +21198,6 @@
         "auteur": "André Theuriet",
         "date": "1879",
         "titre sonnet": "Une vieille fille",
-        "titre recueil": "Sonnets curieux et sonnets célèbres : étude anthologique & didactique, suivie de sonnets inédits",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-1957": {
-        "auteur": "Antoine de Latour",
-        "date": "1879",
-        "titre sonnet": "",
         "titre recueil": "Sonnets curieux et sonnets célèbres : étude anthologique & didactique, suivie de sonnets inédits",
         "thème": "",
         "origine": "bnf",
@@ -24785,15 +24398,6 @@
         "origine": "bnf",
         "femme": "non"
     },
-    "bnf-2405": {
-        "auteur": "Edmond Arnould",
-        "date": "1851",
-        "titre sonnet": "",
-        "titre recueil": "Sonnets et poèmes",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
     "bnf-2406": {
         "auteur": "Edmond Arnould",
         "date": "1852",
@@ -26310,15 +25914,6 @@
         "auteur": "Nicolas Martin",
         "date": "1857",
         "titre sonnet": "Robert burns",
-        "titre recueil": "Poésies complètes   3e édition fort augmentée",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-2595": {
-        "auteur": "Nicolas Martin",
-        "date": "1857",
-        "titre sonnet": "",
         "titre recueil": "Poésies complètes   3e édition fort augmentée",
         "thème": "",
         "origine": "bnf",
@@ -28817,15 +28412,6 @@
         "origine": "bnf",
         "femme": "non"
     },
-    "bnf-2913": {
-        "auteur": "Mme Angèle Marchand",
-        "date": "1897",
-        "titre sonnet": "",
-        "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "oui"
-    },
     "bnf-2914": {
         "auteur": "Louis Monod",
         "date": "1897",
@@ -29176,15 +28762,6 @@
         "thème": "",
         "origine": "bnf",
         "femme": "oui"
-    },
-    "bnf-2958": {
-        "auteur": "Sully Prudhomme",
-        "date": "1894",
-        "titre sonnet": "",
-        "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
     },
     "bnf-2959": {
         "auteur": "Emile du Tiers",
@@ -29920,303 +29497,6 @@
         "date": "1868",
         "titre sonnet": "Au goût de tous (Sonnet)",
         "titre recueil": "Littérature contemporaine     Volume 26 / publiées par Évariste Carrance",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3057": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1893",
-        "titre sonnet": "",
-        "titre recueil": "Les trophées",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3058": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1893",
-        "titre sonnet": "",
-        "titre recueil": "Les trophées",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3059": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1893",
-        "titre sonnet": "",
-        "titre recueil": "Les trophées",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3060": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1893",
-        "titre sonnet": "",
-        "titre recueil": "Les trophées",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3061": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1893",
-        "titre sonnet": "",
-        "titre recueil": "Les trophées",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3062": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1893",
-        "titre sonnet": "",
-        "titre recueil": "Les trophées",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3063": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1893",
-        "titre sonnet": "",
-        "titre recueil": "Les trophées",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3064": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1893",
-        "titre sonnet": "",
-        "titre recueil": "Les trophées",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3065": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1893",
-        "titre sonnet": "",
-        "titre recueil": "Les trophées",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3066": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1893",
-        "titre sonnet": "",
-        "titre recueil": "Les trophées",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3067": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1893",
-        "titre sonnet": "",
-        "titre recueil": "Les trophées",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3068": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1893",
-        "titre sonnet": "",
-        "titre recueil": "Les trophées",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3069": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1893",
-        "titre sonnet": "",
-        "titre recueil": "Les trophées",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3070": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1893",
-        "titre sonnet": "",
-        "titre recueil": "Les trophées",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3071": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1893",
-        "titre sonnet": "",
-        "titre recueil": "Les trophées",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3072": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1893",
-        "titre sonnet": "",
-        "titre recueil": "Les trophées",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3073": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1893",
-        "titre sonnet": "",
-        "titre recueil": "Les trophées",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3074": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1893",
-        "titre sonnet": "",
-        "titre recueil": "Les trophées",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3075": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1893",
-        "titre sonnet": "",
-        "titre recueil": "Les trophées",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3076": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1893",
-        "titre sonnet": "",
-        "titre recueil": "Les trophées",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3077": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1893",
-        "titre sonnet": "",
-        "titre recueil": "Les trophées",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3078": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1893",
-        "titre sonnet": "",
-        "titre recueil": "Les trophées",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3079": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1893",
-        "titre sonnet": "",
-        "titre recueil": "Les trophées",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3080": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1893",
-        "titre sonnet": "",
-        "titre recueil": "Les trophées",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3081": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1893",
-        "titre sonnet": "",
-        "titre recueil": "Les trophées",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3082": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1893",
-        "titre sonnet": "",
-        "titre recueil": "Les trophées",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3083": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1893",
-        "titre sonnet": "",
-        "titre recueil": "Les trophées",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3084": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1893",
-        "titre sonnet": "",
-        "titre recueil": "Les trophées",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3085": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1893",
-        "titre sonnet": "",
-        "titre recueil": "Les trophées",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3086": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1893",
-        "titre sonnet": "",
-        "titre recueil": "Les trophées",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3087": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1893",
-        "titre sonnet": "",
-        "titre recueil": "Les trophées",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3088": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1893",
-        "titre sonnet": "",
-        "titre recueil": "Les trophées",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3089": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1893",
-        "titre sonnet": "",
-        "titre recueil": "Les trophées",
         "thème": "",
         "origine": "bnf",
         "femme": "non"
@@ -32444,114 +31724,6 @@
         "origine": "bnf",
         "femme": "non"
     },
-    "bnf-3508": {
-        "auteur": "Théophile Gautier",
-        "date": "1884",
-        "titre sonnet": "",
-        "titre recueil": "Poésies complètes   2, La comédie de la mort",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3509": {
-        "auteur": "Théophile Gautier",
-        "date": "1884",
-        "titre sonnet": "",
-        "titre recueil": "Poésies complètes   2, La comédie de la mort",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3510": {
-        "auteur": "Théophile Gautier",
-        "date": "1844",
-        "titre sonnet": "",
-        "titre recueil": "Poésies complètes   2, La comédie de la mort",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3511": {
-        "auteur": "Théophile Gautier",
-        "date": "1850",
-        "titre sonnet": "",
-        "titre recueil": "Poésies complètes   2, La comédie de la mort",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3512": {
-        "auteur": "Théophile Gautier",
-        "date": "1838",
-        "titre sonnet": "",
-        "titre recueil": "Poésies complètes   2, La comédie de la mort",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3513": {
-        "auteur": "Théophile Gautier",
-        "date": "1867",
-        "titre sonnet": "",
-        "titre recueil": "Poésies complètes   2, La comédie de la mort",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3514": {
-        "auteur": "Théophile Gautier",
-        "date": "1868",
-        "titre sonnet": "",
-        "titre recueil": "Poésies complètes   2, La comédie de la mort",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3515": {
-        "auteur": "Théophile Gautier",
-        "date": "1869",
-        "titre sonnet": "",
-        "titre recueil": "Poésies complètes   2, La comédie de la mort",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3516": {
-        "auteur": "Théophile Gautier",
-        "date": "1870",
-        "titre sonnet": "",
-        "titre recueil": "Poésies complètes   2, La comédie de la mort",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3517": {
-        "auteur": "Théophile Gautier",
-        "date": "1870",
-        "titre sonnet": "",
-        "titre recueil": "Poésies complètes   2, La comédie de la mort",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3518": {
-        "auteur": "Théophile Gautier",
-        "date": "1871",
-        "titre sonnet": "",
-        "titre recueil": "Poésies complètes   2, La comédie de la mort",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3519": {
-        "auteur": "Théophile Gautier",
-        "date": "1884",
-        "titre sonnet": "",
-        "titre recueil": "Poésies complètes   2, La comédie de la mort",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
     "bnf-3522": {
         "auteur": "Maurice Bomnetaud",
         "date": "1868",
@@ -32583,15 +31755,6 @@
         "auteur": "Ernest Dupont",
         "date": "1868",
         "titre sonnet": "SONNET (A Madame F. G.)",
-        "titre recueil": "Littérature contemporaine     Volume 39 ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3526": {
-        "auteur": "Ernest Dupont",
-        "date": "1868",
-        "titre sonnet": "",
         "titre recueil": "Littérature contemporaine     Volume 39 ",
         "thème": "",
         "origine": "bnf",
@@ -32984,24 +32147,6 @@
         "origine": "bnf",
         "femme": "non"
     },
-    "bnf-3609": {
-        "auteur": "Alfred de Musset",
-        "date": "1850",
-        "titre sonnet": "",
-        "titre recueil": "Le livre des sonnets : dix dizains de sonnets choisis  [Histoire du sonnet] ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3610": {
-        "auteur": "Théophile Gautier",
-        "date": "1837",
-        "titre sonnet": "",
-        "titre recueil": "Le livre des sonnets : dix dizains de sonnets choisis  [Histoire du sonnet] ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
     "bnf-3611": {
         "auteur": "Gérard de Nerval",
         "date": "1856",
@@ -33029,15 +32174,6 @@
         "origine": "bnf",
         "femme": "non"
     },
-    "bnf-3614": {
-        "auteur": "Joséphin Soulary",
-        "date": "1860",
-        "titre sonnet": "",
-        "titre recueil": "Le livre des sonnets : dix dizains de sonnets choisis  [Histoire du sonnet] ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
     "bnf-3615": {
         "auteur": "Joséphin Soulary",
         "date": "1860",
@@ -33051,24 +32187,6 @@
         "auteur": "Joséphin Soulary",
         "date": "1854",
         "titre sonnet": "Après Sadowa",
-        "titre recueil": "Le livre des sonnets : dix dizains de sonnets choisis  [Histoire du sonnet] ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3617": {
-        "auteur": "Leconte de Lisle",
-        "date": "1862",
-        "titre sonnet": "",
-        "titre recueil": "Le livre des sonnets : dix dizains de sonnets choisis  [Histoire du sonnet] ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3618": {
-        "auteur": "Théodore de Banville",
-        "date": "1846",
-        "titre sonnet": "",
         "titre recueil": "Le livre des sonnets : dix dizains de sonnets choisis  [Histoire du sonnet] ",
         "thème": "",
         "origine": "bnf",
@@ -33119,33 +32237,6 @@
         "origine": "bnf",
         "femme": "non"
     },
-    "bnf-3624": {
-        "auteur": "Armand Silvestre",
-        "date": "1869",
-        "titre sonnet": "",
-        "titre recueil": "Le livre des sonnets : dix dizains de sonnets choisis  [Histoire du sonnet] ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3625": {
-        "auteur": "François Coppée",
-        "date": "1872",
-        "titre sonnet": "",
-        "titre recueil": "Le livre des sonnets : dix dizains de sonnets choisis  [Histoire du sonnet] ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3626": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1893",
-        "titre sonnet": "",
-        "titre recueil": "Le livre des sonnets : dix dizains de sonnets choisis  [Histoire du sonnet] ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
     "bnf-3627": {
         "auteur": "Anatole France",
         "date": "1870",
@@ -33186,24 +32277,6 @@
         "auteur": "Rondel",
         "date": "1890",
         "titre sonnet": "ENIGME ?",
-        "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3635": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1890",
-        "titre sonnet": "",
-        "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3636": {
-        "auteur": "José-Maria de Heredia",
-        "date": "1890",
-        "titre sonnet": "",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral ",
         "thème": "",
         "origine": "bnf",
@@ -33677,42 +32750,6 @@
         "origine": "bnf",
         "femme": "non"
     },
-    "bnf-3690": {
-        "auteur": "Ernest Dupont",
-        "date": "1868",
-        "titre sonnet": "",
-        "titre recueil": "Littérature contemporaine La famille  Volume 24 ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3691": {
-        "auteur": "Ernest Dupont",
-        "date": "1868",
-        "titre sonnet": "",
-        "titre recueil": "Littérature contemporaine La famille  Volume 24 ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3692": {
-        "auteur": "Ernest Dupont",
-        "date": "1868",
-        "titre sonnet": "",
-        "titre recueil": "Littérature contemporaine La famille  Volume 24 ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3693": {
-        "auteur": "Ernest Dupont",
-        "date": "1868",
-        "titre sonnet": "",
-        "titre recueil": "Littérature contemporaine La famille  Volume 24 ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
     "bnf-3694": {
         "auteur": "Auguste Génin",
         "date": "1913",
@@ -33965,15 +33002,6 @@
         "origine": "bnf",
         "femme": "non"
     },
-    "bnf-3722": {
-        "auteur": "Ignace de Gozdawa-Boczkouski",
-        "date": "1868",
-        "titre sonnet": "",
-        "titre recueil": "Littérature contemporaine     Volume 32 ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
     "bnf-3723": {
         "auteur": "Ignace de Gozdawa-Boczkouski",
         "date": "1868",
@@ -34199,15 +33227,6 @@
         "origine": "bnf",
         "femme": "non"
     },
-    "bnf-3748": {
-        "auteur": "L'Abbé Marc Deny Prêtre",
-        "date": "1868",
-        "titre sonnet": "",
-        "titre recueil": "Littérature contemporaine     Volume 21 ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
     "bnf-3749": {
         "auteur": "Hippolyte Topin",
         "date": "1868",
@@ -34258,15 +33277,6 @@
         "date": "1868",
         "titre sonnet": "LE PHILOSOPHISME (SONNET)",
         "titre recueil": "Littérature contemporaine     Volume 31 ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3755": {
-        "auteur": "Ernest Dupont",
-        "date": "1868",
-        "titre sonnet": "",
-        "titre recueil": "Littérature contemporaine     Volume 39 ",
         "thème": "",
         "origine": "bnf",
         "femme": "non"
@@ -35171,60 +34181,6 @@
         "origine": "bnf",
         "femme": "non"
     },
-    "bnf-3856": {
-        "auteur": "Leconte de Lisle",
-        "date": "1889",
-        "titre sonnet": "",
-        "titre recueil": "Poèmes barbares Édition définitive, revue et considérablement augmentée ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3857": {
-        "auteur": "Leconte de Lisle",
-        "date": "1889",
-        "titre sonnet": "",
-        "titre recueil": "Poèmes barbares Édition définitive, revue et considérablement augmentée ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3858": {
-        "auteur": "Leconte de Lisle",
-        "date": "1889",
-        "titre sonnet": "",
-        "titre recueil": "Poèmes barbares Édition définitive, revue et considérablement augmentée ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3859": {
-        "auteur": "Leconte de Lisle",
-        "date": "1889",
-        "titre sonnet": "",
-        "titre recueil": "Poèmes barbares Édition définitive, revue et considérablement augmentée ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3860": {
-        "auteur": "Leconte de Lisle",
-        "date": "1889",
-        "titre sonnet": "",
-        "titre recueil": "Poèmes barbares Édition définitive, revue et considérablement augmentée ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3861": {
-        "auteur": "Leconte de Lisle",
-        "date": "1889",
-        "titre sonnet": "",
-        "titre recueil": "Poèmes barbares Édition définitive, revue et considérablement augmentée ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
     "bnf-3862": {
         "auteur": "Leconte de Lisle",
         "date": "1889",
@@ -35351,15 +34307,6 @@
         "origine": "bnf",
         "femme": "non"
     },
-    "bnf-3876": {
-        "auteur": "Alfred de Musset",
-        "date": "1838",
-        "titre sonnet": "",
-        "titre recueil": "Poésies nouvelles de Alfred de Musset : 1836-1852",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
     "bnf-3877": {
         "auteur": "Jules Pautet",
         "date": "1862",
@@ -35445,15 +34392,6 @@
         "auteur": "Émile Dufour",
         "date": "1876",
         "titre sonnet": "DERNIER AMOUR.",
-        "titre recueil": "Poésies, par Émile Dufour, publiées par le fils de l'auteur [François Dufour  Préface par L  Ayma]",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-3887": {
-        "auteur": "Émile Dufour",
-        "date": "1876",
-        "titre sonnet": "",
         "titre recueil": "Poésies, par Émile Dufour, publiées par le fils de l'auteur [François Dufour  Préface par L  Ayma]",
         "thème": "",
         "origine": "bnf",
@@ -37151,69 +36089,6 @@
         "origine": "bnf",
         "femme": "non"
     },
-    "bnf-4076": {
-        "auteur": "Raymond Lafitte",
-        "date": "1868",
-        "titre sonnet": "",
-        "titre recueil": "Littérature contemporaine     Volume 41 ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-4077": {
-        "auteur": "Raymond Lafitte",
-        "date": "1868",
-        "titre sonnet": "",
-        "titre recueil": "Littérature contemporaine     Volume 41 ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-4078": {
-        "auteur": "Raymond Lafitte",
-        "date": "1868",
-        "titre sonnet": "",
-        "titre recueil": "Littérature contemporaine     Volume 41 ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-4079": {
-        "auteur": "Raymond Lafitte",
-        "date": "1868",
-        "titre sonnet": "",
-        "titre recueil": "Littérature contemporaine     Volume 41 ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-4080": {
-        "auteur": "Raymond Lafitte",
-        "date": "1868",
-        "titre sonnet": "",
-        "titre recueil": "Littérature contemporaine     Volume 41 ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-4081": {
-        "auteur": "Raymond Lafitte",
-        "date": "1868",
-        "titre sonnet": "",
-        "titre recueil": "Littérature contemporaine     Volume 41 ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-4082": {
-        "auteur": "Raymond Lafitte",
-        "date": "1868",
-        "titre sonnet": "",
-        "titre recueil": "Littérature contemporaine     Volume 41 ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
     "bnf-4083": {
         "auteur": "Emmanuel Delbauve, Père",
         "date": "1868",
@@ -37754,15 +36629,6 @@
         "origine": "bnf",
         "femme": "non"
     },
-    "bnf-4146": {
-        "auteur": "L'Abbé Louis-Augustin Bonnet",
-        "date": "1842",
-        "titre sonnet": "",
-        "titre recueil": "La lyre chrétienne du XIXe siècle ou Recueil de poésies religieuses contemporaines ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
     "bnf-4147": {
         "auteur": "L'Abbé Louis-Augustin Bonnet",
         "date": "1842",
@@ -37929,42 +36795,6 @@
         "auteur": "R -J  Pottier de Lalaine",
         "date": "1898",
         "titre sonnet": "Paris-munich III",
-        "titre recueil": "Voix sur la France  Philosophie religieuse  Accents patriotiques    ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-4172": {
-        "auteur": "R -J  Pottier de Lalaine",
-        "date": "1898",
-        "titre sonnet": "",
-        "titre recueil": "Voix sur la France  Philosophie religieuse  Accents patriotiques    ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-4173": {
-        "auteur": "R -J  Pottier de Lalaine",
-        "date": "1898",
-        "titre sonnet": "",
-        "titre recueil": "Voix sur la France  Philosophie religieuse  Accents patriotiques    ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-4174": {
-        "auteur": "R -J  Pottier de Lalaine",
-        "date": "1898",
-        "titre sonnet": "",
-        "titre recueil": "Voix sur la France  Philosophie religieuse  Accents patriotiques    ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-4175": {
-        "auteur": "R -J  Pottier de Lalaine",
-        "date": "1898",
-        "titre sonnet": "",
         "titre recueil": "Voix sur la France  Philosophie religieuse  Accents patriotiques    ",
         "thème": "",
         "origine": "bnf",
@@ -39604,15 +38434,6 @@
         "date": "1884",
         "titre sonnet": "Oaristys",
         "titre recueil": "Joséphin Soulary et la Pléiade lyonnaise ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-4360": {
-        "auteur": "Théodore de Banville",
-        "date": "1842",
-        "titre sonnet": "",
-        "titre recueil": "Oeuvres de Théodore de Banville ; Les cariatides ; Roses de Noël",
         "thème": "",
         "origine": "bnf",
         "femme": "non"
@@ -41291,15 +40112,6 @@
         "origine": "bnf",
         "femme": "non"
     },
-    "bnf-4553": {
-        "auteur": "Charles Cros",
-        "date": "1873",
-        "titre sonnet": "",
-        "titre recueil": "Le coffret de santal ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
     "bnf-4554": {
         "auteur": "Ernest Prarond",
         "date": "1876",
@@ -42029,15 +40841,6 @@
         "origine": "bnf",
         "femme": "non"
     },
-    "bnf-4635": {
-        "auteur": "Henri de Régnier",
-        "date": "1886",
-        "titre sonnet": "",
-        "titre recueil": "Apaisement ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
     "bnf-4636": {
         "auteur": "Henri de Régnier",
         "date": "1886",
@@ -42061,87 +40864,6 @@
         "date": "1933",
         "titre sonnet": "Temps gris Deux Sonnets",
         "titre recueil": "Gais Souvenirs, poésies humoristiques ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-4639": {
-        "auteur": "Théophile Gautier",
-        "date": "1831",
-        "titre sonnet": "",
-        "titre recueil": "Oeuvres de Théophile Gautier  Poésies     Tome 1",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-4640": {
-        "auteur": "Théophile Gautier",
-        "date": "1831",
-        "titre sonnet": "",
-        "titre recueil": "Oeuvres de Théophile Gautier  Poésies     Tome 1",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-4641": {
-        "auteur": "Théophile Gautier",
-        "date": "1831",
-        "titre sonnet": "",
-        "titre recueil": "Oeuvres de Théophile Gautier  Poésies     Tome 1",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-4642": {
-        "auteur": "Théophile Gautier",
-        "date": "1831",
-        "titre sonnet": "",
-        "titre recueil": "Oeuvres de Théophile Gautier  Poésies     Tome 1",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-4643": {
-        "auteur": "Théophile Gautier",
-        "date": "1832",
-        "titre sonnet": "",
-        "titre recueil": "Oeuvres de Théophile Gautier  Poésies     Tome 1",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-4644": {
-        "auteur": "Théophile Gautier",
-        "date": "1837",
-        "titre sonnet": "",
-        "titre recueil": "Oeuvres de Théophile Gautier  Poésies     Tome 1",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-4645": {
-        "auteur": "Théophile Gautier",
-        "date": "1833",
-        "titre sonnet": "",
-        "titre recueil": "Oeuvres de Théophile Gautier  Poésies     Tome 1",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-4646": {
-        "auteur": "Théophile Gautier",
-        "date": "1833",
-        "titre sonnet": "",
-        "titre recueil": "Oeuvres de Théophile Gautier  Poésies     Tome 1",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-4647": {
-        "auteur": "Théophile Gautier",
-        "date": "1833",
-        "titre sonnet": "",
-        "titre recueil": "Oeuvres de Théophile Gautier  Poésies     Tome 1",
         "thème": "",
         "origine": "bnf",
         "femme": "non"
@@ -42321,24 +41043,6 @@
         "auteur": "Joseph-Jules Garatdr",
         "date": "1890",
         "titre sonnet": "Trop tard,",
-        "titre recueil": "Vieux péchés ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-4687": {
-        "auteur": "Joseph-Jules Garatdr",
-        "date": "1890",
-        "titre sonnet": "",
-        "titre recueil": "Vieux péchés ",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "non"
-    },
-    "bnf-4688": {
-        "auteur": "Joseph-Jules Garatdr",
-        "date": "1890",
-        "titre sonnet": "",
         "titre recueil": "Vieux péchés ",
         "thème": "",
         "origine": "bnf",
@@ -42821,88 +41525,79 @@
         "origine": "bnf",
         "femme": "non"
     },
-    "autre-4742": {
+    "anthologie-4742": {
         "auteur": "Marie-béatrice De Baye",
         "date": "1902",
         "titre sonnet": "LA DANSEUSE",
         "titre recueil": "Les muses françaises - Anthologie des femmes poètes - Alphonse Séché _Recueil : L'Âme brûlante",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
-    "autre-4743": {
+    "anthologie-4743": {
         "auteur": "Marie-béatrice De Baye",
         "date": "1908",
         "titre sonnet": "MADAME « LILAS BLEU »",
         "titre recueil": "Les muses françaises - Anthologie des femmes poètes - Alphonse Séché _Recueil : L'Ame brûlante",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
     "bnf-4744": {
         "auteur": "Marie-béatrice De Baye",
         "date": "1902",
-        "titre sonnet": "LA GLÂNEUSE",
+        "titre sonnet": "LA GLÂNEUSE (1902)",
         "titre recueil": "Paru dans le journal \"La presse\" du 15.4.1902",
         "thème": "",
         "origine": "bnf",
         "femme": "oui"
     },
-    "web-4745": {
+    "internet-4745": {
         "auteur": "Marie-béatrice De Baye",
-        "date": "1902",
+        "date": "?",
         "titre sonnet": "",
         "titre recueil": "Original vendu sur EBay",
         "thème": "",
-        "origine": "web",
+        "origine": "internet",
         "femme": "oui"
     },
-    "autre-4746": {
+    "anthologie-4746": {
         "auteur": "Lya Berger",
         "date": "1905",
         "titre sonnet": "LA TRAVERSÉE",
         "titre recueil": "Les muses françaises - Anthologie des femmes poètes - Alphonse Séché _Recueil : LES PIERRES SONORES, Société française d'imprimerie Paris",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
-    "autre-4747": {
+    "anthologie-4747": {
         "auteur": "Lya Berger",
         "date": "1908",
         "titre sonnet": "CONSOLATION EN DOUBLE EFFIGIE I",
         "titre recueil": "Les muses françaises - Anthologie des femmes poètes - Alphonse Séché",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
-    "autre-4748": {
+    "anthologie-4748": {
         "auteur": "Lya Berger",
         "date": "1908",
         "titre sonnet": "CONSOLATION EN DOUBLE EFFIGIE II",
         "titre recueil": "Les muses françaises - Anthologie des femmes poètes - Alphonse Séché",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
-    "autre-4749": {
+    "anthologie-4750": {
         "auteur": "Augustine Blanchecotte",
         "date": "1908",
         "titre sonnet": "SONNET",
         "titre recueil": "Les muses françaises - Anthologie des femmes poètes, LIVRE I - Alphonse Séché",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
-    "bnf-4750": {
-        "auteur": "Aimée Bourbon",
-        "date": "1895",
-        "titre sonnet": "LES DEUX IDOLES",
-        "titre recueil": "L'Année des poètes",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "oui"
-    },
-    "bnf-4751": {
+    "bnf-4753": {
         "auteur": "Mélanie Bourotte",
         "date": "1883",
         "titre sonnet": "I EVE",
@@ -42911,7 +41606,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4752": {
+    "bnf-4754": {
         "auteur": "Mélanie Bourotte",
         "date": "1883",
         "titre sonnet": "II MATHUSALEM",
@@ -42920,7 +41615,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4753": {
+    "bnf-4755": {
         "auteur": "Mélanie Bourotte",
         "date": "1883",
         "titre sonnet": "III PYGAS, REINE DES PYGMÉES",
@@ -42929,7 +41624,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4754": {
+    "bnf-4756": {
         "auteur": "Mélanie Bourotte",
         "date": "1883",
         "titre sonnet": "IV SAMSON",
@@ -42938,7 +41633,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4755": {
+    "bnf-4757": {
         "auteur": "Mélanie Bourotte",
         "date": "1883",
         "titre sonnet": "V ABIGAÏL",
@@ -42947,28 +41642,10 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4756": {
-        "auteur": "Mélanie Bourotte",
-        "date": "1883",
-        "titre sonnet": "VI MIDAS",
-        "titre recueil": "LE SPHYNX AU FOYER : proverbes, charades, énigmes, homonymes, mots carrés, mots en triangle, sonnets-portraits",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "oui"
-    },
-    "bnf-4757": {
-        "auteur": "Mélanie Bourotte",
-        "date": "1883",
-        "titre sonnet": "VII LA DÉESSE FRIGGA",
-        "titre recueil": "LE SPHYNX AU FOYER : proverbes, charades, énigmes, homonymes, mots carrés, mots en triangle, sonnets-portraits",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "oui"
-    },
     "bnf-4758": {
         "auteur": "Mélanie Bourotte",
         "date": "1883",
-        "titre sonnet": "VIII VICHNOU",
+        "titre sonnet": "VI  MIDAS",
         "titre recueil": "LE SPHYNX AU FOYER : proverbes, charades, énigmes, homonymes, mots carrés, mots en triangle, sonnets-portraits",
         "thème": "",
         "origine": "bnf",
@@ -42977,7 +41654,7 @@
     "bnf-4759": {
         "auteur": "Mélanie Bourotte",
         "date": "1883",
-        "titre sonnet": "IX SEMIRAMIS",
+        "titre sonnet": "VII LA DÉESSE FRIGGA",
         "titre recueil": "LE SPHYNX AU FOYER : proverbes, charades, énigmes, homonymes, mots carrés, mots en triangle, sonnets-portraits",
         "thème": "",
         "origine": "bnf",
@@ -42986,7 +41663,7 @@
     "bnf-4760": {
         "auteur": "Mélanie Bourotte",
         "date": "1883",
-        "titre sonnet": "XI CONFUCIUS",
+        "titre sonnet": "VIII  VICHNOU",
         "titre recueil": "LE SPHYNX AU FOYER : proverbes, charades, énigmes, homonymes, mots carrés, mots en triangle, sonnets-portraits",
         "thème": "",
         "origine": "bnf",
@@ -42995,7 +41672,7 @@
     "bnf-4761": {
         "auteur": "Mélanie Bourotte",
         "date": "1883",
-        "titre sonnet": "XII SAPHO",
+        "titre sonnet": "IX   SEMIRAMIS",
         "titre recueil": "LE SPHYNX AU FOYER : proverbes, charades, énigmes, homonymes, mots carrés, mots en triangle, sonnets-portraits",
         "thème": "",
         "origine": "bnf",
@@ -43004,7 +41681,7 @@
     "bnf-4762": {
         "auteur": "Mélanie Bourotte",
         "date": "1883",
-        "titre sonnet": "XII LAZARE",
+        "titre sonnet": "X CONFUCIUS",
         "titre recueil": "LE SPHYNX AU FOYER : proverbes, charades, énigmes, homonymes, mots carrés, mots en triangle, sonnets-portraits",
         "thème": "",
         "origine": "bnf",
@@ -43013,7 +41690,7 @@
     "bnf-4763": {
         "auteur": "Mélanie Bourotte",
         "date": "1883",
-        "titre sonnet": "XIII AGRIPPINE",
+        "titre sonnet": "XI SAPHO",
         "titre recueil": "LE SPHYNX AU FOYER : proverbes, charades, énigmes, homonymes, mots carrés, mots en triangle, sonnets-portraits",
         "thème": "",
         "origine": "bnf",
@@ -43022,7 +41699,7 @@
     "bnf-4764": {
         "auteur": "Mélanie Bourotte",
         "date": "1883",
-        "titre sonnet": "XIV JULIEN L'APOSTAT",
+        "titre sonnet": "XII LAZARE",
         "titre recueil": "LE SPHYNX AU FOYER : proverbes, charades, énigmes, homonymes, mots carrés, mots en triangle, sonnets-portraits",
         "thème": "",
         "origine": "bnf",
@@ -43031,7 +41708,7 @@
     "bnf-4765": {
         "auteur": "Mélanie Bourotte",
         "date": "1883",
-        "titre sonnet": "XV SAINTE GENEVIÈVE",
+        "titre sonnet": "XIII AGRIPPINE",
         "titre recueil": "LE SPHYNX AU FOYER : proverbes, charades, énigmes, homonymes, mots carrés, mots en triangle, sonnets-portraits",
         "thème": "",
         "origine": "bnf",
@@ -43040,7 +41717,7 @@
     "bnf-4766": {
         "auteur": "Mélanie Bourotte",
         "date": "1883",
-        "titre sonnet": "XVI SAINT BENOIT",
+        "titre sonnet": "XIV JULIEN L'APOSTAT",
         "titre recueil": "LE SPHYNX AU FOYER : proverbes, charades, énigmes, homonymes, mots carrés, mots en triangle, sonnets-portraits",
         "thème": "",
         "origine": "bnf",
@@ -43049,7 +41726,7 @@
     "bnf-4767": {
         "auteur": "Mélanie Bourotte",
         "date": "1883",
-        "titre sonnet": "XVII BRUNEHAUT",
+        "titre sonnet": "XV SAINTE GENEVIÈVE",
         "titre recueil": "LE SPHYNX AU FOYER : proverbes, charades, énigmes, homonymes, mots carrés, mots en triangle, sonnets-portraits",
         "thème": "",
         "origine": "bnf",
@@ -43058,7 +41735,7 @@
     "bnf-4768": {
         "auteur": "Mélanie Bourotte",
         "date": "1883",
-        "titre sonnet": "XVIII CHARLEMAGNE",
+        "titre sonnet": "XVI SAINT BENOIT",
         "titre recueil": "LE SPHYNX AU FOYER : proverbes, charades, énigmes, homonymes, mots carrés, mots en triangle, sonnets-portraits",
         "thème": "",
         "origine": "bnf",
@@ -43067,7 +41744,7 @@
     "bnf-4769": {
         "auteur": "Mélanie Bourotte",
         "date": "1883",
-        "titre sonnet": "XIX CHRISTINE DE PISAN",
+        "titre sonnet": "XVII BRUNEHAUT",
         "titre recueil": "LE SPHYNX AU FOYER : proverbes, charades, énigmes, homonymes, mots carrés, mots en triangle, sonnets-portraits",
         "thème": "",
         "origine": "bnf",
@@ -43076,7 +41753,7 @@
     "bnf-4770": {
         "auteur": "Mélanie Bourotte",
         "date": "1883",
-        "titre sonnet": "XX MICHEL-ANGE",
+        "titre sonnet": "XVIII CHARLEMAGNE",
         "titre recueil": "LE SPHYNX AU FOYER : proverbes, charades, énigmes, homonymes, mots carrés, mots en triangle, sonnets-portraits",
         "thème": "",
         "origine": "bnf",
@@ -43085,7 +41762,7 @@
     "bnf-4771": {
         "auteur": "Mélanie Bourotte",
         "date": "1883",
-        "titre sonnet": "XXI SAINTE THÉRÈSE",
+        "titre sonnet": "XIX  CHRISTINE DE PISAN",
         "titre recueil": "LE SPHYNX AU FOYER : proverbes, charades, énigmes, homonymes, mots carrés, mots en triangle, sonnets-portraits",
         "thème": "",
         "origine": "bnf",
@@ -43094,7 +41771,7 @@
     "bnf-4772": {
         "auteur": "Mélanie Bourotte",
         "date": "1883",
-        "titre sonnet": "XXII SALOMON DE CAUS",
+        "titre sonnet": "XX MICHEL-ANGE",
         "titre recueil": "LE SPHYNX AU FOYER : proverbes, charades, énigmes, homonymes, mots carrés, mots en triangle, sonnets-portraits",
         "thème": "",
         "origine": "bnf",
@@ -43103,7 +41780,7 @@
     "bnf-4773": {
         "auteur": "Mélanie Bourotte",
         "date": "1883",
-        "titre sonnet": "XXIII THÉROIGNE DE MÉRICOURT",
+        "titre sonnet": "XXI  SAINTE THÉRÈSE",
         "titre recueil": "LE SPHYNX AU FOYER : proverbes, charades, énigmes, homonymes, mots carrés, mots en triangle, sonnets-portraits",
         "thème": "",
         "origine": "bnf",
@@ -43112,13 +41789,31 @@
     "bnf-4774": {
         "auteur": "Mélanie Bourotte",
         "date": "1883",
+        "titre sonnet": "XXII SALOMON DE CAUS",
+        "titre recueil": "LE SPHYNX AU FOYER : proverbes, charades, énigmes, homonymes, mots carrés, mots en triangle, sonnets-portraits",
+        "thème": "",
+        "origine": "bnf",
+        "femme": "oui"
+    },
+    "bnf.bis-4775": {
+        "auteur": "Mélanie Bourotte",
+        "date": "1883",
+        "titre sonnet": "XXIII THÉROIGNE DE MÉRICOURT",
+        "titre recueil": "LE SPHYNX AU FOYER : proverbes, charades, énigmes, homonymes, mots carrés, mots en triangle, sonnets-portraits",
+        "thème": "",
+        "origine": "bnf.bis",
+        "femme": "oui"
+    },
+    "bnf-4776": {
+        "auteur": "Mélanie Bourotte",
+        "date": "1883",
         "titre sonnet": "XXIV SAINT VINCENT DE PAUL",
         "titre recueil": "LE SPHYNX AU FOYER : proverbes, charades, énigmes, homonymes, mots carrés, mots en triangle, sonnets-portraits",
         "thème": "",
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4775": {
+    "bnf-4777": {
         "auteur": "Mélanie Bourotte",
         "date": "1883",
         "titre sonnet": "XXV SOEUR ROSALIE",
@@ -43127,88 +41822,79 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "autre-4776": {
-        "auteur": "Marguerite Burnat-provins",
+    "anthologie-4779": {
+        "auteur": "Marguerite  Burnat-provins",
         "date": "1908",
         "titre sonnet": "LA JOCONDE",
         "titre recueil": "Les muses françaises - Anthologie des femmes poètes - Alphonse Séché",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
-    "bnf-4777": {
+    "bnf-4782": {
         "auteur": "Iphigénie Carcassonne",
         "date": "1891",
-        "titre sonnet": "LES RÈGLES DU SONNET. A M. D. QUI M'AVAIT ENSEIGNÉ",
-        "titre recueil": "Littérature contemporaine Volume 22 / publiées par Évariste Carrance",
+        "titre sonnet": "LA CASCADE  À mon fils",
+        "titre recueil": "Littérature contemporaine     Volume 22 / publiées par Évariste Carrance",
         "thème": "",
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4778": {
-        "auteur": "Iphigénie Carcassonne",
-        "date": "1891",
-        "titre sonnet": "LA CASCADE À mon fils",
-        "titre recueil": "Littérature contemporaine Volume 22 / publiées par Évariste Carrance",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "oui"
-    },
-    "bnf-4779": {
+    "bnf-4809": {
         "auteur": "Louise Colet",
         "date": "1834",
-        "titre sonnet": "UNE AMIE Sonnet",
+        "titre sonnet": "UNE AMIE   Sonnet  (1834)",
         "titre recueil": "Poésies de Madame Louise Colet",
         "thème": "",
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4780": {
+    "bnf-4810": {
         "auteur": "Louise Colet",
         "date": "1834",
-        "titre sonnet": "SONNET",
+        "titre sonnet": "SONNET (1834)",
         "titre recueil": "Poésies de Madame Louise Colet",
         "thème": "",
         "origine": "bnf",
         "femme": "oui"
     },
-    "autre-4781": {
+    "anthologie-4811": {
         "auteur": "Louise Colet",
         "date": "1908",
         "titre sonnet": "SONNET",
         "titre recueil": "Les muses françaises - Anthologie des femmes poètes, LIVRE I - Alphonse Séché",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
-    "autre-4782": {
+    "anthologie-4812": {
         "auteur": "Louise Colet",
         "date": "1905",
         "titre sonnet": "SONNET",
         "titre recueil": "Les muses françaises - Anthologie des femmes poètes, LIVRE I - Alphonse Séché",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
-    "autre-4783": {
+    "anthologie-4813": {
         "auteur": "Louise Colet",
         "date": "1908",
         "titre sonnet": "LE PRINTEMPS",
         "titre recueil": "Les muses françaises - Anthologie des femmes poètes, LIVRE I - Alphonse Séché",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
-    "autre-4784": {
+    "anthologie-4814": {
         "auteur": "Louise Colet",
         "date": "1905",
         "titre sonnet": "SONNET",
         "titre recueil": "Les muses françaises - Anthologie des femmes poètes, LIVRE I - Alphonse Séché",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
-    "wikisource-4785": {
+    "wikisource-4815": {
         "auteur": "Julia Daudet",
         "date": "1906",
         "titre sonnet": "SONNET DE TOURAINE (Pray, 1905)",
@@ -43217,16 +41903,16 @@
         "origine": "wikisource",
         "femme": "oui"
     },
-    "web-4786": {
+    "web-4816": {
         "auteur": "Marie Dauguet",
         "date": "1904",
         "titre sonnet": "HEURE FRAGILE",
-        "titre recueil": "[sans titre]",
+        "titre recueil": "",
         "thème": "",
         "origine": "web",
         "femme": "oui"
     },
-    "web-4787": {
+    "web-4817": {
         "auteur": "Marie Dauguet",
         "date": "1904",
         "titre sonnet": "LA GERBE",
@@ -43235,7 +41921,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "bnf-4788": {
+    "bnf-4818": {
         "auteur": "Marie Dauguet",
         "date": "1904",
         "titre sonnet": "AURORE",
@@ -43244,16 +41930,16 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "web-4789": {
+    "web-4819": {
         "auteur": "Marie Dauguet",
         "date": "1904",
         "titre sonnet": "LE REÏTRE",
-        "titre recueil": "[sans titre]",
+        "titre recueil": "",
         "thème": "",
         "origine": "web",
         "femme": "oui"
     },
-    "web-4790": {
+    "web-4820": {
         "auteur": "Lucie Delarue-mardrus",
         "date": "1926",
         "titre sonnet": "SONNET DES ÉCHECS",
@@ -43262,7 +41948,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "malherbe-4791": {
+    "malherbe-4821": {
         "auteur": "Lucie Delarue-mardrus",
         "date": "1901",
         "titre sonnet": "L'ENCENSOIR",
@@ -43271,7 +41957,7 @@
         "origine": "malherbe",
         "femme": "oui"
     },
-    "bnf-4792": {
+    "bnf-4822": {
         "auteur": "Lucie Delarue-mardrus",
         "date": "1905",
         "titre sonnet": "PASCAL",
@@ -43280,7 +41966,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4793": {
+    "bnf-4823": {
         "auteur": "Lucie Delarue-mardrus",
         "date": "1902",
         "titre sonnet": "ROSES",
@@ -43289,7 +41975,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "web-4794": {
+    "web-4824": {
         "auteur": "Lucie Delarue-mardrus",
         "date": "1932",
         "titre sonnet": "SONNET AUX ÉTUDIANTS DE CAEN",
@@ -43298,25 +41984,25 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4795": {
+    "web-4825": {
         "auteur": "Lucie Delarue-mardrus",
         "date": "1932",
         "titre sonnet": "TRANSMISSION",
-        "titre recueil": "Mort et printemps",
+        "titre recueil": "Mort et printemps (1932)",
         "thème": "",
         "origine": "web",
         "femme": "oui"
     },
-    "autre-4796": {
+    "anthologie-4827": {
         "auteur": "Madeleine Des Roches",
         "date": "1856",
         "titre sonnet": "SONNET POUR LA MORT DE SON AMIE",
         "titre recueil": "FEMMES POÈTES DE LA FRANCE: ANTHOLOGIE, PAR H. BLANVALET, 1856",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
-    "bnf-4797": {
+    "bnf-4830": {
         "auteur": "Jane Catulle-mendes Aka Jane Mette",
         "date": "1912",
         "titre sonnet": "LE LIVRE DE CYNTHIA I",
@@ -43325,7 +42011,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4798": {
+    "bnf-4831": {
         "auteur": "Jane Catulle-mendes Aka Jane Mette",
         "date": "1912",
         "titre sonnet": "LE LIVRE DE CYNTHIA II",
@@ -43334,7 +42020,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4799": {
+    "bnf-4832": {
         "auteur": "Jane Catulle-mendes Aka Jane Mette",
         "date": "1912",
         "titre sonnet": "LE LIVRE DE CYNTHIA III",
@@ -43343,7 +42029,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4800": {
+    "bnf-4833": {
         "auteur": "Jane Catulle-mendes Aka Jane Mette",
         "date": "1912",
         "titre sonnet": "LE LIVRE DE CYNTHIA IV",
@@ -43352,7 +42038,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4801": {
+    "bnf-4834": {
         "auteur": "Jane Catulle-mendes Aka Jane Mette",
         "date": "1912",
         "titre sonnet": "LE LIVRE DE CYNTHIA V",
@@ -43361,7 +42047,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4802": {
+    "bnf-4835": {
         "auteur": "Jane Catulle-mendes Aka Jane Mette",
         "date": "1912",
         "titre sonnet": "LE LIVRE DE CYNTHIA VI",
@@ -43370,7 +42056,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4803": {
+    "bnf-4836": {
         "auteur": "Jane Catulle-mendes Aka Jane Mette",
         "date": "1912",
         "titre sonnet": "LE LIVRE DE CYNTHIA VII",
@@ -43379,7 +42065,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4804": {
+    "bnf-4837": {
         "auteur": "Jane Catulle-mendes Aka Jane Mette",
         "date": "1912",
         "titre sonnet": "LE LIVRE DE CYNTHIA VIII",
@@ -43388,7 +42074,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4805": {
+    "bnf-4838": {
         "auteur": "Jane Catulle-mendes Aka Jane Mette",
         "date": "1912",
         "titre sonnet": "LE LIVRE DE CYNTHIA IX",
@@ -43397,7 +42083,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4806": {
+    "bnf-4839": {
         "auteur": "Jane Catulle-mendes Aka Jane Mette",
         "date": "1912",
         "titre sonnet": "LE LIVRE DE CYNTHIA X",
@@ -43406,70 +42092,70 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "autre-4807": {
+    "anthologie-4841": {
         "auteur": "Marthe Dupuy",
         "date": "1904",
         "titre sonnet": "LE DÉPART",
         "titre recueil": "Recueil : L'Idylle en fleur, Paris",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
-    "autre-4808": {
+    "anthologie-4842": {
         "auteur": "Marthe Dupuy",
         "date": "1904",
         "titre sonnet": "MEZZA VOCE",
         "titre recueil": "Recueil : l'Idylle en fleur, Paris 1904",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
-    "autre-4809": {
+    "anthologie-4843": {
         "auteur": "Marthe Dupuy",
         "date": "1904",
         "titre sonnet": "PREMIER TROUBLE",
         "titre recueil": "Recueil : l'Idylle en fleur, Paris 1904",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
-    "autre-4810": {
+    "anthologie-4844": {
         "auteur": "Marthe Dupuy",
         "date": "1904",
         "titre sonnet": "L'INITIATEUR",
         "titre recueil": "Les muses françaises - Anthologie des femmes poètes - Alphonse Séché",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
-    "autre-4811": {
+    "anthologie-4845": {
         "auteur": "Marthe Dupuy",
         "date": "1904",
         "titre sonnet": "L'ÉPOUSÉE",
         "titre recueil": "Les muses françaises - Anthologie des femmes poètes - Alphonse Séché",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
-    "autre-4812": {
+    "anthologie-4846": {
         "auteur": "Lucie Félix-faure-goyau",
         "date": "1908",
         "titre sonnet": "LYSIDICE",
         "titre recueil": "Les muses françaises - Anthologie des femmes poètes - Alphonse Séché",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
-    "autre-4813": {
+    "anthologie-4847": {
         "auteur": "Lucie Félix-faure-goyau",
         "date": "1908",
         "titre sonnet": "LA JEUNE DAME PÂLE",
         "titre recueil": "Les muses françaises - Anthologie des femmes poètes - Alphonse Séché",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
-    "bnf-4814": {
+    "bnf-4852": {
         "auteur": "Pauline De Flaugergues",
         "date": "1836",
         "titre sonnet": "PRIÈRE . Sonnet",
@@ -43478,7 +42164,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4815": {
+    "bnf-4853": {
         "auteur": "Pauline De Flaugergues",
         "date": "1836",
         "titre sonnet": "L'ENTHOUSIASME. Sonnet",
@@ -43487,7 +42173,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4816": {
+    "bnf-4854": {
         "auteur": "Pauline De Flaugergues",
         "date": "1836",
         "titre sonnet": "RÉSIGNATION. Sonnet",
@@ -43496,7 +42182,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4817": {
+    "bnf-4855": {
         "auteur": "Pauline De Flaugergues",
         "date": "1836",
         "titre sonnet": "LIERRE. Sonnet",
@@ -43505,7 +42191,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4818": {
+    "bnf-4856": {
         "auteur": "Pauline De Flaugergues",
         "date": "1836",
         "titre sonnet": "SOLEIL D'HIVER. Sonnet",
@@ -43514,7 +42200,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4819": {
+    "bnf-4857": {
         "auteur": "Pauline De Flaugergues",
         "date": "1836",
         "titre sonnet": "Au temps du choléra. Sonnet",
@@ -43523,7 +42209,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4820": {
+    "bnf-4858": {
         "auteur": "Pauline De Flaugergues",
         "date": "1836",
         "titre sonnet": "CRAINTE. Sonnet",
@@ -43532,7 +42218,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4821": {
+    "bnf-4859": {
         "auteur": "Zoé Fleurentin",
         "date": "1861",
         "titre sonnet": "SONNET",
@@ -43541,7 +42227,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "web-4822": {
+    "web-4860": {
         "auteur": "Bertha Galeron De Calonne (aveugle Et Presque Sourde)",
         "date": "1890",
         "titre sonnet": "MES ENFANTS. A Jeanne et Jean",
@@ -43550,7 +42236,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "wikipedia-4823": {
+    "wikipedia-4861": {
         "auteur": "Reine Garde",
         "date": "1851",
         "titre sonnet": "SONNET",
@@ -43559,61 +42245,88 @@
         "origine": "wikipedia",
         "femme": "oui"
     },
-    "web-4824": {
+    "web-4863": {
         "auteur": "Gellô",
         "date": "1926",
         "titre sonnet": "Sonnets à l'inconnue 1",
-        "titre recueil": "Harmonies et poèmes",
+        "titre recueil": "Harmonies et poèmes",
         "thème": "",
         "origine": "web",
         "femme": "oui"
     },
-    "web-4825": {
+    "web-4864": {
         "auteur": "Gellô",
         "date": "1926",
         "titre sonnet": "Sonnets à l'inconnue 2",
-        "titre recueil": "Harmonies et poèmes",
+        "titre recueil": "Harmonies et poèmes",
         "thème": "",
         "origine": "web",
         "femme": "oui"
     },
-    "autre-4826": {
-        "auteur": "Rosemonde Gérard",
-        "date": "1908",
-        "titre sonnet": "CECI EST MON TESTAMENT",
-        "titre recueil": "Les muses françaises - Anthologie des femmes poètes - Alphonse Séché",
+    "bnf-4874": {
+        "auteur": "Amélie Gex",
+        "date": "1867",
+        "titre sonnet": "L'ÉCRIN DE SATAN (IV)",
+        "titre recueil": "FEUILLES MORTES",
         "thème": "",
-        "origine": "autre",
+        "origine": "bnf",
         "femme": "oui"
     },
-    "autre-4827": {
+    "bnf-4886": {
+        "auteur": "Marthe Gilbert",
+        "date": "1895",
+        "titre sonnet": "PRÈS D' UN CLOITRE « Comme la fumée couvre la flamme, et la rouille le miroir, comme la matrice enveloppe le foetus, ainsi cette fureur (l'amour) couvre le monde. »  (La Bhagavad-Gità.)",
+        "titre recueil": "L'ANNÉE DES POÈTES",
+        "thème": "",
+        "origine": "bnf",
+        "femme": "oui"
+    },
+    "bnf-4887": {
+        "auteur": "Marthe Gilbert",
+        "date": "1895",
+        "titre sonnet": "LE DIVIN COCHER  À Mademoiselle Germaine Mireur.",
+        "titre recueil": "L'ANNÉE DES POÈTES",
+        "thème": "",
+        "origine": "bnf",
+        "femme": "oui"
+    },
+    "bnf-4888": {
+        "auteur": "Marthe Gilbert",
+        "date": "1895",
+        "titre sonnet": "ELLE   Dux malorum foemina.(Sénèque le Tragique.)",
+        "titre recueil": "L'ANNÉE DES POÈTES",
+        "thème": "",
+        "origine": "bnf",
+        "femme": "oui"
+    },
+    "anthologie-4889": {
         "auteur": "Delphine De Girardin",
         "date": "1908",
         "titre sonnet": "LE CHARDON",
         "titre recueil": "Les muses françaises - Anthologie des femmes poètes, LIVRE I - Alphonse Séché",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
-    "autre-4828": {
+    "anthologie-4890": {
         "auteur": "Delphine De Girardin",
         "date": "1908",
         "titre sonnet": "LA MARGUERITE",
         "titre recueil": "Les muses françaises - Anthologie des femmes poètes, LIVRE I - Alphonse Séché",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
-    "bnf-4829": {
+    "bnf-4892": {
         "auteur": "Rose Harel, Servante À Lisieux",
         "date": "1864",
-        "titre sonnet": "LE DOUTE A M-G JOURDAIN",
+        "titre sonnet": "LE DOUTE  A M-G JOURDAIN",
         "titre recueil": "Recueil : L'alouette aux blés",
         "thème": "",
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4830": {
+    "bnf-4893": {
         "auteur": "Rose Harel, Servante À Lisieux",
         "date": "1864",
         "titre sonnet": "LE MYOSOTIS",
@@ -43622,7 +42335,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4831": {
+    "bnf-4894": {
         "auteur": "Rose Harel, Servante À Lisieux",
         "date": "1864",
         "titre sonnet": "L'EXILÉE. A MIIe ISABELLE MARTIN",
@@ -43631,7 +42344,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4832": {
+    "bnf-4895": {
         "auteur": "Rose Harel, Servante À Lisieux",
         "date": "1864",
         "titre sonnet": "LA FLEUR D'ORANGER. A MIIe M***",
@@ -43640,25 +42353,25 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4833": {
+    "bnf-4896": {
         "auteur": "Rose Harel, Servante À Lisieux",
         "date": "1864",
-        "titre sonnet": "L'ÉTOILE DU POÈTE À M-G JOURDAIN",
+        "titre sonnet": "L'ÉTOILE DU POÈTE  À M-G JOURDAIN",
         "titre recueil": "Recueil : L'alouette aux blés",
         "thème": "",
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4834": {
+    "bnf-4897": {
         "auteur": "Rose Harel, Servante À Lisieux",
         "date": "1864",
-        "titre sonnet": "QUOI! VOUS-M'OFFREZ UNE PENSEE? A M. CHAULES DE MÉDINA, QUI M'OFFRAIT UNE FLEUR DE PENSÉE.",
+        "titre sonnet": "QUOI! VOUS-M'OFFREZ UNE PENSEE?   A M. CHAULES DE MÉDINA, QUI M'OFFRAIT UNE FLEUR DE PENSÉE.",
         "titre recueil": "Recueil : L'alouette aux blés",
         "thème": "",
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4835": {
+    "bnf-4898": {
         "auteur": "Rose Harel, Servante À Lisieux",
         "date": "1864",
         "titre sonnet": "FILLE DE LA TERRE, SOEUR DES ANGES",
@@ -43667,16 +42380,16 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4836": {
+    "bnf-4899": {
         "auteur": "Rose Harel, Servante À Lisieux",
         "date": "1864",
-        "titre sonnet": "CE N'EST PAS FLATTEUR POUR LES FEMMES. A M. G. JOURDAIN.",
+        "titre sonnet": "CE N'EST PAS FLATTEUR POUR LES FEMMES.  A M. G. JOURDAIN.",
         "titre recueil": "Recueil : L'alouette aux blés",
         "thème": "",
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4837": {
+    "bnf-4900": {
         "auteur": "Rose Harel, Servante À Lisieux",
         "date": "1864",
         "titre sonnet": "A M. P. I. LEBOUCHER",
@@ -43685,7 +42398,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4838": {
+    "bnf-4901": {
         "auteur": "Rose Harel, Servante À Lisieux",
         "date": "1864",
         "titre sonnet": "A Melle ELVIRE VAUTIER",
@@ -43694,16 +42407,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "web-4839": {
-        "auteur": "Nicolette Hennique",
-        "date": "1909",
-        "titre sonnet": "Joug volontaire",
-        "titre recueil": "Recueil : Du vent dans la plaine",
-        "thème": "",
-        "origine": "web",
-        "femme": "oui"
-    },
-    "web-4840": {
+    "web-4903": {
         "auteur": "Nicolette Hennique",
         "date": "1909",
         "titre sonnet": "Le gouffre",
@@ -43712,7 +42416,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4841": {
+    "web-4904": {
         "auteur": "Nicolette Hennique",
         "date": "1909",
         "titre sonnet": "Prière aux Dieux",
@@ -43721,7 +42425,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4842": {
+    "web-4905": {
         "auteur": "Nicolette Hennique",
         "date": "1909",
         "titre sonnet": "Némée",
@@ -43730,7 +42434,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "bnf-4843": {
+    "bnf-4910": {
         "auteur": "Augusta Holmès",
         "date": "1882",
         "titre sonnet": "Sans titre 1",
@@ -43739,7 +42443,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4844": {
+    "bnf-4911": {
         "auteur": "Augusta Holmès",
         "date": "1882",
         "titre sonnet": "Sans titre 2",
@@ -43748,7 +42452,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4845": {
+    "bnf-4914": {
         "auteur": "Marie Huot",
         "date": "1909",
         "titre sonnet": "LES CHATS",
@@ -43757,7 +42461,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4846": {
+    "bnf-4915": {
         "auteur": "Marie Huot",
         "date": "1909",
         "titre sonnet": "SOIR D'AUTOMNE",
@@ -43766,34 +42470,52 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "autre-4847": {
+    "anthologie-4916": {
         "auteur": "Marie Huot",
         "date": "1908",
         "titre sonnet": "CLÉOPATRA",
         "titre recueil": "Recueil : Le Missel de Notre-Dame des Solitudes",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
-    "autre-4848": {
+    "bnf-4918": {
+        "auteur": "Marie Jenna",
+        "date": "1880",
+        "titre sonnet": "AUX CLOCHES",
+        "titre recueil": "ÉLÉVATIONS POÉTIQUES & RELIGIEUSES",
+        "thème": "",
+        "origine": "bnf",
+        "femme": "oui"
+    },
+    "anthologie-4920": {
         "auteur": "Comtesse Eugénie Kapnist",
         "date": "1908",
         "titre sonnet": "ATHENA",
         "titre recueil": "Les muses françaises, d’Alphonse Séché, ed. Louis-Michaud",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
-    "web-4849": {
+    "bnf-4921": {
+        "auteur": "Lucile Kitzo",
+        "date": "1897",
+        "titre sonnet": "LEUR TOMBE Au grand poète portugais M. Théophile Braga, sur la mort de ses deux enfants.",
+        "titre recueil": "L'année des poètes 1897, Morceaux choisis par Charles Fuster",
+        "thème": "",
+        "origine": "bnf",
+        "femme": "oui"
+    },
+    "web-4925": {
         "auteur": "Marie Kryzinska(1864-1908)",
         "date": "1894",
-        "titre sonnet": "JEANNE D'ARC SONNET EN PROSE A Paul Hugonnet.",
+        "titre sonnet": "JEANNE D'ARC  SONNET EN PROSE  A Paul Hugonnet.",
         "titre recueil": "Recueil : Joies errantes\"",
         "thème": "",
         "origine": "web",
         "femme": "oui"
     },
-    "web-4850": {
+    "web-4926": {
         "auteur": "Marie Kryzinska(1864-1908)",
         "date": "1894",
         "titre sonnet": "Reprise (Sonnet renversé)",
@@ -43802,7 +42524,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "bnf-4851": {
+    "bnf-4929": {
         "auteur": "Daniel Lesueur Aka Jeanne Loiseau Aka Mme Henry Lapauze",
         "date": "1896",
         "titre sonnet": "",
@@ -43811,7 +42533,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4852": {
+    "bnf-4930": {
         "auteur": "Daniel Lesueur Aka Jeanne Loiseau Aka Mme Henry Lapauze",
         "date": "1896",
         "titre sonnet": "LA VOIX DES MORTS",
@@ -43820,7 +42542,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4853": {
+    "bnf-4931": {
         "auteur": "Daniel Lesueur Aka Jeanne Loiseau Aka Mme Henry Lapauze",
         "date": "1896",
         "titre sonnet": "DEDICACE",
@@ -43829,7 +42551,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4854": {
+    "bnf-4932": {
         "auteur": "Daniel Lesueur Aka Jeanne Loiseau Aka Mme Henry Lapauze",
         "date": "1896",
         "titre sonnet": "LE TEMPS",
@@ -43838,7 +42560,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4855": {
+    "bnf-4933": {
         "auteur": "Daniel Lesueur Aka Jeanne Loiseau Aka Mme Henry Lapauze",
         "date": "1896",
         "titre sonnet": "LES FORCES",
@@ -43847,7 +42569,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4856": {
+    "bnf-4934": {
         "auteur": "Daniel Lesueur Aka Jeanne Loiseau Aka Mme Henry Lapauze",
         "date": "1896",
         "titre sonnet": "LA VIE",
@@ -43856,7 +42578,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4857": {
+    "bnf-4935": {
         "auteur": "Daniel Lesueur Aka Jeanne Loiseau Aka Mme Henry Lapauze",
         "date": "1896",
         "titre sonnet": "LA LUTTE POUR L’EXISTENCE",
@@ -43865,7 +42587,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4858": {
+    "bnf-4936": {
         "auteur": "Daniel Lesueur Aka Jeanne Loiseau Aka Mme Henry Lapauze",
         "date": "1896",
         "titre sonnet": "LA SOURCE",
@@ -43874,7 +42596,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4859": {
+    "bnf-4937": {
         "auteur": "Daniel Lesueur Aka Jeanne Loiseau Aka Mme Henry Lapauze",
         "date": "1896",
         "titre sonnet": "LA MORT",
@@ -43883,7 +42605,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4860": {
+    "bnf-4938": {
         "auteur": "Daniel Lesueur Aka Jeanne Loiseau Aka Mme Henry Lapauze",
         "date": "1896",
         "titre sonnet": "DIEU",
@@ -43892,7 +42614,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4861": {
+    "bnf-4939": {
         "auteur": "Daniel Lesueur Aka Jeanne Loiseau Aka Mme Henry Lapauze",
         "date": "1896",
         "titre sonnet": "LES PREMIERS ÂGES",
@@ -43901,7 +42623,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4862": {
+    "bnf-4940": {
         "auteur": "Daniel Lesueur Aka Jeanne Loiseau Aka Mme Henry Lapauze",
         "date": "1896",
         "titre sonnet": "LES SENTIMENTS",
@@ -43910,7 +42632,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4863": {
+    "bnf-4941": {
         "auteur": "Daniel Lesueur Aka Jeanne Loiseau Aka Mme Henry Lapauze",
         "date": "1896",
         "titre sonnet": "LA RAISON",
@@ -43919,7 +42641,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4864": {
+    "bnf-4942": {
         "auteur": "Daniel Lesueur Aka Jeanne Loiseau Aka Mme Henry Lapauze",
         "date": "1896",
         "titre sonnet": "L'IDÉAL",
@@ -43928,7 +42650,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4865": {
+    "bnf-4943": {
         "auteur": "Daniel Lesueur Aka Jeanne Loiseau Aka Mme Henry Lapauze",
         "date": "1896",
         "titre sonnet": "LE CARACTÈRE",
@@ -43937,7 +42659,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4866": {
+    "bnf-4944": {
         "auteur": "Daniel Lesueur Aka Jeanne Loiseau Aka Mme Henry Lapauze",
         "date": "1896",
         "titre sonnet": "L'HISTOIRE",
@@ -43946,7 +42668,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4867": {
+    "bnf-4945": {
         "auteur": "Daniel Lesueur Aka Jeanne Loiseau Aka Mme Henry Lapauze",
         "date": "1896",
         "titre sonnet": "LA MORALE",
@@ -43955,70 +42677,70 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "autre-4868": {
+    "anthologie-4946": {
         "auteur": "Daniel Lesueur Aka Jeanne Loiseau Aka Mme Henry Lapauze",
         "date": "1908",
         "titre sonnet": "L'ÎLE AUX MOUETTES (inédit)",
         "titre recueil": "Les muses françaises, d’Alphonse Séché, ed Louis-Michaud",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
-    "bnf-4869": {
+    "bnf-4947": {
         "auteur": "Daniel Lesueur Aka Jeanne Loiseau Aka Mme Henry Lapauze",
         "date": "1889",
         "titre sonnet": "L'OEUVRE DE LA NATURE",
-        "titre recueil": "Recueil : Rêves et visions",
+        "titre recueil": "Recueil : Rêves et  visions",
         "thème": "",
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4870": {
+    "bnf-4948": {
         "auteur": "Daniel Lesueur Aka Jeanne Loiseau Aka Mme Henry Lapauze",
         "date": "1889",
         "titre sonnet": "LES RACES DE L'AVENIR",
-        "titre recueil": "Recueil : Rêves et visions",
+        "titre recueil": "Recueil : Rêves et  visions",
         "thème": "",
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4871": {
+    "bnf-4949": {
         "auteur": "Daniel Lesueur Aka Jeanne Loiseau Aka Mme Henry Lapauze",
         "date": "1889",
         "titre sonnet": "LES PYRAMIDES",
-        "titre recueil": "Recueil : Rêves et visions",
+        "titre recueil": "Recueil : Rêves et  visions",
         "thème": "",
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4872": {
+    "bnf-4950": {
         "auteur": "Daniel Lesueur Aka Jeanne Loiseau Aka Mme Henry Lapauze",
         "date": "1889",
         "titre sonnet": "LE BUT FINAL",
-        "titre recueil": "Recueil : Rêves et visions",
+        "titre recueil": "Recueil : Rêves et  visions",
         "thème": "",
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4873": {
+    "bnf-4951": {
         "auteur": "Daniel Lesueur Aka Jeanne Loiseau Aka Mme Henry Lapauze",
         "date": "1889",
         "titre sonnet": "LE BUT FINAL",
-        "titre recueil": "Recueil : Rêves et visions",
+        "titre recueil": "Recueil : Rêves et  visions",
         "thème": "",
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4874": {
+    "bnf-4952": {
         "auteur": "Daniel Lesueur Aka Jeanne Loiseau Aka Mme Henry Lapauze",
         "date": "1889",
         "titre sonnet": "LA FIN D'UN MONDE",
-        "titre recueil": "Recueil : Rêves et visions",
+        "titre recueil": "Recueil : Rêves et  visions",
         "thème": "",
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4875": {
+    "bnf-4963": {
         "auteur": "Marie-laure",
         "date": "1842",
         "titre sonnet": "XII.SONNET. A M. L. ULBACK",
@@ -44027,7 +42749,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4876": {
+    "bnf-4964": {
         "auteur": "Marie-laure",
         "date": "1840",
         "titre sonnet": "XXVII. SONNET. 1840",
@@ -44036,7 +42758,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4877": {
+    "bnf-4965": {
         "auteur": "Marie-laure",
         "date": "1842",
         "titre sonnet": "VI. LA FILLE DU CHATELAIN . SONNET. 1842",
@@ -44045,7 +42767,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4878": {
+    "bnf-4966": {
         "auteur": "Marie-laure",
         "date": "1839",
         "titre sonnet": "XIII. A LA VILLE DE PARIS. SONNET.",
@@ -44054,25 +42776,25 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "autre-4879": {
+    "anthologie-4967": {
         "auteur": "Marie Menessier-nodier",
         "date": "1908",
         "titre sonnet": "SONNET A ALFRED DE MUSSET",
         "titre recueil": "Les muses françaises - Anthologie des femmes poètes, LIVRE I - Alphonse Séché",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
-    "autre-4880": {
+    "anthologie-4968": {
         "auteur": "Marie Menessier-nodier",
         "date": "1908",
         "titre sonnet": "SONNET AU MÊME (ALFRED DE MUSSET)",
         "titre recueil": "Les muses françaises - Anthologie des femmes poètes, LIVRE I - Alphonse Séché",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
-    "bnf-4881": {
+    "bnf-4974": {
         "auteur": "Anne Osmont",
         "date": "1896",
         "titre sonnet": "CHANT DU SILENCE",
@@ -44081,7 +42803,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4882": {
+    "bnf-4975": {
         "auteur": "Anne Osmont",
         "date": "1896",
         "titre sonnet": "NOVEMBRE",
@@ -44090,25 +42812,25 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4883": {
+    "bnf-4978": {
         "auteur": "Baronne D'ottenfels",
         "date": "1888",
-        "titre sonnet": "RÉCHAUFFE-COEUR À Lili",
+        "titre sonnet": "RÉCHAUFFE-COEUR   À Lili",
         "titre recueil": "Recueil : Bouquet de pensées",
         "thème": "",
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4884": {
+    "bnf-4979": {
         "auteur": "Baronne D'ottenfels",
         "date": "1888",
-        "titre sonnet": "RENTRÉE EN SERRE À ma mère",
+        "titre sonnet": "RENTRÉE EN SERRE  À ma mère",
         "titre recueil": "Recueil : Bouquet de pensées",
         "thème": "",
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4885": {
+    "bnf-4980": {
         "auteur": "Baronne D'ottenfels",
         "date": "1888",
         "titre sonnet": "LE RÊVE D'UNE NUIT D'HIVER (Imité de Heine)",
@@ -44117,25 +42839,25 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4886": {
+    "bnf-4981": {
         "auteur": "Baronne D'ottenfels",
         "date": "1878",
-        "titre sonnet": "LE QUATRE-VINGTIÈME Au Colonel Huber-Saladin",
+        "titre sonnet": "LE QUATRE-VINGTIÈME Au Colonel Huber-Saladin  (1878)",
         "titre recueil": "Recueil : Bouquet de pensées",
         "thème": "",
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4887": {
+    "bnf-4982": {
         "auteur": "Baronne D'ottenfels",
         "date": "1882",
-        "titre sonnet": "LES ÉCHOS DU RIVAGE (À A. Dabadie)",
+        "titre sonnet": "LES ÉCHOS DU RIVAGE (1882) À A. Dabadie",
         "titre recueil": "Recueil : Bouquet de pensées",
         "thème": "",
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4888": {
+    "bnf-4983": {
         "auteur": "Baronne D'ottenfels",
         "date": "1888",
         "titre sonnet": "EN WAGON À Mademoiselle D. Mélégari",
@@ -44144,7 +42866,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4889": {
+    "bnf-4984": {
         "auteur": "Baronne D'ottenfels",
         "date": "1888",
         "titre sonnet": "SPLEEN À la Baronne Augusta d'Eichthal",
@@ -44153,16 +42875,16 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4890": {
+    "bnf-4986": {
         "auteur": "Baronne D'ottenfels",
         "date": "1888",
-        "titre sonnet": "RHUME À Mme la Marquise de Thuisy",
+        "titre sonnet": "RHUME  À Mme la Marquise de Thuisy",
         "titre recueil": "Recueil : Bouquet de pensées",
         "thème": "",
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4891": {
+    "bnf-4987": {
         "auteur": "Baronne D'ottenfels",
         "date": "1888",
         "titre sonnet": "LA LORGNETTE (Accompagnant l'envoi d'un encrier en forme de lorgnette.)",
@@ -44171,61 +42893,61 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4892": {
+    "bnf-4988": {
         "auteur": "Baronne D'ottenfels",
         "date": "1888",
-        "titre sonnet": "LES ADIEUX À Mlle Augusta de Jaeger",
+        "titre sonnet": "LES ADIEUX  À Mlle Augusta de Jaeger",
         "titre recueil": "Recueil : Bouquet de pensées",
         "thème": "",
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4893": {
+    "bnf-4989": {
         "auteur": "Baronne D'ottenfels",
         "date": "1888",
-        "titre sonnet": "ADIEUX AU COUVENT DE LA MAIGRAUGE",
+        "titre sonnet": "ADIEUX AU COUVENT  DE LA MAIGRAUGE",
         "titre recueil": "Recueil : Bouquet de pensées",
         "thème": "",
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4894": {
+    "bnf-4990": {
         "auteur": "Baronne D'ottenfels",
         "date": "1888",
-        "titre sonnet": "ADIEU À PARIS LE JOUR DU GRAND PRIX Àm. A. Gérard",
+        "titre sonnet": "ADIEU À PARIS  LE JOUR DU GRAND PRIX  Àm. A. Gérard",
         "titre recueil": "Recueil : Bouquet de pensées",
         "thème": "",
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4895": {
+    "bnf-4991": {
         "auteur": "Baronne D'ottenfels",
         "date": "1888",
-        "titre sonnet": "À HENRI HEINE (On se rappelle que Heine comparait la traduction en prose à « du clair de lune empaillé » )",
+        "titre sonnet": "À HENRI HEINE  (On se rappelle que Heine comparait la traduction en prose à « du clair de lune empaillé » )",
         "titre recueil": "Recueil : Bouquet de pensées",
         "thème": "",
         "origine": "bnf",
         "femme": "oui"
     },
-    "autre-4896": {
+    "anthologie-4992": {
         "auteur": "Léocadie Hersent-penquer",
         "date": "1862",
         "titre sonnet": "DÉJÀ VIEUX",
         "titre recueil": "Les femmes poètes bretonnes par le Comte de Saint-Jean (aka Mme Eugène Riom)",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
-    "bnf-4897": {
+    "bnf-4993": {
         "auteur": "Léocadie Hersent-penquer",
         "date": "1862",
-        "titre sonnet": "LA RENOMMÉE À MES AMIS.",
+        "titre sonnet": "LA RENOMMÉE    À MES AMIS.",
         "titre recueil": "LES CHANTS DU FOYER, Livre I, 1862",
         "thème": "",
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4898": {
+    "bnf-4994": {
         "auteur": "Léocadie Hersent-penquer",
         "date": "1862",
         "titre sonnet": "LE MAGNIFICAT",
@@ -44234,7 +42956,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4899": {
+    "bnf-4995": {
         "auteur": "Léocadie Hersent-penquer",
         "date": "1862",
         "titre sonnet": "LES ORPHELINS",
@@ -44243,7 +42965,16 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4900": {
+    "bnf-4996": {
+        "auteur": "Léocadie Hersent-penquer",
+        "date": "1862",
+        "titre sonnet": "LE MYOSOTIS A LA ROSE",
+        "titre recueil": "LES CHANTS DU FOYER, Livre I",
+        "thème": "",
+        "origine": "bnf",
+        "femme": "oui"
+    },
+    "bnf-4997": {
         "auteur": "Léocadie Hersent-penquer",
         "date": "1862",
         "titre sonnet": "LA ROSE AU MYOSOTIS",
@@ -44252,7 +42983,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4901": {
+    "bnf-4998": {
         "auteur": "Léocadie Hersent-penquer",
         "date": "1862",
         "titre sonnet": "LE COIN DU FEU",
@@ -44261,7 +42992,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4902": {
+    "bnf-4999": {
         "auteur": "Léocadie Hersent-penquer",
         "date": "1862",
         "titre sonnet": "LES ARTS ET L'AMOUR",
@@ -44270,16 +43001,16 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4903": {
+    "bnf-5000": {
         "auteur": "Léocadie Hersent-penquer",
         "date": "1851",
-        "titre sonnet": "LE PREMIER AMOUR",
+        "titre sonnet": "LE PREMIER AMOUR  (1851)",
         "titre recueil": "LES CHANTS DU FOYER, Livre II",
         "thème": "",
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4904": {
+    "bnf-5001": {
         "auteur": "Léocadie Hersent-penquer",
         "date": "1862",
         "titre sonnet": "LA NOUVELLE NINON",
@@ -44288,7 +43019,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4905": {
+    "bnf-5002": {
         "auteur": "Léocadie Hersent-penquer",
         "date": "1862",
         "titre sonnet": "LE PRESBYTÈRE ABANDONNÉ",
@@ -44297,16 +43028,16 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4906": {
+    "bnf-5003": {
         "auteur": "Léocadie Hersent-penquer",
         "date": "1858",
-        "titre sonnet": "LA FIANCÉE (A MADAME ***)",
+        "titre sonnet": "LA FIANCÉE   A MADAME ***  (1858)",
         "titre recueil": "LES CHANTS DU FOYER, Livre II",
         "thème": "",
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4907": {
+    "bnf-5004": {
         "auteur": "Léocadie Hersent-penquer",
         "date": "1862",
         "titre sonnet": "TROIS COQUETTES",
@@ -44315,7 +43046,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4908": {
+    "bnf-5005": {
         "auteur": "Léocadie Hersent-penquer",
         "date": "1862",
         "titre sonnet": "LE VRAI POÈTE",
@@ -44324,7 +43055,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4909": {
+    "bnf-5006": {
         "auteur": "Léocadie Hersent-penquer",
         "date": "1861",
         "titre sonnet": "LA FERME",
@@ -44333,25 +43064,25 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4910": {
+    "bnf-5007": {
         "auteur": "Léocadie Hersent-penquer",
         "date": "1861",
-        "titre sonnet": "LES FLEURS A TOI",
+        "titre sonnet": "LES FLEURS  A TOI",
         "titre recueil": "LES CHANTS DU FOYER, Livre II",
         "thème": "",
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4911": {
+    "bnf-5008": {
         "auteur": "Léocadie Hersent-penquer",
         "date": "1858",
-        "titre sonnet": "UN CONSEIL (A ANNA)",
+        "titre sonnet": "UN CONSEIL     A ANNA  (1858)",
         "titre recueil": "LES CHANTS DU FOYER, Livre II",
         "thème": "",
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4912": {
+    "bnf-5009": {
         "auteur": "Léocadie Hersent-penquer",
         "date": "1860",
         "titre sonnet": "UNE MÈRE",
@@ -44360,7 +43091,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4913": {
+    "bnf-5010": {
         "auteur": "Léocadie Hersent-penquer",
         "date": "1862",
         "titre sonnet": "LA NUIT",
@@ -44369,7 +43100,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4914": {
+    "bnf-5011": {
         "auteur": "Léocadie Hersent-penquer",
         "date": "1862",
         "titre sonnet": "LE VENDREDI SAINT",
@@ -44378,25 +43109,25 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4915": {
+    "bnf-5012": {
         "auteur": "Léocadie Hersent-penquer",
         "date": "1862",
-        "titre sonnet": "LES SYLPHES AMOUREUX A MONSIEUR ET MADAME ***",
+        "titre sonnet": "LES SYLPHES AMOUREUX      A MONSIEUR ET MADAME ***",
         "titre recueil": "LES CHANTS DU FOYER",
         "thème": "",
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4916": {
+    "bnf-5013": {
         "auteur": "Léocadie Hersent-penquer",
         "date": "1862",
-        "titre sonnet": "LA NOUVELLE VENUS A MADAME H***",
+        "titre sonnet": "LA NOUVELLE VENUS      A MADAME  H***",
         "titre recueil": "LES CHANTS DU FOYER, Livre III",
         "thème": "",
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4917": {
+    "bnf-5014": {
         "auteur": "Léocadie Hersent-penquer",
         "date": "1862",
         "titre sonnet": "L'HEUREUSE ENFANT",
@@ -44405,16 +43136,16 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4918": {
+    "bnf-5015": {
         "auteur": "Léocadie Hersent-penquer",
         "date": "1862",
-        "titre sonnet": "MARGUERITE A MILADY PERRIER.",
+        "titre sonnet": "MARGUERITE      A MILADY PERRIER.",
         "titre recueil": "LES CHANTS DU FOYER, Livre III",
         "thème": "",
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4919": {
+    "bnf-5016": {
         "auteur": "Léocadie Hersent-penquer",
         "date": "1862",
         "titre sonnet": "LE BAISER",
@@ -44423,7 +43154,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4920": {
+    "bnf-5017": {
         "auteur": "Léocadie Hersent-penquer",
         "date": "1862",
         "titre sonnet": "LE BONHEUR",
@@ -44432,25 +43163,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4921": {
-        "auteur": "Jeanne Perdriel-vaissière",
-        "date": "1892",
-        "titre sonnet": "CONJUGAISON PASSÉ",
-        "titre recueil": "L'année des poètes",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "oui"
-    },
-    "bnf-4922": {
-        "auteur": "Elise Plasky",
-        "date": "1897",
-        "titre sonnet": "Vains regrets",
-        "titre recueil": "L'ANNÉE DES POÈTES",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "oui"
-    },
-    "web-4923": {
+    "web-5026": {
         "auteur": "Berthe De Puybusque",
         "date": "1848",
         "titre sonnet": "VISITATION",
@@ -44459,25 +43172,25 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4924": {
+    "web-5027": {
         "auteur": "Berthe De Puybusque",
         "date": "1848",
-        "titre sonnet": "SONNETS À LA VIERGE, LES DEUX EVES : ÈVE",
-        "titre recueil": "[sans titre]",
+        "titre sonnet": "SONNETS À LA VIERGE, LES DEUX EVES  : ÈVE",
+        "titre recueil": "",
         "thème": "",
         "origine": "web",
         "femme": "oui"
     },
-    "web-4925": {
+    "web-5028": {
         "auteur": "Berthe De Puybusque",
         "date": "1848",
-        "titre sonnet": "SONNETS À LA VIERGE, LES DEUX EVES : MARIE",
-        "titre recueil": "[sans titre]",
+        "titre sonnet": "SONNETS À LA VIERGE, LES DEUX EVES  : MARIE",
+        "titre recueil": "",
         "thème": "",
         "origine": "web",
         "femme": "oui"
     },
-    "bnf-4926": {
+    "bnf-5029": {
         "auteur": "Marie-caroline Quillet",
         "date": "1847",
         "titre sonnet": "Puis le portrait d'une femme et l'oeuvre d'un poëte\" Alphonse Duchesne",
@@ -44486,7 +43199,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4927": {
+    "bnf-5030": {
         "auteur": "Marie-caroline Quillet",
         "date": "1847",
         "titre sonnet": "SONNET",
@@ -44495,16 +43208,16 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4928": {
+    "bnf-5031": {
         "auteur": "Marie-caroline Quillet",
         "date": "1847",
-        "titre sonnet": "l'âme de feu, la voix, la plume d'une femme!\" (R.A Epître à l'auteur)",
+        "titre sonnet": "l'âme de feu, la voix, la plume d'une femme!\"  (R.A Epître à l'auteur)",
         "titre recueil": "Recueil : EGLANTINE SOLITAIRE",
         "thème": "",
         "origine": "bnf",
         "femme": "oui"
     },
-    "bnf-4929": {
+    "bnf-5032": {
         "auteur": "Marie-caroline Quillet",
         "date": "1847",
         "titre sonnet": "SONNET",
@@ -44513,16 +43226,16 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "autre en ligne-4930": {
+    "anthologie en ligne-5033": {
         "auteur": "Léona Queyrouze Alias Constant Beauvais",
         "date": "1880",
         "titre sonnet": "Sonnet. Hommage respectueux à Monsieur Emile Zola",
         "titre recueil": "Bibliothèque Tintamarre (poésie louisianaise)",
         "thème": "",
-        "origine": "autre en ligne",
+        "origine": "anthologie en ligne",
         "femme": "oui"
     },
-    "web-4931": {
+    "web-5034": {
         "auteur": "Léona Queyrouze Alias Constant Beauvais",
         "date": "1885",
         "titre sonnet": "Gran duol mi presse al cor. Dante. Inferno. Perchè cantando il duol si disacerba. Petrarca.",
@@ -44531,7 +43244,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4932": {
+    "web-5044": {
         "auteur": "Clémence Robert",
         "date": "1892",
         "titre sonnet": "MON SEUL DÉSIR",
@@ -44540,7 +43253,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4933": {
+    "web-5047": {
         "auteur": "Blanche Sahuqué",
         "date": "1908",
         "titre sonnet": "DANSEUSE DE TANAGRA",
@@ -44549,7 +43262,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4934": {
+    "web-5048": {
         "auteur": "Blanche Sahuqué",
         "date": "1908",
         "titre sonnet": "TRAGÉDIENNE",
@@ -44558,7 +43271,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4935": {
+    "web-5049": {
         "auteur": "Blanche Sahuqué",
         "date": "1908",
         "titre sonnet": "AU MUSÉE",
@@ -44567,7 +43280,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4936": {
+    "web-5051": {
         "auteur": "Blanche Sahuqué",
         "date": "1908",
         "titre sonnet": "POÈTE FLORENTIN",
@@ -44576,16 +43289,16 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4937": {
+    "web-5052": {
         "auteur": "Blanche Sahuqué",
         "date": "1908",
-        "titre sonnet": "LA LISEUSE D'après un tableau de Lefèvre. A Gabrielle S.",
+        "titre sonnet": "LA LISEUSE D'après un tableau de Lefèvre.  A Gabrielle S.",
         "titre recueil": "_recueil : Le chemin solitaire",
         "thème": "",
         "origine": "web",
         "femme": "oui"
     },
-    "web-4938": {
+    "web-5053": {
         "auteur": "Blanche Sahuqué",
         "date": "1908",
         "titre sonnet": "VASE D'ARGILE",
@@ -44594,7 +43307,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4939": {
+    "web-5054": {
         "auteur": "Blanche Sahuqué",
         "date": "1908",
         "titre sonnet": "LES SYBILLES DE RAPHAËL",
@@ -44603,7 +43316,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4940": {
+    "web-5055": {
         "auteur": "Blanche Sahuqué",
         "date": "1908",
         "titre sonnet": "SURSUM",
@@ -44612,7 +43325,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4941": {
+    "web-5056": {
         "auteur": "Blanche Sahuqué",
         "date": "1908",
         "titre sonnet": "AU POÈTE",
@@ -44621,7 +43334,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4942": {
+    "web-5057": {
         "auteur": "Blanche Sahuqué",
         "date": "1908",
         "titre sonnet": "OUVRIER D'ART",
@@ -44630,7 +43343,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4943": {
+    "web-5058": {
         "auteur": "Blanche Sahuqué",
         "date": "1908",
         "titre sonnet": "L'EMPREINTE",
@@ -44639,7 +43352,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4944": {
+    "web-5059": {
         "auteur": "Blanche Sahuqué",
         "date": "1908",
         "titre sonnet": "AFFINEMENT",
@@ -44648,7 +43361,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4945": {
+    "web-5060": {
         "auteur": "Blanche Sahuqué",
         "date": "1908",
         "titre sonnet": "CHIMÈRE a Gabrielle S.",
@@ -44657,7 +43370,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4946": {
+    "web-5061": {
         "auteur": "Blanche Sahuqué",
         "date": "1908",
         "titre sonnet": "PRÉMICES",
@@ -44666,7 +43379,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4947": {
+    "web-5062": {
         "auteur": "Blanche Sahuqué",
         "date": "1908",
         "titre sonnet": "LES PAS",
@@ -44675,7 +43388,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4948": {
+    "web-5063": {
         "auteur": "Blanche Sahuqué",
         "date": "1908",
         "titre sonnet": "MASQUE DE FEMME",
@@ -44684,7 +43397,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4949": {
+    "web-5065": {
         "auteur": "Blanche Sahuqué",
         "date": "1908",
         "titre sonnet": "VIERGE",
@@ -44693,7 +43406,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4950": {
+    "web-5066": {
         "auteur": "Blanche Sahuqué",
         "date": "1908",
         "titre sonnet": "L'ERMITE",
@@ -44702,7 +43415,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4951": {
+    "web-5067": {
         "auteur": "Blanche Sahuqué",
         "date": "1908",
         "titre sonnet": "UN FORT",
@@ -44711,7 +43424,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4952": {
+    "web-5068": {
         "auteur": "Blanche Sahuqué",
         "date": "1908",
         "titre sonnet": "VISION",
@@ -44720,7 +43433,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4953": {
+    "web-5069": {
         "auteur": "Blanche Sahuqué",
         "date": "1908",
         "titre sonnet": "LA CATHÉDRALE",
@@ -44729,7 +43442,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4954": {
+    "web-5070": {
         "auteur": "Blanche Sahuqué",
         "date": "1908",
         "titre sonnet": "TOUS LES DÉSIRS SONT CLOS...",
@@ -44738,7 +43451,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4955": {
+    "web-5071": {
         "auteur": "Blanche Sahuqué",
         "date": "1908",
         "titre sonnet": "COMBAT",
@@ -44747,16 +43460,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4956": {
-        "auteur": "Blanche Sahuqué",
-        "date": "1908",
-        "titre sonnet": "FLEURS PERVERSES",
-        "titre recueil": "Le chemin solitaire",
-        "thème": "",
-        "origine": "web",
-        "femme": "oui"
-    },
-    "web-4957": {
+    "web-5073": {
         "auteur": "Blanche Sahuqué",
         "date": "1908",
         "titre sonnet": "HEURES BRÈVES",
@@ -44765,7 +43469,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4958": {
+    "web-5074": {
         "auteur": "Blanche Sahuqué",
         "date": "1908",
         "titre sonnet": "PIANISSIMO",
@@ -44774,7 +43478,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4959": {
+    "web-5075": {
         "auteur": "Blanche Sahuqué",
         "date": "1908",
         "titre sonnet": "A TRAVERS LES VITRAUX",
@@ -44783,7 +43487,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4960": {
+    "web-5076": {
         "auteur": "Blanche Sahuqué",
         "date": "1908",
         "titre sonnet": "LE BOIS SACRÉ",
@@ -44792,7 +43496,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4961": {
+    "web-5077": {
         "auteur": "Blanche Sahuqué",
         "date": "1908",
         "titre sonnet": "ORAGE",
@@ -44801,7 +43505,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4962": {
+    "web-5078": {
         "auteur": "Blanche Sahuqué",
         "date": "1908",
         "titre sonnet": "S'EN ALLER PAR LA NUIT",
@@ -44810,7 +43514,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4963": {
+    "web-5079": {
         "auteur": "Blanche Sahuqué",
         "date": "1908",
         "titre sonnet": "À UNE VOIX DE FEMME",
@@ -44819,7 +43523,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4964": {
+    "web-5080": {
         "auteur": "Blanche Sahuqué",
         "date": "1908",
         "titre sonnet": "EN ÉCOUTANT DU SCHUMANN",
@@ -44828,7 +43532,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4965": {
+    "web-5081": {
         "auteur": "Blanche Sahuqué",
         "date": "1908",
         "titre sonnet": "APRÈS UNE LECTURE SUR CLÉOPÂTRE",
@@ -44837,7 +43541,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4966": {
+    "web-5082": {
         "auteur": "Blanche Sahuqué",
         "date": "1908",
         "titre sonnet": "NOCTURNE",
@@ -44846,61 +43550,106 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4967": {
+    "bnf-5115": {
+        "auteur": "Anais Segalas",
+        "date": "1844",
+        "titre sonnet": "SONNET _ ÉCRIT SUR UN ALBUM",
+        "titre recueil": "POÉSIES",
+        "thème": "",
+        "origine": "bnf",
+        "femme": "oui"
+    },
+    "bnf-5116": {
+        "auteur": "Anais Segalas",
+        "date": "1844",
+        "titre sonnet": "SONNET",
+        "titre recueil": "POÉSIES",
+        "thème": "",
+        "origine": "bnf",
+        "femme": "oui"
+    },
+    "bnf-5117": {
+        "auteur": "Anais Segalas",
+        "date": "1845",
+        "titre sonnet": "SONNET 4",
+        "titre recueil": "Enfantines Poésies à ma fille",
+        "thème": "",
+        "origine": "bnf",
+        "femme": "oui"
+    },
+    "web-5118": {
         "auteur": "Louisa Siefert",
         "date": "1868",
         "titre sonnet": "JALOUSIE I",
-        "titre recueil": "26 Juin 18… Rayons perdus",
+        "titre recueil": "26 Juin 18…  Rayons perdus",
         "thème": "",
         "origine": "web",
         "femme": "oui"
     },
-    "web-4968": {
+    "web-5119": {
         "auteur": "Louisa Siefert",
         "date": "1868",
         "titre sonnet": "JALOUSIE II",
-        "titre recueil": "26 Juin 18… Rayons perdus",
+        "titre recueil": "26 Juin 18…  Rayons perdus",
         "thème": "",
         "origine": "web",
         "femme": "oui"
     },
-    "web-4969": {
+    "web-5120": {
         "auteur": "Louisa Siefert",
         "date": "1868",
         "titre sonnet": "JALOUSIE III",
-        "titre recueil": "26 Juin 18… Rayons perdus",
+        "titre recueil": "26 Juin 18…  Rayons perdus",
         "thème": "",
         "origine": "web",
         "femme": "oui"
     },
-    "autre-4970": {
+    "anthologie-5121": {
         "auteur": "Louisa Siefert",
         "date": "1868",
         "titre sonnet": "IL EST DOUX DE S'AIMER",
         "titre recueil": "Les muses françaises, LIVRE I, d’Alphonse Séché, ed Louis-Michaud",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
-    "autre-4971": {
+    "anthologie-5122": {
         "auteur": "Louisa Siefert",
         "date": "1868",
         "titre sonnet": "A MME JAUBERT",
         "titre recueil": "Les muses françaises, LIVRE I, d’Alphonse Séché, ed Louis-Michaud, 1908",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
-    "web-4972": {
+    "web-5123": {
         "auteur": "Louisa Siefert",
         "date": "1868",
         "titre sonnet": "POURQUOI?",
-        "titre recueil": "26 Juin 18… Rayons perdus",
+        "titre recueil": "26 Juin 18…  Rayons perdus",
         "thème": "",
         "origine": "web",
         "femme": "oui"
     },
-    "wikisource-4973": {
+    "bnf-5125": {
+        "auteur": "Marguerite Silvère",
+        "date": "1915",
+        "titre sonnet": "A MADAME LA BARONNE DU TEIL",
+        "titre recueil": "Reflets de guerre : août 1914-août 1915",
+        "thème": "",
+        "origine": "bnf",
+        "femme": "oui"
+    },
+    "bnf-5126": {
+        "auteur": "Marguerite Silvère",
+        "date": "1915",
+        "titre sonnet": "LES POUSSINS   A Mademoiselle Marthe Teyssot.",
+        "titre recueil": "Reflets de guerre : août 1914-août 1915",
+        "thème": "",
+        "origine": "bnf",
+        "femme": "oui"
+    },
+    "wikisource-5133": {
         "auteur": "Daniel Stern (pseudonyme De La Comtesse D’agoult)",
         "date": "1908",
         "titre sonnet": "L’OLIVIER",
@@ -44909,7 +43658,7 @@
         "origine": "wikisource",
         "femme": "oui"
     },
-    "wikisource-4974": {
+    "wikisource-5134": {
         "auteur": "Daniel Stern (pseudonyme De La Comtesse D’agoult)",
         "date": "1908",
         "titre sonnet": "LA STATUE DE GOETHE, A FRANCFORT",
@@ -44918,97 +43667,97 @@
         "origine": "wikisource",
         "femme": "oui"
     },
-    "web-4975": {
+    "web-5135": {
         "auteur": "Sybil",
         "date": "1906",
-        "titre sonnet": "Sans titre (Nymphenburg)",
-        "titre recueil": "Les Accords , Mercure de France",
+        "titre sonnet": "Sans titre   (Nymphenburg)",
+        "titre recueil": "Les Accords , Mercure de France",
         "thème": "",
         "origine": "web",
         "femme": "oui"
     },
-    "web-4976": {
-        "auteur": "Sybil",
-        "date": "1906",
-        "titre sonnet": "Sans titre",
-        "titre recueil": "Les Accords , Mercure de France",
-        "thème": "",
-        "origine": "web",
-        "femme": "oui"
-    },
-    "web-4977": {
+    "web-5136": {
         "auteur": "Sybil",
         "date": "1906",
         "titre sonnet": "Sans titre",
-        "titre recueil": "Les Accords , Mercure de France, 1906",
+        "titre recueil": "Les Accords , Mercure de France",
         "thème": "",
         "origine": "web",
         "femme": "oui"
     },
-    "autre-4978": {
+    "web-5137": {
+        "auteur": "Sybil",
+        "date": "1906",
+        "titre sonnet": "Sans titre",
+        "titre recueil": "Les Accords , Mercure de France, 1906",
+        "thème": "",
+        "origine": "web",
+        "femme": "oui"
+    },
+    "anthologie-5138": {
         "auteur": "Sylvane Aka Mme Leborgne",
         "date": "1862",
         "titre sonnet": "SONNET",
         "titre recueil": "Les femmes poètes bretonnes par le Comte de Saint-Jean (aka Mme Eugène Riom)",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
-    "web-4979": {
+    "web-5139": {
         "auteur": "Amable Tastu",
         "date": "1858",
-        "titre sonnet": "Conlegno, Di Voce Molle, D’insinuante Loquela. A. Verri.",
+        "titre sonnet": "Conlegno, Di Voce Molle, D’insinuante Loquela.   A. Verri.",
         "titre recueil": "Recueil : \"Poésies complètes\", Didier et Cie, 1858 p 135",
         "thème": "",
         "origine": "web",
         "femme": "oui"
     },
-    "autre-4980": {
+    "anthologie-5140": {
         "auteur": "Loïc Trémor Aka Mme Vaugeois",
         "date": "1862",
-        "titre sonnet": "LA CHAPELLE DE LA MADELEINE A MALESTROIT (MORBIHAN) A M. Emile Grimaud",
+        "titre sonnet": "LA CHAPELLE DE LA MADELEINE  A MALESTROIT (MORBIHAN) A M. Emile Grimaud",
         "titre recueil": "Les femmes poètes bretonnes par le Comte de Saint-Jean (aka Mme Eugène Riom)",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
-    "autre-4981": {
+    "anthologie-5141": {
         "auteur": "Loïc Trémor Aka Mme Vaugeois",
         "date": "1862",
         "titre sonnet": "LE TOMBEAU DES CARMES, 1871",
         "titre recueil": "Les femmes poètes bretonnes par le Comte de Saint-Jean (aka Mme Eugène Riom), 1862",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
-    "autre-4982": {
+    "anthologie-5142": {
         "auteur": "Loïc Trémor Aka Mme Vaugeois",
         "date": "1862",
-        "titre sonnet": "LES PIGEONS DE SAINT-MARC A M. Jacques Wagrez, 1886",
+        "titre sonnet": "LES PIGEONS DE SAINT-MARC    A M. Jacques Wagrez, 1886",
         "titre recueil": "Les femmes poètes bretonnes par le Comte de Saint-Jean (aka Mme Eugène Riom)",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
-    "web-4983": {
+    "web-5143": {
         "auteur": "Tryphé Aka Natalie Barney",
         "date": "1902",
         "titre sonnet": "DOUCES RIVALITÉS Sonnet",
-        "titre recueil": "Cinq petits Dialogues Grecs (Antithèses et parallèles) Editions de",
+        "titre recueil": "Cinq petits Dialogues Grecs (Antithèses et parallèles) Editions de la Plume",
         "thème": "",
         "origine": "web",
         "femme": "oui"
     },
-    "web-4984": {
+    "web-5144": {
         "auteur": "Tryphé Aka Natalie Barney",
         "date": "1932",
         "titre sonnet": "SONNET",
-        "titre recueil": "publié par Jean Royre dans son  Manuscrit autographe , année 1932, n 38, p 83",
+        "titre recueil": "publié par Jean Royre dans son  Manuscrit autographe , année 1932, n 38, p 83",
         "thème": "",
         "origine": "web",
         "femme": "oui"
     },
-    "bnf-4985": {
+    "bnf-5145": {
         "auteur": "Ondine Valmore",
         "date": "1946",
         "titre sonnet": "SONNET À MARIA",
@@ -45017,7 +43766,7 @@
         "origine": "bnf",
         "femme": "oui"
     },
-    "web-4986": {
+    "web-5146": {
         "auteur": "Hélène Vasaresco Aka Elena Văcărescu",
         "date": "1886",
         "titre sonnet": "Ah! viens, ne songe plus à l'éclair des armures",
@@ -45026,7 +43775,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4987": {
+    "web-5147": {
         "auteur": "Hélène Vasaresco Aka Elena Văcărescu",
         "date": "1886",
         "titre sonnet": "Ce que je cherche en toi, c'est ne pas...",
@@ -45035,34 +43784,7 @@
         "origine": "web",
         "femme": "oui"
     },
-    "web-4988": {
-        "auteur": "Jane De La Vaudère",
-        "date": "1894",
-        "titre sonnet": "LA COULEUR DES BAISERS",
-        "titre recueil": "L'Année des poètes",
-        "thème": "",
-        "origine": "web",
-        "femme": "oui"
-    },
-    "web-4989": {
-        "auteur": "Jane De La Vaudère",
-        "date": "1893",
-        "titre sonnet": "LA MER",
-        "titre recueil": "L'Année des poètes",
-        "thème": "",
-        "origine": "web",
-        "femme": "oui"
-    },
-    "bnf-4990": {
-        "auteur": "Jane De La Vaudère",
-        "date": "1891",
-        "titre sonnet": "POMMIERS EN FLEURS",
-        "titre recueil": "L'Année des poètes",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "oui"
-    },
-    "wikisource-4991": {
+    "wikisource-5151": {
         "auteur": "Vega",
         "date": "1907",
         "titre sonnet": "LE TRIOMPHE DE L'ÉTÉ",
@@ -45071,7 +43793,7 @@
         "origine": "wikisource",
         "femme": "oui"
     },
-    "wikisource-4992": {
+    "wikisource-5152": {
         "auteur": "Vega",
         "date": "1907",
         "titre sonnet": "L'ABSENT",
@@ -45080,7 +43802,7 @@
         "origine": "wikisource",
         "femme": "oui"
     },
-    "wikisource-4993": {
+    "wikisource-5153": {
         "auteur": "Vega",
         "date": "1907",
         "titre sonnet": "LE MARIN",
@@ -45089,7 +43811,7 @@
         "origine": "wikisource",
         "femme": "oui"
     },
-    "wikisource-4994": {
+    "wikisource-5154": {
         "auteur": "Vega",
         "date": "1907",
         "titre sonnet": "L’OMBRE DES OLIVIERS",
@@ -45098,34 +43820,34 @@
         "origine": "wikisource",
         "femme": "oui"
     },
-    "autre-4995": {
+    "anthologie-5155": {
         "auteur": "Vega",
         "date": "1908",
         "titre sonnet": "LE SCULPTEUR",
         "titre recueil": "Les muses françaises - Anthologie des femmes poètes - Alphonse Séché",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
-    "autre-4996": {
+    "anthologie-5156": {
         "auteur": "Vega",
         "date": "1908",
         "titre sonnet": "L'AUBE NOUVELLE",
         "titre recueil": "Les muses françaises - Anthologie des femmes poètes - Alphonse Séché",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
-    "web-4997": {
+    "web-5157": {
         "auteur": "Nina De Villard Aka Nina De Callias",
         "date": "1885",
         "titre sonnet": "",
-        "titre recueil": "[sans titre]",
+        "titre recueil": "",
         "thème": "",
         "origine": "web",
         "femme": "oui"
     },
-    "web-4998": {
+    "web-5158": {
         "auteur": "Nina De Villard Aka Nina De Callias",
         "date": "1885",
         "titre sonnet": "LA JALOUSIE DU JEUNE DIEU",
@@ -45134,52 +43856,16 @@
         "origine": "web",
         "femme": "oui"
     },
-    "bnf-4999": {
-        "auteur": "Renée Vivien",
-        "date": "1923",
-        "titre sonnet": "SONNET À UNE ENFANT",
-        "titre recueil": "Recueil : LA VÉNUS DES AVEUGLES",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "oui"
-    },
-    "autre-5000": {
+    "anthologie-5171": {
         "auteur": "Renée Vivien",
         "date": "1908",
         "titre sonnet": "SONNET POUR LA DOULEUR",
         "titre recueil": "Les muses françaises - Anthologie des femmes poètes - Alphonse Séché",
         "thème": "",
-        "origine": "autre",
+        "origine": "anthologie",
         "femme": "oui"
     },
-    "bnf-5001": {
-        "auteur": "Renée Vivien",
-        "date": "1901",
-        "titre sonnet": "",
-        "titre recueil": "Recueil \"ÉTUDES ET PRÉLUDES\" et Poèmes de Renée Vivien : Études et préludes, Cendres et poussières, Évocations, Sapho, La Vénus des aveugles",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "oui"
-    },
-    "bnf-5002": {
-        "auteur": "Renée Vivien",
-        "date": "1901",
-        "titre sonnet": "SONNET",
-        "titre recueil": "Recueil \"ÉTUDES ET PRÉLUDES\" et Poèmes de Renée Vivien : Études et préludes, Cendres et poussières, Évocations, Sapho, La Vénus des aveugles",
-        "thème": "",
-        "origine": "bnf",
-        "femme": "oui"
-    },
-    "web-5003": {
-        "auteur": "Renée Vivien",
-        "date": "1901",
-        "titre sonnet": "SONNET I",
-        "titre recueil": "Recueil \"ÉTUDES ET PRÉLUDES\" et Poèmes de Renée Vivien : Études et préludes, Cendres et poussières, Évocations, Sapho, La Vénus des aveugles",
-        "thème": "",
-        "origine": "web",
-        "femme": "oui"
-    },
-    "malherbe-5004": {
+    "malherbe-5176": {
         "auteur": "Renée Vivien",
         "date": "1901",
         "titre sonnet": "SONNET",
@@ -45188,34 +43874,25 @@
         "origine": "malherbe",
         "femme": "oui"
     },
-    "bnf-5005": {
+    "bnf-5180": {
         "auteur": "Renée Vivien",
-        "date": "1903",
+        "date": "1901",
         "titre sonnet": "SONNET",
-        "titre recueil": "Recueil \"ÉVOCATIONS\" et Poèmes de Renée Vivien : Études et préludes, Cendres et poussières, Évocations, Sapho, La Vénus des aveugles",
+        "titre recueil": "ÉTUDES ET PRÉLUDES",
         "thème": "",
         "origine": "bnf",
         "femme": "oui"
     },
-    "web-5006": {
-        "auteur": "Renée Vivien",
-        "date": "1902",
-        "titre sonnet": "SONNET FÉMININ",
-        "titre recueil": "Recueil \"Cendres et poussières\"",
-        "thème": "",
-        "origine": "web",
-        "femme": "oui"
-    },
-    "malherbe-5007": {
+    "malherbe-5184": {
         "auteur": "Renée Vivien",
         "date": "1908",
         "titre sonnet": "Shakespeare, sonnet CXI.",
-        "titre recueil": "SILLAGES",
+        "titre recueil": "SILLAGES (1908)",
         "thème": "",
         "origine": "malherbe",
         "femme": "oui"
     },
-    "malherbe-5008": {
+    "malherbe-5185": {
         "auteur": "Renée Vivien",
         "date": "1908",
         "titre sonnet": "Shakespeare, sonnet CIV.",
@@ -45224,7 +43901,7 @@
         "origine": "malherbe",
         "femme": "oui"
     },
-    "malherbe-5009": {
+    "malherbe-5186": {
         "auteur": "Renée Vivien",
         "date": "1908",
         "titre sonnet": "SONNET D'après Shakespeare",
@@ -45233,7 +43910,7 @@
         "origine": "malherbe",
         "femme": "oui"
     },
-    "malherbe-5010": {
+    "malherbe-5187": {
         "auteur": "Renée Vivien",
         "date": "1908",
         "titre sonnet": "Shakespeare, sonnet CXXI.",
@@ -45242,7 +43919,7 @@
         "origine": "malherbe",
         "femme": "oui"
     },
-    "malherbe-5011": {
+    "malherbe-5188": {
         "auteur": "Renée Vivien",
         "date": "1908",
         "titre sonnet": "POUR LA LUNE",
