@@ -1,8 +1,8 @@
 aniso8601==9.0.1
 attrs==21.2.0
 Click==7.0
-Flask==1.0.2
-flask-restplus==0.12.1
+Flask==2.0.2
+flask-restx==0.5.1
 gunicorn==19.9.0
 itsdangerous==1.1.0
 Jinja2==2.11.3
@@ -15,4 +15,4 @@ pyrsistent==0.17.3
 python-dateutil==2.8.1
 pytz==2021.1
 six==1.16.0
-Werkzeug==0.16.1
+Werkzeug==2.0.2
