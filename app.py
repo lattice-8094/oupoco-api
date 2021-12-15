@@ -3,10 +3,10 @@
 import generation_sonnets
 import datetime
 import json
-from collections import Counter
+from collections import Counter, defaultdict
 
 from flask import Flask
-from flask_restplus import Api, Resource, reqparse
+from flask_restx import Api, Resource, reqparse
 
 from flask import jsonify, request
 
@@ -65,7 +65,7 @@ app.wsgi_app = ReverseProxied(app.wsgi_app)
 api = Api(
     app,
     version="0.9",
-    title="API du projet Oupoco",
+    title="API du projet Oupoco",
     description="API pour la mise en place du site web",
 )
 
@@ -102,6 +102,7 @@ class Schemas(Resource):
 authors_parser = reqparse.RequestParser()
 authors_parser.add_argument("dates", type=str, choices=tuple(dates), action="append")
 authors_parser.add_argument("themes", type=str, choices=tuple(themes), action="append")
+authors_parser.add_argument("femme", type=bool, default=False)
 
 
 @api.route("/authors")
@@ -112,10 +113,14 @@ class Authors(Resource):
         args = authors_parser.parse_args()
         param_dates = args.get("dates", None)
         param_themes = args.get("themes", None)
+        if args.get("femme") == "false":
+            param_femme = False
+        else:
+            param_femme = True
         all_authors = generation_sonnets.get_authors()
         all_authors = sorted(all_authors, key=lambda author: author.split(" ")[-1])
         filtered_authors = generation_sonnets.get_authors(
-            dates=param_dates, themes=param_themes
+            dates=param_dates, themes=param_themes, femme=param_femme
         )
         res = __active_values__(all_authors, filtered_authors)
         return jsonify(res)
@@ -128,34 +133,33 @@ authors_form_parser.add_argument(
 authors_form_parser.add_argument(
     "themes", type=str, choices=tuple(themes), action="append"
 )
-
+authors_parser.add_argument("femme", type=bool, default=False)
 
 @api.route("/authors-form")
 class AuthorsForm(Resource):
     @api.expect(authors_form_parser)
     def get(self):
-        """ Returns a list of selected authors in the form (20 most common) """
+        """ Returns a list of selected authors in the form """
         args = authors_parser.parse_args()
         param_dates = args.get("dates", None)
         param_themes = args.get("themes", None)
-        # all_authors = generation_sonnets.get_authors()
+        if args.get("femme") == "false":
+            param_femme = False
+        else:
+            param_femme = True
+        all_authors = generation_sonnets.get_selected_authors()
         # all_authors = sorted(all_authors, key=lambda author: author.split(" ")[-1])
         filtered_authors = generation_sonnets.get_authors(
-            dates=param_dates, themes=param_themes
+            dates=param_dates, themes=param_themes, femme=param_femme
         )
-        # res = __active_values__(all_authors, filtered_authors)
-        c_authors = Counter(
-            [meta[s]["auteur"] for s in meta if meta[s]["auteur"] in filtered_authors]
-        )
-        return jsonify(
-            [f"{author} ({occ})" for author, occ in c_authors.most_common(20)]
-        )
+        res = __active_values__(all_authors, filtered_authors)
+        return jsonify(res)
 
 
 dates_parser = reqparse.RequestParser()
 dates_parser.add_argument("authors", type=str, choices=tuple(authors), action="append")
 dates_parser.add_argument("themes", type=str, choices=tuple(themes), action="append")
-
+dates_parser.add_argument("femme", type=bool, default=False)
 
 @api.route("/dates")
 class Dates(Resource):
@@ -165,9 +169,13 @@ class Dates(Resource):
         args = dates_parser.parse_args()
         param_authors = args.get("authors", None)
         param_themes = args.get("themes", None)
+        if args.get("femme") == "false":
+            param_femme = False
+        else:
+            param_femme = True
         all_dates = generation_sonnets.get_dates()
         filtered_dates = generation_sonnets.get_dates(
-            authors=param_authors, themes=param_themes
+            authors=param_authors, themes=param_themes, femme=param_femme
         )
         res = __active_values__(all_dates, filtered_dates)
         return jsonify(res)
@@ -176,7 +184,7 @@ class Dates(Resource):
 themes_parser = reqparse.RequestParser()
 themes_parser.add_argument("dates", type=str, choices=tuple(dates), action="append")
 themes_parser.add_argument("authors", type=str, choices=tuple(authors), action="append")
-
+themes_parser.add_argument("femme", type=bool, default=False)
 
 @api.route("/themes")
 class Themes(Resource):
@@ -186,9 +194,13 @@ class Themes(Resource):
         args = themes_parser.parse_args()
         param_authors = args.get("authors", None)
         param_dates = args.get("dates", None)
+        if args.get("femme") == "false":
+            param_femme = False
+        else:
+            param_femme = True
         all_themes = generation_sonnets.get_themes()
         filtered_themes = generation_sonnets.get_themes(
-            authors=param_authors, dates=param_dates
+            authors=param_authors, dates=param_dates, femme=param_femme
         )
         res = __active_values__(all_themes, filtered_themes)
         return jsonify(res)
@@ -200,6 +212,7 @@ new_parser.add_argument("authors", type=str, choices=tuple(authors), action="app
 new_parser.add_argument("date", type=str, choices=dates)
 new_parser.add_argument("order", type=bool, default=True)
 new_parser.add_argument("themes", type=str, choices=tuple(themes), action="append")
+new_parser.add_argument("femme", type=bool, default=False)
 new_parser.add_argument(
     "quality", type=str, choices=("1", "2", "3", "4", "5"), default="1"
 )
@@ -215,6 +228,10 @@ class New(Resource):
         param_date = args.get("date", None)
         param_authors = args.get("authors", None)
         param_themes = args.get("themes", None)
+        if args.get("femme") == "false":
+            param_femme = False
+        else:
+            param_femme = True
         param_quality = args.get("quality", "1")
         if args.get("order") == "false":
             param_order = False
@@ -228,6 +245,7 @@ class New(Resource):
                 schema=schemas[param_schema],
                 order=param_order,
                 themes=param_themes,
+                femme=param_femme,
                 quality=param_quality,
             )
         else:
@@ -236,6 +254,7 @@ class New(Resource):
                 dates=param_date,
                 order=param_order,
                 themes=param_themes,
+                femme=param_femme,
                 quality=param_quality,
             )
 
@@ -265,6 +284,10 @@ def new_html():
     param_date = args.get("date", None)
     param_authors = args.get("authors", None)
     param_quality = args.get("quality", "1")
+    if args.get("femme") == "false":
+            param_femme = False
+    else:
+            param_femme = True
     if args.get("order") == "false":
         param_order = False
     else:
@@ -276,6 +299,7 @@ def new_html():
             date=param_date,
             schema=schemas[param_schema],
             order=param_order,
+            femme=param_femme,
             quality=param_quality,
         )
     else:
@@ -283,6 +307,7 @@ def new_html():
             authors=param_authors,
             date=param_date,
             order=param_order,
+            femme=param_femme,
             quality=param_quality,
         )
 
@@ -314,10 +339,10 @@ def __active_values__(all_values, filtered_values):
     Return a list of dict, one per item in all_values,
     set the 'active' to yes if the item is in filtered_values, no otherwise
     Args:
-        - all_values (list):  list of str
+        - all_values (list): list of str
         - filtered_values (list): list of str
     Returns:
-        - list of dict [{'value': 'foo', 'active': 'yes}, {'value': 'bar', 'active': 'no'}]
+        - list of dict [{'value': 'foo', 'active': 'yes}, {'value': 'bar', 'active': 'no'}]
     """
     res = []
     for item in all_values:

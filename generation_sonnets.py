@@ -34,6 +34,7 @@ schemas = {
 dates = ("1800-1830", "1831-1850", "1851-1870", "1871-1890", "1891-1900", "1901-1950")
 sonnets_min_len = 3
 
+selected_authors = json.load(open("selected_authors.json", "r"))
 
 def __get_last_word__(sentence):
     """
@@ -87,6 +88,10 @@ def __compute_constraints__(constraints):
                         clause += "or "
                     clause += f"({field} >= {start}) & ({field} <= {end}) "
                 clause += ") "
+            elif field == "femme" and constraints[field]:
+                if i != 0:
+                    clause += "& "
+                clause += f"({field} == 'oui') "
             else:
                 # the constraint value is a list, we use 'isin'
                 if i != 0:
@@ -112,13 +117,14 @@ def __dates_to_intervals__(dates_list, intervals=dates):
     return res
 
 
-def get_dates(authors=[], themes=[]):
+def get_dates(authors=[], themes=[], femme=False):
     """
     Query the db, returns the list of dates
     according to the given args
     Args:
         - authors: list of str
         - themes: list of str
+        - femme: bool
     Returns:
         - list of dates intervals in the oupoco db
     """
@@ -127,6 +133,8 @@ def get_dates(authors=[], themes=[]):
         constraints["thème"] = themes
     if authors:
         constraints["auteur"] = authors
+    if femme:
+        constraints["femme"] = femme
     my_query = __compute_constraints__(constraints)
     if my_query:
         df = meta.query(my_query)
@@ -135,14 +143,41 @@ def get_dates(authors=[], themes=[]):
         res = dates
     return res
 
+def get_selected_authors(dates=[], themes=[], femme=False, selected_authors=selected_authors):
+    """
+    Query the db, returns the list of selected authors
+    according to the given args
+    Args:
+        - dates (list): list of dates intervals (start-end)
+        - themes (list): list of str
+        - femme: bool
+        - selected_authors (list): list of selected authors
+    Returns:
+        - list of selected authors in the oupoco db
+    """
+    constraints = {}
+    if dates:
+        constraints["date"] = dates
+    if themes:
+        constraints["thème"] = themes
+    if femme:
+        constraints["femme"] = femme
+    my_query = __compute_constraints__(constraints)
+    if my_query:
+        df = meta.query(my_query)
+        res = set(df["auteur"]).intersection(set(selected_authors))
+    else:
+        res = selected_authors
+    return res
 
-def get_authors(dates=[], themes=[]):
+def get_authors(dates=[], themes=[], femme=False):
     """
     Query the db, returns the list of authors
     according to the given args
     Args:
         - dates (list):  list of dates intervals (start-end)
         - themes (list): list of str
+        - femme: bool
     Returns:
         - list of authors in the oupoco db
     """
@@ -151,6 +186,8 @@ def get_authors(dates=[], themes=[]):
         constraints["date"] = dates
     if themes:
         constraints["thème"] = themes
+    if femme:
+        constraints["femme"] = femme
     my_query = __compute_constraints__(constraints)
     if my_query:
         df = meta.query(my_query)
@@ -160,13 +197,14 @@ def get_authors(dates=[], themes=[]):
     return res
 
 
-def get_themes(dates=[], authors=[]):
+def get_themes(dates=[], authors=[], femme=False):
     """
     Query the db, returns the list of themes
     according to the given args
     Args:
         - date (list): list of dates intervals (start-end)
         - authors (list): list of str
+        - femme: bool
     Returns:
         - list of themes in the oupoco db
     """
@@ -175,6 +213,8 @@ def get_themes(dates=[], authors=[]):
         constraints["date"] = dates
     if authors:
         constraints["auteur"] = authors
+    if femme:
+        constraints["femme"] = femme
     my_query = __compute_constraints__(constraints)
 
     if my_query:
@@ -270,6 +310,32 @@ def filter_by_authors(authors, rhymes):
         res.append(rhymes_authors_d)
     return res
 
+def filter_by_femme(rhymes):
+    """
+    Find and return the rhymes written by a woman (i.e 'femme'=='oui')
+    Args:
+        rhymes: a list of ryhmes dict, each rhymes dict is itself a dict (rhyme: list of verses), each verse is a dict (text, id, id_sonnet)
+    Returns:
+        a list of dicts. Same structure as the rhymmes but filtered by authors
+    """
+    sonnets = [
+        id_sonnet
+        for id_sonnet in meta.index
+        if meta.loc[id_sonnet]["femme"] == 'oui'
+    ]
+    if len(sonnets) < sonnets_min_len:
+        return list()
+
+    res = []
+    # for each rhyme type (if rimes riches and suffisantes selected for instance)
+    for rhymes_t in rhymes:
+        rhymes_authors_d = {}
+        for rhyme_sound, items in rhymes_t.items():
+            verses = [verse for verse in items if verse["id_sonnet"] in sonnets]
+            if len(verses) > 0:
+                rhymes_authors_d[rhyme_sound] = verses
+        res.append(rhymes_authors_d)
+    return res
 
 def cpt_verse_position(id):
     """
@@ -294,8 +360,9 @@ def generate(
     order=True,
     authors="",
     dates="",
-    schema=("ABAB", "ABAB", "CCD", "EDE"),
+    femme=False,
     themes="",
+    schema=("ABAB", "ABAB", "CCD", "EDE"),
     quality="1",
 ):
     """
@@ -304,6 +371,8 @@ def generate(
         order (boolean): wether the verses have to be placed in the same order as in the original sonnets
         authors (list): reduce the database to the desired authors
         dates (list): reduce the database to the desired dates intervals
+        femme (boolean): if True, reduce the database to sonnet written by women
+        themes (list) : reduce the database to the desired themes
         schema (tuple): the verses schema
         quality (str): quality of the rhyme. Except a value between 1 and 5.
                 1: rimes pauvres, 2: rimes pauvres et suffisantes, 3: rimes suffisantes, 4: rimes suffisantes et rimes riches, 5: rimes riches
@@ -324,6 +393,8 @@ def generate(
         rhymes = filter_by_authors(authors, rhymes)
     if themes:
         rhymes = filter_by_theme(themes, rhymes)
+    if femme:
+        rhymes = filter_by_femme(rhymes)
     nb_rhymes = sum([len(rhyme_t.keys()) for rhyme_t in rhymes])
 
     random_rhymes = dict()
@@ -454,7 +525,7 @@ def generate_random_schema(graphic_difference=True):
 
 
 def main():
-    sonnet = generate(order=True, schema=(schemas["sonnet_francais"]), quality="3")
+    sonnet = generate(order=True, schema=(schemas["sonnet_francais"]), quality="3", femme=True)
     if sonnet:
         for st in sonnet:
             for verse in st:
