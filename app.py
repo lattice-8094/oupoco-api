@@ -7,7 +7,7 @@ from collections import Counter, defaultdict
 
 from flask import Flask
 from flask_restx import Api, Resource, reqparse
-
+from flask_cors import CORS
 from flask import jsonify, request
 
 import logging
@@ -61,6 +61,7 @@ class ReverseProxied(object):
 
 
 app = Flask(__name__)
+CORS(app)
 app.wsgi_app = ReverseProxied(app.wsgi_app)
 api = Api(
     app,
