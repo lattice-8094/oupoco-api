@@ -213,7 +213,7 @@ new_parser.add_argument("authors", type=str, choices=tuple(authors), action="app
 new_parser.add_argument("date", type=str, choices=dates)
 new_parser.add_argument("order", type=bool, default=True)
 new_parser.add_argument("themes", type=str, choices=tuple(themes), action="append")
-new_parser.add_argument("femme", type=bool, default=False)
+new_parser.add_argument("femme", type=str, default="false")
 new_parser.add_argument(
     "quality", type=str, choices=("1", "2", "3", "4", "5"), default="1"
 )
@@ -229,10 +229,10 @@ class New(Resource):
         param_date = args.get("date", None)
         param_authors = args.get("authors", None)
         param_themes = args.get("themes", None)
-        if args.get("femme") == "false":
-            param_femme = False
-        else:
+        if args.get("femme") == "true":
             param_femme = True
+        else:
+            param_femme = False
         param_quality = args.get("quality", "1")
         if args.get("order") == "false":
             param_order = False
