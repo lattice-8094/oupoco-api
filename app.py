@@ -103,7 +103,7 @@ class Schemas(Resource):
 authors_parser = reqparse.RequestParser()
 authors_parser.add_argument("dates", type=str, choices=tuple(dates), action="append")
 authors_parser.add_argument("themes", type=str, choices=tuple(themes), action="append")
-authors_parser.add_argument("femme", type=bool, default=False)
+authors_parser.add_argument("femme", type=str, default="false")
 
 
 @api.route("/authors")
@@ -114,10 +114,10 @@ class Authors(Resource):
         args = authors_parser.parse_args()
         param_dates = args.get("dates", None)
         param_themes = args.get("themes", None)
-        if args.get("femme") == "false":
-            param_femme = False
-        else:
+        if args.get("femme") == "true":
             param_femme = True
+        else:
+            param_femme = False
         all_authors = generation_sonnets.get_authors()
         all_authors = sorted(all_authors, key=lambda author: author.split(" ")[-1])
         filtered_authors = generation_sonnets.get_authors(
@@ -134,20 +134,20 @@ authors_form_parser.add_argument(
 authors_form_parser.add_argument(
     "themes", type=str, choices=tuple(themes), action="append"
 )
-authors_parser.add_argument("femme", type=bool, default=False)
+authors_form_parser.add_argument("femme", type=str, default="false")
 
 @api.route("/authors-form")
 class AuthorsForm(Resource):
     @api.expect(authors_form_parser)
     def get(self):
         """ Returns a list of selected authors in the form """
-        args = authors_parser.parse_args()
+        args = authors_form_parser.parse_args()
         param_dates = args.get("dates", None)
         param_themes = args.get("themes", None)
-        if args.get("femme") == "false":
-            param_femme = False
-        else:
+        if args.get("femme") == "true":
             param_femme = True
+        else:
+            param_femme = False
         all_authors = generation_sonnets.get_selected_authors()
         # all_authors = sorted(all_authors, key=lambda author: author.split(" ")[-1])
         filtered_authors = generation_sonnets.get_authors(
@@ -160,7 +160,7 @@ class AuthorsForm(Resource):
 dates_parser = reqparse.RequestParser()
 dates_parser.add_argument("authors", type=str, choices=tuple(authors), action="append")
 dates_parser.add_argument("themes", type=str, choices=tuple(themes), action="append")
-dates_parser.add_argument("femme", type=bool, default=False)
+dates_parser.add_argument("femme", type=str, default="false")
 
 @api.route("/dates")
 class Dates(Resource):
@@ -170,10 +170,10 @@ class Dates(Resource):
         args = dates_parser.parse_args()
         param_authors = args.get("authors", None)
         param_themes = args.get("themes", None)
-        if args.get("femme") == "false":
-            param_femme = False
-        else:
+        if args.get("femme") == 'true':
             param_femme = True
+        else:
+            param_femme = False
         all_dates = generation_sonnets.get_dates()
         filtered_dates = generation_sonnets.get_dates(
             authors=param_authors, themes=param_themes, femme=param_femme
@@ -185,7 +185,7 @@ class Dates(Resource):
 themes_parser = reqparse.RequestParser()
 themes_parser.add_argument("dates", type=str, choices=tuple(dates), action="append")
 themes_parser.add_argument("authors", type=str, choices=tuple(authors), action="append")
-themes_parser.add_argument("femme", type=bool, default=False)
+themes_parser.add_argument("femme", type=str, default="false")
 
 @api.route("/themes")
 class Themes(Resource):
@@ -195,10 +195,10 @@ class Themes(Resource):
         args = themes_parser.parse_args()
         param_authors = args.get("authors", None)
         param_dates = args.get("dates", None)
-        if args.get("femme") == "false":
-            param_femme = False
-        else:
+        if args.get("femme") == "true":
             param_femme = True
+        else:
+            param_femme = False
         all_themes = generation_sonnets.get_themes()
         filtered_themes = generation_sonnets.get_themes(
             authors=param_authors, dates=param_dates, femme=param_femme
