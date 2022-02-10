@@ -90,7 +90,7 @@ schemas = {
     "sonnet_irrationnel": ("AAB", "C", "BAAB", "C", "CDCCD"),
 }
 
-dates = ("1800-1830", "1831-1850", "1851-1870", "1871-1890", "1891-1900", "1901-1950")
+#dates = ("1800-1830", "1831-1850", "1851-1870", "1871-1890", "1891-1900", "1901-1950")
 
 
 @api.route("/schemas")
@@ -210,7 +210,7 @@ class Themes(Resource):
 new_parser = reqparse.RequestParser()
 new_parser.add_argument("schema", type=str, choices=tuple(schemas.keys()))
 new_parser.add_argument("authors", type=str, choices=tuple(authors), action="append")
-new_parser.add_argument("date", type=str, choices=dates)
+new_parser.add_argument("dates", type=str, choices=tuple(dates), action="append")
 new_parser.add_argument("order", type=bool, default=True)
 new_parser.add_argument("themes", type=str, choices=tuple(themes), action="append")
 new_parser.add_argument("femme", type=str, default="false")
@@ -226,7 +226,7 @@ class New(Resource):
         """ Returns a new sonnet in JSON """
         args = new_parser.parse_args()
         param_schema = args.get("schema", None)
-        param_date = args.get("date", None)
+        param_date = args.get("dates", None)
         param_authors = args.get("authors", None)
         param_themes = args.get("themes", None)
         if args.get("femme") == "true":
@@ -240,6 +240,7 @@ class New(Resource):
             param_order = True
 
         if param_schema in schemas:
+            print(param_date)
             sonnet = generation_sonnets.generate(
                 authors=param_authors,
                 dates=param_date,
@@ -282,7 +283,7 @@ def new_html():
     """ Returns a new sonnet in HTML """
     args = new_parser.parse_args()
     param_schema = args.get("schema", None)
-    param_date = args.get("date", None)
+    param_date = args.get("dates", None)
     param_authors = args.get("authors", None)
     param_quality = args.get("quality", "1")
     if args.get("femme") == "false":
