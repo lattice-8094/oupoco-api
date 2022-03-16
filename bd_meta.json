@@ -4,7 +4,7 @@
         "date": "1856",
         "titre sonnet": "SONNET POUR LA MORT DE SON AMIE",
         "titre recueil": "FEMMES POÈTES DE LA FRANCE: ANTHOLOGIE, PAR H. BLANVALET, 1856",
-        "thème": "",
+        "thème": "autre",
         "origine": "anthologie",
         "femme": "oui"
     },
@@ -31,7 +31,7 @@
         "date": "1904",
         "titre sonnet": "PREMIER TROUBLE",
         "titre recueil": "Recueil : l'Idylle en fleur, Paris 1904",
-        "thème": "",
+        "thème": "autre",
         "origine": "anthologie",
         "femme": "oui"
     },
@@ -76,7 +76,7 @@
         "date": "1905",
         "titre sonnet": "LA TRAVERSÉE",
         "titre recueil": "Les muses françaises - Anthologie des femmes poètes - Alphonse Séché _Recueil : LES PIERRES SONORES, Société française d'imprimerie Paris",
-        "thème": "",
+        "thème": "autre",
         "origine": "anthologie",
         "femme": "oui"
     },
@@ -121,7 +121,7 @@
         "date": "1908",
         "titre sonnet": "LE CHARDON",
         "titre recueil": "Les muses françaises - Anthologie des femmes poètes, LIVRE I - Alphonse Séché",
-        "thème": "",
+        "thème": "autre",
         "origine": "anthologie",
         "femme": "oui"
     },
@@ -184,7 +184,7 @@
         "date": "1908",
         "titre sonnet": "CONSOLATION EN DOUBLE EFFIGIE II",
         "titre recueil": "Les muses françaises - Anthologie des femmes poètes - Alphonse Séché",
-        "thème": "",
+        "thème": "autre",
         "origine": "anthologie",
         "femme": "oui"
     },
@@ -526,7 +526,7 @@
         "date": "1876",
         "titre sonnet": "La chanson du grillon.",
         "titre recueil": "Sonnets mystiques : Les Pays du soleil  Le Sphinx  Édens  La Lande  Isis  Océana  Les Géorgiques : 1876-1883",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -706,7 +706,7 @@
         "date": "1876",
         "titre sonnet": "Heureux qui meurt jeune.",
         "titre recueil": "Sonnets mystiques : Les Pays du soleil  Le Sphinx  Édens  La Lande  Isis  Océana  Les Géorgiques : 1876-1883",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -769,7 +769,7 @@
         "date": "1876",
         "titre sonnet": "La venus celeste.",
         "titre recueil": "Sonnets mystiques : Les Pays du soleil  Le Sphinx  Édens  La Lande  Isis  Océana  Les Géorgiques : 1876-1883",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -850,7 +850,7 @@
         "date": "1868",
         "titre sonnet": "Souvenir",
         "titre recueil": "Littérature contemporaine     Volume 21 / publiées par Évariste Carrance",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -985,7 +985,7 @@
         "date": "1876",
         "titre sonnet": "Le coeur triste.",
         "titre recueil": "Sonnets mystiques : Les Pays du soleil  Le Sphinx  Édens  La Lande  Isis  Océana  Les Géorgiques : 1876-1883",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -1075,7 +1075,7 @@
         "date": "1876",
         "titre sonnet": "244 sonnets. la pluie de roses.",
         "titre recueil": "Sonnets mystiques : Les Pays du soleil  Le Sphinx  Édens  La Lande  Isis  Océana  Les Géorgiques : 1876-1883",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -1156,7 +1156,7 @@
         "date": "1876",
         "titre sonnet": "Les aubes.",
         "titre recueil": "Sonnets mystiques : Les Pays du soleil  Le Sphinx  Édens  La Lande  Isis  Océana  Les Géorgiques : 1876-1883",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -1255,7 +1255,7 @@
         "date": "1876",
         "titre sonnet": "La jeune fille.",
         "titre recueil": "Sonnets mystiques : Les Pays du soleil  Le Sphinx  Édens  La Lande  Isis  Océana  Les Géorgiques : 1876-1883",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -1264,7 +1264,7 @@
         "date": "1876",
         "titre sonnet": "La musique.",
         "titre recueil": "Sonnets mystiques : Les Pays du soleil  Le Sphinx  Édens  La Lande  Isis  Océana  Les Géorgiques : 1876-1883",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -1273,7 +1273,7 @@
         "date": "1876",
         "titre sonnet": "Memnon.",
         "titre recueil": "Sonnets mystiques : Les Pays du soleil  Le Sphinx  Édens  La Lande  Isis  Océana  Les Géorgiques : 1876-1883",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -1525,7 +1525,7 @@
         "date": "1876",
         "titre sonnet": "292 sonnets. les soupers de paris.",
         "titre recueil": "Sonnets mystiques : Les Pays du soleil  Le Sphinx  Édens  La Lande  Isis  Océana  Les Géorgiques : 1876-1883",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -1975,7 +1975,7 @@
         "date": "1876",
         "titre sonnet": "Les paradis du musicien.",
         "titre recueil": "Sonnets mystiques : Les Pays du soleil  Le Sphinx  Édens  La Lande  Isis  Océana  Les Géorgiques : 1876-1883",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -1993,7 +1993,7 @@
         "date": "1876",
         "titre sonnet": "La vie.",
         "titre recueil": "Sonnets mystiques : Les Pays du soleil  Le Sphinx  Édens  La Lande  Isis  Océana  Les Géorgiques : 1876-1883",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -2047,7 +2047,7 @@
         "date": "1876",
         "titre sonnet": "340 notes de voyage. le temps.",
         "titre recueil": "Sonnets mystiques : Les Pays du soleil  Le Sphinx  Édens  La Lande  Isis  Océana  Les Géorgiques : 1876-1883",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -2182,7 +2182,7 @@
         "date": "1876",
         "titre sonnet": "354 notes de voyage. une actrice.",
         "titre recueil": "Sonnets mystiques : Les Pays du soleil  Le Sphinx  Édens  La Lande  Isis  Océana  Les Géorgiques : 1876-1883",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -2452,7 +2452,7 @@
         "date": "1876",
         "titre sonnet": "Statue du premier consul en corse.",
         "titre recueil": "Sonnets mystiques : Les Pays du soleil  Le Sphinx  Édens  La Lande  Isis  Océana  Les Géorgiques : 1876-1883",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -2470,7 +2470,7 @@
         "date": "1876",
         "titre sonnet": "Les chiffres amoureux.",
         "titre recueil": "Sonnets mystiques : Les Pays du soleil  Le Sphinx  Édens  La Lande  Isis  Océana  Les Géorgiques : 1876-1883",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -2479,7 +2479,7 @@
         "date": "1876",
         "titre sonnet": "384 notes de voyage. la fortune.",
         "titre recueil": "Sonnets mystiques : Les Pays du soleil  Le Sphinx  Édens  La Lande  Isis  Océana  Les Géorgiques : 1876-1883",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -2740,7 +2740,7 @@
         "date": "1866",
         "titre sonnet": "Les mélancolies le proscrit",
         "titre recueil": "Mélancolies, sonnets1866-1889",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -3055,7 +3055,7 @@
         "date": "1866",
         "titre sonnet": "Les mélancolies 85 corneille",
         "titre recueil": "Mélancolies, sonnets1866-1889",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -3064,7 +3064,7 @@
         "date": "1866",
         "titre sonnet": "Les mélancolies 87 amour",
         "titre recueil": "Mélancolies, sonnets1866-1889",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -3082,7 +3082,7 @@
         "date": "1866",
         "titre sonnet": "Les mélancolies 89 servum pegus",
         "titre recueil": "Mélancolies, sonnets1866-1889",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -3199,7 +3199,7 @@
         "date": "1910",
         "titre sonnet": "IX solitude",
         "titre recueil": "[Oeuvres poétiques] / Robert de Montesquiou  ; [6]  Les perles rouges",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -3280,7 +3280,7 @@
         "date": "1910",
         "titre sonnet": "XXVIII entree en scène",
         "titre recueil": "[Oeuvres poétiques] / Robert de Montesquiou  ; [6]  Les perles rouges",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -3298,7 +3298,7 @@
         "date": "1910",
         "titre sonnet": "XXXII le juste",
         "titre recueil": "[Oeuvres poétiques] / Robert de Montesquiou  ; [6]  Les perles rouges",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -3307,7 +3307,7 @@
         "date": "1910",
         "titre sonnet": "XXXIII nec pluribus impar",
         "titre recueil": "[Oeuvres poétiques] / Robert de Montesquiou  ; [6]  Les perles rouges",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -3325,7 +3325,7 @@
         "date": "1910",
         "titre sonnet": "XXXVI et soror",
         "titre recueil": "[Oeuvres poétiques] / Robert de Montesquiou  ; [6]  Les perles rouges",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -3352,7 +3352,7 @@
         "date": "1910",
         "titre sonnet": "Xlii caput",
         "titre recueil": "[Oeuvres poétiques] / Robert de Montesquiou  ; [6]  Les perles rouges",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -3415,7 +3415,7 @@
         "date": "1910",
         "titre sonnet": "Lxxvi lis rose",
         "titre recueil": "[Oeuvres poétiques] / Robert de Montesquiou  ; [6]  Les perles rouges",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -3478,7 +3478,7 @@
         "date": "1910",
         "titre sonnet": "Monsieur dépinay XXIX.",
         "titre recueil": "[Oeuvres poétiques] / Robert de Montesquiou  ; [6]  Les perles rouges",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -3496,7 +3496,7 @@
         "date": "1910",
         "titre sonnet": "Mademoiselle suzanne meyer lxv",
         "titre recueil": "[Oeuvres poétiques] / Robert de Montesquiou  ; [6]  Les perles rouges",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -3739,7 +3739,7 @@
         "date": "1890",
         "titre sonnet": "Le culte 83 indiscrétion",
         "titre recueil": "Le Culte, poésies",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -4009,7 +4009,7 @@
         "date": "1894",
         "titre sonnet": "L'écho de ton génie! (Sonnet a la lune)",
         "titre recueil": "Heures de loisir : poésies intimes",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -4036,7 +4036,7 @@
         "date": "1868",
         "titre sonnet": "L'AUTOMNE  II",
         "titre recueil": "Littérature contemporaine     Volume 41 / publiées par Évariste Carrance",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -4090,7 +4090,7 @@
         "date": "1841",
         "titre sonnet": "Le concert",
         "titre recueil": "Les Échos du Jura, par M  G  de Mancy  [Préface de Frédéric Gauthier ]",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -4099,7 +4099,7 @@
         "date": "1841",
         "titre sonnet": "Béatrice",
         "titre recueil": "Les Échos du Jura, par M  G  de Mancy  [Préface de Frédéric Gauthier ]",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -4252,7 +4252,7 @@
         "date": "1841",
         "titre sonnet": "Sonnet",
         "titre recueil": "Les Échos du Jura, par M  G  de Mancy  [Préface de Frédéric Gauthier ]",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -4387,7 +4387,7 @@
         "date": "1883",
         "titre sonnet": "Mes soucis et M. Bernardin (Sonnet)",
         "titre recueil": "Littérature contemporaine     Volume 31 / publiées par Évariste Carrance",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -4414,7 +4414,7 @@
         "date": "1868",
         "titre sonnet": "Louis XIV. Son apothéose ( Teva.)",
         "titre recueil": "Littérature contemporaine     Volume 31 / publiées par Évariste Carrance",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -4486,7 +4486,7 @@
         "date": "1908",
         "titre sonnet": "XXXIX L'oiseau-lyre",
         "titre recueil": "Œuvres poétiques",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -4504,7 +4504,7 @@
         "date": "1908",
         "titre sonnet": "Oh! que je vous envie…",
         "titre recueil": "Œuvres poétiques",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -4603,7 +4603,7 @@
         "date": "1927",
         "titre sonnet": "Plein travail",
         "titre recueil": "L'École sonne  Sonnets  Août 1927",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -4612,7 +4612,7 @@
         "date": "1927",
         "titre sonnet": "Composition",
         "titre recueil": "L'École sonne  Sonnets  Août 1927",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -4621,7 +4621,7 @@
         "date": "1927",
         "titre sonnet": "Une visite",
         "titre recueil": "L'École sonne  Sonnets  Août 1927",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -4630,7 +4630,7 @@
         "date": "1927",
         "titre sonnet": "Insouciance",
         "titre recueil": "L'École sonne  Sonnets  Août 1927",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -4648,7 +4648,7 @@
         "date": "1927",
         "titre sonnet": "Récréation",
         "titre recueil": "L'École sonne  Sonnets  Août 1927",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -4864,7 +4864,7 @@
         "date": "1835",
         "titre sonnet": "Sonnets. A LA MÊME",
         "titre recueil": "Sonnets et poésiesNouvelle édition avec une préface",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -4900,7 +4900,7 @@
         "date": "1835",
         "titre sonnet": "Sonnets. Ma destinée",
         "titre recueil": "Sonnets et poésiesNouvelle édition avec une préface",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -4936,7 +4936,7 @@
         "date": "1835",
         "titre sonnet": "Sonnets (A M. LE COMTE ALFRED DE VIGNY)",
         "titre recueil": "Sonnets et poésiesNouvelle édition avec une préface",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -5071,7 +5071,7 @@
         "date": "1885",
         "titre sonnet": "A PETITE JEANNE ESC…",
         "titre recueil": "Poésies de Valentin",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -5143,7 +5143,7 @@
         "date": "1885",
         "titre sonnet": "A Mlle ISABELLE F",
         "titre recueil": "Poésies de Valentin",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -5206,7 +5206,7 @@
         "date": "1885",
         "titre sonnet": "A Mlle ARMANTINE D",
         "titre recueil": "Poésies de Valentin",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -5233,7 +5233,7 @@
         "date": "1885",
         "titre sonnet": "A Mme E. C",
         "titre recueil": "Poésies de Valentin",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -5242,7 +5242,7 @@
         "date": "1885",
         "titre sonnet": "A Mlle X",
         "titre recueil": "Poésies de Valentin",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -5269,7 +5269,7 @@
         "date": "1885",
         "titre sonnet": "Aux lecteurs du réformateur",
         "titre recueil": "Poésies de Valentin",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -5287,7 +5287,7 @@
         "date": "1885",
         "titre sonnet": "La coupe et le spectre",
         "titre recueil": "Poésies de Valentin",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -5377,7 +5377,7 @@
         "date": "1868",
         "titre sonnet": "L'enfant et la fleur (Sonnet)",
         "titre recueil": "Littérature contemporaine     Volume 12 / publiées par Évariste Carrance",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -5530,7 +5530,7 @@
         "date": "1890",
         "titre sonnet": "Nostalgie",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -5548,7 +5548,7 @@
         "date": "1890",
         "titre sonnet": "Le cygne abusé Imité du Sanscrit",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -5611,7 +5611,7 @@
         "date": "1890",
         "titre sonnet": "Accalmie",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -5854,7 +5854,7 @@
         "date": "1890",
         "titre sonnet": "Aquarelle",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -5899,7 +5899,7 @@
         "date": "1894",
         "titre sonnet": "Violoncelle",
         "titre recueil": "A la musique : sonnets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -5989,7 +5989,7 @@
         "date": "1894",
         "titre sonnet": "Epinette",
         "titre recueil": "A la musique : sonnets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -5998,7 +5998,7 @@
         "date": "1894",
         "titre sonnet": "Sonnerie de régiment",
         "titre recueil": "A la musique : sonnets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -6007,7 +6007,7 @@
         "date": "1894",
         "titre sonnet": "Musique de foire",
         "titre recueil": "A la musique : sonnets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -6052,7 +6052,7 @@
         "date": "1852",
         "titre sonnet": "Sonnet",
         "titre recueil": "Poésies béarnaises, avec la traduction française  Volume 2 / lithographies et musique, E  Vignancour, éditeur",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -6079,7 +6079,7 @@
         "date": "1897",
         "titre sonnet": "I constellation nouvelle",
         "titre recueil": "La route fraternelle",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -6106,7 +6106,7 @@
         "date": "1868",
         "titre sonnet": "Le 29 mai 1886",
         "titre recueil": "Littérature contemporaine     Volume 36 / publiées par Évariste Carrance",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -6115,7 +6115,7 @@
         "date": "1885",
         "titre sonnet": "A l'Allemagne!",
         "titre recueil": "Petits riens, rimes de toutes les couleurs  Avec lettre-préface de Arsène Houssaye",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -6124,7 +6124,7 @@
         "date": "1885",
         "titre sonnet": "L'Avis du Jardinier (Sonnet)",
         "titre recueil": "Petits riens, rimes de toutes les couleurs  Avec lettre-préface de Arsène Houssaye",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -6133,7 +6133,7 @@
         "date": "1885",
         "titre sonnet": "Sonnet militaire (A propos de Trompette)",
         "titre recueil": "Petits riens, rimes de toutes les couleurs  Avec lettre-préface de Arsène Houssaye",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -6169,7 +6169,7 @@
         "date": "1897",
         "titre sonnet": "Métamorphose intime (A mon ami Henri Marchand.)",
         "titre recueil": "La route fraternelle",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -6187,7 +6187,7 @@
         "date": "1868",
         "titre sonnet": "Sonnet Dédié au petit Georges",
         "titre recueil": "Littérature contemporaine     Volume 38 / publiées par Évariste Carrance",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -6196,7 +6196,7 @@
         "date": "1887",
         "titre sonnet": "Sonnet (A Rabelais)",
         "titre recueil": "Littérature contemporaine     Volume 38 / publiées par Évariste Carrance",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -6223,7 +6223,7 @@
         "date": "1892",
         "titre sonnet": "1 (Sonnet avant-scène.)",
         "titre recueil": "Le poème de la cathédrale : octante et sept sonnets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -6232,7 +6232,7 @@
         "date": "1894",
         "titre sonnet": "Le poème de la cathédrale 7 III",
         "titre recueil": "Le poème de la cathédrale : octante et sept sonnets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -6250,7 +6250,7 @@
         "date": "1894",
         "titre sonnet": "8 le poème de la cathédrale IV",
         "titre recueil": "Le poème de la cathédrale : octante et sept sonnets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -6259,7 +6259,7 @@
         "date": "1891",
         "titre sonnet": "10 le poème de la cathédrale VI",
         "titre recueil": "Le poème de la cathédrale : octante et sept sonnets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -6304,7 +6304,7 @@
         "date": "1894",
         "titre sonnet": "XV La CJathêd^ale au !naUTIle",
         "titre recueil": "Le poème de la cathédrale : octante et sept sonnets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -6349,7 +6349,7 @@
         "date": "1892",
         "titre sonnet": "26 le poème de la cathédrale XXII",
         "titre recueil": "Le poème de la cathédrale : octante et sept sonnets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -6646,7 +6646,7 @@
         "date": "1885",
         "titre sonnet": "Le député dont on ne parle pas et qui ne parle pas",
         "titre recueil": "Les Rêveuses    1882-1884",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -6673,7 +6673,7 @@
         "date": "1885",
         "titre sonnet": "L'adultère",
         "titre recueil": "Les Rêveuses    1882-1884",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -6700,7 +6700,7 @@
         "date": "1885",
         "titre sonnet": "Le courtisan",
         "titre recueil": "Les Rêveuses    1882-1884",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -6997,7 +6997,7 @@
         "date": "1868",
         "titre sonnet": "Séjour d'élection",
         "titre recueil": "Littérature contemporaine     Volume 44 / publiées par Évariste Carrance",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -7051,7 +7051,7 @@
         "date": "1876",
         "titre sonnet": "Filippo",
         "titre recueil": "Théâtre de François Coppée,    / tailles-douces, par Paul Pinasseau",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -7231,7 +7231,7 @@
         "date": "1842",
         "titre sonnet": "Sonnet (XXVII)",
         "titre recueil": "Vers, par G  Levavasseur, E  Prarond, A  Argonne",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -7240,7 +7240,7 @@
         "date": "1868",
         "titre sonnet": "La jeunesse sous l'empire",
         "titre recueil": "Littérature contemporaine     Volume 23 / publiées par Évariste Carrance",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -7465,7 +7465,7 @@
         "date": "1891",
         "titre sonnet": "La confidence",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -7654,7 +7654,7 @@
         "date": "1843",
         "titre sonnet": "Sonnet (XXVI)",
         "titre recueil": "Vers, par G  Levavasseur, E  Prarond, A  Argonne",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -7753,7 +7753,7 @@
         "date": "1895",
         "titre sonnet": "Le champagne",
         "titre recueil": "Rêves et réalités",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -7879,7 +7879,7 @@
         "date": "1868",
         "titre sonnet": "Le nain étranger a paris",
         "titre recueil": "Littérature contemporaine     Volume 32 / publiées par Évariste Carrance",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -7969,7 +7969,7 @@
         "date": "1901",
         "titre sonnet": "La Férigoule (A Madeleine.)",
         "titre recueil": "Derniers sonnets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -7996,7 +7996,7 @@
         "date": "1866",
         "titre sonnet": "XXXVIII (Sonnet)",
         "titre recueil": "Chants d'un montagnard",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -8212,7 +8212,7 @@
         "date": "1889",
         "titre sonnet": "Amour d'enfance (I)",
         "titre recueil": "Poésies complètes : strophes et couplets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -8266,7 +8266,7 @@
         "date": "1889",
         "titre sonnet": "Les geneurs",
         "titre recueil": "Poésies complètes : strophes et couplets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -8491,7 +8491,7 @@
         "date": "1889",
         "titre sonnet": "Le bon vieux temps (A ERNEST LA VISSE)",
         "titre recueil": "Poésies complètes : strophes et couplets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -8563,7 +8563,7 @@
         "date": "1889",
         "titre sonnet": "L'humaniste (A A. CHABOUILLET)",
         "titre recueil": "Poésies complètes : strophes et couplets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -8572,7 +8572,7 @@
         "date": "1889",
         "titre sonnet": "Le pouvoir des yeux verts (A HIPPOLYTE TAINE)",
         "titre recueil": "Poésies complètes : strophes et couplets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -8608,7 +8608,7 @@
         "date": "1889",
         "titre sonnet": "La folie des pères (A EDOUARD PAILLERON)",
         "titre recueil": "Poésies complètes : strophes et couplets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -8644,7 +8644,7 @@
         "date": "1889",
         "titre sonnet": "Bona nox",
         "titre recueil": "Poésies complètes : strophes et couplets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -8662,7 +8662,7 @@
         "date": "1889",
         "titre sonnet": "Le premier juin (Au baron Larrey)",
         "titre recueil": "Poésies complètes : strophes et couplets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -8707,7 +8707,7 @@
         "date": "1889",
         "titre sonnet": "Ceux qui comptent (A L'AMIRAL JURIEN DE LA GRAVIERE)",
         "titre recueil": "Poésies complètes : strophes et couplets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -8788,7 +8788,7 @@
         "date": "1868",
         "titre sonnet": "A l'an 1878 (Sonnet.)",
         "titre recueil": "Littérature contemporaine     Volume 20 / publiées par Évariste Carrance",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -8815,7 +8815,7 @@
         "date": "1868",
         "titre sonnet": "Stanislas maillard",
         "titre recueil": "Littérature contemporaine     Volume 20 / publiées par Évariste Carrance",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -8878,7 +8878,7 @@
         "date": "1868",
         "titre sonnet": "Opportunisme",
         "titre recueil": "Littérature contemporaine     Volume 20 / publiées par Évariste Carrance",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -8905,7 +8905,7 @@
         "date": "1890",
         "titre sonnet": "RETOUR DE CHINE (A MON AMI JULES ARENE. ) III",
         "titre recueil": "Oeuvres de Léon Valade : poésies posthumes",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -9076,7 +9076,7 @@
         "date": "1880",
         "titre sonnet": "La grèce",
         "titre recueil": "Littérature contemporaine     Volume 24 / publiées par Évariste Carrance",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -9112,7 +9112,7 @@
         "date": "1874",
         "titre sonnet": "Le jour de sa naissance (A mon neveu)",
         "titre recueil": "Poésies complètes",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -9193,7 +9193,7 @@
         "date": "1868",
         "titre sonnet": "A UNE AMIE",
         "titre recueil": "Littérature contemporaine     Volume 24 / publiées par Évariste Carrance",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -9229,7 +9229,7 @@
         "date": "1842",
         "titre sonnet": "A mademoiselle St., en lui envoyant la traduction du Faust de Goethe.",
         "titre recueil": "Poésies complètes de Henri Blaze",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -9247,7 +9247,7 @@
         "date": "1874",
         "titre sonnet": "(sans titre)",
         "titre recueil": "Bizarreries, 1874",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -9310,7 +9310,7 @@
         "date": "1874",
         "titre sonnet": "Le roi Cédric",
         "titre recueil": "Bizarreries, 1874",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -9328,7 +9328,7 @@
         "date": "1874",
         "titre sonnet": "Le bavard",
         "titre recueil": "Bizarreries, 1874",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -9382,7 +9382,7 @@
         "date": "1874",
         "titre sonnet": "Sita. Rencontre (II)",
         "titre recueil": "Bizarreries, 1874",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -9400,7 +9400,7 @@
         "date": "1874",
         "titre sonnet": "Sita.  Lui (III)",
         "titre recueil": "Bizarreries, 1874",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -9427,7 +9427,7 @@
         "date": "1901",
         "titre sonnet": "le rossignol. (Roméo et Juliette.)",
         "titre recueil": "Les femmes de Shakespeare : sonnets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -9526,7 +9526,7 @@
         "date": "1901",
         "titre sonnet": "de la fuite bien lâchement. (Antoine et Cléopâtre.)",
         "titre recueil": "Les femmes de Shakespeare : sonnets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -9607,7 +9607,7 @@
         "date": "1901",
         "titre sonnet": "Cantique des cantiques",
         "titre recueil": "Les femmes de Shakespeare : sonnets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -9643,7 +9643,7 @@
         "date": "1901",
         "titre sonnet": "Saint Marc",
         "titre recueil": "Les femmes de Shakespeare : sonnets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -9670,7 +9670,7 @@
         "date": "1880",
         "titre sonnet": "Sonnet (A une très jeune fille à propos d'un mauvais livre )",
         "titre recueil": "Poésies complètes",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -9688,7 +9688,7 @@
         "date": "1901",
         "titre sonnet": "III",
         "titre recueil": "Les femmes de Shakespeare : sonnets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -9760,7 +9760,7 @@
         "date": "1901",
         "titre sonnet": "TRIO BOUFFE",
         "titre recueil": "Les femmes de Shakespeare : sonnets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -9958,7 +9958,7 @@
         "date": "1917",
         "titre sonnet": "La nouvelle alliance",
         "titre recueil": "Petits poèmes  Légende épique",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -10030,7 +10030,7 @@
         "date": "1917",
         "titre sonnet": "56 petits poèmes les bords de la somme",
         "titre recueil": "Petits poèmes  Légende épique",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -10048,7 +10048,7 @@
         "date": "1917",
         "titre sonnet": "58 petits poèmes un peu pompette",
         "titre recueil": "Petits poèmes  Légende épique",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -10057,7 +10057,7 @@
         "date": "1917",
         "titre sonnet": "Le premier de l'an 1915",
         "titre recueil": "Petits poèmes  Légende épique",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -10183,7 +10183,7 @@
         "date": "1917",
         "titre sonnet": "88 petits poèmes médor",
         "titre recueil": "Petits poèmes  Légende épique",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -10309,7 +10309,7 @@
         "date": "1896",
         "titre sonnet": "A LA BRETAGNE",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -10471,7 +10471,7 @@
         "date": "1896",
         "titre sonnet": "A MES AMIS LES POETES",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -10552,7 +10552,7 @@
         "date": "1896",
         "titre sonnet": "Petits enfants",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -10579,7 +10579,7 @@
         "date": "1896",
         "titre sonnet": "La gloire",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -10606,7 +10606,7 @@
         "date": "1896",
         "titre sonnet": "Le Rhône",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -10651,7 +10651,7 @@
         "date": "1896",
         "titre sonnet": "Nocturne (A Mademoiselle ***)",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -10687,7 +10687,7 @@
         "date": "1867",
         "titre sonnet": "A l'italie. A Henri Houssaye.",
         "titre recueil": "Poésies de Nicolas Martin4e édition augmentée",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -10795,7 +10795,7 @@
         "date": "1898",
         "titre sonnet": "Progres",
         "titre recueil": "Voix sur la France  Philosophie religieuse  Accents patriotiques",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -10813,7 +10813,7 @@
         "date": "1896",
         "titre sonnet": "(A MES CONFRERES)",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -10822,7 +10822,7 @@
         "date": "1896",
         "titre sonnet": "Sur le rivage",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -10858,7 +10858,7 @@
         "date": "1896",
         "titre sonnet": "Sonnet-Préface",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -10948,7 +10948,7 @@
         "date": "1878",
         "titre sonnet": "DEUXIÈME VEILLE.",
         "titre recueil": "La justice, poème [en 1 prologue, 10 \"veilles\" et 1 épilogue]",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -11002,7 +11002,7 @@
         "date": "1878",
         "titre sonnet": "8+ quatrième veille.",
         "titre recueil": "La justice, poème [en 1 prologue, 10 \"veilles\" et 1 épilogue]",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -11083,7 +11083,7 @@
         "date": "1898",
         "titre sonnet": "Paris-munich II",
         "titre recueil": "Voix sur la France  Philosophie religieuse  Accents patriotiques",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -11110,7 +11110,7 @@
         "date": "1878",
         "titre sonnet": "dixième veille. le poete.",
         "titre recueil": "La justice, poème [en 1 prologue, 10 \"veilles\" et 1 épilogue]",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -11119,7 +11119,7 @@
         "date": "1878",
         "titre sonnet": "Le poete.",
         "titre recueil": "La justice, poème [en 1 prologue, 10 \"veilles\" et 1 épilogue]",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -11164,7 +11164,7 @@
         "date": "1891",
         "titre sonnet": "A un paon",
         "titre recueil": "Rêves et impressions, par Charles Nô  Préface par Henri Fouquier  Eaux-fortes de R  de Los Rios",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -11173,7 +11173,7 @@
         "date": "1832",
         "titre sonnet": "II justification",
         "titre recueil": "Sonnets et poèmes",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -11227,7 +11227,7 @@
         "date": "1858",
         "titre sonnet": "XIII",
         "titre recueil": "Sonnets et poèmes",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -11272,7 +11272,7 @@
         "date": "1849",
         "titre sonnet": "IV",
         "titre recueil": "Sonnets et poèmes",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -11344,7 +11344,7 @@
         "date": "1857",
         "titre sonnet": "XXIV",
         "titre recueil": "Sonnets et poèmes",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -11470,7 +11470,7 @@
         "date": "1841",
         "titre sonnet": "XII (A V. H.)",
         "titre recueil": "Sonnets et poèmes",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -11812,7 +11812,7 @@
         "date": "1858",
         "titre sonnet": "XVI",
         "titre recueil": "Sonnets et poèmes",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -12055,7 +12055,7 @@
         "date": "1918",
         "titre sonnet": "Le protagoniste 14 novembre 1918.",
         "titre recueil": "La grande patrie",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -12172,7 +12172,7 @@
         "date": "1838",
         "titre sonnet": "S'ouvrent au souffle printanier. 252 —,",
         "titre recueil": "Sonnets et poèmes",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -12199,7 +12199,7 @@
         "date": "1838",
         "titre sonnet": "— 257 — 9",
         "titre recueil": "Sonnets et poèmes",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -12226,7 +12226,7 @@
         "date": "1838",
         "titre sonnet": "— 263 — 15",
         "titre recueil": "Sonnets et poèmes",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -12379,7 +12379,7 @@
         "date": "1899",
         "titre sonnet": "Le chateau",
         "titre recueil": "Oeuvres poétiques : Sainte Cécile, la Maison, David et Nathan, poésies diverses / Mis de Ségur",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -12424,7 +12424,7 @@
         "date": "1899",
         "titre sonnet": "Le sourire",
         "titre recueil": "Oeuvres poétiques : Sainte Cécile, la Maison, David et Nathan, poésies diverses / Mis de Ségur",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -12442,7 +12442,7 @@
         "date": "1899",
         "titre sonnet": "La fanchon",
         "titre recueil": "Oeuvres poétiques : Sainte Cécile, la Maison, David et Nathan, poésies diverses / Mis de Ségur",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -12586,7 +12586,7 @@
         "date": "1868",
         "titre sonnet": "Une bonne journée (A mon Ami M. Davenne)",
         "titre recueil": "Littérature contemporaine     Volume 28 / publiées par Évariste Carrance",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -12649,7 +12649,7 @@
         "date": "1872",
         "titre sonnet": "Candidat non élu au conseil général. Dédié à lui-même.",
         "titre recueil": "Les Cent Sonnets de R  Agnès,   ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -12712,7 +12712,7 @@
         "date": "1872",
         "titre sonnet": "XIII (A THÉRÈSE.)",
         "titre recueil": "Les Cent Sonnets de R  Agnès,   ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -12730,7 +12730,7 @@
         "date": "1872",
         "titre sonnet": "A m. thiers, président de la république.",
         "titre recueil": "Les Cent Sonnets de R  Agnès,   ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -12739,7 +12739,7 @@
         "date": "1872",
         "titre sonnet": "(sans titre)",
         "titre recueil": "Les Cent Sonnets de R  Agnès,   ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -12757,7 +12757,7 @@
         "date": "1872",
         "titre sonnet": "(sans titre)",
         "titre recueil": "Les Cent Sonnets de R  Agnès,   ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -12802,7 +12802,7 @@
         "date": "1872",
         "titre sonnet": "La carafe. Dédié aux buveurs d'eau.",
         "titre recueil": "Les Cent Sonnets de R  Agnès,   ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -12811,7 +12811,7 @@
         "date": "1872",
         "titre sonnet": "(sans titre)",
         "titre recueil": "Les Cent Sonnets de R  Agnès,   ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -12856,7 +12856,7 @@
         "date": "1872",
         "titre sonnet": "(sans titre)",
         "titre recueil": "Les Cent Sonnets de R  Agnès,   ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -12865,7 +12865,7 @@
         "date": "1872",
         "titre sonnet": "La chasse. Dédié aux chasseurs.",
         "titre recueil": "Les Cent Sonnets de R  Agnès,   ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -12883,7 +12883,7 @@
         "date": "1882",
         "titre sonnet": "Petite jeannette",
         "titre recueil": "Littérature contemporaine     Volume 28 / publiées par Évariste Carrance",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -12892,7 +12892,7 @@
         "date": "1872",
         "titre sonnet": "Orléans. Dédié aux Orléanais.",
         "titre recueil": "Les Cent Sonnets de R  Agnès,   ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -12910,7 +12910,7 @@
         "date": "1872",
         "titre sonnet": "Dédié à l'ami Charles GODET, qui le premier a si bien traité cet intéressant sujet.",
         "titre recueil": "Les Cent Sonnets de R  Agnès,   ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -12955,7 +12955,7 @@
         "date": "1872",
         "titre sonnet": "Mon oreiller. Dédié à ceux qui ne sont plus.",
         "titre recueil": "Les Cent Sonnets de R  Agnès,   ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -12964,7 +12964,7 @@
         "date": "1872",
         "titre sonnet": "Lxviii la nuit.",
         "titre recueil": "Les Cent Sonnets de R  Agnès,   ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -12991,7 +12991,7 @@
         "date": "1872",
         "titre sonnet": "Lxxvi le vent.",
         "titre recueil": "Les Cent Sonnets de R  Agnès,   ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -13009,7 +13009,7 @@
         "date": "1872",
         "titre sonnet": "Le loiret. Dédié à notre jolie petite rivière.",
         "titre recueil": "Les Cent Sonnets de R  Agnès,   ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -13054,7 +13054,7 @@
         "date": "1872",
         "titre sonnet": "Pour compléter la série de la cuve, du tonneau, de la bouteille et du verre.",
         "titre recueil": "Les Cent Sonnets de R  Agnès,   ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -13063,7 +13063,7 @@
         "date": "1872",
         "titre sonnet": "Le champagne. Dédié aux amis de la gaîté.",
         "titre recueil": "Les Cent Sonnets de R  Agnès,   ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -13126,7 +13126,7 @@
         "date": "1872",
         "titre sonnet": "Mon cabinet, Dédié à moi-même.",
         "titre recueil": "Les Cent Sonnets de R  Agnès,   ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -13135,7 +13135,7 @@
         "date": "1872",
         "titre sonnet": "10 novembre 1872. Dédié à moi-même.",
         "titre recueil": "Les Cent Sonnets de R  Agnès,   ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -13153,7 +13153,7 @@
         "date": "1872",
         "titre sonnet": "Dit sonnet d'appel (A L'INDULGENCE DE MES LECTEURS.)",
         "titre recueil": "Les Cent Sonnets de R  Agnès,   ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -13162,7 +13162,7 @@
         "date": "1899",
         "titre sonnet": "Alérions de lorraine",
         "titre recueil": "Les Alérions de Lorraine  Sonnets, poèmes et poésies",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -13180,7 +13180,7 @@
         "date": "1868",
         "titre sonnet": "Sonnet.",
         "titre recueil": "Littérature contemporaine     Volume 28 / publiées par Évariste Carrance",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -13261,7 +13261,7 @@
         "date": "1899",
         "titre sonnet": "Combats de l'ame (Sonnet)",
         "titre recueil": "Les Alérions de Lorraine  Sonnets, poèmes et poésies",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -13279,7 +13279,7 @@
         "date": "1899",
         "titre sonnet": "Le coeur des aïeux (Sonnet)",
         "titre recueil": "Les Alérions de Lorraine  Sonnets, poèmes et poésies",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -13387,7 +13387,7 @@
         "date": "1857",
         "titre sonnet": "L'étoile. Imité de Wilhelm Miller",
         "titre recueil": "Poésies complètes   3e édition fort augmentée",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -13432,7 +13432,7 @@
         "date": "1876",
         "titre sonnet": "Rien qu'avec un. regard ? — 185.",
         "titre recueil": "Poésies, par Émile Dufour, publiées par le fils de l'auteur [François Dufour  Préface par L  Ayma]",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -13684,7 +13684,7 @@
         "date": "1933",
         "titre sonnet": "Vieilles maisons",
         "titre recueil": "Les Heures albigeoises, sonnets  54 bois originaux de L  Maillé / A  Grimal",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -13693,7 +13693,7 @@
         "date": "1933",
         "titre sonnet": "Les Lices",
         "titre recueil": "Les Heures albigeoises, sonnets  54 bois originaux de L  Maillé / A  Grimal",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -13702,7 +13702,7 @@
         "date": "1933",
         "titre sonnet": "La Gare",
         "titre recueil": "Les Heures albigeoises, sonnets  54 bois originaux de L  Maillé / A  Grimal",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -13945,7 +13945,7 @@
         "date": "1893",
         "titre sonnet": "Matinée d'automne au bord de la mer",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -13954,7 +13954,7 @@
         "date": "1893",
         "titre sonnet": "Decrescendo (A Augustin Savard,)",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -14062,7 +14062,7 @@
         "date": "1893",
         "titre sonnet": "La ménagère",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -14278,7 +14278,7 @@
         "date": "1892",
         "titre sonnet": "Prologue.",
         "titre recueil": "Poésies de Armand Silvestre, 1866-1872  [Préface de George Sand ] Rimes neuves et vieilles  - Les Renaissances  - La Gloire du souvenir",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -14359,7 +14359,7 @@
         "date": "1892",
         "titre sonnet": "XX",
         "titre recueil": "Poésies de Armand Silvestre, 1866-1872  [Préface de George Sand ] Rimes neuves et vieilles  - Les Renaissances  - La Gloire du souvenir",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -14377,7 +14377,7 @@
         "date": "1892",
         "titre sonnet": "36 rimes neuves et vieilles. XXV",
         "titre recueil": "Poésies de Armand Silvestre, 1866-1872  [Préface de George Sand ] Rimes neuves et vieilles  - Les Renaissances  - La Gloire du souvenir",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -14530,7 +14530,7 @@
         "date": "1892",
         "titre sonnet": "Paysages métaphysiques. 181 V",
         "titre recueil": "Poésies de Armand Silvestre, 1866-1872  [Préface de George Sand ] Rimes neuves et vieilles  - Les Renaissances  - La Gloire du souvenir",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -14737,7 +14737,7 @@
         "date": "1906",
         "titre sonnet": "Melpomène",
         "titre recueil": "[Oeuvres poétiques]",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -14782,7 +14782,7 @@
         "date": "1906",
         "titre sonnet": "La solitude. XIV",
         "titre recueil": "Le monde poétique",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -14791,7 +14791,7 @@
         "date": "1906",
         "titre sonnet": "Coquetterie. XXXIII",
         "titre recueil": "Le monde poétique",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -15043,7 +15043,7 @@
         "date": "1853",
         "titre sonnet": "Comme on juge ! (A M. M...)",
         "titre recueil": "A travers quarante ans, recueillements poétiques, par l'abbé J -M  Figalla,   ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -15124,7 +15124,7 @@
         "date": "1857",
         "titre sonnet": "XVII la nuit et le jour",
         "titre recueil": "A travers quarante ans, recueillements poétiques, par l'abbé J -M  Figalla,   ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -15169,7 +15169,7 @@
         "date": "1858",
         "titre sonnet": "XXIV on le croyait heureux",
         "titre recueil": "A travers quarante ans, recueillements poétiques, par l'abbé J -M  Figalla,   ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -15241,7 +15241,7 @@
         "date": "1864",
         "titre sonnet": "Courage ! Imité de l'arabe.",
         "titre recueil": "A travers quarante ans, recueillements poétiques, par l'abbé J -M  Figalla,   ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -15322,7 +15322,7 @@
         "date": "1877",
         "titre sonnet": "Lxiii en aout 1877",
         "titre recueil": "A travers quarante ans, recueillements poétiques, par l'abbé J -M  Figalla,   ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -15367,7 +15367,7 @@
         "date": "1891",
         "titre sonnet": "Lxxi regrets sincères",
         "titre recueil": "A travers quarante ans, recueillements poétiques, par l'abbé J -M  Figalla,   ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -15385,7 +15385,7 @@
         "date": "1856",
         "titre sonnet": "Hoc erat…",
         "titre recueil": "Poésies choisies extraits tirés de ses oeuvres et poésies inédites",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -15421,7 +15421,7 @@
         "date": "1876",
         "titre sonnet": "Requête (A MON AMI ALGUSTE VACQUERIE.)",
         "titre recueil": "Poésies choisies extraits tirés de ses oeuvres et poésies inédites",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -15493,7 +15493,7 @@
         "date": "1897",
         "titre sonnet": "Sonnet",
         "titre recueil": "Depuis",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -15619,7 +15619,7 @@
         "date": "1897",
         "titre sonnet": "Sonnet",
         "titre recueil": "Depuis",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -15673,7 +15673,7 @@
         "date": "1897",
         "titre sonnet": "Sonnet",
         "titre recueil": "Depuis",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -15718,7 +15718,7 @@
         "date": "1897",
         "titre sonnet": "Sonnet",
         "titre recueil": "Depuis",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -15781,7 +15781,7 @@
         "date": "1897",
         "titre sonnet": "Sonnet à Jean-Bart",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -15835,7 +15835,7 @@
         "date": "1897",
         "titre sonnet": "Sonnet",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -15943,7 +15943,7 @@
         "date": "1897",
         "titre sonnet": "Regrets",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -16141,7 +16141,7 @@
         "date": "1894",
         "titre sonnet": "Première dent (A ma fille.)",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -16375,7 +16375,7 @@
         "date": "1894",
         "titre sonnet": "La valse des roses",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -16492,7 +16492,7 @@
         "date": "1886",
         "titre sonnet": "A une inconue",
         "titre recueil": "Les solitudes",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -16546,7 +16546,7 @@
         "date": "1879",
         "titre sonnet": "(A UNE DAME)",
         "titre recueil": "Le Parnasse : organe des concours littéraires de Paris",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -16555,7 +16555,7 @@
         "date": "1879",
         "titre sonnet": "Naples (Sonnet)",
         "titre recueil": "Le Parnasse : organe des concours littéraires de Paris",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -16654,7 +16654,7 @@
         "date": "1868",
         "titre sonnet": "Sonnet (A ma Soeur, le jour de son Mariage.)",
         "titre recueil": "Littérature contemporaine     Volume 17 / publiées par Évariste Carrance",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -16681,7 +16681,7 @@
         "date": "1868",
         "titre sonnet": "Aux conquérants",
         "titre recueil": "Littérature contemporaine     Volume 17 / publiées par Évariste Carrance",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -16879,7 +16879,7 @@
         "date": "1891",
         "titre sonnet": "Sonnet",
         "titre recueil": "Voix de la solitude  Tome 1",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -16942,7 +16942,7 @@
         "date": "1868",
         "titre sonnet": "SONNET Dédié à mon ami le chansonnier BOISSONNAT.",
         "titre recueil": "Littérature contemporaine     Volume 15 / publiées par Évariste Carrance",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -17554,7 +17554,7 @@
         "date": "1895",
         "titre sonnet": "Étudiants de byzance",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -17563,7 +17563,7 @@
         "date": "1895",
         "titre sonnet": "Apre plaisir",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -17671,7 +17671,7 @@
         "date": "1895",
         "titre sonnet": "Mors et vita",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -17797,7 +17797,7 @@
         "date": "1895",
         "titre sonnet": "La défaite",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -17932,7 +17932,7 @@
         "date": "1895",
         "titre sonnet": "Les saltimbanques",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -17950,7 +17950,7 @@
         "date": "1895",
         "titre sonnet": "Neiges d'antan (A Jules de Marthold.)",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -17959,7 +17959,7 @@
         "date": "1868",
         "titre sonnet": "Au coin du mur",
         "titre recueil": "Littérature contemporaine     Volume 27 / publiées par Évariste Carrance",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -17977,7 +17977,7 @@
         "date": "1928",
         "titre sonnet": "Les myrtes t'ont pleuré...",
         "titre recueil": "Flamma tenax, 1922-1928 : poèmes4 éd ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -18031,7 +18031,7 @@
         "date": "1868",
         "titre sonnet": "Les règles du sonnet (A M. D. qui m'avait enseigné)",
         "titre recueil": "Littérature contemporaine     Volume 22 / publiées par Évariste Carrance",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -18049,7 +18049,7 @@
         "date": "1868",
         "titre sonnet": "Rêve & réalité",
         "titre recueil": "Littérature contemporaine     Volume 22 / publiées par Évariste Carrance",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -18076,7 +18076,7 @@
         "date": "1879",
         "titre sonnet": "A un nuage (Sonnet)",
         "titre recueil": "Littérature contemporaine     Volume 22 / publiées par Évariste Carrance",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -18202,7 +18202,7 @@
         "date": "1868",
         "titre sonnet": "Ça et la.",
         "titre recueil": "Littérature contemporaine     Volume 45 / publiées par Évariste Carrance",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -18427,7 +18427,7 @@
         "date": "1837",
         "titre sonnet": "Vita est in fuga",
         "titre recueil": "Fragments du Livre des harmonies, de la famille et de l'humanité, par Nicolas Martin  Pour une orpheline de cinq ans",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -18481,7 +18481,7 @@
         "date": "1899",
         "titre sonnet": "Anachronisme (A Marie de G.)",
         "titre recueil": "Sonnets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -18580,7 +18580,7 @@
         "date": "1899",
         "titre sonnet": "Le bar du voisinage (A madame G. B.)",
         "titre recueil": "Sonnets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -18643,7 +18643,7 @@
         "date": "1868",
         "titre sonnet": "A MUSSET",
         "titre recueil": "Littérature contemporaine     Volume 43 / publiées par Évariste Carrance",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -18688,7 +18688,7 @@
         "date": "1900",
         "titre sonnet": "Truffes au champagne (Sonnet)",
         "titre recueil": "Poésies gourmandes : recettes culinaires en vers",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -18715,7 +18715,7 @@
         "date": "1891",
         "titre sonnet": "Sonnet",
         "titre recueil": "Demi-tons à demi-voix",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -18814,7 +18814,7 @@
         "date": "1900",
         "titre sonnet": "Pour un éventail",
         "titre recueil": "Poésies de Paul Arène",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -18850,7 +18850,7 @@
         "date": "1900",
         "titre sonnet": "A MARIANI",
         "titre recueil": "Poésies de Paul Arène",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -18877,7 +18877,7 @@
         "date": "1900",
         "titre sonnet": "A JOSE MARIA DE HEREDIA",
         "titre recueil": "Poésies de Paul Arène",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -18976,7 +18976,7 @@
         "date": "1868",
         "titre sonnet": "Armorique",
         "titre recueil": "Littérature contemporaine     Volume 37 / publiées par Évariste Carrance",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -19327,7 +19327,7 @@
         "date": "1904",
         "titre sonnet": "Mépris",
         "titre recueil": "Pensées d'automne, poésies",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -19354,7 +19354,7 @@
         "date": "1904",
         "titre sonnet": "Petit citadin",
         "titre recueil": "Pensées d'automne, poésies",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -19489,7 +19489,7 @@
         "date": "1863",
         "titre sonnet": "Après",
         "titre recueil": "Poésies posthumes",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -19507,7 +19507,7 @@
         "date": "1863",
         "titre sonnet": "Les muses en fuite sur un vieux refrain.",
         "titre recueil": "Poésies posthumes",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -19552,7 +19552,7 @@
         "date": "1863",
         "titre sonnet": "A madame l.-j. (improvisé pendant une partie d'échecs.)",
         "titre recueil": "Poésies posthumes",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -19579,7 +19579,7 @@
         "date": "1863",
         "titre sonnet": "Berceuse",
         "titre recueil": "Poésies posthumes",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -19624,7 +19624,7 @@
         "date": "1911",
         "titre sonnet": "Le souhait.",
         "titre recueil": "Anthologie critique des poètes",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -19678,7 +19678,7 @@
         "date": "1891",
         "titre sonnet": "Au confluent de l'aude et de l'orbieu",
         "titre recueil": "Voix de la solitude  Tome 2",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -19723,7 +19723,7 @@
         "date": "1894",
         "titre sonnet": "46 les saxifrages l'églogue interrompue",
         "titre recueil": "Au pays comtois  Les Saxifrages  Aquarelles",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -19732,7 +19732,7 @@
         "date": "1891",
         "titre sonnet": "Tome deuxième 333 les harpes",
         "titre recueil": "Voix de la solitude  Tome 2",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -19786,7 +19786,7 @@
         "date": "1894",
         "titre sonnet": "I. Les Chevaux de Bois.",
         "titre recueil": "Au pays comtois  Les Saxifrages  Aquarelles",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -19912,7 +19912,7 @@
         "date": "1868",
         "titre sonnet": "L'AUTOMNE",
         "titre recueil": "Littérature contemporaine  L’heure du berger   Volume 41",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -19930,7 +19930,7 @@
         "date": "1894",
         "titre sonnet": "DERNIER NOEL",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -19993,7 +19993,7 @@
         "date": "1896",
         "titre sonnet": "OH! J'AI VU, BIEN DES FOIS...",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -20056,7 +20056,7 @@
         "date": "1896",
         "titre sonnet": "LES BOEUFS",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -20137,7 +20137,7 @@
         "date": "1889",
         "titre sonnet": "Amour d'enfance (III)",
         "titre recueil": "Poésies complètes : strophes et couplets ; hommes et fourmis ; histoire d'avant-hier ; un livre de sonnets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -20173,7 +20173,7 @@
         "date": "1897",
         "titre sonnet": "Visions d'épopée",
         "titre recueil": "Visions d'épopée : poésies",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -20263,7 +20263,7 @@
         "date": "1863",
         "titre sonnet": "Imité de Wordsworth",
         "titre recueil": "Le livre des sonnets : dix dizains de sonnets choisis  [Histoire du sonnet]",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -20326,7 +20326,7 @@
         "date": "1861",
         "titre sonnet": "Le Plongeur",
         "titre recueil": "Le livre des sonnets : dix dizains de sonnets choisis  [Histoire du sonnet]",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -20524,7 +20524,7 @@
         "date": "1897",
         "titre sonnet": "AOUT",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -20632,7 +20632,7 @@
         "date": "1892",
         "titre sonnet": "CHEMIN FERME",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -20659,7 +20659,7 @@
         "date": "1891",
         "titre sonnet": "IDYLLE D'AMOUR EN DOUZE SONNETS IV",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -20731,7 +20731,7 @@
         "date": "1875",
         "titre sonnet": "SONNET (A mon jeune ami ARNAUD, à l'occasion de son grade de brigadier.)",
         "titre recueil": "Littérature contemporaine     Volume 15",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -20758,7 +20758,7 @@
         "date": "1868",
         "titre sonnet": "L'OUVRIER",
         "titre recueil": "Littérature contemporaine     Volume 27",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -21325,7 +21325,7 @@
         "date": "1868",
         "titre sonnet": "A MON AMIE AGNÈS (V)",
         "titre recueil": "Littérature contemporaine     Volume 35",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -21550,7 +21550,7 @@
         "date": "1868",
         "titre sonnet": "SALUT D'ANNIBAL A NAPOLÉON. Sur, le littoral de l'Afrique",
         "titre recueil": "Littérature contemporaine     Volume 31",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -21595,7 +21595,7 @@
         "date": "1885",
         "titre sonnet": "LA LIBERTÉ",
         "titre recueil": "Les saisons ; et Au pays des pommiers : poésies : deux livres des \"rythmes variés \" ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -21631,7 +21631,7 @@
         "date": "1887",
         "titre sonnet": "III",
         "titre recueil": "Premiers poèmes 5e éd",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -21667,7 +21667,7 @@
         "date": "1887",
         "titre sonnet": "VIII",
         "titre recueil": "Premiers poèmes 5e éd",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -21703,7 +21703,7 @@
         "date": "1887",
         "titre sonnet": "XIII",
         "titre recueil": "Premiers poèmes 5e éd",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -21721,7 +21721,7 @@
         "date": "1887",
         "titre sonnet": "XIII",
         "titre recueil": "Premiers poèmes 5e éd",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -21820,7 +21820,7 @@
         "date": "1887",
         "titre sonnet": "XXV",
         "titre recueil": "Premiers poèmes 5e éd",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -22072,7 +22072,7 @@
         "date": "1868",
         "titre sonnet": "L' HIVER. VIII. —La Veinée.",
         "titre recueil": "Littérature contemporaine     Volume 10",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -22171,7 +22171,7 @@
         "date": "1927",
         "titre sonnet": "PREMIÈRE CLASSE",
         "titre recueil": "L'École sonne  Sonnets  Août 1927",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -22180,7 +22180,7 @@
         "date": "1927",
         "titre sonnet": "ARRIVEE SOUS LA PLUIE",
         "titre recueil": "L'École sonne  Sonnets  Août 1927",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -22189,7 +22189,7 @@
         "date": "1927",
         "titre sonnet": "MAUVAISE FARCE",
         "titre recueil": "L'École sonne  Sonnets  Août 1927",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -22243,7 +22243,7 @@
         "date": "1927",
         "titre sonnet": "BONNE LANGUE",
         "titre recueil": "L'École sonne  Sonnets  Août 1927",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -22261,7 +22261,7 @@
         "date": "1927",
         "titre sonnet": "GRAIN DE BEAUTÉ",
         "titre recueil": "L'École sonne  Sonnets  Août 1927",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -22270,7 +22270,7 @@
         "date": "1927",
         "titre sonnet": "SACRE",
         "titre recueil": "L'École sonne  Sonnets  Août 1927",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -22288,7 +22288,7 @@
         "date": "1927",
         "titre sonnet": "MAUVAIS MOMENT",
         "titre recueil": "L'École sonne  Sonnets  Août 1927",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -22306,7 +22306,7 @@
         "date": "1927",
         "titre sonnet": "NEIGE",
         "titre recueil": "L'École sonne  Sonnets  Août 1927",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -22333,7 +22333,7 @@
         "date": "1927",
         "titre sonnet": "DAGOBERT",
         "titre recueil": "L'École sonne  Sonnets  Août 1927",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -22342,7 +22342,7 @@
         "date": "1927",
         "titre sonnet": "SORTIE",
         "titre recueil": "L'École sonne  Sonnets  Août 1927",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -22360,7 +22360,7 @@
         "date": "1927",
         "titre sonnet": "COURS D'ADULTES",
         "titre recueil": "L'École sonne  Sonnets  Août 1927",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -22396,7 +22396,7 @@
         "date": "1927",
         "titre sonnet": "INTERMÈDE",
         "titre recueil": "L'École sonne  Sonnets  Août 1927",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -22405,7 +22405,7 @@
         "date": "1927",
         "titre sonnet": "JEUNE PREMIER",
         "titre recueil": "L'École sonne  Sonnets  Août 1927",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -22423,7 +22423,7 @@
         "date": "1927",
         "titre sonnet": "AU PIQUET",
         "titre recueil": "L'École sonne  Sonnets  Août 1927",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -22432,7 +22432,7 @@
         "date": "1927",
         "titre sonnet": "CHATEAU-LAPOMPE",
         "titre recueil": "L'École sonne  Sonnets  Août 1927",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -22450,7 +22450,7 @@
         "date": "1927",
         "titre sonnet": "LES BILLES",
         "titre recueil": "L'École sonne  Sonnets  Août 1927",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -22459,7 +22459,7 @@
         "date": "1927",
         "titre sonnet": "VOLEURS — GENDARMES",
         "titre recueil": "L'École sonne  Sonnets  Août 1927",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -22495,7 +22495,7 @@
         "date": "1927",
         "titre sonnet": "INSTINCT",
         "titre recueil": "L'École sonne  Sonnets  Août 1927",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -22504,7 +22504,7 @@
         "date": "1927",
         "titre sonnet": "SAUTE-MOUTON",
         "titre recueil": "L'École sonne  Sonnets  Août 1927",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -22540,7 +22540,7 @@
         "date": "1927",
         "titre sonnet": "CORTÈGE",
         "titre recueil": "L'École sonne  Sonnets  Août 1927",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -22549,7 +22549,7 @@
         "date": "1927",
         "titre sonnet": "AVANT L'EXAMEN",
         "titre recueil": "L'École sonne  Sonnets  Août 1927",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -22576,7 +22576,7 @@
         "date": "1897",
         "titre sonnet": "Harpes et violons.  Souvenir",
         "titre recueil": "Visions d'épopée : poésies",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -22657,7 +22657,7 @@
         "date": "1897",
         "titre sonnet": "Harpes et violons.  Retour du printemps",
         "titre recueil": "Visions d'épopée : poésies",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -22873,7 +22873,7 @@
         "date": "1894",
         "titre sonnet": "A DU BELLAY. Pour l'inauguration de la statue de Du Bellay",
         "titre recueil": "Les Dactyles",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -22900,7 +22900,7 @@
         "date": "1857",
         "titre sonnet": "A L'ITALIE",
         "titre recueil": "Poésies complètes   3e édition fort augmentée",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -23035,7 +23035,7 @@
         "date": "1839",
         "titre sonnet": "PREMIÈRES PAROLES D'AMOUR. XVI.",
         "titre recueil": "Le monde poétique",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -23071,7 +23071,7 @@
         "date": "1839",
         "titre sonnet": "L IMAGINATION. XX.",
         "titre recueil": "Le monde poétique",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -23098,7 +23098,7 @@
         "date": "1839",
         "titre sonnet": "CHAGRIN. XXIII.",
         "titre recueil": "Le monde poétique",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -23494,7 +23494,7 @@
         "date": "1911",
         "titre sonnet": "La fragilité du secret",
         "titre recueil": "Flèches de l'âme, à travers les nuages et les ombres de la vie humaine  T  II    ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -23890,7 +23890,7 @@
         "date": "1911",
         "titre sonnet": "Les femmes et le salut au drapeau",
         "titre recueil": "Flèches de l'âme, à travers les nuages et les ombres de la vie humaine  T  II    ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -23998,7 +23998,7 @@
         "date": "1911",
         "titre sonnet": "La dernière épave",
         "titre recueil": "Flèches de l'âme, à travers les nuages et les ombres de la vie humaine  T  II    ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -24007,7 +24007,7 @@
         "date": "1911",
         "titre sonnet": "L'Attenté",
         "titre recueil": "Flèches de l'âme, à travers les nuages et les ombres de la vie humaine  T  II    ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -24025,7 +24025,7 @@
         "date": "1911",
         "titre sonnet": "Mettons le bonheur où nous sommes",
         "titre recueil": "Flèches de l'âme, à travers les nuages et les ombres de la vie humaine  T  II    ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -24250,7 +24250,7 @@
         "date": "1911",
         "titre sonnet": "Comment on accueille la mort",
         "titre recueil": "Flèches de l'âme, à travers les nuages et les ombres de la vie humaine  T  II    ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -24259,7 +24259,7 @@
         "date": "1911",
         "titre sonnet": "La vie d'orgueil",
         "titre recueil": "Flèches de l'âme, à travers les nuages et les ombres de la vie humaine  T  II    ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -24304,7 +24304,7 @@
         "date": "1911",
         "titre sonnet": "La joie n'est qu'une ombre",
         "titre recueil": "Flèches de l'âme, à travers les nuages et les ombres de la vie humaine  T  II    ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -24376,7 +24376,7 @@
         "date": "1911",
         "titre sonnet": "Le chien et les courtisans",
         "titre recueil": "Flèches de l'âme, à travers les nuages et les ombres de la vie humaine  T  II    ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -24439,7 +24439,7 @@
         "date": "1911",
         "titre sonnet": "La souffrance est le langage universel",
         "titre recueil": "Flèches de l'âme, à travers les nuages et les ombres de la vie humaine  T  II    ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -24484,7 +24484,7 @@
         "date": "1911",
         "titre sonnet": "Monter et descendre et monter enfin, voilà la vie",
         "titre recueil": "Flèches de l'âme, à travers les nuages et les ombres de la vie humaine  T  II    ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -24637,7 +24637,7 @@
         "date": "1868",
         "titre sonnet": "ENCORE LES ENFANTS (SONNET)",
         "titre recueil": "Littérature contemporaine     Volume 38",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -24826,7 +24826,7 @@
         "date": "1889",
         "titre sonnet": "RÉVOLTE XII",
         "titre recueil": "Amour idéal : poème en vingt-quatre sonnets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -25132,7 +25132,7 @@
         "date": "1850",
         "titre sonnet": "L'été.",
         "titre recueil": "Hirondelles : poésies",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -25384,7 +25384,7 @@
         "date": "1868",
         "titre sonnet": "SONNET",
         "titre recueil": "Littérature contemporaine     Volume 45",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -25429,7 +25429,7 @@
         "date": "1898",
         "titre sonnet": "Paris-munich III",
         "titre recueil": "Voix sur la France  Philosophie religieuse  Accents patriotiques",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -25438,7 +25438,7 @@
         "date": "1906",
         "titre sonnet": "II FÉVRIER",
         "titre recueil": "Vers de vase : amorces poétiques offertes aux pêcheurs malheureux",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -25465,7 +25465,7 @@
         "date": "1906",
         "titre sonnet": "VII JUILLET",
         "titre recueil": "Vers de vase : amorces poétiques offertes aux pêcheurs malheureux",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -25501,7 +25501,7 @@
         "date": "1906",
         "titre sonnet": "XI NOVEMBRE",
         "titre recueil": "Vers de vase : amorces poétiques offertes aux pêcheurs malheureux",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -25735,7 +25735,7 @@
         "date": "1922",
         "titre sonnet": "LA PARESSE",
         "titre recueil": "Flamma tenax, 1922-1928 : poèmes4 éd  ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -25744,7 +25744,7 @@
         "date": "1922",
         "titre sonnet": "L'ORGUEIL",
         "titre recueil": "Flamma tenax, 1922-1928 : poèmes4 éd  ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -26050,7 +26050,7 @@
         "date": "1928",
         "titre sonnet": "Les Dîmes payées",
         "titre recueil": "Provence au coeur secret  Nouvelle édition",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -26059,7 +26059,7 @@
         "date": "1928",
         "titre sonnet": "Fumets",
         "titre recueil": "Provence au coeur secret  Nouvelle édition",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -26086,7 +26086,7 @@
         "date": "1928",
         "titre sonnet": "A LA MUSE (DÉDICACE)",
         "titre recueil": "L'Allée solitaire, sonnets et poèmes ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -26284,7 +26284,7 @@
         "date": "1915",
         "titre sonnet": "A MON PETIT AMI I",
         "titre recueil": "L'Allée solitaire, sonnets et poèmes ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -26437,7 +26437,7 @@
         "date": "1929",
         "titre sonnet": "PETIT OISEAU",
         "titre recueil": "L'Allée solitaire, sonnets et poèmes ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -27112,7 +27112,7 @@
         "date": "1930",
         "titre sonnet": "LE BEAU JARDIN  II (A Nelly Draussin)",
         "titre recueil": "Plein été  Poèmes et sonnets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -27139,7 +27139,7 @@
         "date": "1882",
         "titre sonnet": "Sonnet. (A CH. MONGIN Au sujet de son sonnet à mademoiselle Agar.)",
         "titre recueil": "Échos du coeur, poésies nouvelles",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -27184,7 +27184,7 @@
         "date": "1884",
         "titre sonnet": "ENCOURAGEMENTS DONNÉS A L'AUTEUR PAR SES AMIS I",
         "titre recueil": "Ce que disent les fleurs : sonnets  Nouvelle édition revue et augmentée",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -27193,7 +27193,7 @@
         "date": "1884",
         "titre sonnet": "ENCOURAGEMENTS DONNÉS A L'AUTEUR PAR SES AMIS II",
         "titre recueil": "Ce que disent les fleurs : sonnets  Nouvelle édition revue et augmentée",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -27265,7 +27265,7 @@
         "date": "1884",
         "titre sonnet": "LA ROSE IV",
         "titre recueil": "Ce que disent les fleurs : sonnets  Nouvelle édition revue et augmentée",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -27319,7 +27319,7 @@
         "date": "1884",
         "titre sonnet": "LE MYOSOTIS",
         "titre recueil": "Ce que disent les fleurs : sonnets  Nouvelle édition revue et augmentée",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -27427,7 +27427,7 @@
         "date": "1884",
         "titre sonnet": "LE MUGUET",
         "titre recueil": "Ce que disent les fleurs : sonnets  Nouvelle édition revue et augmentée",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -27562,7 +27562,7 @@
         "date": "1884",
         "titre sonnet": "LE NYMPHEA BLANC III",
         "titre recueil": "Ce que disent les fleurs : sonnets  Nouvelle édition revue et augmentée",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -27670,7 +27670,7 @@
         "date": "1884",
         "titre sonnet": "LA PENSÉE III",
         "titre recueil": "Ce que disent les fleurs : sonnets  Nouvelle édition revue et augmentée",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -27742,7 +27742,7 @@
         "date": "1884",
         "titre sonnet": "LE RÉSÉDA III",
         "titre recueil": "Ce que disent les fleurs : sonnets  Nouvelle édition revue et augmentée",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -27769,7 +27769,7 @@
         "date": "1884",
         "titre sonnet": "LA TULIPE",
         "titre recueil": "Ce que disent les fleurs : sonnets  Nouvelle édition revue et augmentée",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -27787,7 +27787,7 @@
         "date": "1884",
         "titre sonnet": "LA FLEUR BRISÉE II",
         "titre recueil": "Ce que disent les fleurs : sonnets  Nouvelle édition revue et augmentée",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -27958,7 +27958,7 @@
         "date": "1884",
         "titre sonnet": "CHOEUR DE CAMPANULES I",
         "titre recueil": "Ce que disent les fleurs : sonnets  Nouvelle édition revue et augmentée",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -28138,7 +28138,7 @@
         "date": "1884",
         "titre sonnet": "CHOEUR D'OEILLETS II",
         "titre recueil": "Ce que disent les fleurs : sonnets  Nouvelle édition revue et augmentée",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -28174,7 +28174,7 @@
         "date": "1884",
         "titre sonnet": "LE CHÈVREFEUILLE (LIENS D'AMOUR) IV",
         "titre recueil": "Ce que disent les fleurs : sonnets  Nouvelle édition revue et augmentée",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -28309,7 +28309,7 @@
         "date": "1884",
         "titre sonnet": "LA CHANSON DE LA VIGNE II",
         "titre recueil": "Ce que disent les fleurs : sonnets  Nouvelle édition revue et augmentée",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -28327,7 +28327,7 @@
         "date": "1884",
         "titre sonnet": "LA CHANSON DE LA VIGNE IV",
         "titre recueil": "Ce que disent les fleurs : sonnets  Nouvelle édition revue et augmentée",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -28390,7 +28390,7 @@
         "date": "1884",
         "titre sonnet": "LA CAPUCINE ET LE POIS DE SENTEUR III",
         "titre recueil": "Ce que disent les fleurs : sonnets  Nouvelle édition revue et augmentée",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -28588,7 +28588,7 @@
         "date": "1884",
         "titre sonnet": "LA CIGUË IV",
         "titre recueil": "Ce que disent les fleurs : sonnets  Nouvelle édition revue et augmentée",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -28660,7 +28660,7 @@
         "date": "1884",
         "titre sonnet": "LES FLEURS DES PRÉS A DES ENFANTS I",
         "titre recueil": "Ce que disent les fleurs : sonnets  Nouvelle édition revue et augmentée",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -28804,7 +28804,7 @@
         "date": "1868",
         "titre sonnet": "Sonnet (A m. évariste Carrance)",
         "titre recueil": "Littérature contemporaine     Série 6 / publiées par Évariste Carrance",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -28813,7 +28813,7 @@
         "date": "1868",
         "titre sonnet": "A MON ONDINE IV",
         "titre recueil": "Littérature contemporaine     Série 1",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -28912,7 +28912,7 @@
         "date": "1873",
         "titre sonnet": "DIAMANT ENFUME",
         "titre recueil": "Le coffret de santal",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -28984,7 +28984,7 @@
         "date": "1876",
         "titre sonnet": "Malherbe. II",
         "titre recueil": "À la chute du jour : vers anciens et nouveaux, 1847-1876 ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -29002,7 +29002,7 @@
         "date": "1906",
         "titre sonnet": "LE DISCIPLE",
         "titre recueil": "Le miroir des heures : 1906-1910  2e éd",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -29029,7 +29029,7 @@
         "date": "1906",
         "titre sonnet": "LE SALAIRE",
         "titre recueil": "Le miroir des heures : 1906-1910  2e éd",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -29128,7 +29128,7 @@
         "date": "1906",
         "titre sonnet": "LE CASQUE",
         "titre recueil": "Le miroir des heures : 1906-1910  2e éd",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -29137,7 +29137,7 @@
         "date": "1906",
         "titre sonnet": "L'ARRIVÉE",
         "titre recueil": "Le miroir des heures : 1906-1910  2e éd",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -29209,7 +29209,7 @@
         "date": "1906",
         "titre sonnet": "LE NOM",
         "titre recueil": "Le miroir des heures : 1906-1910  2e éd",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -29227,7 +29227,7 @@
         "date": "1906",
         "titre sonnet": "SOUVENIRS D'ORIENT",
         "titre recueil": "Le miroir des heures : 1906-1910  2e éd",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -29254,7 +29254,7 @@
         "date": "1906",
         "titre sonnet": "LÉPANTE",
         "titre recueil": "Le miroir des heures : 1906-1910  2e éd",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -29290,7 +29290,7 @@
         "date": "1906",
         "titre sonnet": "LE SURNOM",
         "titre recueil": "Le miroir des heures : 1906-1910  2e éd",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -29317,7 +29317,7 @@
         "date": "1906",
         "titre sonnet": "JOUR DE VENT",
         "titre recueil": "Le miroir des heures : 1906-1910  2e éd",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -29335,7 +29335,7 @@
         "date": "1906",
         "titre sonnet": "LES VILLES",
         "titre recueil": "Le miroir des heures : 1906-1910  2e éd",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -29371,7 +29371,7 @@
         "date": "1906",
         "titre sonnet": "LA VILLA",
         "titre recueil": "Le miroir des heures : 1906-1910  2e éd",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -29389,7 +29389,7 @@
         "date": "1906",
         "titre sonnet": "EN PASSANT PAR BERGAME",
         "titre recueil": "Le miroir des heures : 1906-1910  2e éd",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -29398,7 +29398,7 @@
         "date": "1859",
         "titre sonnet": "Le triomphe de la femme",
         "titre recueil": "Poésies : 1859-1901",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -29416,7 +29416,7 @@
         "date": "1906",
         "titre sonnet": "LE COPISTE",
         "titre recueil": "Le miroir des heures : 1906-1910  2e éd",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -29452,7 +29452,7 @@
         "date": "1906",
         "titre sonnet": "CORNEILLE",
         "titre recueil": "Le miroir des heures : 1906-1910  2e éd",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -29461,7 +29461,7 @@
         "date": "1906",
         "titre sonnet": "AU BAS D'UN PORTRAIT DE MOLIÈRE",
         "titre recueil": "Le miroir des heures : 1906-1910  2e éd",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -29497,7 +29497,7 @@
         "date": "1878",
         "titre sonnet": "L'ENFANT DU RHIN.",
         "titre recueil": "Sonnets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -29542,7 +29542,7 @@
         "date": "1878",
         "titre sonnet": "LA BERGÈRE.",
         "titre recueil": "Sonnets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -29632,7 +29632,7 @@
         "date": "1878",
         "titre sonnet": "LE CABARET. CROQUIS A LA FLAMANDE. I",
         "titre recueil": "Sonnets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -29641,7 +29641,7 @@
         "date": "1878",
         "titre sonnet": "LE CABARET. CROQUIS A LA FLAMANDE. II",
         "titre recueil": "Sonnets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -29677,7 +29677,7 @@
         "date": "1878",
         "titre sonnet": "CHASSE A LA RIME.",
         "titre recueil": "Sonnets",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -29776,7 +29776,7 @@
         "date": "1907",
         "titre sonnet": "CXI",
         "titre recueil": "[Oeuvres poétiques] / Robert de Montesquiou  [3], Le chef des odeurs suaves ",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -29875,7 +29875,7 @@
         "date": "1890",
         "titre sonnet": "Au lecteur. Avertissement en quatorze lignes.",
         "titre recueil": "Vieux péchés",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -29929,7 +29929,7 @@
         "date": "1840",
         "titre sonnet": "IX SONNET",
         "titre recueil": "Vers, par G  Levavasseur, E  Prarond, A  Argonne",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -29965,7 +29965,7 @@
         "date": "1843",
         "titre sonnet": "XVII SONNET",
         "titre recueil": "Vers, par G  Levavasseur, E  Prarond, A  Argonne",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -29983,7 +29983,7 @@
         "date": "1843",
         "titre sonnet": "III SONNET (A Jean de Falaise)",
         "titre recueil": "Vers, par G  Levavasseur, E  Prarond, A  Argonne",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -30001,7 +30001,7 @@
         "date": "1842",
         "titre sonnet": "XII SONNET",
         "titre recueil": "Vers, par G  Levavasseur, E  Prarond, A  Argonne",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -30037,7 +30037,7 @@
         "date": "1843",
         "titre sonnet": "XIV Sur une porte fermée (SONNET)",
         "titre recueil": "Vers, par G  Levavasseur, E  Prarond, A  Argonne",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -30064,7 +30064,7 @@
         "date": "1842",
         "titre sonnet": "XXVIII SONNET",
         "titre recueil": "Vers, par G  Levavasseur, E  Prarond, A  Argonne",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -30091,7 +30091,7 @@
         "date": "1843",
         "titre sonnet": "XXV SONNET.",
         "titre recueil": "Vers, par G  Levavasseur, E  Prarond, A  Argonne",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -30136,7 +30136,7 @@
         "date": "1843",
         "titre sonnet": "XXXV SONNET",
         "titre recueil": "Vers, par G  Levavasseur, E  Prarond, A  Argonne",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -30523,7 +30523,7 @@
         "date": "1883",
         "titre sonnet": "VIII  VICHNOU",
         "titre recueil": "LE SPHYNX AU FOYER : proverbes, charades, énigmes, homonymes, mots carrés, mots en triangle, sonnets-portraits",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -30568,7 +30568,7 @@
         "date": "1883",
         "titre sonnet": "XIII AGRIPPINE",
         "titre recueil": "LE SPHYNX AU FOYER : proverbes, charades, énigmes, homonymes, mots carrés, mots en triangle, sonnets-portraits",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -30658,7 +30658,7 @@
         "date": "1883",
         "titre sonnet": "XXII SALOMON DE CAUS",
         "titre recueil": "LE SPHYNX AU FOYER : proverbes, charades, énigmes, homonymes, mots carrés, mots en triangle, sonnets-portraits",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -30784,7 +30784,7 @@
         "date": "1892",
         "titre sonnet": "Lu a un banquet de \" jeunes »",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -30811,7 +30811,7 @@
         "date": "1912",
         "titre sonnet": "LE LIVRE DE CYNTHIA III",
         "titre recueil": "Mercure de France",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -31018,7 +31018,7 @@
         "date": "1895",
         "titre sonnet": "LE DIVIN COCHER  À Mademoiselle Germaine Mireur.",
         "titre recueil": "L'ANNÉE DES POÈTES",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -31036,7 +31036,7 @@
         "date": "1892",
         "titre sonnet": "A MON JEUNE AAGE",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -31108,7 +31108,7 @@
         "date": "1864",
         "titre sonnet": "CE N'EST PAS FLATTEUR POUR LES FEMMES.  A M. G. JOURDAIN.",
         "titre recueil": "Recueil : L'alouette aux blés",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -31180,7 +31180,7 @@
         "date": "1909",
         "titre sonnet": "SOIR D'AUTOMNE",
         "titre recueil": "Le mercure de France du 16 septembre 1909 (Gallica))",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -31288,7 +31288,7 @@
         "date": "1896",
         "titre sonnet": "LA SOURCE",
         "titre recueil": "Recueil : Poésies de Daniel Lesueur- SONNETS PHILOSOPHIQUES",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -31468,7 +31468,7 @@
         "date": "1840",
         "titre sonnet": "XXVII. SONNET. 1840",
         "titre recueil": "Essais en prose et poésies / Marie-Laure ; recueillis, publiés et précédés d'une notice biographique par M. Théodore de Banville, de lettres par MM. Chateaubriand, Jules Janin, Sainte-Beuve et mesdames Desbordes-Valmore, Amable-Tastu Grouard, Marie-Laure (dite Marie-Laure) Livre deuxième",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -31648,7 +31648,7 @@
         "date": "1888",
         "titre sonnet": "À HENRI HEINE  (On se rappelle que Heine comparait la traduction en prose à « du clair de lune empaillé » )",
         "titre recueil": "Recueil : Bouquet de pensées",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -31693,7 +31693,7 @@
         "date": "1862",
         "titre sonnet": "LA ROSE AU MYOSOTIS",
         "titre recueil": "LES CHANTS DU FOYER, Livre I",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -31729,7 +31729,7 @@
         "date": "1901",
         "titre sonnet": "Sonnet à Cervantès",
         "titre recueil": "Poésies : 1859-1901",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -31783,7 +31783,7 @@
         "date": "1862",
         "titre sonnet": "TROIS COQUETTES",
         "titre recueil": "LES CHANTS DU FOYER, Livre II",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -31801,7 +31801,7 @@
         "date": "1861",
         "titre sonnet": "LA FERME",
         "titre recueil": "LES CHANTS DU FOYER, Livre II",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -31819,7 +31819,7 @@
         "date": "1858",
         "titre sonnet": "UN CONSEIL     A ANNA  (1858)",
         "titre recueil": "LES CHANTS DU FOYER, Livre II",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -31927,7 +31927,7 @@
         "date": "1847",
         "titre sonnet": "Puis le portrait d'une femme et l'oeuvre d'un poëte\" Alphonse Duchesne",
         "titre recueil": "Recueil : EGLANTINE SOLITAIRE",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -31972,7 +31972,7 @@
         "date": "1892",
         "titre sonnet": "Idylle",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -31990,7 +31990,7 @@
         "date": "1892",
         "titre sonnet": "A VENISE",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -32017,7 +32017,7 @@
         "date": "1892",
         "titre sonnet": "Egoïsme d'amour",
         "titre recueil": "L'Année des poètes : avec six pages d'autographes, deux poésies inédites d'Alfred de Musset et une préface de Frédéric Mistral / morceaux choisis, réunis par Charles Fuster",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -32035,7 +32035,7 @@
         "date": "1886",
         "titre sonnet": "Senex ad parvulos (Sonnet)",
         "titre recueil": "Rimes d'automne",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -32062,7 +32062,7 @@
         "date": "1844",
         "titre sonnet": "SONNET",
         "titre recueil": "POÉSIES",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -32071,7 +32071,7 @@
         "date": "1845",
         "titre sonnet": "SONNET 4",
         "titre recueil": "Enfantines Poésies à ma fille",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -32116,7 +32116,7 @@
         "date": "1889",
         "titre sonnet": "Le Fréhaut, 2 juillet 1980. (Sonnet aux écureuils)",
         "titre recueil": "Rimes d'automne",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -32125,7 +32125,7 @@
         "date": "1946",
         "titre sonnet": "SONNET À MARIA",
         "titre recueil": "LES CAHIERS DE ONDINE VALMORE, 1932",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -32134,7 +32134,7 @@
         "date": "1885",
         "titre sonnet": "Songe et crépuscule (Sonnet)",
         "titre recueil": "Rimes d'automne",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -32152,7 +32152,7 @@
         "date": "1886",
         "titre sonnet": "Écrit sous la douche",
         "titre recueil": "Rimes d'automne",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -32323,7 +32323,7 @@
         "date": "1903",
         "titre sonnet": "Sommeil d'enfant",
         "titre recueil": "Heures de poésie",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -32404,7 +32404,7 @@
         "date": "1903",
         "titre sonnet": "La poudre d'or",
         "titre recueil": "Heures de poésie",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -32449,7 +32449,7 @@
         "date": "1903",
         "titre sonnet": "La mode",
         "titre recueil": "Heures de poésie",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -32503,7 +32503,7 @@
         "date": "1906",
         "titre sonnet": "DÉDICACES I",
         "titre recueil": "[Oeuvres poétiques] / Robert de Montesquiou  [4], Le parcours du rêve au souvenir",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -32593,7 +32593,7 @@
         "date": "1868",
         "titre sonnet": "SONNET-ACROSTICHE A L'ALSACE-LORRAINE",
         "titre recueil": "Littérature contemporaine     Série 8 / publiées par Évariste Carrance",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -32629,7 +32629,7 @@
         "date": "1868",
         "titre sonnet": "La revanche",
         "titre recueil": "Littérature contemporaine     Volume 10 / publiées par Évariste Carrance",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -32674,7 +32674,7 @@
         "date": "1868",
         "titre sonnet": "Sonnet",
         "titre recueil": "Littérature contemporaine     Volume 10 / publiées par Évariste Carrance",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -32764,7 +32764,7 @@
         "date": "1883",
         "titre sonnet": "Destin",
         "titre recueil": "Vers pour elle : 1883-1906",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -32926,7 +32926,7 @@
         "date": "1890",
         "titre sonnet": "Cris de l'aède",
         "titre recueil": "Fleurs cueillies sur l'éternel chemin : poésies",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -32944,7 +32944,7 @@
         "date": "1896",
         "titre sonnet": "Fleurs cueillies (Sonnet)",
         "titre recueil": "Fleurs cueillies sur l'éternel chemin : poésies",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -33052,7 +33052,7 @@
         "date": "1897",
         "titre sonnet": "A M. X***",
         "titre recueil": "Fleurs cueillies sur l'éternel chemin : poésies",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -33061,7 +33061,7 @@
         "date": "1897",
         "titre sonnet": "A D'AUTRES VA CONTER FLEURETTE",
         "titre recueil": "Fleurs cueillies sur l'éternel chemin : poésies",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -33178,7 +33178,7 @@
         "date": "1934",
         "titre sonnet": "LA CORSE ET CHRISTOPHE COLOMB (Amical hommage à M. le chanoine Castaing, l'éminent conférencier.)",
         "titre recueil": "La Voix du souvenir",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -33205,7 +33205,7 @@
         "date": "1868",
         "titre sonnet": "A l'Avenir (Sonnet)",
         "titre recueil": "Littérature contemporaine     Volume 11 / publiées par Évariste Carrance",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -33277,7 +33277,7 @@
         "date": "1906",
         "titre sonnet": "L'aube du mort",
         "titre recueil": "L'Année poétique : morceaux choisis",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -33439,7 +33439,7 @@
         "date": "1906",
         "titre sonnet": "A LA VIOLETTE DES CHAMPS",
         "titre recueil": "L'Année poétique : morceaux choisis",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "oui"
     },
@@ -33628,7 +33628,7 @@
         "date": "1868",
         "titre sonnet": "A une mère (A Madame de G... de V...)",
         "titre recueil": "Littérature contemporaine     Volume 39 / publiées par Évariste Carrance",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -33664,7 +33664,7 @@
         "date": "1906",
         "titre sonnet": "Etoile filante I",
         "titre recueil": "L'Année poétique : morceaux choisis",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -33853,7 +33853,7 @@
         "date": "1906",
         "titre sonnet": "La vie familiale",
         "titre recueil": "L'Année poétique : morceaux choisis",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -33961,7 +33961,7 @@
         "date": "1899",
         "titre sonnet": "Mathurin l'aveugle",
         "titre recueil": "Songes d'Armor",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -34141,7 +34141,7 @@
         "date": "1916",
         "titre sonnet": "Envoi",
         "titre recueil": "Pastels de guerre",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -34159,7 +34159,7 @@
         "date": "1916",
         "titre sonnet": "Les vieillards",
         "titre recueil": "Pastels de guerre",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -34204,7 +34204,7 @@
         "date": "1916",
         "titre sonnet": "Soldat français",
         "titre recueil": "Pastels de guerre",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -34330,7 +34330,7 @@
         "date": "1916",
         "titre sonnet": "La solitaire",
         "titre recueil": "Pastels de guerre",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -34555,7 +34555,7 @@
         "date": "1905",
         "titre sonnet": "Le Nouvel an de Molière",
         "titre recueil": "Poésies de Léon Duvauchel, 1869-1902",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -34654,7 +34654,7 @@
         "date": "1905",
         "titre sonnet": "Désir funeste (A Henri Seott.)",
         "titre recueil": "Poésies de Léon Duvauchel, 1869-1902",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -35041,7 +35041,7 @@
         "date": "1876",
         "titre sonnet": "Le paysan.",
         "titre recueil": "Sonnets mystiques : Les Pays du soleil  Le Sphinx  Édens  La Lande  Isis  Océana  Les Géorgiques : 1876-1883",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -35050,7 +35050,7 @@
         "date": "1876",
         "titre sonnet": "La mer indolente. (A NICE.)",
         "titre recueil": "Sonnets mystiques : Les Pays du soleil  Le Sphinx  Édens  La Lande  Isis  Océana  Les Géorgiques : 1876-1883",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -35095,7 +35095,7 @@
         "date": "1876",
         "titre sonnet": "36 sonnets. l'initie.",
         "titre recueil": "Sonnets mystiques : Les Pays du soleil  Le Sphinx  Édens  La Lande  Isis  Océana  Les Géorgiques : 1876-1883",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -35122,7 +35122,7 @@
         "date": "1876",
         "titre sonnet": "La statue du génie funèbre.",
         "titre recueil": "Sonnets mystiques : Les Pays du soleil  Le Sphinx  Édens  La Lande  Isis  Océana  Les Géorgiques : 1876-1883",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -35230,7 +35230,7 @@
         "date": "1876",
         "titre sonnet": "54 sonnets. la maitresse de lara.",
         "titre recueil": "Sonnets mystiques : Les Pays du soleil  Le Sphinx  Édens  La Lande  Isis  Océana  Les Géorgiques : 1876-1883",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -35599,7 +35599,7 @@
         "date": "1876",
         "titre sonnet": "100 sonnets. les amours de l'infini.",
         "titre recueil": "Sonnets mystiques : Les Pays du soleil  Le Sphinx  Édens  La Lande  Isis  Océana  Les Géorgiques : 1876-1883",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -35644,7 +35644,7 @@
         "date": "1876",
         "titre sonnet": "108 sonnets. le sommeil.",
         "titre recueil": "Sonnets mystiques : Les Pays du soleil  Le Sphinx  Édens  La Lande  Isis  Océana  Les Géorgiques : 1876-1883",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -35653,7 +35653,7 @@
         "date": "1876",
         "titre sonnet": "La conque.",
         "titre recueil": "Sonnets mystiques : Les Pays du soleil  Le Sphinx  Édens  La Lande  Isis  Océana  Les Géorgiques : 1876-1883",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -36067,7 +36067,7 @@
         "date": "1876",
         "titre sonnet": "La danse de l'autruche.",
         "titre recueil": "Sonnets mystiques : Les Pays du soleil  Le Sphinx  Édens  La Lande  Isis  Océana  Les Géorgiques : 1876-1883",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf",
         "femme": "non"
     },
@@ -36148,7 +36148,7 @@
         "date": "1883",
         "titre sonnet": "XXIII THÉROIGNE DE MÉRICOURT",
         "titre recueil": "LE SPHYNX AU FOYER : proverbes, charades, énigmes, homonymes, mots carrés, mots en triangle, sonnets-portraits",
-        "thème": "",
+        "thème": "autre",
         "origine": "bnf.bis",
         "femme": "oui"
     },
@@ -36526,7 +36526,7 @@
         "date": "1830",
         "titre sonnet": "Sonnet au lecteur",
         "titre recueil": "Poésies nouvelles",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -36679,7 +36679,7 @@
         "date": "1874",
         "titre sonnet": "A Tolède",
         "titre recueil": "Le Cahier rouge",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -36814,7 +36814,7 @@
         "date": "1872",
         "titre sonnet": "Joujoux d'Allemagne",
         "titre recueil": "Les Humbles",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -37021,7 +37021,7 @@
         "date": "1829",
         "titre sonnet": "Des deux pièces qui suivent",
         "titre recueil": "Premières poésies",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -37030,7 +37030,7 @@
         "date": "1854",
         "titre sonnet": "A Madame Sand",
         "titre recueil": "Les Chimères",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -37264,7 +37264,7 @@
         "date": "1892",
         "titre sonnet": "L'Esclave",
         "titre recueil": "Les Trophées",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -37489,7 +37489,7 @@
         "date": "1892",
         "titre sonnet": "Vendange",
         "titre recueil": "Les Trophées",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -37552,7 +37552,7 @@
         "date": "1892",
         "titre sonnet": "Maris Stella",
         "titre recueil": "Les Trophées",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -37840,7 +37840,7 @@
         "date": "1892",
         "titre sonnet": "Email",
         "titre recueil": "Les Trophées",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -37849,7 +37849,7 @@
         "date": "1892",
         "titre sonnet": "Rêve d'Email",
         "titre recueil": "Les Trophées",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -38083,7 +38083,7 @@
         "date": "1892",
         "titre sonnet": "Lupercus",
         "titre recueil": "Les Trophées",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -38128,7 +38128,7 @@
         "date": "1892",
         "titre sonnet": "N'approche pas",
         "titre recueil": "Les Trophées",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -38821,7 +38821,7 @@
         "date": "1887",
         "titre sonnet": "Le chevelure",
         "titre recueil": "La Revue Indépendante",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -38830,7 +38830,7 @@
         "date": "1887",
         "titre sonnet": "Eventail",
         "titre recueil": "La Revue Indépendante",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -39028,7 +39028,7 @@
         "date": "1881",
         "titre sonnet": "Il fut gallican",
         "titre recueil": "Sagesse",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -39064,7 +39064,7 @@
         "date": "1881",
         "titre sonnet": "Parfums, couleurs, lois",
         "titre recueil": "Sagesse",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -39145,7 +39145,7 @@
         "date": "1884",
         "titre sonnet": "L'Aube à l'envers",
         "titre recueil": "Jadis et Naguère",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -39181,7 +39181,7 @@
         "date": "1884",
         "titre sonnet": "A Horatio",
         "titre recueil": "Jadis et Naguère",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -39199,7 +39199,7 @@
         "date": "1857",
         "titre sonnet": "La pipe",
         "titre recueil": "Les Fleurs du mal",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -39271,7 +39271,7 @@
         "date": "1884",
         "titre sonnet": "L'Auberge",
         "titre recueil": "Jadis et Naguère",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -39307,7 +39307,7 @@
         "date": "1884",
         "titre sonnet": "Luxures",
         "titre recueil": "Jadis et Naguère",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -39352,7 +39352,7 @@
         "date": "1888",
         "titre sonnet": "A Léon Valade",
         "titre recueil": "Amour",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -39703,7 +39703,7 @@
         "date": "1895",
         "titre sonnet": "Edition originale contemporaine",
         "titre recueil": "Biblio-sonnets",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -39712,7 +39712,7 @@
         "date": "1895",
         "titre sonnet": "Désappointement",
         "titre recueil": "Biblio-sonnets",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -39721,7 +39721,7 @@
         "date": "1895",
         "titre sonnet": "Pauca mihi",
         "titre recueil": "Biblio-sonnets",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -39802,7 +39802,7 @@
         "date": "1896",
         "titre sonnet": "Pour Moréas",
         "titre recueil": "Invectives",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -39829,7 +39829,7 @@
         "date": "1896",
         "titre sonnet": "Thomas Diafoirus",
         "titre recueil": "Invectives",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -39838,7 +39838,7 @@
         "date": "1896",
         "titre sonnet": "Nébuleuses",
         "titre recueil": "Invectives",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -39856,7 +39856,7 @@
         "date": "1896",
         "titre sonnet": "Puero debetur reverentia",
         "titre recueil": "Invectives",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -39883,7 +39883,7 @@
         "date": "1896",
         "titre sonnet": "A Marcel Schwob",
         "titre recueil": "Invectives",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -39892,7 +39892,7 @@
         "date": "1896",
         "titre sonnet": "A Ernest Delahaye",
         "titre recueil": "Invectives",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -40000,7 +40000,7 @@
         "date": "1891",
         "titre sonnet": "Rages de Césars",
         "titre recueil": "Reliquaire",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -40153,7 +40153,7 @@
         "date": "1830",
         "titre sonnet": "A Boulanger",
         "titre recueil": "Les Consolations",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -40180,7 +40180,7 @@
         "date": "1830",
         "titre sonnet": "A Francfort-sur-le-Mein",
         "titre recueil": "Les Consolations",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -40243,7 +40243,7 @@
         "date": "1837",
         "titre sonnet": "Le Château de Bothwell",
         "titre recueil": "Pensées d'août",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -40261,7 +40261,7 @@
         "date": "1837",
         "titre sonnet": "A M. Roger d'A.",
         "titre recueil": "Pensées d'août",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -40288,7 +40288,7 @@
         "date": "1837",
         "titre sonnet": "A Madame M.",
         "titre recueil": "Pensées d'août",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -40432,7 +40432,7 @@
         "date": "1863",
         "titre sonnet": "A la muse",
         "titre recueil": "Poésies complètes",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -40441,7 +40441,7 @@
         "date": "1863",
         "titre sonnet": "Réponse à Collombet",
         "titre recueil": "Poésies complètes",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -40450,7 +40450,7 @@
         "date": "1863",
         "titre sonnet": "Port-Royal des champs",
         "titre recueil": "Poésies complètes",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -40576,7 +40576,7 @@
         "date": "1863",
         "titre sonnet": "A M. Alhonse Dulong",
         "titre recueil": "Poésies complètes",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -40594,7 +40594,7 @@
         "date": "1863",
         "titre sonnet": "J'ai vu le Pausilype",
         "titre recueil": "Poésies complètes",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -40630,7 +40630,7 @@
         "date": "1863",
         "titre sonnet": "A Mademoiselle Frédérique",
         "titre recueil": "Poésies complètes",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -40639,7 +40639,7 @@
         "date": "1863",
         "titre sonnet": "A Mademoiselle Eliza",
         "titre recueil": "Poésies complètes",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -40702,7 +40702,7 @@
         "date": "1865",
         "titre sonnet": "Sonnet",
         "titre recueil": "Stances et Poèmes",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -40711,7 +40711,7 @@
         "date": "1865",
         "titre sonnet": "A Madame A.G. de B.",
         "titre recueil": "Stances et Poèmes",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -40729,7 +40729,7 @@
         "date": "1865",
         "titre sonnet": "Sonnet",
         "titre recueil": "Stances et Poèmes",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -40765,7 +40765,7 @@
         "date": "1865",
         "titre sonnet": "Sonnet",
         "titre recueil": "Stances et Poèmes",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -40801,7 +40801,7 @@
         "date": "1866",
         "titre sonnet": "La Folle",
         "titre recueil": "Les Epreuves",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -40837,7 +40837,7 @@
         "date": "1866",
         "titre sonnet": "La Note",
         "titre recueil": "Les Epreuves",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -41368,7 +41368,7 @@
         "date": "1866",
         "titre sonnet": "Les Téméraires",
         "titre recueil": "Les Epreuves",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -41638,7 +41638,7 @@
         "date": "1875",
         "titre sonnet": "Les Amours terrestres",
         "titre recueil": "Les Vaines Tendresse",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -41737,7 +41737,7 @@
         "date": "1857",
         "titre sonnet": "Semper Eadem",
         "titre recueil": "Les Fleurs du mal",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -41881,7 +41881,7 @@
         "date": "1908",
         "titre sonnet": "Muse adolescente",
         "titre recueil": "Epaves",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -41908,7 +41908,7 @@
         "date": "1908",
         "titre sonnet": "La Charité en 1870",
         "titre recueil": "Epaves",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -42016,7 +42016,7 @@
         "date": "1908",
         "titre sonnet": "Aux Jeunes",
         "titre recueil": "Epaves",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -42052,7 +42052,7 @@
         "date": "1908",
         "titre sonnet": "A Vasco de Gama",
         "titre recueil": "Epaves",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -42061,7 +42061,7 @@
         "date": "1908",
         "titre sonnet": "A André Chenier",
         "titre recueil": "Epaves",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -42160,7 +42160,7 @@
         "date": "1875",
         "titre sonnet": "La Satyresse",
         "titre recueil": "Occidentales",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -42295,7 +42295,7 @@
         "date": "1874",
         "titre sonnet": "Messaline",
         "titre recueil": "Les Princesses",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -42322,7 +42322,7 @@
         "date": "1874",
         "titre sonnet": "Marguerite de Navarre",
         "titre recueil": "Les Princesses",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -42331,7 +42331,7 @@
         "date": "1874",
         "titre sonnet": "Lucrèce Borgia",
         "titre recueil": "Les Princesses",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -42403,7 +42403,7 @@
         "date": "1892",
         "titre sonnet": "La Comédie",
         "titre recueil": "Dans la fournaise",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -42520,7 +42520,7 @@
         "date": "1838",
         "titre sonnet": "A des amis qui partaient",
         "titre recueil": "Poésies complètes",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -42529,7 +42529,7 @@
         "date": "1838",
         "titre sonnet": "Ambition",
         "titre recueil": "Poésies complètes",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -42538,7 +42538,7 @@
         "date": "1857",
         "titre sonnet": "La fontaine de sang",
         "titre recueil": "Les Fleurs du mal",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -42583,7 +42583,7 @@
         "date": "1830",
         "titre sonnet": "Sonnet V",
         "titre recueil": "Oeuvres de Théophile Gautier",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -42619,7 +42619,7 @@
         "date": "1860",
         "titre sonnet": "Mille chemins, un seul but",
         "titre recueil": "Oeuvres de Théophile Gautier",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -42646,7 +42646,7 @@
         "date": "1860",
         "titre sonnet": "La vraie Esthétique",
         "titre recueil": "Oeuvres de Théophile Gautier",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -42655,7 +42655,7 @@
         "date": "1860",
         "titre sonnet": "Bonbons et Pommes vertes",
         "titre recueil": "Oeuvres de Théophile Gautier",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -42673,7 +42673,7 @@
         "date": "1860",
         "titre sonnet": "L'Etrenne du Poète",
         "titre recueil": "Oeuvres de Théophile Gautier",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -42880,7 +42880,7 @@
         "date": "1860",
         "titre sonnet": "Le Vingt-sept Mai",
         "titre recueil": "Oeuvres de Théophile Gautier",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -42925,7 +42925,7 @@
         "date": "1860",
         "titre sonnet": "Sonnet",
         "titre recueil": "Oeuvres de Théophile Gautier",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -43123,7 +43123,7 @@
         "date": "1873",
         "titre sonnet": "Aquarelle",
         "titre recueil": "Le Coffret de santal",
-        "thème": "",
+        "thème": "autre",
         "origine": "s",
         "femme": "non"
     },
@@ -43438,7 +43438,7 @@
         "date": "1908",
         "titre sonnet": "L'EMPREINTE",
         "titre recueil": "_recueil : Le chemin solitaire",
-        "thème": "",
+        "thème": "autre",
         "origine": "web",
         "femme": "oui"
     },
@@ -43483,7 +43483,7 @@
         "date": "1858",
         "titre sonnet": "Conlegno, Di Voce Molle, D’insinuante Loquela.   A. Verri.",
         "titre recueil": "Recueil : \"Poésies complètes\", Didier et Cie, 1858 p 135",
-        "thème": "",
+        "thème": "autre",
         "origine": "web",
         "femme": "oui"
     },
@@ -43510,7 +43510,7 @@
         "date": "1908",
         "titre sonnet": "L'ERMITE",
         "titre recueil": "_recueil : Le chemin solitaire",
-        "thème": "",
+        "thème": "autre",
         "origine": "web",
         "femme": "oui"
     },
@@ -43717,7 +43717,7 @@
         "date": "1926",
         "titre sonnet": "SONNET DES ÉCHECS",
         "titre recueil": "\"Mieux jouer aux échecs\" aka MJAE (nom du site)",
-        "thème": "",
+        "thème": "autre",
         "origine": "web",
         "femme": "oui"
     },
