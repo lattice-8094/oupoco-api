@@ -9,7 +9,7 @@ itsdangerous==2.0.1
 Jinja2==3.0.3
 jsonschema==3.2.0
 loguru==0.4.0
-MarkupSafe==2.0.1
+MarkupSafe
 numpy==1.21.0
 pandas==1.2.4
 pyrsistent==0.17.3
