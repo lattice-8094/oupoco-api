@@ -10,8 +10,8 @@ from collections import Counter, defaultdict
 from loguru import logger
 
 logger.remove()
-logger.add(sys.stderr, format="{time} {level} {message}", level="INFO")
-# logger.add(sys.stderr, format="{time} {level} {message}", level="DEBUG")
+#logger.add(sys.stderr, format="{time} {level} {message}", level="DEBUG")
+logger.add(sys.stderr, format="{time} {level} {message}", level="ERROR")
 
 rhymes_1 = json.load(open("rhymes_1.json", "r"))
 rhymes_2 = json.load(open("rhymes_2.json", "r"))
@@ -105,7 +105,7 @@ def __dates_to_intervals__(dates_list, intervals=dates):
     Turn the given dates list into a set of intervals
     Args:
         - dates_list (list): list of dates
-        - intervals (set): set of date intervals
+        - intervals (set): set of date intervals
     Returns:
         - set of date intervals
     """
