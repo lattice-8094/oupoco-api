@@ -62,7 +62,7 @@ class ReverseProxied(object):
 
 app = Flask(__name__)
 CORS(app)
-app.wsgi_app = ReverseProxied(app.wsgi_app)
+#app.wsgi_app = ReverseProxied(app.wsgi_app)
 api = Api(
     app,
     version="0.9",

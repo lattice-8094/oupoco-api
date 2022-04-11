@@ -15,6 +15,7 @@ COPY bd_meta.json /code/bd_meta.json
 COPY rhymes_1.json /code/rhymes_1.json
 COPY rhymes_2.json /code/rhymes_2.json
 COPY rhymes_3.json /code/rhymes_3.json
+COPY selected_authors.json /code/selected_authors.json
 COPY wsgi.py /code/wsgi.py
 COPY docker-entrypoint.sh /code/docker-entrypoint.sh
 RUN ["chmod", "+x", "/code/docker-entrypoint.sh"]
