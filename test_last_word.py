@@ -13,7 +13,3 @@ def test_last_word_strong_punct():
 def test_last_word_weak_punct():
     sentence = "Entrelaçant leurs corps impudiques et beaux,"
     assert generation_sonnets.__get_last_word__(sentence) == 'beaux'
-
-def test_last_word_lapostrophe():
-    sentence = "Seule, une vieille sœur, qui ne sait pas l'injure,"
-    assert generation_sonnets.__get_last_word__(sentence) == 'injure'
