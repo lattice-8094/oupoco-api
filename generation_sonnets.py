@@ -65,6 +65,7 @@ def __verse2txtmeta__(verse):
     res["text"] = verse["text"]
     res["meta"] = dict(meta.loc[verse["id_sonnet"]])
     res["meta"]["id"] = verse["id"]
+    res["rhyme"] = verse["rhyme"]
     return res
 
 
@@ -486,8 +487,12 @@ def generate_random_rhymes(schema, rhymes, order=True):
                         i,
                     )
                     current_verse = random.choice(verses_in_position)
+                    # add the rhyme in verse dict
+                    current_verse['rhyme'] = letter_random_rhymes_2[letter]
                 else:
                     current_verse = random.choice(letter_random_rhymes[letter])
+                    # add the rhyme in verse dict
+                    current_verse['rhyme'] = letter_random_rhymes_2[letter]
                 if __get_last_word__(current_verse["text"]) in [
                     __get_last_word__(verse["text"]) for verse in schema_rhymes[letter]
                 ]:

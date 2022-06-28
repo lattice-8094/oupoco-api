@@ -265,9 +265,9 @@ class New(Resource):
             for st in sonnet:
                 for verse in st:
                     sonnet_text.append(
-                        {"text": verse["text"], "meta": format_meta(verse["meta"])}
+                        {"text": verse["text"], "meta": format_meta(verse["meta"]), "rhyme": verse["rhyme"]}
                     )
-                sonnet_text.append({"text": "\n", "meta": ""})
+                sonnet_text.append({"text": "\n", "meta": "", "rhyme": ""})
             res = {"text": sonnet_text, "date": get_date_time()}
             return jsonify(res)
         else:
