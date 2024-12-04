@@ -1,0 +1,7 @@
+version: '2'
+services:
+ oupoco:
+  image: oupoco_api
+  ports:
+    - "8009:8000"
+
