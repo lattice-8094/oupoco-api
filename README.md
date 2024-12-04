@@ -15,14 +15,17 @@ Based on the work done by Mylène Maignant during her internship in Lattice lab 
 
 `flask --app app run`
 
+se rendre sur `http://localhost:5000`
+
 - avec docker
 
   1. construire l’image
 
   `docker build -t oupoco_api .`
-  
+
   2. lancer le container avec docker-compose
 
   `docker compose rm`  
   `docker compose up`
   
+se rendre sur `http://localhost:8009` 
